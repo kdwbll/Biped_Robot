@@ -1,0 +1,206 @@
+{
+  "results": [
+    {
+      "chassis_source_index": 0,
+      "leg": 0,
+      "chassis_faces": [
+        {
+          "face_index": 1,
+          "closest_point_gap_mm": 1.4304896245381993e-14,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 1099.5574287564255
+        },
+        {
+          "face_index": 7,
+          "closest_point_gap_mm": 0.0,
+          "planar": true,
+          "cylindrical": false,
+          "planar_normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_area_mm2": 13530.707872834892
+        }
+      ],
+      "tower_faces": [
+        {
+          "face_index": 6,
+          "closest_point_gap_mm": 0.0,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 2.37362029532185
+        },
+        {
+          "face_index": 7,
+          "closest_point_gap_mm": 0.0,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 252.86623158156235
+        },
+        {
+          "face_index": 23,
+          "closest_point_gap_mm": 0.0,
+          "planar": true,
+          "cylindrical": false,
+          "planar_normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_area_mm2": 3531.234378784755
+        }
+      ]
+    },
+    {
+      "chassis_source_index": 0,
+      "leg": 1,
+      "chassis_faces": [
+        {
+          "face_index": 0,
+          "closest_point_gap_mm": 0.0,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 1256.6370614359137
+        },
+        {
+          "face_index": 7,
+          "closest_point_gap_mm": 0.0,
+          "planar": true,
+          "cylindrical": false,
+          "planar_normal": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_area_mm2": 13530.707872834892
+        }
+      ],
+      "tower_faces": [
+        {
+          "face_index": 14,
+          "closest_point_gap_mm": 0.0,
+          "planar": true,
+          "cylindrical": false,
+          "planar_normal": [
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "face_area_mm2": 3531.2343787847467
+        }
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 0,
+      "chassis_faces": [
+        {
+          "face_index": 22,
+          "closest_point_gap_mm": 0.0,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 1580.8494232863882
+        },
+        {
+          "face_index": 55,
+          "closest_point_gap_mm": 0.0,
+          "planar": true,
+          "cylindrical": false,
+          "planar_normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_area_mm2": 478.30748150904583
+        }
+      ],
+      "tower_faces": [
+        {
+          "face_index": 4,
+          "closest_point_gap_mm": 0.0,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 16163.101503637783
+        }
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 1,
+      "chassis_faces": [
+        {
+          "face_index": 34,
+          "closest_point_gap_mm": 0.0,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 1580.8494232863882
+        },
+        {
+          "face_index": 52,
+          "closest_point_gap_mm": 0.0,
+          "planar": true,
+          "cylindrical": false,
+          "planar_normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_area_mm2": 478.30748150904583
+        }
+      ],
+      "tower_faces": [
+        {
+          "face_index": 6,
+          "closest_point_gap_mm": 0.0,
+          "planar": false,
+          "cylindrical": true,
+          "planar_normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "face_area_mm2": 16163.101503637783
+        }
+      ]
+    }
+  ],
+  "limit_mm": 0.01,
+  "limitations": "Faces containing each one closest point only; normals are planar-face normals in API frame and do not identify full contact patch or constrain movement."
+}

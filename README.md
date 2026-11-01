@@ -37,6 +37,7 @@
 - 更细代理试验 [`diagnostic_finer_collision_trial.xml`](simulation/diagnostic_finer_collision_trial.xml) 使用 822 块机身代理和两侧 315 / 348 块腿架代理，在 201 个假设姿态中最大代理重叠约 0.178 mm，仍有 89 对近距离代理被排除。与旧模型的 95 对来自不同分解，不能直接比较物理覆盖比例。6 秒小幅双向转向和有限站姿、侧推对照未自动重置；仍不用于训练或实机。测试该模型的可选控制器检查可运行 `python audit_pruned_range_guard.py --finer`。
 - 另一机身部件的独立试验 [`diagnostic_chassis0_collision_trial.xml`](simulation/diagnostic_chassis0_collision_trial.xml) 将该部件分解为 544 块代理，假设髋部行程内最大代理重叠约 0.080 mm；其 820 对近距离代理仍被排除。较高增益的小幅正向转动对照中，采样最大单点内部接触力从约 59.77 N 降到 17.03 N，不能据此推断实机力或完整碰撞。该模型只用于诊断，不用于训练或实机；可选角度检查使用 `python audit_pruned_range_guard.py --chassis0`。
 - 原始 STL 源网格在 21 个髋部采样姿态的 FCL 对照中，机身部件 0 的三角面与两侧腿架网格均有相交，而 SolidWorks 实体的离散检查未检测到体积重叠；这两种检查不等价。机身部件 5 的 STL 三角面没有检出相交，采样最小表面距离约 0.178 mm。见 `simulation/source_mesh_clearance_range_audit.json`；不能将 STL 表面距离当作 CAD 精确间隙或完整行程证明。
+- SolidWorks 当前装配姿态的实体最短距离检查显示，机身部件 0 与两侧塔架均约 0 mm，最近点附近可找到方向相反的平面；机身部件 5 与两侧塔架均约 0.25 mm。初始姿态的 STL 平面投影重叠面积两侧分别约 2892 / 2891 mm²。这只是表面几何证据，并非实际有效承压面积，相关平面尚未重建为仿真碰撞接触；见 `simulation/solidworks_closest_distance_audit.json` 和 `simulation/contact_plane_overlap_audit.json`。
 
 ### 复现本轮碰撞检查
 
@@ -53,6 +54,8 @@
 复现另一机身部件的试验：在 `simulation/` 先运行 `python audit_chassis0_proxy_gap.py --finer`、`python audit_finer_proxy_range.py --chassis0`，再运行 `python build_chassis0_collision_trial.py` 和 `python verify_chassis0_collision_trial.py`。动态对照可运行 `python audit_hip_integral_trial.py --chassis0 --positive-ki10`、`python audit_selective_collision_motion.py --chassis0`、`python audit_refined_tower_scenarios.py --chassis0-trial`。这些命令覆盖相应实验输出，不训练；范围裁剪和缺失碰撞对的限制仍然适用。
 
 如需比较原始 STL 表面，可在安装可选诊断依赖后运行 `python audit_source_mesh_clearance_range.py`；会覆盖对应 JSON，不能替代 SolidWorks 实体与实物的间隙核验。
+
+复现当前装配接触测量：在 SolidWorks 2025 中打开原路径 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`，使用装有 `pywin32` 的 Python 在 `simulation/` 依次运行 `audit_solidworks_closest_distance.py` 和 `audit_solidworks_contact_faces.py`；脚本只读测量，不保存或关闭装配。再用带 MuJoCo、Trimesh 等诊断依赖的 Python 依次运行 `audit_cad_contact_mapping.py`、`audit_cad_contact_planes.py`、`audit_contact_plane_overlap.py` 对照仿真源网格。脚本会覆盖同名 JSON；不同姿态不能直接比较。
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 

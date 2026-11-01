@@ -1,0 +1,80 @@
+{
+  "saved_assembly": "C:\\Practice_project\\fangzhen\\SimpleBiped2a_new.SLDASM",
+  "initial_pose_only": true,
+  "same_body_control": {
+    "distance_mm": 0.0,
+    "point1_m": [
+      0.077,
+      0.032,
+      0.146
+    ],
+    "point2_m": [
+      0.077,
+      0.032,
+      0.146
+    ]
+  },
+  "results": [
+    {
+      "chassis_source_index": 0,
+      "leg": 0,
+      "distance_mm": 4.0592722084452555e-12,
+      "point1_m": [
+        0.02924186636706974,
+        0.06459187055393252,
+        0.136
+      ],
+      "point2_m": [
+        0.029241866367069404,
+        0.0645918705539319,
+        0.136000000000004
+      ]
+    },
+    {
+      "chassis_source_index": 0,
+      "leg": 1,
+      "distance_mm": 1.3877787807814457e-14,
+      "point1_m": [
+        0.062,
+        -0.07300000000000001,
+        0.136
+      ],
+      "point2_m": [
+        0.062,
+        -0.073,
+        0.136
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 0,
+      "distance_mm": 0.24999999999987532,
+      "point1_m": [
+        0.022000000000000002,
+        0.032,
+        0.2659
+      ],
+      "point2_m": [
+        0.022249999999999878,
+        0.03200000000000001,
+        0.2659
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 1,
+      "distance_mm": 0.2500000000000002,
+      "point1_m": [
+        0.022000000000000002,
+        -0.07300000000000001,
+        0.2659
+      ],
+      "point2_m": [
+        0.022250000000000002,
+        -0.07300000000000001,
+        0.2659
+      ]
+    }
+  ],
+  "limitations": "SolidWorks exact minimum distance at current assembly pose only. Zero distance does not distinguish touching from intersection; temporary bodies and hip rotation are not measured."
+}

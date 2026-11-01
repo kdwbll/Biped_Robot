@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "leg": 0,
+      "cad_plane_z_m": 0.136,
+      "chassis_facets": {
+        "triangle_count": 316,
+        "facet_area_mm2": 13529.408032609657,
+        "positive_normal_count": 0,
+        "negative_normal_count": 316
+      },
+      "tower_facets": {
+        "triangle_count": 366,
+        "facet_area_mm2": 3536.7016889728743,
+        "positive_normal_count": 366,
+        "negative_normal_count": 0
+      }
+    },
+    {
+      "leg": 1,
+      "cad_plane_z_m": 0.136,
+      "chassis_facets": {
+        "triangle_count": 316,
+        "facet_area_mm2": 13529.408032609657,
+        "positive_normal_count": 0,
+        "negative_normal_count": 316
+      },
+      "tower_facets": {
+        "triangle_count": 366,
+        "facet_area_mm2": 3536.7016176848138,
+        "positive_normal_count": 366,
+        "negative_normal_count": 0
+      }
+    }
+  ],
+  "plane_tolerance_mm": 0.01,
+  "limitations": "Only coplanar STL facets at one initial pose; total facet area is not the overlap/contact patch and can include unrelated coplanar faces."
+}

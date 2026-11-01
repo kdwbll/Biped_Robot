@@ -1,0 +1,90 @@
+{
+  "pose": "keyframe 0 vs saved CAD pose",
+  "results": [
+    {
+      "chassis_source_index": 0,
+      "leg": 0,
+      "cad_distance_mm": 4.0592722084452555e-12,
+      "cad_witness_to_corresponding_stl_surface_mm": [
+        0.0022977343353278033,
+        2.16315267773405e-06
+      ],
+      "simulation_world_witness_m": [
+        [
+          0.029241866367069748,
+          0.0626873917491854,
+          0.22057013914278512
+        ],
+        [
+          0.02924186636706941,
+          0.06268739174918472,
+          0.2205701391427891
+        ]
+      ]
+    },
+    {
+      "chassis_source_index": 0,
+      "leg": 1,
+      "cad_distance_mm": 1.3877787807814457e-14,
+      "cad_witness_to_corresponding_stl_surface_mm": [
+        1.1295700899707568e-13,
+        8.355534721610419e-14
+      ],
+      "simulation_world_witness_m": [
+        [
+          0.06200000000000001,
+          -0.07489107635634133,
+          0.2186497339077635
+        ],
+        [
+          0.06200000000000001,
+          -0.07489107635634132,
+          0.2186497339077635
+        ]
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 0,
+      "cad_distance_mm": 0.24999999999987532,
+      "cad_witness_to_corresponding_stl_surface_mm": [
+        6.103515803879134e-06,
+        0.01310128000263082
+      ],
+      "simulation_world_witness_m": [
+        [
+          0.022000000000000006,
+          0.028285648067115185,
+          0.3500025927927003
+        ],
+        [
+          0.02224999999999988,
+          0.028285648067115192,
+          0.3500025927927003
+        ]
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 1,
+      "cad_distance_mm": 0.2500000000000002,
+      "cad_witness_to_corresponding_stl_surface_mm": [
+        6.103515803879134e-06,
+        0.007674338444606255
+      ],
+      "simulation_world_witness_m": [
+        [
+          0.022000000000000006,
+          -0.07670412416959516,
+          0.3485370807034651
+        ],
+        [
+          0.022250000000000006,
+          -0.07670412416959516,
+          0.3485370807034651
+        ]
+      ]
+    }
+  ],
+  "limitations": "Assumes CAD assembly coordinates match chassis STL frame; STL tessellation and candidate leg phase produce discrepancies. A small point-to-mesh distance does not establish surface normals or full contact patch."
+}
