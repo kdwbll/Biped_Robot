@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 import math
+import sys
 import numpy as np
 import pythoncom
 import win32com.client as w
@@ -39,13 +40,23 @@ try:
  if overlap(torso[5],torso[5])['volume_mm3']<100:raise RuntimeError('Positive control failed')
  phase=json.loads((p/'cad_gear_phase_search.json').read_text(encoding='utf8'))
  pivot=phase['search']['other_large']['pivot_m'];phase_deg=phase['search']['other_large']['best']['angle_deg']
- rows=[]
- for ci in (0,5):
-  for li in (0,1):
-   for angle in ([0.,phase_deg] if li==1 else [0.]):
-    candidate=rotate(legs[li],pivot,angle) if angle else legs[li]
-    rows.append({'chassis_source_index':ci,'leg':li,'leg_z_angle_deg':angle,**overlap(torso[ci],candidate)})
- out={'results':rows,'note':'Exact CAD solid copies. Saved CAD pose and isolated leg1 phase; not moving-range or whole-assembly collision validation.'}
- (p/'cad_collision_source_interference.json').write_text(json.dumps(out,indent=2),encoding='utf8')
- print(json.dumps(out,indent=2),flush=True)
+ rows=[];range_scan='--range' in sys.argv
+ if range_scan:
+  for delta in np.linspace(-5.,5.,11):
+   for ci in (0,5):
+    for li in (0,1):
+     angle=(-float(delta)) if li==0 else phase_deg+float(delta)
+     center=(.042,.032) if li==0 else pivot
+     row={'chassis_source_index':ci,'leg':li,'drive_delta_deg':float(delta),'leg_z_angle_deg':angle,
+          **overlap(torso[ci],rotate(legs[li],center,angle))}
+     rows.append(row);print(row,flush=True)
+ else:
+  for ci in (0,5):
+   for li in (0,1):
+    for angle in ([0.,phase_deg] if li==1 else [0.]):
+     candidate=rotate(legs[li],pivot,angle) if angle else legs[li]
+     rows.append({'chassis_source_index':ci,'leg':li,'leg_z_angle_deg':angle,**overlap(torso[ci],candidate)})
+ out={'results':rows,'note':'Exact CAD solid copies. Sampled hypothetical hip angles only; this is not continuous or whole-assembly collision validation.'}
+ (p/('cad_collision_source_range.json' if range_scan else 'cad_collision_source_interference.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
+ print('samples',len(rows),'intersecting',sum(x['intersects'] for x in rows),flush=True)
 finally:pythoncom.CoUninitialize()
