@@ -32,7 +32,8 @@
 - 新增 [`diagnostic_selective_collision_trial.xml`](simulation/diagnostic_selective_collision_trial.xml)，使用更细的凸代理尝试恢复机身局部碰撞关系，仍刻意排除 79 对初始间距不足的代理对。中立和双向小幅转向短测未出现自动重置；这只验证有限测试，**碰撞覆盖不完整，不能用于训练或实机**。另几个带 `trial`、`ablation` 的模型是碰撞对照实验，其中部分会产生严重虚假接触力，不是修复版本。所有结果见 [`核验进展_2026-11-01.md`](simulation/核验进展_2026-11-01.md)。
 - 后续新增 [`diagnostic_range_collision_trial.xml`](simulation/diagnostic_range_collision_trial.xml)：对假设髋部 ±5° 内 21 个姿态筛选机身局部凸代理，恢复 10 对、排除另 4 对，未覆盖对数由 79 变为 73。两种步长的中立站姿、小幅双向转向及 1 N 短时侧推测试均未发生仿真自动重置。筛选阈值和活动范围仅为假设，仍有 73 对及其他区域尚未完成碰撞核验，**不能用于训练或实机**。
 - 脚底复核发现上述模型实际由脚部视觉网格与地面接触，原脚底盒子没有启用，且其初始最低点比原网格低约 0.39–0.52 mm。独立试验 [`diagnostic_aligned_foot_proxy_trial.xml`](simulation/diagnostic_aligned_foot_proxy_trial.xml) 将盒子最低点对齐网格并替换地面接触，但站姿时左右受力与原模型不同；盒子形状及接触区域未被实测验证，不作为当前推荐模型。详见 `simulation/foot_collision_alignment_audit.json`、`simulation/aligned_foot_ground_contact_audit.json`。
-- 机身局部使用未合并的 387 块凸代理后，髋部 201 个假设姿态采样的最大代理重叠约 0.395 mm，比先前约 1.25 mm 更小，但仍有 95 对需排除，数量无法与旧代理直接比较覆盖比例。新增全配对和按假设 ±5° 行程裁剪的试验模型：6 秒双向小命令对照在记录精度下与全配对结果一致，实际测试的髋部最大变化约 0.266°。**裁剪模型没有运行时行程保护，不能用于训练或实机**。见 `simulation/nomerge_proxy_range_audit.json`、`simulation/pruned_nomerge_selection_verification.json` 和 `simulation/pruned_nomerge_motion_audit.json`。
+- 机身局部使用未合并的 387 块凸代理后，髋部 201 个假设姿态采样的最大代理重叠约 0.395 mm，比先前约 1.25 mm 更小，但仍有 95 对需排除，数量无法与旧代理直接比较覆盖比例。新增全配对和按假设 ±5° 行程裁剪的试验模型：6 秒双向小命令对照在记录精度下与全配对结果一致，实际测试的髋部最大变化约 0.266°。**裁剪模型 XML 本身没有内置运行时行程保护，不能用于训练或实机**。见 `simulation/nomerge_proxy_range_audit.json`、`simulation/pruned_nomerge_selection_verification.json` 和 `simulation/pruned_nomerge_motion_audit.json`。
+- 可选的 [`guarded_pruned_servo.py`](simulation/guarded_pruned_servo.py) 为 Python 仿真诊断提供 ±4.5° 停止检查，测试 `python audit_pruned_range_guard.py`。**保护只在该控制器运行时生效**；直接打开 XML、使用其他控制器、单步跨越阈值、未建碰撞和实际硬件均不受其保护。它不能作为训练许可或实机安全控制。
 
 ### 复现本轮碰撞检查
 
