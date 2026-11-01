@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "leg": 0,
+      "proxy_pair": [
+        "nomerge_chassis5_029",
+        "nomerge_L0_007"
+      ],
+      "proxy_signed_distance_mm": -0.35742090659230485,
+      "witness_world_m": [
+        0.055886232237345145,
+        0.014856442562351468,
+        0.3422392569490491,
+        0.05614554218796684,
+        0.014610482673960458,
+        0.342235823688133
+      ],
+      "witness_to_source_surface_mm": [
+        0.536441109414914,
+        0.0004062868425757197
+      ]
+    },
+    {
+      "leg": 1,
+      "proxy_pair": [
+        "nomerge_chassis5_042",
+        "nomerge_L1_088"
+      ],
+      "proxy_signed_distance_mm": -0.3945073744860692,
+      "witness_world_m": [
+        0.02264473795207783,
+        -0.07679720477050764,
+        0.348534588408448,
+        0.022250230579060327,
+        -0.07679723635582861,
+        0.3485345757163997
+      ],
+      "witness_to_source_surface_mm": [
+        0.5726878574733412,
+        5.091511785676302e-06
+      ]
+    }
+  ],
+  "limitations": "Closest surface distances do not determine inside/outside or CAD clearance; witness positions are collision-algorithm outputs for overlapping convex approximations."
+}

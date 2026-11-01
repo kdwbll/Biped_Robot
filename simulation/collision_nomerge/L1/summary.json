@@ -1,0 +1,11 @@
+{
+  "target": "L1",
+  "source_faces": 2548,
+  "threshold": 0.008,
+  "merge": false,
+  "resolution": 500,
+  "mcts_iterations": 15,
+  "output_count": 348,
+  "seconds": 42.13817159994505,
+  "units": "mm"
+}
