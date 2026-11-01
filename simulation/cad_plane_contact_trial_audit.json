@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_chassis0_collision_trial.xml",
+      "duration_s": 0.9999999999999176,
+      "valid": true,
+      "stop_reason": null,
+      "wall_s": 4.050210400018841,
+      "height_change_mm": -3.8987756787083883,
+      "sampled_peak_internal_point_n": 0.7886226099375415,
+      "sampled_max_planar_contact_count": 0,
+      "sampled_max_planar_normal_sum_n": 0.0
+    },
+    {
+      "model": "diagnostic_cad_plane_contact_trial.xml",
+      "duration_s": 0.9999999999999176,
+      "valid": true,
+      "stop_reason": null,
+      "wall_s": 13.820103899925016,
+      "height_change_mm": -3.8987756787083883,
+      "sampled_peak_internal_point_n": 0.7886226099375415,
+      "sampled_max_planar_contact_count": 0,
+      "sampled_max_planar_normal_sum_n": 0.0
+    }
+  ],
+  "limitations": "One second simulated neutral standing; contact data sampled every 10 steps, the stop threshold is diagnostic only. Friction and surface compliance are unmeasured."
+}

@@ -1,0 +1,19 @@
+{
+  "chassis_triangles": 316,
+  "legs": [
+    {
+      "leg": 0,
+      "triangle_count": 366
+    },
+    {
+      "leg": 1,
+      "triangle_count": 366
+    }
+  ],
+  "added_plane_pairs": 41719,
+  "compiled_pairs": 53152,
+  "initial_contacts": 2,
+  "thickness_mm": 0.1,
+  "assumed_friction": 0.0001,
+  "limitations": "Experimental STL facet prisms, initial CAD contact plane and bounded hip range only. Friction, physical thickness and solver response are unverified; existing contacts may duplicate. Not for training or hardware."
+}
