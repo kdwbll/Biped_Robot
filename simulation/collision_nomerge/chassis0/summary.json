@@ -1,0 +1,11 @@
+{
+  "target": "chassis0",
+  "source_faces": 2692,
+  "threshold": 0.008,
+  "merge": false,
+  "resolution": 500,
+  "mcts_iterations": 15,
+  "output_count": 250,
+  "seconds": 40.47262760007288,
+  "units": "mm"
+}

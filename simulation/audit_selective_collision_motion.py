@@ -13,7 +13,8 @@ range_trial='--range' in sys.argv
 nomerge='--nomerge' in sys.argv
 pruned='--pruned' in sys.argv
 finer='--finer' in sys.argv
-models=('diagnostic_pruned_nomerge_trial.xml','diagnostic_finer_collision_trial.xml') if finer else (('diagnostic_nomerge_collision_trial.xml','diagnostic_pruned_nomerge_trial.xml') if pruned else (('diagnostic_range_collision_trial.xml','diagnostic_nomerge_collision_trial.xml') if nomerge else (('diagnostic_selective_collision_trial.xml','diagnostic_range_collision_trial.xml') if range_trial else ('diagnostic_post_shaft_fix_gear_phase_25.xml','diagnostic_selective_collision_trial.xml'))))
+chassis0='--chassis0' in sys.argv
+models=('diagnostic_finer_collision_trial.xml','diagnostic_chassis0_collision_trial.xml') if chassis0 else (('diagnostic_pruned_nomerge_trial.xml','diagnostic_finer_collision_trial.xml') if finer else (('diagnostic_nomerge_collision_trial.xml','diagnostic_pruned_nomerge_trial.xml') if pruned else (('diagnostic_range_collision_trial.xml','diagnostic_nomerge_collision_trial.xml') if nomerge else (('diagnostic_selective_collision_trial.xml','diagnostic_range_collision_trial.xml') if range_trial else ('diagnostic_post_shaft_fix_gear_phase_25.xml','diagnostic_selective_collision_trial.xml')))))
 for filename in models:
  for delta in (-10,10):
   m=mujoco.MjModel.from_xml_path(str(p/filename));d=mujoco.MjData(m)
@@ -40,5 +41,5 @@ for filename in models:
    'error_deg':float(np.degrees(servo.target_positions[4]-d.actuator_length[4])),
    'sampled_peak_self_contact_n':peak,'peak_pair':pair,'max_hip_change_deg':hip_peak}
   rows.append(row);print(row,flush=True)
-(p/('finer_collision_motion_audit.json' if finer else 'pruned_nomerge_motion_audit.json' if pruned else 'nomerge_collision_motion_audit.json' if nomerge else 'range_collision_motion_audit.json' if range_trial else 'selective_collision_motion_audit.json')).write_text(json.dumps({'results':rows,'limitations':
+(p/('chassis0_collision_motion_audit.json' if chassis0 else 'finer_collision_motion_audit.json' if finer else 'pruned_nomerge_motion_audit.json' if pruned else 'nomerge_collision_motion_audit.json' if nomerge else 'range_collision_motion_audit.json' if range_trial else 'selective_collision_motion_audit.json')).write_text(json.dumps({'results':rows,'limitations':
  'Short limited motion; near/overlapping high-resolution pairs deliberately disabled, remaining geometric coverage not established.'},indent=2),encoding='utf8')

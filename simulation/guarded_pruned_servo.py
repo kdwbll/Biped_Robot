@@ -21,9 +21,11 @@ class GuardedPrunedServo(CandidateStandingServo):
     def __init__(self, model, data, limit_deg=4.5):
         if not np.isfinite(limit_deg) or not 0 < limit_deg <= 4.5:
             raise ValueError('Guard threshold must be between 0 and 4.5 degrees')
-        required='highres_L0_000' if model.npair==9597 else 'nomerge_L0_000' if model.npair==10055 else None
+        required='highres_L0_000' if model.npair==9597 else 'nomerge_L0_000' if model.npair in (10055,11433) else None
         if required is None or mujoco.mj_name2id(model,mujoco.mjtObj.mjOBJ_GEOM,'nomerge_chassis5_000')<0 or mujoco.mj_name2id(model,mujoco.mjtObj.mjOBJ_GEOM,required)<0:
             raise ValueError('This guard only applies to the current pruned diagnostic model')
+        if model.npair==11433 and mujoco.mj_name2id(model,mujoco.mjtObj.mjOBJ_GEOM,'nomerge_chassis0_000')<0:
+            raise ValueError('Missing expected chassis0 diagnostic geometry')
         self.hip_qadr=[]
         root=mujoco.mj_name2id(model,mujoco.mjtObj.mjOBJ_BODY,'robot_free')
         if root<0:raise ValueError('Missing robot base')

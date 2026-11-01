@@ -2,17 +2,19 @@
 from pathlib import Path
 import json
 import math
+import sys
 import time
 import numpy as np
 import mujoco
 
-p=Path(__file__).parent;start=time.perf_counter()
-m=mujoco.MjModel.from_xml_path(str(p/'diagnostic_finer_full_gap_only.xml'));d=mujoco.MjData(m)
+p=Path(__file__).parent;start=time.perf_counter();chassis0='--chassis0' in sys.argv
+filename='diagnostic_chassis0_finer_gap_only.xml' if chassis0 else 'diagnostic_finer_full_gap_only.xml'
+m=mujoco.MjModel.from_xml_path(str(p/filename));d=mujoco.MjData(m)
 mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d)
 names=[mujoco.mj_id2name(m,mujoco.mjtObj.mjOBJ_GEOM,i) for i in range(m.ngeom)]
-chassis=[(i,n) for i,n in enumerate(names) if n and n.startswith('nomerge_chassis5_')]
+chassis=[(i,n) for i,n in enumerate(names) if n and n.startswith('nomerge_chassis0_' if chassis0 else 'nomerge_chassis5_')]
 towers=[(i,n) for i,n in enumerate(names) if n and (n.startswith('nomerge_L0_') or n.startswith('nomerge_L1_'))]
-if len(chassis)!=822 or len(towers)!=663:raise RuntimeError('Unexpected finer proxy counts')
+if not chassis or len(towers)!=663:raise RuntimeError('Unexpected finer proxy counts')
 joint=[mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_JOINT,f'L{i}_hip_candidate') for i in (0,1)]
 shaft=mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_JOINT,'hypothetical_servo_shaft')
 adr=[int(m.jnt_qposadr[j]) for j in [shaft,*joint]];q0=d.qpos.copy()
@@ -47,5 +49,5 @@ out={'sample_count':201,'hip_range_deg':[-5,5],'chassis_count':len(chassis),'tow
  'overlap_count':sum(r['min_mm']<0 for r in excluded),'minimum_signed_distance_mm':min(r['min_mm'] for r in near),
  'largest_tower_radius_m':largest_radius,'elapsed_s':time.perf_counter()-start,'near_pairs':near,
  'limitations':'Rigid independent hip rotation only; proxy separations are approximate. Motion bound and sampling do not cover soft-limit overshoot, model errors, or other motions; no hardware or training validation.'}
-(p/'finer_proxy_range_audit.json').write_text(json.dumps(out,indent=2),encoding='utf8')
+(p/('chassis0_finer_proxy_range_audit.json' if chassis0 else 'finer_proxy_range_audit.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
 print({k:v for k,v in out.items() if k!='near_pairs'},flush=True)

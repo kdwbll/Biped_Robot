@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "restored_refined_pairs": 1520,
+  "excluded_near_pairs": 820,
+  "removed_coarse_pairs": 142,
+  "preserved_other_pairs": 9913,
+  "compiled_pairs": 11433,
+  "limitations": "Verifies selection against sampled proxy data and unchanged pair lists, not CAD clearance or full collision coverage."
+}

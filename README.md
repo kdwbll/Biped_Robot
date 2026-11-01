@@ -35,6 +35,7 @@
 - 机身局部使用未合并的 387 块凸代理后，髋部 201 个假设姿态采样的最大代理重叠约 0.395 mm，比先前约 1.25 mm 更小，但仍有 95 对需排除，数量无法与旧代理直接比较覆盖比例。新增全配对和按假设 ±5° 行程裁剪的试验模型：6 秒双向小命令对照在记录精度下与全配对结果一致，实际测试的髋部最大变化约 0.266°。**裁剪模型 XML 本身没有内置运行时行程保护，不能用于训练或实机**。见 `simulation/nomerge_proxy_range_audit.json`、`simulation/pruned_nomerge_selection_verification.json` 和 `simulation/pruned_nomerge_motion_audit.json`。
 - 可选的 [`guarded_pruned_servo.py`](simulation/guarded_pruned_servo.py) 为 Python 仿真诊断提供 ±4.5° 停止检查，测试 `python audit_pruned_range_guard.py`。**保护只在该控制器运行时生效**；直接打开 XML、使用其他控制器、单步跨越阈值、未建碰撞和实际硬件均不受其保护。它不能作为训练许可或实机安全控制。
 - 更细代理试验 [`diagnostic_finer_collision_trial.xml`](simulation/diagnostic_finer_collision_trial.xml) 使用 822 块机身代理和两侧 315 / 348 块腿架代理，在 201 个假设姿态中最大代理重叠约 0.178 mm，仍有 89 对近距离代理被排除。与旧模型的 95 对来自不同分解，不能直接比较物理覆盖比例。6 秒小幅双向转向和有限站姿、侧推对照未自动重置；仍不用于训练或实机。测试该模型的可选控制器检查可运行 `python audit_pruned_range_guard.py --finer`。
+- 另一机身部件的独立试验 [`diagnostic_chassis0_collision_trial.xml`](simulation/diagnostic_chassis0_collision_trial.xml) 将该部件分解为 544 块代理，假设髋部行程内最大代理重叠约 0.080 mm；其 820 对近距离代理仍被排除。较高增益的小幅正向转动对照中，采样最大单点内部接触力从约 59.77 N 降到 17.03 N，不能据此推断实机力或完整碰撞。该模型只用于诊断，不用于训练或实机；可选角度检查使用 `python audit_pruned_range_guard.py --chassis0`。
 
 ### 复现本轮碰撞检查
 
@@ -47,6 +48,8 @@
 机身未合并凸代理已保存在 `simulation/collision_nomerge/`。如需复现，运行 `python audit_nomerge_proxy_gap.py`，再运行 `python audit_nomerge_proxy_range.py` 和 `python audit_nomerge_proxy_range.py --pruned`，随后依次运行 `python build_nomerge_collision_trial.py`、`python verify_nomerge_collision_trial.py`、`python build_pruned_nomerge_trial.py`、`python verify_pruned_nomerge_trial.py`。`python audit_selective_collision_motion.py --pruned` 比较有限转向，`python audit_refined_tower_scenarios.py --pruned-trial` 检查站姿和短时侧推；`python benchmark_nomerge_collision.py` 做短时本机测速。这些命令会覆盖同名实验输出。要从原始网格重新生成代理，`refine_collision_nomerge.py` 还需要 CoACD，且可能耗时数分钟。CoACD 的块数上限及合并设置可能影响逼近误差，参见 [CoACD 原项目说明](https://github.com/SarahWeiii/CoACD)。
 
 复现更细候选：在 `simulation/` 依次运行 `python audit_nomerge_proxy_gap.py --legs --finer`、`python audit_finer_proxy_range.py`、`python build_finer_collision_trial.py`、`python verify_finer_collision_trial.py`；然后运行 `python audit_selective_collision_motion.py --finer` 和 `python audit_refined_tower_scenarios.py --finer-trial` 做有限动态测试。脚本覆盖对应实验文件，不启动训练；`simulation/collision_finer/` 和 `simulation/collision_nomerge/L0`、`L1` 保存本次生成的代理，重新分解需要 CoACD。
+
+复现另一机身部件的试验：在 `simulation/` 先运行 `python audit_chassis0_proxy_gap.py --finer`、`python audit_finer_proxy_range.py --chassis0`，再运行 `python build_chassis0_collision_trial.py` 和 `python verify_chassis0_collision_trial.py`。动态对照可运行 `python audit_hip_integral_trial.py --chassis0 --positive-ki10`、`python audit_selective_collision_motion.py --chassis0`、`python audit_refined_tower_scenarios.py --chassis0-trial`。这些命令覆盖相应实验输出，不训练；范围裁剪和缺失碰撞对的限制仍然适用。
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 

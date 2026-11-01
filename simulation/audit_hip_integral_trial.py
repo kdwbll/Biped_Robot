@@ -12,7 +12,9 @@ from candidate_standing_servo import CandidateStandingServo
 p=Path(__file__).parent;rows=[]
 single='--positive-ki10' in sys.argv
 ablate='--ablate-peak-pair' in sys.argv
-model_path=p/'diagnostic_post_shaft_fix_gear_phase_25.xml'
+chassis0='--chassis0' in sys.argv
+finer='--finer' in sys.argv
+model_path=p/('diagnostic_chassis0_collision_trial.xml' if chassis0 else 'diagnostic_finer_collision_trial.xml' if finer else 'diagnostic_post_shaft_fix_gear_phase_25.xml')
 if ablate:
  tree=ET.parse(model_path);contact=tree.getroot().find('contact');removed=0
  for pair in list(contact.findall('pair')):
@@ -45,5 +47,5 @@ for ki in ((10.,) if single else (6.,10.,15.)):
        'error_deg':float(np.degrees(servo.target_positions[4]-d.actuator_length[4])), 'sampled_peak_self_contact_n':peak,
        'sampled_peak_pair':peak_pair,'sampled_peak_time_s':peak_time}
   rows.append(row);print(row,flush=True)
-(p/('hip_peak_pair_ablation_audit.json' if ablate else 'hip_integral_positive_peak_audit.json' if single else 'hip_integral_trial_audit.json')).write_text(json.dumps({'results':rows,
+(p/('chassis0_hip_integral_positive_audit.json' if chassis0 and single else 'chassis0_hip_integral_audit.json' if chassis0 else 'finer_hip_integral_positive_audit.json' if finer and single else 'hip_peak_pair_ablation_audit.json' if ablate else 'hip_integral_positive_peak_audit.json' if single else 'hip_integral_trial_audit.json')).write_text(json.dumps({'results':rows,
   'limitations':'Hypothetical simulation, no physical validation and collision coverage is incomplete.'},indent=2),encoding='utf8')

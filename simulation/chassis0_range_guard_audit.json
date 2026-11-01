@@ -1,0 +1,61 @@
+{
+  "model": "diagnostic_chassis0_collision_trial.xml",
+  "boundary_cases": [
+    {
+      "leg": 0,
+      "injected_delta_deg": -4.6,
+      "expected_stop": true,
+      "actual_stop": true
+    },
+    {
+      "leg": 0,
+      "injected_delta_deg": -4.4,
+      "expected_stop": false,
+      "actual_stop": false
+    },
+    {
+      "leg": 0,
+      "injected_delta_deg": 4.4,
+      "expected_stop": false,
+      "actual_stop": false
+    },
+    {
+      "leg": 0,
+      "injected_delta_deg": 4.6,
+      "expected_stop": true,
+      "actual_stop": true
+    },
+    {
+      "leg": 1,
+      "injected_delta_deg": -4.6,
+      "expected_stop": true,
+      "actual_stop": true
+    },
+    {
+      "leg": 1,
+      "injected_delta_deg": -4.4,
+      "expected_stop": false,
+      "actual_stop": false
+    },
+    {
+      "leg": 1,
+      "injected_delta_deg": 4.4,
+      "expected_stop": false,
+      "actual_stop": false
+    },
+    {
+      "leg": 1,
+      "injected_delta_deg": 4.6,
+      "expected_stop": true,
+      "actual_stop": true
+    }
+  ],
+  "out_of_range_step_blocked_before_advancing": true,
+  "nonfinite_state_rejected": true,
+  "wrong_model_rejected": true,
+  "non_keyframe_pose_rejected": true,
+  "guarded_run_seconds": 3.999999999999143,
+  "guard_threshold_deg": 4.5,
+  "assumed_collision_pruning_range_deg": 5.0,
+  "limitations": "Guard exists only when this Python class runs. Direct XML use, other controllers, within-step overshoot, excluded collision pairs and model uncertainty remain."
+}
