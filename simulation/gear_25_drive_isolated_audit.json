@@ -1,0 +1,16 @@
+{
+  "note": "Fixed 10 us simulated command in zero gravity with contact disabled; not a real-world actuator calibration.",
+  "duration_s": 3.999999999999143,
+  "shaft_target_delta_deg": 1.35,
+  "common_axis_signed_joint_delta_deg": {
+    "hypothetical_servo_shaft": 1.3504433423200446,
+    "L0_hip_candidate": -0.6752216871242239,
+    "L1_hip_candidate": 0.6752216871360229
+  },
+  "large_to_pinion_ratio_world": [
+    -0.5000000118214524,
+    0.5000000118301895
+  ],
+  "max_leg_constraint_component_error_mm": 3.0294224594162866e-05,
+  "max_shaft_torque_nm": 0.09425661533703202
+}

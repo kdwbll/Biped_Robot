@@ -1,0 +1,518 @@
+[
+  {
+    "case": "neutral",
+    "seed": 17,
+    "weight_support": 0.0,
+    "balance_gain": 0.0,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.9637703974065852,
+    "displacement_m": [
+      -0.0016792898124000574,
+      0.003772279275686182,
+      -0.08477883443052972
+    ],
+    "max_shaft_speed_rad_s": 0.30420863052494196,
+    "max_actuator_velocity_rad_s": [
+      2.5074792567119104,
+      2.9267552453936103,
+      2.406620047042973,
+      2.863931655629258,
+      0.30420863052494196
+    ],
+    "max_torque_nm": [
+      0.850748772644893,
+      0.9532157966708774,
+      0.8168791003268289,
+      0.9145527566807976,
+      0.03207850806413843
+    ],
+    "max_equality_component_error_mm": 0.013407672191850795,
+    "max_ground_penetration_mm": 0.02469493150458052,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L0_visual6 | ground": 461,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "L1_visual6 | ground": 399,
+      "col_L0_part4_0 | col_L0_part5_0": 348
+    }
+  },
+  {
+    "case": "neutral",
+    "seed": 29,
+    "weight_support": 0.0,
+    "balance_gain": 0.0,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.7858893710759391,
+    "displacement_m": [
+      -0.00038711387799333224,
+      0.0037859600729826005,
+      -0.08477870952439978
+    ],
+    "max_shaft_speed_rad_s": 0.28757251507468046,
+    "max_actuator_velocity_rad_s": [
+      2.6372156213853515,
+      2.944340691073847,
+      2.3982922983396238,
+      2.8456065324942696,
+      0.28757251507468046
+    ],
+    "max_torque_nm": [
+      0.8689875398109911,
+      0.9576649642976934,
+      0.7884434463240593,
+      0.9120737544554927,
+      0.032075522923506176
+    ],
+    "max_equality_component_error_mm": 0.013236649914441512,
+    "max_ground_penetration_mm": 0.02585756559943253,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L0_visual6 | ground": 487,
+      "L1_visual6 | ground": 404,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "col_L0_part4_0 | col_L0_part5_0": 356
+    }
+  },
+  {
+    "case": "hip",
+    "seed": 17,
+    "weight_support": 0.0,
+    "balance_gain": 0.0,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.9644543773601028,
+    "displacement_m": [
+      -0.0016937737372455242,
+      0.0037771696747827405,
+      -0.08477360448612853
+    ],
+    "max_shaft_speed_rad_s": 3.7836546802112694,
+    "max_actuator_velocity_rad_s": [
+      2.5076647185077814,
+      2.9266868384827665,
+      2.4959492946172572,
+      2.8639332352461646,
+      3.7836546802112694
+    ],
+    "max_torque_nm": [
+      0.84831940174279,
+      0.9514510071045549,
+      0.8269935384634864,
+      0.9110287151183947,
+      0.14218232103022116
+    ],
+    "max_equality_component_error_mm": 0.013462929260479872,
+    "max_ground_penetration_mm": 0.040240637554544295,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L0_visual6 | ground": 454,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "L1_visual6 | ground": 398,
+      "col_L0_part4_0 | col_L0_part5_0": 350
+    }
+  },
+  {
+    "case": "hip",
+    "seed": 29,
+    "weight_support": 0.0,
+    "balance_gain": 0.0,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.7858893710759391,
+    "displacement_m": [
+      -0.0004410372256010778,
+      0.0037847443679518943,
+      -0.0847735724184632
+    ],
+    "max_shaft_speed_rad_s": 3.7839149797822795,
+    "max_actuator_velocity_rad_s": [
+      2.589247775747212,
+      2.9435660263953403,
+      2.394825923996084,
+      2.854415100334165,
+      3.7839149797822795
+    ],
+    "max_torque_nm": [
+      0.8662171766060384,
+      0.9548107766792484,
+      0.7901581422064919,
+      0.914636953526626,
+      0.14217635838145476
+    ],
+    "max_equality_component_error_mm": 0.013273394970508834,
+    "max_ground_penetration_mm": 0.024204096053723895,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L0_visual6 | ground": 477,
+      "L1_visual6 | ground": 401,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "col_L0_part4_0 | col_L0_part5_0": 356
+    }
+  },
+  {
+    "case": "legs",
+    "seed": 17,
+    "weight_support": 0.0,
+    "balance_gain": 0.0,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 4.538277054131357,
+    "displacement_m": [
+      -0.0012625333601974098,
+      -0.006303036157506329,
+      -0.08780649560233136
+    ],
+    "max_shaft_speed_rad_s": 0.30420863052494196,
+    "max_actuator_velocity_rad_s": [
+      5.1980182553051275,
+      3.2841182729337324,
+      3.327018225330733,
+      3.1122169818488943,
+      0.30420863052494196
+    ],
+    "max_torque_nm": [
+      0.9006277721538296,
+      0.8770110220789132,
+      0.9194552011693793,
+      0.9997577683243042,
+      0.03215403030273674
+    ],
+    "max_equality_component_error_mm": 0.04937718570571792,
+    "max_ground_penetration_mm": 0.038766559510069326,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "L1_visual6 | ground": 378,
+      "L0_visual6 | ground": 375,
+      "col_L1_part4_0 | col_L1_part5_0": 314
+    }
+  },
+  {
+    "case": "legs",
+    "seed": 29,
+    "weight_support": 0.0,
+    "balance_gain": 0.0,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 4.540922646045691,
+    "displacement_m": [
+      -0.00023595229698661346,
+      -0.006424216500209981,
+      -0.08778895442494422
+    ],
+    "max_shaft_speed_rad_s": 0.28757251507468046,
+    "max_actuator_velocity_rad_s": [
+      5.284856483685758,
+      3.287506745194115,
+      3.3937908643370123,
+      3.1040147079262113,
+      0.28757251507468046
+    ],
+    "max_torque_nm": [
+      0.9102695799314411,
+      0.8763674853150187,
+      0.9212000901117776,
+      0.995315932792933,
+      0.03215257447144409
+    ],
+    "max_equality_component_error_mm": 0.05145091470361296,
+    "max_ground_penetration_mm": 0.053550946559347695,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "L1_visual6 | ground": 377,
+      "L0_visual6 | ground": 366,
+      "col_L1_part4_0 | col_L1_part5_0": 288
+    }
+  },
+  {
+    "case": "neutral",
+    "seed": 17,
+    "weight_support": 0.35,
+    "balance_gain": 1.3125,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.804779369583238,
+    "displacement_m": [
+      0.0010332530713915572,
+      0.003777322810828543,
+      -0.019856995586173376
+    ],
+    "max_shaft_speed_rad_s": 0.2948784852467297,
+    "max_actuator_velocity_rad_s": [
+      1.1640660078988163,
+      1.5628734002014595,
+      1.0583666445604538,
+      1.498216995370968,
+      0.2948784852467297
+    ],
+    "max_torque_nm": [
+      0.220377325006626,
+      0.34132261643917505,
+      0.18417739301909172,
+      0.3054653241886851,
+      0.03203167647302003
+    ],
+    "max_equality_component_error_mm": 0.0022414663174569194,
+    "max_ground_penetration_mm": 0.010837192952112273,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L1_visual6 | ground": 583,
+      "L0_visual6 | ground": 582,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "dc_chassis_1_1 | tower_L0_tower_8": 200
+    }
+  },
+  {
+    "case": "neutral",
+    "seed": 29,
+    "weight_support": 0.35,
+    "balance_gain": 1.3125,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.7800106549508561,
+    "displacement_m": [
+      0.0022187310420065803,
+      0.0037600066775886447,
+      -0.019857594907381537
+    ],
+    "max_shaft_speed_rad_s": 0.26896480380800003,
+    "max_actuator_velocity_rad_s": [
+      1.1739334136936799,
+      1.588141605510383,
+      1.0495800546803595,
+      1.4901729713302079,
+      0.26896480380800003
+    ],
+    "max_torque_nm": [
+      0.22173910653014736,
+      0.33986724374766847,
+      0.18490340350438622,
+      0.30578368631296926,
+      0.03202740807829751
+    ],
+    "max_equality_component_error_mm": 0.0022229682259400363,
+    "max_ground_penetration_mm": 0.010673788652902638,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L1_visual6 | ground": 613,
+      "L0_visual6 | ground": 600,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "dc_chassis_1_1 | tower_L0_tower_8": 200
+    }
+  },
+  {
+    "case": "hip",
+    "seed": 17,
+    "weight_support": 0.35,
+    "balance_gain": 1.3125,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.8047863808575738,
+    "displacement_m": [
+      0.0010265572454897856,
+      0.0037859966622781314,
+      -0.01985776162106856
+    ],
+    "max_shaft_speed_rad_s": 4.126822239311404,
+    "max_actuator_velocity_rad_s": [
+      1.1627229097497314,
+      1.5526797595653514,
+      1.0568842794736368,
+      1.4909014529807205,
+      4.126822239311404
+    ],
+    "max_torque_nm": [
+      0.22083605179672014,
+      0.34180880115686213,
+      0.184692731039801,
+      0.3046158291145041,
+      0.14215040861270833
+    ],
+    "max_equality_component_error_mm": 0.0022511402709701755,
+    "max_ground_penetration_mm": 0.010629577079816072,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L0_visual6 | ground": 594,
+      "L1_visual6 | ground": 589,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "dc_chassis_1_1 | tower_L0_tower_8": 200
+    }
+  },
+  {
+    "case": "hip",
+    "seed": 29,
+    "weight_support": 0.35,
+    "balance_gain": 1.3125,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 0.7800106549508561,
+    "displacement_m": [
+      0.0022461414514593353,
+      0.003766148308179229,
+      -0.01985836011512021
+    ],
+    "max_shaft_speed_rad_s": 4.129421121867729,
+    "max_actuator_velocity_rad_s": [
+      1.173949335874832,
+      1.5881016558079366,
+      1.0494743919344933,
+      1.4901756656261864,
+      4.129421121867729
+    ],
+    "max_torque_nm": [
+      0.22089516806961637,
+      0.33996915969416586,
+      0.1850298877969587,
+      0.30588584770424404,
+      0.14214155436296916
+    ],
+    "max_equality_component_error_mm": 0.002233943297805241,
+    "max_ground_penetration_mm": 0.010868416353806282,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "L1_visual6 | ground": 616,
+      "L0_visual6 | ground": 606,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "dc_chassis_1_1 | tower_L0_tower_8": 200
+    }
+  },
+  {
+    "case": "legs",
+    "seed": 17,
+    "weight_support": 0.35,
+    "balance_gain": 1.3125,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 5.4886140395846645,
+    "displacement_m": [
+      0.002360059959580142,
+      -0.010665902072800451,
+      -0.0330943858682346
+    ],
+    "max_shaft_speed_rad_s": 0.2948784852467297,
+    "max_actuator_velocity_rad_s": [
+      1.3856278720939499,
+      1.8559292053651943,
+      1.216575027986212,
+      1.6656420317129719,
+      0.2948784852467297
+    ],
+    "max_torque_nm": [
+      0.3438870364131723,
+      0.5075538676020427,
+      0.3358531597760432,
+      0.4903314630390766,
+      0.03208881858425773
+    ],
+    "max_equality_component_error_mm": 0.006031743725570804,
+    "max_ground_penetration_mm": 0.014447600193985555,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "L0_visual6 | ground": 299,
+      "L1_visual6 | ground": 295,
+      "dc_chassis_1_1 | tower_L0_tower_8": 200
+    }
+  },
+  {
+    "case": "legs",
+    "seed": 29,
+    "weight_support": 0.35,
+    "balance_gain": 1.3125,
+    "duration_s": 4.0,
+    "reason": "horizon",
+    "max_tilt_deg": 5.515044619316417,
+    "displacement_m": [
+      0.0033430115361210294,
+      -0.010670940029767213,
+      -0.033094296386400324
+    ],
+    "max_shaft_speed_rad_s": 0.26896480380800003,
+    "max_actuator_velocity_rad_s": [
+      1.4046614008921106,
+      1.8520162669048656,
+      1.2087808355931629,
+      1.6589078636099335,
+      0.26896480380800003
+    ],
+    "max_torque_nm": [
+      0.34425235492127126,
+      0.5088791617567388,
+      0.33615246206792915,
+      0.4908397553020901,
+      0.03208869236271278
+    ],
+    "max_equality_component_error_mm": 0.0060399344149336676,
+    "max_ground_penetration_mm": 0.013588311017803667,
+    "max_other_penetration_mm": 0.20721773036415475,
+    "nonfinite": false,
+    "sampled_contact_pairs": {
+      "dc_chassis_2_4 | tower_L1_tower_4": 800,
+      "dc_chassis_2_4 | tower_L1_tower_6": 800,
+      "dc_chassis_4_6 | tower_L1_tower_5": 800,
+      "dc_chassis_3_2 | tower_L0_tower_2": 400,
+      "dc_chassis_4_6 | tower_L1_tower_12": 400,
+      "L0_visual6 | ground": 313,
+      "L1_visual6 | ground": 285,
+      "dc_chassis_1_1 | tower_L0_tower_8": 200
+    }
+  }
+]

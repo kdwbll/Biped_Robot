@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="biped_static_inspection">
+  <compiler angle="radian" />
+  <statistic center="0.1 0.1 0.19" extent="0.5" />
+  <asset>
+    <mesh name="part00" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-29-589-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part01" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-57-395-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part02" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-18-33-632-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part03" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-18-52-233-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part04" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-10-960-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part05" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-25-688-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part06" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-39-145-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part07" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-17-29-589_1-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part08" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-17-57-395_1-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part09" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-18-33-632_1-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part10" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-18-52-233_1-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part11" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-19-10-960_1-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part12" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-19-25-688_1-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part13" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-19-39-145_1-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="part14" file="meshes/test - SimpleBiped2a-1 2026-04-23-16-40-03-958-1.STL" scale="0.001 0.001 0.001" />
+  </asset>
+  <worldbody>
+    <light pos="0 0 1" dir="0 0 -1" />
+    <geom name="floor" type="plane" size="1 1 0.1" rgba="0.5 0.5 0.5 1" />
+    <geom name="part00" type="mesh" mesh="part00" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part01" type="mesh" mesh="part01" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part02" type="mesh" mesh="part02" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part03" type="mesh" mesh="part03" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part04" type="mesh" mesh="part04" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part05" type="mesh" mesh="part05" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part06" type="mesh" mesh="part06" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part07" type="mesh" mesh="part07" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part08" type="mesh" mesh="part08" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part09" type="mesh" mesh="part09" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part10" type="mesh" mesh="part10" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part11" type="mesh" mesh="part11" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part12" type="mesh" mesh="part12" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part13" type="mesh" mesh="part13" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+    <geom name="part14" type="mesh" mesh="part14" contype="0" conaffinity="0" rgba="0.65 0.72 0.82 1" />
+  </worldbody>
+</mujoco>

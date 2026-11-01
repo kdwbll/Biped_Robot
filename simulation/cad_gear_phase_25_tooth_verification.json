@@ -1,0 +1,112 @@
+{
+  "pinion_first_big_mm3": 0.0,
+  "first_big_second_big_mm3": 0.0,
+  "pinion_second_big_mm3": 0.0,
+  "cycle_samples": [
+    {
+      "pinion_delta_deg": 0.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 0.9,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 1.8,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 2.7,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 3.6,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 4.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 5.4,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 6.3,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 7.2,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 8.1,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 9.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 9.9,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 10.8,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 11.700000000000001,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 12.6,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 13.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 14.4,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    }
+  ],
+  "assumed_tooth_count_pinion": 25,
+  "assumed_ratio": 0.5,
+  "note": "Exact CAD body copies, 17 samples across one assumed pinion tooth period; not continuous clearance or full-cycle proof."
+}

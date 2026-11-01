@@ -1,0 +1,112 @@
+{
+  "timesteps": 196608,
+  "evaluated_weight": 0.4,
+  "next_training_weight": 0.35,
+  "passed_gate": true,
+  "assisted": [
+    {
+      "seed": 9101,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.029537261791224872,
+      "peak_clearance_m": [
+        0.006080788377218951,
+        0.005028798220877723
+      ],
+      "events": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "alternations": 6
+    },
+    {
+      "seed": 9102,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.03320915428860248,
+      "peak_clearance_m": [
+        0.006039093923870559,
+        0.005026343065812268
+      ],
+      "events": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "alternations": 6
+    },
+    {
+      "seed": 9103,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.03037457103941965,
+      "peak_clearance_m": [
+        0.006070561818106876,
+        0.005064712542356242
+      ],
+      "events": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "alternations": 6
+    }
+  ],
+  "unassisted": [
+    {
+      "seed": 9101,
+      "seconds": 0.72,
+      "fell": true,
+      "forward_m": 0.001769205411421275,
+      "peak_clearance_m": [
+        7.115718251606007e-07,
+        0.02052111143162344
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    },
+    {
+      "seed": 9102,
+      "seconds": 0.74,
+      "fell": true,
+      "forward_m": 0.003510941328736805,
+      "peak_clearance_m": [
+        6.17032683000035e-07,
+        0.02185577945261565
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    },
+    {
+      "seed": 9103,
+      "seconds": 0.74,
+      "fell": true,
+      "forward_m": 0.00222672490694438,
+      "peak_clearance_m": [
+        7.55021541593015e-07,
+        0.02250308040711853
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    }
+  ]
+}

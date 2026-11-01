@@ -1,0 +1,18 @@
+# 本地环境、缓存和构建输出
+.venv/
+.pio/
+__pycache__/
+*.pyc
+warp_cache/
+gpu_packages/
+warp_test_packages/
+
+# 不提交通用压缩包。3MF 是打印工程格式、NPZ/PTH 是数值和模型文件。
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz

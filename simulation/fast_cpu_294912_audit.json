@@ -1,0 +1,94 @@
+{
+  "timesteps": 294912,
+  "evaluated_weight": 0.35,
+  "next_training_weight": 0.35,
+  "passed_gate": false,
+  "assisted": [
+    {
+      "seed": 9101,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.03144359862926928,
+      "peak_clearance_m": [
+        0.0025973609417007243,
+        0.00487061455378748
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    },
+    {
+      "seed": 9102,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.03514616663592976,
+      "peak_clearance_m": [
+        0.0025887708739861966,
+        0.004837386414453117
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    },
+    {
+      "seed": 9103,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.03217581418365821,
+      "peak_clearance_m": [
+        0.002694787126290992,
+        0.0048252981642501955
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    }
+  ],
+  "unassisted": [
+    {
+      "seed": 9101,
+      "seconds": 0.72,
+      "fell": true,
+      "forward_m": 0.0020659343978658012,
+      "peak_clearance_m": [
+        1.0397672771424171e-06,
+        0.02175547748870546
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    },
+    {
+      "seed": 9102,
+      "seconds": 0.72,
+      "fell": true,
+      "forward_m": 0.0039581758333382955,
+      "peak_clearance_m": [
+        4.007425872150361e-07,
+        0.019463799465928956
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    },
+    {
+      "seed": 9103,
+      "seconds": 0.72,
+      "fell": true,
+      "forward_m": 0.0023794516162533516,
+      "peak_clearance_m": [
+        7.188782607039923e-08,
+        0.020257652690048474
+      ],
+      "events": [
+        1
+      ],
+      "alternations": 0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "seconds": 6.000000000001587,
+  "height_loss_mm": 0.3449805921209581,
+  "max_tilt_deg": 1.215893528957618,
+  "final_servo_error_deg": [
+    0.33029214908423654,
+    -0.3096537496263595,
+    -0.3226710278159621,
+    0.3116972684847395,
+    0.0019195103311467293
+  ],
+  "max_servo_speed_rad_s": [
+    1.8278270954460982,
+    2.0091119855765305,
+    1.7052257746628958,
+    1.90644385466725,
+    0.0005263720993021173
+  ],
+  "sampled_max_self_contact_n": 0.6970165125804589,
+  "sampled_max_self_contact_pair": [
+    "dc_chassis_1_1",
+    "tower_L0_tower_8"
+  ],
+  "final_self_contacts": [
+    {
+      "pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "normal_force_n": 0.12009306721206246,
+      "penetration_mm": 1.4896709895180314e-06
+    }
+  ],
+  "warning": "Diagnostic approximation; collision pairs excluded by previous model remain unresolved."
+}

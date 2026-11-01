@@ -1,0 +1,37 @@
+[
+  {
+    "kd5": 0.08,
+    "peak_shaft_speed_rad_s": 259.7514150607975,
+    "mean_abs_shaft_speed_rad_s": 182.0324597151284,
+    "saturated_substeps": 1986,
+    "finite": true
+  },
+  {
+    "kd5": 0.01,
+    "peak_shaft_speed_rad_s": 4.049228183330067,
+    "mean_abs_shaft_speed_rad_s": 0.07534462520158022,
+    "saturated_substeps": 0,
+    "finite": true
+  },
+  {
+    "kd5": 0.003,
+    "peak_shaft_speed_rad_s": 4.492986197060651,
+    "mean_abs_shaft_speed_rad_s": 0.02634736638953889,
+    "saturated_substeps": 0,
+    "finite": true
+  },
+  {
+    "kd5": 0.001,
+    "peak_shaft_speed_rad_s": 4.490191322038216,
+    "mean_abs_shaft_speed_rad_s": 0.026063268517338253,
+    "saturated_substeps": 0,
+    "finite": true
+  },
+  {
+    "kd5": 0.0,
+    "peak_shaft_speed_rad_s": 4.485756373449442,
+    "mean_abs_shaft_speed_rad_s": 0.026297470885528994,
+    "saturated_substeps": 0,
+    "finite": true
+  }
+]

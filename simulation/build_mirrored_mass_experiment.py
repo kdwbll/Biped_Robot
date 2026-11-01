@@ -1,0 +1,7 @@
+from pathlib import Path
+import json,xml.etree.ElementTree as E
+import numpy as np,mujoco
+p=Path(__file__).parent;data=json.loads((p/'cad_mass_inventory.json').read_text(encoding='utf8'));extra=next(x for x in data if x['body']=='L0_part0' and x['solid']==7)
+t=E.parse(p/'biped_filtered_collision_experimental.xml');root=t.getroot();body=root.find(".//body[@name='L1_part0']");it=body.find('inertial');m0=float(it.get('mass'));c0=np.fromstring(it.get('pos'),sep=' ');f=np.fromstring(it.get('fullinertia'),sep=' ');I0=np.array([[f[0],f[3],f[4]],[f[3],f[1],f[5]],[f[4],f[5],f[2]]]);m1=extra['mass_kg'];S=np.diag([1,1,-1]);c1=np.array(extra['center_m'])@S;I1=S@np.array(extra['approx_inertia_at_center'])@S;M=m0+m1;c=(m0*c0+m1*c1)/M
+def shift(m,r):return m*(np.dot(r,r)*np.eye(3)-np.outer(r,r))
+I=I0+shift(m0,c0-c)+I1+shift(m1,c1-c);it.set('mass',str(M));it.set('pos',' '.join(f'{x:.12g}' for x in c));it.set('fullinertia',' '.join(f'{x:.12g}' for x in [I[0,0],I[1,1],I[2,2],I[0,1],I[0,2],I[1,2]]));root.set('model','biped_mirrored_missing_mass_experiment');out=p/'biped_mirrored_missing_mass_experiment.xml';E.indent(root);t.write(out,encoding='utf8',xml_declaration=True);m=mujoco.MjModel.from_xml_path(str(out));d=mujoco.MjData(m);mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d);a=mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_BODY,'L0_part0');b=mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_BODY,'L1_part0');print('masses',m.body_mass[a],m.body_mass[b],'added',m1,'initial contacts',d.ncon)

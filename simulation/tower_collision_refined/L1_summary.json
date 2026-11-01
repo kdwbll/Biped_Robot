@@ -1,0 +1,11 @@
+{
+  "leg": 1,
+  "source": "C:\\Practice_project\\biped_sim\\meshes_second_leg_local\\part0.stl",
+  "input_faces": 2548,
+  "threshold": 0.025,
+  "max_convex_hull": 32,
+  "resolution": 500,
+  "mcts_iterations": 30,
+  "output_count": 32,
+  "seconds": 17.701881099957973
+}

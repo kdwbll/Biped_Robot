@@ -1,0 +1,11 @@
+{
+  "leg": 0,
+  "source": "C:\\Practice_project\\biped_sim\\meshes_original_coords\\assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-29-589-1.STL",
+  "input_faces": 2548,
+  "threshold": 0.025,
+  "max_convex_hull": 32,
+  "resolution": 500,
+  "mcts_iterations": 30,
+  "output_count": 32,
+  "seconds": 9.307424200000241
+}

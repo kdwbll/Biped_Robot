@@ -1,0 +1,9 @@
+{
+  "weight": 0.5,
+  "iteration": 5,
+  "total_env_steps": 196608,
+  "best_score": 11.002010815629339,
+  "stale": 1,
+  "model": "experimental GPU stabilized fifth axis",
+  "lift_gain": 0.25
+}

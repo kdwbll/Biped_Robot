@@ -1,0 +1,7 @@
+{
+  "max_nearest_vertex_error_m": 1.209716485088748e-09,
+  "shaft_angle_deg": 0.6652173913043498,
+  "compiled_mesh_vertices": 950,
+  "source_mesh_vertices": 950,
+  "note": "Checks visual pose only, not gear contact physics."
+}

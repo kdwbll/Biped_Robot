@@ -1,0 +1,32 @@
+[
+  {
+    "seconds": 0.02,
+    "max_qpos_error": 0.0008494467906825247,
+    "max_qvel_error": 0.6620006386264803,
+    "finite": true
+  },
+  {
+    "seconds": 0.1,
+    "max_qpos_error": 0.001111391043713693,
+    "max_qvel_error": 0.03547989533598452,
+    "finite": true
+  },
+  {
+    "seconds": 0.5,
+    "max_qpos_error": 0.0019198467236415905,
+    "max_qvel_error": 0.02620411138689749,
+    "finite": true
+  },
+  {
+    "seconds": 1.0,
+    "max_qpos_error": 0.0018104354842111495,
+    "max_qvel_error": 0.13601381703310983,
+    "finite": true
+  },
+  {
+    "seconds": 2.0,
+    "max_qpos_error": 0.0014499929422249827,
+    "max_qvel_error": 0.03475464079550007,
+    "finite": true
+  }
+]

@@ -1,0 +1,303 @@
+{
+  "removed": 6,
+  "added": 54,
+  "skipped_due_to_preexisting_exclusions": 1,
+  "new_pairs": 9587,
+  "initial_contacts": 1,
+  "mapping": {
+    "refined_L0_tower_0": [
+      "tower_L0_tower_0",
+      "tower_L0_tower_2",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_1": [
+      "tower_L0_tower_1",
+      "tower_L0_tower_4",
+      "tower_L0_tower_5",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_10": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_3",
+      "tower_L0_tower_5",
+      "tower_L0_tower_6",
+      "tower_L0_tower_8"
+    ],
+    "refined_L0_tower_11": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_4",
+      "tower_L0_tower_5",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_12": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_13": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_14": [
+      "tower_L0_tower_0",
+      "tower_L0_tower_1",
+      "tower_L0_tower_4",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_15": [
+      "tower_L0_tower_2"
+    ],
+    "refined_L0_tower_16": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_5",
+      "tower_L0_tower_7",
+      "tower_L0_tower_8"
+    ],
+    "refined_L0_tower_17": [
+      "tower_L0_tower_2"
+    ],
+    "refined_L0_tower_18": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_5",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_19": [
+      "tower_L0_tower_5",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_2": [
+      "tower_L0_tower_1",
+      "tower_L0_tower_3",
+      "tower_L0_tower_5",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_20": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_21": [
+      "tower_L0_tower_2"
+    ],
+    "refined_L0_tower_22": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_23": [
+      "tower_L0_tower_2"
+    ],
+    "refined_L0_tower_24": [
+      "tower_L0_tower_2"
+    ],
+    "refined_L0_tower_25": [
+      "tower_L0_tower_8"
+    ],
+    "refined_L0_tower_26": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_27": [
+      "tower_L0_tower_8"
+    ],
+    "refined_L0_tower_28": [
+      "tower_L0_tower_5",
+      "tower_L0_tower_7",
+      "tower_L0_tower_8"
+    ],
+    "refined_L0_tower_29": [
+      "tower_L0_tower_2"
+    ],
+    "refined_L0_tower_3": [
+      "tower_L0_tower_0",
+      "tower_L0_tower_2",
+      "tower_L0_tower_4",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_30": [
+      "tower_L0_tower_5",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_31": [
+      "tower_L0_tower_8"
+    ],
+    "refined_L0_tower_4": [
+      "tower_L0_tower_2",
+      "tower_L0_tower_4",
+      "tower_L0_tower_6",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_5": [
+      "tower_L0_tower_5",
+      "tower_L0_tower_6",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_6": [
+      "tower_L0_tower_1",
+      "tower_L0_tower_3",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_7": [
+      "tower_L0_tower_3",
+      "tower_L0_tower_6"
+    ],
+    "refined_L0_tower_8": [
+      "tower_L0_tower_0",
+      "tower_L0_tower_1",
+      "tower_L0_tower_4",
+      "tower_L0_tower_7"
+    ],
+    "refined_L0_tower_9": [
+      "tower_L0_tower_5",
+      "tower_L0_tower_6"
+    ],
+    "refined_L1_tower_0": [
+      "tower_L1_tower_4",
+      "tower_L1_tower_5",
+      "tower_L1_tower_7"
+    ],
+    "refined_L1_tower_1": [
+      "tower_L1_tower_11",
+      "tower_L1_tower_2",
+      "tower_L1_tower_3",
+      "tower_L1_tower_4",
+      "tower_L1_tower_6",
+      "tower_L1_tower_9"
+    ],
+    "refined_L1_tower_10": [
+      "tower_L1_tower_0",
+      "tower_L1_tower_6"
+    ],
+    "refined_L1_tower_11": [
+      "tower_L1_tower_11"
+    ],
+    "refined_L1_tower_12": [
+      "tower_L1_tower_11",
+      "tower_L1_tower_12",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_13": [
+      "tower_L1_tower_12",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_14": [
+      "tower_L1_tower_12",
+      "tower_L1_tower_5",
+      "tower_L1_tower_9"
+    ],
+    "refined_L1_tower_15": [
+      "tower_L1_tower_11",
+      "tower_L1_tower_3",
+      "tower_L1_tower_4"
+    ],
+    "refined_L1_tower_16": [
+      "tower_L1_tower_10",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_17": [
+      "tower_L1_tower_10",
+      "tower_L1_tower_12",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_18": [
+      "tower_L1_tower_10"
+    ],
+    "refined_L1_tower_19": [
+      "tower_L1_tower_10"
+    ],
+    "refined_L1_tower_2": [
+      "tower_L1_tower_12",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_20": [
+      "tower_L1_tower_2",
+      "tower_L1_tower_4",
+      "tower_L1_tower_6"
+    ],
+    "refined_L1_tower_21": [
+      "tower_L1_tower_11",
+      "tower_L1_tower_4",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_22": [
+      "tower_L1_tower_11",
+      "tower_L1_tower_4",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_23": [
+      "tower_L1_tower_1",
+      "tower_L1_tower_12",
+      "tower_L1_tower_3",
+      "tower_L1_tower_6",
+      "tower_L1_tower_9"
+    ],
+    "refined_L1_tower_24": [
+      "tower_L1_tower_6",
+      "tower_L1_tower_9"
+    ],
+    "refined_L1_tower_25": [
+      "tower_L1_tower_1",
+      "tower_L1_tower_3",
+      "tower_L1_tower_6",
+      "tower_L1_tower_9"
+    ],
+    "refined_L1_tower_26": [
+      "tower_L1_tower_12",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_27": [
+      "tower_L1_tower_12",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_28": [
+      "tower_L1_tower_11",
+      "tower_L1_tower_12",
+      "tower_L1_tower_5"
+    ],
+    "refined_L1_tower_29": [
+      "tower_L1_tower_2",
+      "tower_L1_tower_4",
+      "tower_L1_tower_6"
+    ],
+    "refined_L1_tower_3": [
+      "tower_L1_tower_5",
+      "tower_L1_tower_7"
+    ],
+    "refined_L1_tower_30": [
+      "tower_L1_tower_2",
+      "tower_L1_tower_6"
+    ],
+    "refined_L1_tower_31": [
+      "tower_L1_tower_2"
+    ],
+    "refined_L1_tower_4": [
+      "tower_L1_tower_10",
+      "tower_L1_tower_5",
+      "tower_L1_tower_7"
+    ],
+    "refined_L1_tower_5": [
+      "tower_L1_tower_0",
+      "tower_L1_tower_12"
+    ],
+    "refined_L1_tower_6": [
+      "tower_L1_tower_2",
+      "tower_L1_tower_3",
+      "tower_L1_tower_4",
+      "tower_L1_tower_6"
+    ],
+    "refined_L1_tower_7": [
+      "tower_L1_tower_4",
+      "tower_L1_tower_6",
+      "tower_L1_tower_7",
+      "tower_L1_tower_8"
+    ],
+    "refined_L1_tower_8": [
+      "tower_L1_tower_4",
+      "tower_L1_tower_6",
+      "tower_L1_tower_7",
+      "tower_L1_tower_8"
+    ],
+    "refined_L1_tower_9": [
+      "tower_L1_tower_0",
+      "tower_L1_tower_6",
+      "tower_L1_tower_8"
+    ]
+  }
+}

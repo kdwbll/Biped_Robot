@@ -1,0 +1,30 @@
+{
+  "duration_s": 6,
+  "notes": "Soft limits in candidate are unverified and may not represent real mechanism.",
+  "joints": [
+    {
+      "name": "L0_hip_candidate",
+      "range_deg": [
+        -0.2,
+        0.2
+      ],
+      "observed_deg": [
+        0.00036424308767291894,
+        1.6487843888274887
+      ],
+      "max_outside_range_deg": 1.4487843888274885
+    },
+    {
+      "name": "L1_hip_candidate",
+      "range_deg": [
+        -0.2,
+        0.2
+      ],
+      "observed_deg": [
+        6.671080194014849e-05,
+        0.6008340408392511
+      ],
+      "max_outside_range_deg": 0.4008340408392511
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "configuration": {
+    "reward": "velocity",
+    "steps": 8192,
+    "workers": 4,
+    "device": "cpu",
+    "name": "iteration_velocity_8192"
+  },
+  "train_seconds": 41.231662899954244,
+  "neutral": [
+    {
+      "seed": 7001,
+      "seconds": 4.0,
+      "distance_m": 0.0017580377498537317,
+      "max_tilt_deg": 0.9398048612188121,
+      "fell": false,
+      "support_switches": 0,
+      "reward": 0.01755389088506291
+    },
+    {
+      "seed": 7002,
+      "seconds": 4.0,
+      "distance_m": 0.0011838299283257678,
+      "max_tilt_deg": 0.8927123523088952,
+      "fell": false,
+      "support_switches": 0,
+      "reward": 0.01181576272805189
+    },
+    {
+      "seed": 7003,
+      "seconds": 4.0,
+      "distance_m": -0.00018152920428640001,
+      "max_tilt_deg": 0.8641471257959628,
+      "fell": false,
+      "support_switches": 1,
+      "reward": -0.0018351220750326882
+    },
+    {
+      "seed": 7004,
+      "seconds": 4.0,
+      "distance_m": 0.0002168240060412968,
+      "max_tilt_deg": 0.9007340566303965,
+      "fell": false,
+      "support_switches": 0,
+      "reward": 0.002144326880779847
+    },
+    {
+      "seed": 7005,
+      "seconds": 4.0,
+      "distance_m": 0.0018840867483659596,
+      "max_tilt_deg": 0.7998637280488855,
+      "fell": false,
+      "support_switches": 1,
+      "reward": 0.0388245685814969
+    }
+  ],
+  "policy": [
+    {
+      "seed": 7001,
+      "seconds": 4.0,
+      "distance_m": 0.005987079268269052,
+      "max_tilt_deg": 40.45038433036278,
+      "fell": false,
+      "support_switches": 1,
+      "reward": -0.10603757291921381
+    },
+    {
+      "seed": 7002,
+      "seconds": 4.0,
+      "distance_m": 0.0018316910553785454,
+      "max_tilt_deg": 2.3805727941340282,
+      "fell": false,
+      "support_switches": 0,
+      "reward": 0.01674079881189121
+    },
+    {
+      "seed": 7003,
+      "seconds": 4.0,
+      "distance_m": 0.00019884379898590931,
+      "max_tilt_deg": 2.199877790148255,
+      "fell": false,
+      "support_switches": 0,
+      "reward": 0.000530302836574981
+    },
+    {
+      "seed": 7004,
+      "seconds": 4.0,
+      "distance_m": 0.001242964886189718,
+      "max_tilt_deg": 2.4253429300085774,
+      "fell": false,
+      "support_switches": 0,
+      "reward": 0.010745550312138483
+    },
+    {
+      "seed": 7005,
+      "seconds": 4.0,
+      "distance_m": 0.0023117560697148085,
+      "max_tilt_deg": 1.648307737628897,
+      "fell": false,
+      "support_switches": 1,
+      "reward": 0.04176310238680923
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "limits_enabled": true,
+    "gear_constraint_time_constant_s": 0.005,
+    "seconds": 3.999999999999143,
+    "height_loss_mm": 0.8866262940021574,
+    "max_excess_relative_to_unverified_range_deg": [
+      1.4531962795616673,
+      0.4007372248070648
+    ],
+    "max_gear_constraint_error_deg": [
+      1.052457712554058,
+      1.6329419810895198
+    ],
+    "max_servo_speed_rad_s": [
+      1.8131395874356677,
+      2.0523616197569727,
+      1.6941123934096436,
+      1.9525566348406092,
+      0.04209059694809893
+    ]
+  },
+  {
+    "limits_enabled": false,
+    "gear_constraint_time_constant_s": 0.005,
+    "seconds": 3.999999999999143,
+    "height_loss_mm": 0.8863856416492233,
+    "max_excess_relative_to_unverified_range_deg": [
+      1.6050253664817056,
+      0.41377971760213
+    ],
+    "max_gear_constraint_error_deg": [
+      1.191243593353463,
+      1.782491041883753
+    ],
+    "max_servo_speed_rad_s": [
+      1.8131395874356677,
+      2.0523616197569727,
+      1.6941123934096436,
+      1.9525566348406092,
+      0.04209059694809893
+    ]
+  },
+  {
+    "limits_enabled": true,
+    "gear_constraint_time_constant_s": 0.001,
+    "seconds": 3.999999999999143,
+    "height_loss_mm": 0.8875423778667568,
+    "max_excess_relative_to_unverified_range_deg": [
+      0.4905845278142356,
+      0.4313270781021508
+    ],
+    "max_gear_constraint_error_deg": [
+      0.05927224884738023,
+      0.5049740123844997
+    ],
+    "max_servo_speed_rad_s": [
+      1.810423137547133,
+      2.044510923192324,
+      1.6870153879381373,
+      1.9498139580887315,
+      0.04855181304567302
+    ]
+  },
+  {
+    "limits_enabled": false,
+    "gear_constraint_time_constant_s": 0.001,
+    "seconds": 3.999999999999143,
+    "height_loss_mm": 0.887543890078446,
+    "max_excess_relative_to_unverified_range_deg": [
+      0.5009202759804159,
+      0.4392603141217936
+    ],
+    "max_gear_constraint_error_deg": [
+      0.06167527443546183,
+      0.5123362347839365
+    ],
+    "max_servo_speed_rad_s": [
+      1.810423137547133,
+      2.044510923192324,
+      1.6870153879381373,
+      1.9498139580887315,
+      0.04855181304567302
+    ]
+  }
+]

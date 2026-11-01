@@ -1,0 +1,122 @@
+[
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068_1-1/2026-04-23-16-17-29-589_1-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "HipUpper[1]",
+    "chassis_volume_mm3": 135648.779,
+    "chassis_body": "输入1",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068_1-1/2026-04-23-16-17-29-589_1-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "HipUpper[1]",
+    "chassis_volume_mm3": 31825.864,
+    "chassis_body": "输入2",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068_1-1/2026-04-23-16-17-29-589_1-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "HipUpper[1]",
+    "chassis_volume_mm3": 31825.864,
+    "chassis_body": "输入3",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068_1-1/2026-04-23-16-17-29-589_1-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "HipUpper[1]",
+    "chassis_volume_mm3": 34785.662,
+    "chassis_body": "输入4",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068_1-1/2026-04-23-16-17-29-589_1-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "HipUpper[1]",
+    "chassis_volume_mm3": 43914.94,
+    "chassis_body": "输入5",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068_1-1/2026-04-23-16-17-29-589_1-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "HipUpper[1]",
+    "chassis_volume_mm3": 143768.686,
+    "chassis_body": "输入6",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068-1/2026-04-23-16-17-29-589-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "输入3",
+    "chassis_volume_mm3": 135648.779,
+    "chassis_body": "输入1",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068-1/2026-04-23-16-17-29-589-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "输入3",
+    "chassis_volume_mm3": 31825.864,
+    "chassis_body": "输入2",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068-1/2026-04-23-16-17-29-589-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "输入3",
+    "chassis_volume_mm3": 31825.864,
+    "chassis_body": "输入3",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068-1/2026-04-23-16-17-29-589-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "输入3",
+    "chassis_volume_mm3": 34785.662,
+    "chassis_body": "输入4",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068-1/2026-04-23-16-17-29-589-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "输入3",
+    "chassis_volume_mm3": 43914.94,
+    "chassis_body": "输入5",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  },
+  {
+    "leg": "SimpleBiped2a-1/2026-04-23-16-32-05-068-1/2026-04-23-16-17-29-589-1",
+    "tower_volume_mm3": 129952.338,
+    "tower_body": "输入3",
+    "chassis_volume_mm3": 143768.686,
+    "chassis_body": "输入6",
+    "success": false,
+    "interference_body_count": 0,
+    "interference_volume_mm3": 0
+  }
+]

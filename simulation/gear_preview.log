@@ -1,0 +1,2 @@
+Kinematic visualization only: no ground dynamics, torque simulation or training.
+Pinion oscillates +/- 8 degrees; large gears and attached legs rotate in opposite directions.

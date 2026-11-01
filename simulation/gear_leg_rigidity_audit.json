@@ -1,0 +1,21 @@
+{
+  "hip_increment_rad": 0.01,
+  "shaft_increment_rad": 0.01,
+  "max_leg_body_relative_position_change_m": 1.965615481125814e-17,
+  "max_leg_body_relative_rotation_matrix_change": 8.473459360489662e-16,
+  "legs": [
+    {
+      "leg": 0,
+      "max_relative_position_change_m": 8.072404413111736e-18,
+      "max_relative_rotation_matrix_change": 8.473459360489662e-16
+    },
+    {
+      "leg": 1,
+      "max_relative_position_change_m": 1.965615481125814e-17,
+      "max_relative_rotation_matrix_change": 6.661364205186054e-16
+    }
+  ],
+  "pinion_to_shaft_relative_position_change_m": 5.391657935722107e-18,
+  "pinion_to_shaft_relative_rotation_matrix_change": 5.644682315476998e-16,
+  "note": "Kinematic parenting check only; does not prove physical mounting, collision or torque."
+}

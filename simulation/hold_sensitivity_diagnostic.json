@@ -1,0 +1,98 @@
+[
+  {
+    "model": "biped_filtered_collision_experimental.xml",
+    "kp_nm_per_rad": 1.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.20195879381560472,
+    "height_loss_mm": 84.75246722490687,
+    "sampled_max_qvel_rad_s": 2.896795827483267,
+    "sampled_max_torque_nm": 0.9431054621942702,
+    "max_tilt_deg": 0.8612038381010928,
+    "terminated": false
+  },
+  {
+    "model": "biped_filtered_collision_experimental.xml",
+    "kp_nm_per_rad": 2.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.26764800968969926,
+    "height_loss_mm": 19.063251350812326,
+    "sampled_max_qvel_rad_s": 2.446922922012467,
+    "sampled_max_torque_nm": 0.5970725379970652,
+    "max_tilt_deg": 0.8555419323831174,
+    "terminated": false
+  },
+  {
+    "model": "biped_filtered_collision_experimental.xml",
+    "kp_nm_per_rad": 4.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.2805096511961309,
+    "height_loss_mm": 6.201609844380673,
+    "sampled_max_qvel_rad_s": 1.914273135624132,
+    "sampled_max_torque_nm": 0.4972430104887619,
+    "max_tilt_deg": 0.9780368721718002,
+    "terminated": false
+  },
+  {
+    "model": "biped_filtered_collision_experimental.xml",
+    "kp_nm_per_rad": 8.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.2841143772524984,
+    "height_loss_mm": 2.5968837880132045,
+    "sampled_max_qvel_rad_s": 49.023807451386,
+    "sampled_max_torque_nm": 0.5498540808558314,
+    "max_tilt_deg": 0.9086004794224318,
+    "terminated": false
+  },
+  {
+    "model": "diagnostic_floor_only.xml",
+    "kp_nm_per_rad": 1.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.1967590211349436,
+    "height_loss_mm": 89.95223990556799,
+    "sampled_max_qvel_rad_s": 2.8202776242931216,
+    "sampled_max_torque_nm": 0.9935290535739546,
+    "max_tilt_deg": 0.8739862305751807,
+    "terminated": false
+  },
+  {
+    "model": "diagnostic_floor_only.xml",
+    "kp_nm_per_rad": 2.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.26765407593231166,
+    "height_loss_mm": 19.057185108199924,
+    "sampled_max_qvel_rad_s": 2.3671385139227334,
+    "sampled_max_torque_nm": 0.592306174468956,
+    "max_tilt_deg": 0.8655611876351589,
+    "terminated": false
+  },
+  {
+    "model": "diagnostic_floor_only.xml",
+    "kp_nm_per_rad": 4.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.2805069409528155,
+    "height_loss_mm": 6.2043200876961135,
+    "sampled_max_qvel_rad_s": 6.5011735853361765,
+    "sampled_max_torque_nm": 0.4910406207266276,
+    "max_tilt_deg": 0.9557310972347678,
+    "terminated": false
+  },
+  {
+    "model": "diagnostic_floor_only.xml",
+    "kp_nm_per_rad": 8.0,
+    "seconds": 2.0,
+    "initial_height_m": 0.2867112610405116,
+    "final_height_m": 0.2841131081810537,
+    "height_loss_mm": 2.598152859457914,
+    "sampled_max_qvel_rad_s": 47.63686714759878,
+    "sampled_max_torque_nm": 0.6820426624919721,
+    "max_tilt_deg": 0.9009441024773002,
+    "terminated": false
+  }
+]

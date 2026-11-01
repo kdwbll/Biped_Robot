@@ -1,0 +1,106 @@
+{
+  "policy": "training_checkpoints\\continued_gpu_49152_steps.zip",
+  "support": "none",
+  "episodes": [
+    {
+      "seed": 9001,
+      "seconds": 4.0,
+      "forward_m": 0.01484038720633634,
+      "fell": false,
+      "max_tilt_deg": 0.8114363436553672,
+      "peak_clearance_m": [
+        5.853587698306795e-07,
+        2.907442268156035e-07
+      ],
+      "supported_lift_frames": [
+        0,
+        0
+      ],
+      "supported_lift_events": [
+        0,
+        0
+      ],
+      "event_order": []
+    },
+    {
+      "seed": 9002,
+      "seconds": 4.0,
+      "forward_m": 0.013576955750108602,
+      "fell": false,
+      "max_tilt_deg": 0.8388069718683406,
+      "peak_clearance_m": [
+        0.0,
+        6.394967502765248e-08
+      ],
+      "supported_lift_frames": [
+        0,
+        0
+      ],
+      "supported_lift_events": [
+        0,
+        0
+      ],
+      "event_order": []
+    },
+    {
+      "seed": 9003,
+      "seconds": 4.0,
+      "forward_m": 0.013324751255535013,
+      "fell": false,
+      "max_tilt_deg": 0.8216921204605799,
+      "peak_clearance_m": [
+        0.0,
+        0.0
+      ],
+      "supported_lift_frames": [
+        0,
+        0
+      ],
+      "supported_lift_events": [
+        0,
+        0
+      ],
+      "event_order": []
+    },
+    {
+      "seed": 9004,
+      "seconds": 4.0,
+      "forward_m": 0.012582761834835594,
+      "fell": false,
+      "max_tilt_deg": 0.8179905221421778,
+      "peak_clearance_m": [
+        2.87721318603662e-07,
+        0.0
+      ],
+      "supported_lift_frames": [
+        0,
+        0
+      ],
+      "supported_lift_events": [
+        0,
+        0
+      ],
+      "event_order": []
+    },
+    {
+      "seed": 9005,
+      "seconds": 4.0,
+      "forward_m": 0.014637520939646043,
+      "fell": false,
+      "max_tilt_deg": 0.80279373971755,
+      "peak_clearance_m": [
+        0.0,
+        1.6289066791588813e-07
+      ],
+      "supported_lift_frames": [
+        0,
+        0
+      ],
+      "supported_lift_events": [
+        0,
+        0
+      ],
+      "event_order": []
+    }
+  ]
+}
