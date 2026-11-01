@@ -1,0 +1,14 @@
+{
+  "sampled_hip_range_deg": [
+    -5,
+    5
+  ],
+  "samples": 201,
+  "retention_distance_mm": 2.0,
+  "near_pairs": 265,
+  "unresolved_excluded_pairs": 95,
+  "active_chassis_tower_pairs": 170,
+  "removed_far_pairs": 74039,
+  "compiled_pairs": 9597,
+  "limitations": "Experimental culling only for assumed pure hip rotation in +/-5 degrees, based on sampled proxy distance. No guarantee outside that range, under geometric/constraint errors, or for unresolved pairs; not for training."
+}

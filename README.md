@@ -32,6 +32,7 @@
 - 新增 [`diagnostic_selective_collision_trial.xml`](simulation/diagnostic_selective_collision_trial.xml)，使用更细的凸代理尝试恢复机身局部碰撞关系，仍刻意排除 79 对初始间距不足的代理对。中立和双向小幅转向短测未出现自动重置；这只验证有限测试，**碰撞覆盖不完整，不能用于训练或实机**。另几个带 `trial`、`ablation` 的模型是碰撞对照实验，其中部分会产生严重虚假接触力，不是修复版本。所有结果见 [`核验进展_2026-11-01.md`](simulation/核验进展_2026-11-01.md)。
 - 后续新增 [`diagnostic_range_collision_trial.xml`](simulation/diagnostic_range_collision_trial.xml)：对假设髋部 ±5° 内 21 个姿态筛选机身局部凸代理，恢复 10 对、排除另 4 对，未覆盖对数由 79 变为 73。两种步长的中立站姿、小幅双向转向及 1 N 短时侧推测试均未发生仿真自动重置。筛选阈值和活动范围仅为假设，仍有 73 对及其他区域尚未完成碰撞核验，**不能用于训练或实机**。
 - 脚底复核发现上述模型实际由脚部视觉网格与地面接触，原脚底盒子没有启用，且其初始最低点比原网格低约 0.39–0.52 mm。独立试验 [`diagnostic_aligned_foot_proxy_trial.xml`](simulation/diagnostic_aligned_foot_proxy_trial.xml) 将盒子最低点对齐网格并替换地面接触，但站姿时左右受力与原模型不同；盒子形状及接触区域未被实测验证，不作为当前推荐模型。详见 `simulation/foot_collision_alignment_audit.json`、`simulation/aligned_foot_ground_contact_audit.json`。
+- 机身局部使用未合并的 387 块凸代理后，髋部 201 个假设姿态采样的最大代理重叠约 0.395 mm，比先前约 1.25 mm 更小，但仍有 95 对需排除，数量无法与旧代理直接比较覆盖比例。新增全配对和按假设 ±5° 行程裁剪的试验模型：6 秒双向小命令对照在记录精度下与全配对结果一致，实际测试的髋部最大变化约 0.266°。**裁剪模型没有运行时行程保护，不能用于训练或实机**。见 `simulation/nomerge_proxy_range_audit.json`、`simulation/pruned_nomerge_selection_verification.json` 和 `simulation/pruned_nomerge_motion_audit.json`。
 
 ### 复现本轮碰撞检查
 
@@ -40,6 +41,8 @@
 如需复现行程筛选，依次运行 `python audit_proxy_candidate_range.py`、`python build_range_collision_trial.py`、`python verify_range_collision_trial.py`，然后用 `python audit_selective_collision_motion.py --range` 和 `python audit_refined_tower_scenarios.py --range-trial` 复查有限动力学工况。这些命令会覆盖同名实验结果；它们不启动训练。
 
 如需复现脚底对照，在 `simulation/` 依次运行 `python audit_foot_collision_alignment.py`、`python audit_ground_contact_geometry.py`、`python build_foot_proxy_trial.py` 和 `python audit_ground_contact_geometry.py --aligned-box`；这些脚本会覆盖同名诊断模型和数据，不接入真实硬件，也不训练。对齐最低点不代表整个支撑面正确。
+
+机身未合并凸代理已保存在 `simulation/collision_nomerge/`。如需复现，运行 `python audit_nomerge_proxy_gap.py`，再运行 `python audit_nomerge_proxy_range.py` 和 `python audit_nomerge_proxy_range.py --pruned`，随后依次运行 `python build_nomerge_collision_trial.py`、`python verify_nomerge_collision_trial.py`、`python build_pruned_nomerge_trial.py`、`python verify_pruned_nomerge_trial.py`。`python audit_selective_collision_motion.py --pruned` 比较有限转向，`python audit_refined_tower_scenarios.py --pruned-trial` 检查站姿和短时侧推；`python benchmark_nomerge_collision.py` 做短时本机测速。这些命令会覆盖同名实验输出。要从原始网格重新生成代理，`refine_collision_nomerge.py` 还需要 CoACD，且可能耗时数分钟。CoACD 的块数上限及合并设置可能影响逼近误差，参见 [CoACD 原项目说明](https://github.com/SarahWeiii/CoACD)。
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 

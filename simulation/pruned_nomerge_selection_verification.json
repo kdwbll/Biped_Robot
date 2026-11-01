@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "active_pairs": 170,
+  "blocked_pairs": 95,
+  "sample_count": 201,
+  "largest_tower_proxy_sphere_radius_m": 0.47453116301063875,
+  "max_between_sample_motion_bound_mm": 0.20705327830383843,
+  "retention_distance_mm": 2.0,
+  "limitations": "Geometric motion bound assumes pure rigid rotation around the sampled hip axes, fixed relative torso and no numerical/geometry error. Does not validate soft-limit overshoot, other motion, CAD surfaces, or 95 excluded pairs."
+}

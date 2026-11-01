@@ -1,0 +1,7 @@
+{
+  "old_chassis5_tower_pairs_removed": 160,
+  "new_chassis5_tower_pairs": 74209,
+  "excluded_proxy_pairs": 95,
+  "compiled_contact_pairs": 83636,
+  "limitations": "Unmerged convex chassis approximations, 95 near pairs excluded over sampled hip range. Other exclusions remain; not validated for training."
+}

@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_range_collision_trial.xml",
+      "contact_pairs": 27786,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 0.5485488000558689,
+      "steps_per_wall_second": 1822.9918648954322
+    },
+    {
+      "model": "diagnostic_nomerge_collision_trial.xml",
+      "contact_pairs": 83636,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 1.16820039995946,
+      "steps_per_wall_second": 856.0175120935612
+    },
+    {
+      "model": "diagnostic_pruned_nomerge_trial.xml",
+      "contact_pairs": 9597,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 0.552035600063391,
+      "steps_per_wall_second": 1811.477375526449
+    }
+  ],
+  "limitations": "Single local short run; results depend on machine load and are not GPU or training benchmarks."
+}
