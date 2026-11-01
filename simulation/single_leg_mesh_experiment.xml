@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf8'?>
+<mujoco model="single_leg_constraint_experiment">
+  <option gravity="0 0 0" timestep="0.001" iterations="100" />
+  <asset>
+    <mesh name="mesh0" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-29-589-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="mesh1" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-57-395-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="mesh2" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-18-33-632-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="mesh3" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-18-52-233-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="mesh4" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-10-960-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="mesh5" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-25-688-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="mesh6" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-39-145-1.STL" scale="0.001 0.001 0.001" />
+  </asset>
+  <worldbody>
+    <light pos="0 -1 1" />
+    <camera name="side" pos="0.04 -0.7 0.04" xyaxes="1 0 0 0 0 1" />
+    <body name="part0">
+      <geom type="capsule" fromto="0.06673784790942769 0 0.115000000447039 0.016736159287865808 0 0.115000000447039" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+      <geom name="visual0" type="mesh" mesh="mesh0" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+    </body>
+    <body name="part1">
+      <joint name="part1_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part1_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part1_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.06673784790942769 0 0.115000000447039 0.10443548864423943 0 0.0388161185100238" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+      <geom name="visual1" type="mesh" mesh="mesh1" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+    </body>
+    <body name="part2">
+      <joint name="part2_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part2_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part2_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.016736159287865808 0 0.115000000447039 0.05443380002267164 0 0.03881611851003893" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+      <geom name="visual2" type="mesh" mesh="mesh2" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+    </body>
+    <body name="part3">
+      <joint name="part3_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part3_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part3_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.05443380002267458 0 0.038816118510037856 0.104435488644229 0 0.03881611851004897" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+      <geom name="visual3" type="mesh" mesh="mesh3" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+    </body>
+    <body name="part4">
+      <joint name="part4_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part4_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part4_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.10443548864423943 0 0.0388161185100238 0.09938883057863651 0 -0.04603394314325654" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+      <geom name="visual4" type="mesh" mesh="mesh4" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+    </body>
+    <body name="part5">
+      <joint name="part5_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part5_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part5_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.05443380002267164 0 0.03881611851003893 0.04938714195707722 0 -0.046033943143242814" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+      <geom name="visual5" type="mesh" mesh="mesh5" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+    </body>
+    <body name="part6">
+      <joint name="part6_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part6_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part6_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.04938714195707722 0 -0.046033943143242814 0.09938883057863651 0 -0.04603394314325654" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+      <geom name="visual6" type="mesh" mesh="mesh6" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+    </body>
+  </worldbody>
+  <equality>
+    <connect name="pin0" body1="part0" body2="part1" anchor="0.06673784790942769 0 0.115000000447039" solref="0.005 1" />
+    <connect name="pin1" body1="part0" body2="part2" anchor="0.016736159287865808 0 0.115000000447039" solref="0.005 1" />
+    <connect name="pin2" body1="part2" body2="part5" anchor="0.05443380002267164 0 0.03881611851003893" solref="0.005 1" />
+    <connect name="pin3" body1="part5" body2="part3" anchor="0.05443380002267458 0 0.038816118510037856" solref="0.005 1" />
+    <connect name="pin4" body1="part4" body2="part1" anchor="0.10443548864423943 0 0.0388161185100238" solref="0.005 1" />
+    <connect name="pin5" body1="part3" body2="part1" anchor="0.104435488644229 0 0.03881611851004897" solref="0.005 1" />
+    <connect name="pin6" body1="part5" body2="part6" anchor="0.04938714195707722 0 -0.046033943143242814" solref="0.005 1" />
+    <connect name="pin7" body1="part4" body2="part6" anchor="0.09938883057863651 0 -0.04603394314325654" solref="0.005 1" />
+  </equality>
+</mujoco>

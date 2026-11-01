@@ -1,0 +1,167 @@
+{
+  "warning": "STL triangle collision at simulated pose, not exact CAD; contact and FCL penetration depth are approximate.",
+  "source_chassis_piece_count": 12,
+  "suspect_pair_count": 6,
+  "poses": {
+    "initial": [
+      {
+        "proxy_pair": [
+          "dc_chassis_0_4",
+          "tower_L1_tower_10"
+        ],
+        "source_chassis_piece": 0,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 1305,
+        "fcl_max_reported_depth_m": 0.0021702072164240804,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 0.00035192332719710673,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.0008605626480501175
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_2_4",
+          "tower_L1_tower_4"
+        ],
+        "source_chassis_piece": 2,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 94,
+        "fcl_max_reported_depth_m": 0.003999999999999976,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 0.0003219032411193312,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.0003219032411193312
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_2_4",
+          "tower_L1_tower_6"
+        ],
+        "source_chassis_piece": 2,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 94,
+        "fcl_max_reported_depth_m": 0.003999999999999976,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 0.0003182635799265198,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.00031805508603252597
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_3_2",
+          "tower_L0_tower_2"
+        ],
+        "source_chassis_piece": 3,
+        "tower_leg": 0,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 74,
+        "fcl_max_reported_depth_m": 0.0023833727651676323,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 0.00025486756079386397,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.00024541676658559886
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_4_6",
+          "tower_L1_tower_12"
+        ],
+        "source_chassis_piece": 4,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 62,
+        "fcl_max_reported_depth_m": 0.0023000001907348636,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 0.00025692923338987983,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.00025692923338987983
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_4_6",
+          "tower_L1_tower_5"
+        ],
+        "source_chassis_piece": 4,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 62,
+        "fcl_max_reported_depth_m": 0.0023000001907348636,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 0.00025567522126965225,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.00025567522126965225
+      }
+    ],
+    "six_seconds": [
+      {
+        "proxy_pair": [
+          "dc_chassis_0_4",
+          "tower_L1_tower_10"
+        ],
+        "source_chassis_piece": 0,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 1336,
+        "fcl_max_reported_depth_m": 0.0023921745529355215,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 0.00023270323050590458,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 1.7114038054661926e-05
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_2_4",
+          "tower_L1_tower_4"
+        ],
+        "source_chassis_piece": 2,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 96,
+        "fcl_max_reported_depth_m": 0.00411257111423137,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 2.1768849999020956e-05,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 2.176884999904871e-05
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_2_4",
+          "tower_L1_tower_6"
+        ],
+        "source_chassis_piece": 2,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 96,
+        "fcl_max_reported_depth_m": 0.00411257111423137,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 1.5240074896505362e-08,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 2.4663107993677658e-05
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_3_2",
+          "tower_L0_tower_2"
+        ],
+        "source_chassis_piece": 3,
+        "tower_leg": 0,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 60,
+        "fcl_max_reported_depth_m": 0.002300155316079423,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 2.5893540686605654e-08,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.0006172121202847713
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_4_6",
+          "tower_L1_tower_12"
+        ],
+        "source_chassis_piece": 4,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 61,
+        "fcl_max_reported_depth_m": 0.0023021274518833642,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 8.576251444699853e-06,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.0005218467902617747
+      },
+      {
+        "proxy_pair": [
+          "dc_chassis_4_6",
+          "tower_L1_tower_5"
+        ],
+        "source_chassis_piece": 4,
+        "tower_leg": 1,
+        "source_mesh_triangles_intersect": true,
+        "reported_contact_count": 61,
+        "fcl_max_reported_depth_m": 0.0023021274518833642,
+        "distance_from_logged_6s_proxy_contact_to_chassis_mesh_m": 9.615435415943896e-08,
+        "distance_from_logged_6s_proxy_contact_to_tower_mesh_m": 0.0006018497036515007
+      }
+    ]
+  }
+}

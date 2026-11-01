@@ -1,0 +1,82 @@
+{
+  "timesteps": 163840,
+  "training_weight_support": 0.4,
+  "falls": 5,
+  "episodes": [
+    {
+      "seed": 9001,
+      "seconds": 0.8,
+      "fell": true,
+      "forward_m": 0.0031814122846514636,
+      "peak_clearance_m": [
+        8.273273376241397e-07,
+        0.02198251670317525
+      ],
+      "supported_frames": [
+        0,
+        8
+      ],
+      "max_tilt_deg": 35.00280792313995
+    },
+    {
+      "seed": 9002,
+      "seconds": 0.84,
+      "fell": true,
+      "forward_m": 0.0017487655139585556,
+      "peak_clearance_m": [
+        5.30868547184149e-07,
+        0.02326932385600649
+      ],
+      "supported_frames": [
+        0,
+        10
+      ],
+      "max_tilt_deg": 35.367301382571924
+    },
+    {
+      "seed": 9003,
+      "seconds": 0.8200000000000001,
+      "fell": true,
+      "forward_m": 0.00172409883708758,
+      "peak_clearance_m": [
+        5.675212071051816e-07,
+        0.023607320466227523
+      ],
+      "supported_frames": [
+        0,
+        9
+      ],
+      "max_tilt_deg": 35.53403868123743
+    },
+    {
+      "seed": 9004,
+      "seconds": 0.8200000000000001,
+      "fell": true,
+      "forward_m": 0.0009682074429396559,
+      "peak_clearance_m": [
+        2.151256680849034e-07,
+        0.02326097234951169
+      ],
+      "supported_frames": [
+        0,
+        9
+      ],
+      "max_tilt_deg": 35.40758837468966
+    },
+    {
+      "seed": 9005,
+      "seconds": 0.78,
+      "fell": true,
+      "forward_m": 0.003128088619225332,
+      "peak_clearance_m": [
+        7.706339646973426e-08,
+        0.02346314942665185
+      ],
+      "supported_frames": [
+        0,
+        7
+      ],
+      "max_tilt_deg": 35.68299574542939
+    }
+  ]
+}

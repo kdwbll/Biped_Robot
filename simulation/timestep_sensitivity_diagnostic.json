@@ -1,0 +1,90 @@
+[
+  {
+    "kp": 1.0,
+    "timestep": 0.0005,
+    "seconds": 2.0,
+    "height_loss_mm": 84.75246722490687,
+    "peak_qvel_rad_s": 2.92050660606966,
+    "peak_shaft_rad_s": 0.2635701943156933,
+    "peak_torque_nm": 0.9601559604615073,
+    "saturated_substeps": 0,
+    "terminated": false
+  },
+  {
+    "kp": 1.0,
+    "timestep": 0.00025,
+    "seconds": 2.0,
+    "height_loss_mm": 84.75136501401812,
+    "peak_qvel_rad_s": 2.8906457521085143,
+    "peak_shaft_rad_s": 0.06520055697525151,
+    "peak_torque_nm": 0.9543469140738281,
+    "saturated_substeps": 0,
+    "terminated": false
+  },
+  {
+    "kp": 2.0,
+    "timestep": 0.0005,
+    "seconds": 2.0,
+    "height_loss_mm": 19.063251350812326,
+    "peak_qvel_rad_s": 2.4723429257473177,
+    "peak_shaft_rad_s": 0.35730256746858846,
+    "peak_torque_nm": 0.6029041963002326,
+    "saturated_substeps": 0,
+    "terminated": false
+  },
+  {
+    "kp": 2.0,
+    "timestep": 0.00025,
+    "seconds": 2.0,
+    "height_loss_mm": 19.05907202033641,
+    "peak_qvel_rad_s": 2.4330967366301413,
+    "peak_shaft_rad_s": 0.04909745311641368,
+    "peak_torque_nm": 0.5985726217294071,
+    "saturated_substeps": 0,
+    "terminated": false
+  },
+  {
+    "kp": 4.0,
+    "timestep": 0.0005,
+    "seconds": 2.0,
+    "height_loss_mm": 6.201609844380673,
+    "peak_qvel_rad_s": 2.081679862706511,
+    "peak_shaft_rad_s": 0.7784764420200416,
+    "peak_torque_nm": 0.5032477266964668,
+    "saturated_substeps": 0,
+    "terminated": false
+  },
+  {
+    "kp": 4.0,
+    "timestep": 0.00025,
+    "seconds": 2.0,
+    "height_loss_mm": 6.201379652847172,
+    "peak_qvel_rad_s": 2.039025161661943,
+    "peak_shaft_rad_s": 0.04447056246075862,
+    "peak_torque_nm": 0.4989173280221934,
+    "saturated_substeps": 0,
+    "terminated": false
+  },
+  {
+    "kp": 8.0,
+    "timestep": 0.0005,
+    "seconds": 2.0,
+    "height_loss_mm": 2.5968837880132045,
+    "peak_qvel_rad_s": 70.34443863571332,
+    "peak_shaft_rad_s": 70.34443863571332,
+    "peak_torque_nm": 0.8446331911510732,
+    "saturated_substeps": 0,
+    "terminated": false
+  },
+  {
+    "kp": 8.0,
+    "timestep": 0.00025,
+    "seconds": 2.0,
+    "height_loss_mm": 2.59675646452312,
+    "peak_qvel_rad_s": 1.671324521462386,
+    "peak_shaft_rad_s": 0.04447056246075862,
+    "peak_torque_nm": 0.49657560792819333,
+    "saturated_substeps": 0,
+    "terminated": false
+  }
+]

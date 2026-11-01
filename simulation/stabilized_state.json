@@ -1,0 +1,9 @@
+{
+  "weight": 0.5,
+  "lift_gain": 0.6,
+  "best_score": 11.001801489162679,
+  "stale": 1,
+  "iteration": 8,
+  "total_env_steps": 262144,
+  "model": "fifth-axis kd=.01; unvalidated"
+}

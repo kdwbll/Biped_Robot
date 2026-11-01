@@ -1,0 +1,116 @@
+[
+  {
+    "seed": 9001,
+    "weight_support": 0.5,
+    "fell": false,
+    "seconds": 4.0,
+    "forward_m": 0.026000837449383918,
+    "sustained_lift_events": [
+      {
+        "leg": 1,
+        "seconds": 0.64
+      },
+      {
+        "leg": 0,
+        "seconds": 1.1400000000000001
+      },
+      {
+        "leg": 1,
+        "seconds": 1.6
+      },
+      {
+        "leg": 0,
+        "seconds": 2.12
+      },
+      {
+        "leg": 1,
+        "seconds": 2.6
+      },
+      {
+        "leg": 0,
+        "seconds": 3.12
+      },
+      {
+        "leg": 1,
+        "seconds": 3.6
+      }
+    ],
+    "stance_drift_m": 0.15029672122523446
+  },
+  {
+    "seed": 9002,
+    "weight_support": 0.5,
+    "fell": false,
+    "seconds": 4.0,
+    "forward_m": 0.022952103013895005,
+    "sustained_lift_events": [
+      {
+        "leg": 1,
+        "seconds": 0.64
+      },
+      {
+        "leg": 0,
+        "seconds": 1.1400000000000001
+      },
+      {
+        "leg": 1,
+        "seconds": 1.6
+      },
+      {
+        "leg": 0,
+        "seconds": 2.12
+      },
+      {
+        "leg": 1,
+        "seconds": 2.6
+      },
+      {
+        "leg": 0,
+        "seconds": 3.12
+      },
+      {
+        "leg": 1,
+        "seconds": 3.6
+      }
+    ],
+    "stance_drift_m": 0.1597621271249519
+  },
+  {
+    "seed": 9003,
+    "weight_support": 0.5,
+    "fell": false,
+    "seconds": 4.0,
+    "forward_m": 0.02270110417898727,
+    "sustained_lift_events": [
+      {
+        "leg": 1,
+        "seconds": 0.64
+      },
+      {
+        "leg": 0,
+        "seconds": 1.1400000000000001
+      },
+      {
+        "leg": 1,
+        "seconds": 1.6
+      },
+      {
+        "leg": 0,
+        "seconds": 2.12
+      },
+      {
+        "leg": 1,
+        "seconds": 2.6
+      },
+      {
+        "leg": 0,
+        "seconds": 3.12
+      },
+      {
+        "leg": 1,
+        "seconds": 3.6
+      }
+    ],
+    "stance_drift_m": 0.1593708054269321
+  }
+]

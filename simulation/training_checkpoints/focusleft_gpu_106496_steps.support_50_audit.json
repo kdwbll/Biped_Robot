@@ -1,0 +1,92 @@
+[
+  {
+    "support": 0.5,
+    "seed": 9001,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.03558403573532319,
+    "peak_clearance_m": [
+      0.0028713942163584617,
+      0.00677173321427595
+    ],
+    "supported_frames": [
+      0,
+      22
+    ]
+  },
+  {
+    "support": 0.5,
+    "seed": 9002,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.033210818261563205,
+    "peak_clearance_m": [
+      0.0028761654460007224,
+      0.006740801168623432
+    ],
+    "supported_frames": [
+      0,
+      22
+    ]
+  },
+  {
+    "support": 0.5,
+    "seed": 9003,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.03307039698397979,
+    "peak_clearance_m": [
+      0.0029038411392091727,
+      0.006758078357039583
+    ],
+    "supported_frames": [
+      0,
+      22
+    ]
+  },
+  {
+    "support": 0.0,
+    "seed": 9001,
+    "seconds": 1.26,
+    "fell": true,
+    "forward_m": 0.005604058986430613,
+    "peak_clearance_m": [
+      1.6861013949626136e-06,
+      0.00275403641872261
+    ],
+    "supported_frames": [
+      0,
+      0
+    ]
+  },
+  {
+    "support": 0.0,
+    "seed": 9002,
+    "seconds": 1.26,
+    "fell": true,
+    "forward_m": 0.003922956736425488,
+    "peak_clearance_m": [
+      5.046226332454384e-07,
+      0.0027660036741470745
+    ],
+    "supported_frames": [
+      0,
+      0
+    ]
+  },
+  {
+    "support": 0.0,
+    "seed": 9003,
+    "seconds": 1.26,
+    "fell": true,
+    "forward_m": 0.003933707686918697,
+    "peak_clearance_m": [
+      7.004649493422277e-07,
+      0.002916430506120102
+    ],
+    "supported_frames": [
+      0,
+      0
+    ]
+  }
+]

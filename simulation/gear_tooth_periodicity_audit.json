@@ -1,0 +1,929 @@
+{
+  "pinion": {
+    "source": "C:\\Practice_project\\biped_sim\\gear_phase_visuals\\pinion_local.stl",
+    "outer_vertices": 174,
+    "max_radius_mm": 29.24747514430709,
+    "best_candidates": [
+      {
+        "candidate_teeth": 25,
+        "nearest_vertex_rms_mm": 0.8685052000526066,
+        "nearest_vertex_p95_mm": 1.947849047294154
+      },
+      {
+        "candidate_teeth": 26,
+        "nearest_vertex_rms_mm": 0.8785800890147154,
+        "nearest_vertex_p95_mm": 1.6899498242882358
+      },
+      {
+        "candidate_teeth": 24,
+        "nearest_vertex_rms_mm": 0.9098261821375406,
+        "nearest_vertex_p95_mm": 1.9422753421706707
+      },
+      {
+        "candidate_teeth": 27,
+        "nearest_vertex_rms_mm": 0.9407086766844739,
+        "nearest_vertex_p95_mm": 1.5459374469206213
+      },
+      {
+        "candidate_teeth": 23,
+        "nearest_vertex_rms_mm": 1.0289037691803422,
+        "nearest_vertex_p95_mm": 1.9917036376488726
+      },
+      {
+        "candidate_teeth": 28,
+        "nearest_vertex_rms_mm": 1.0430212762137983,
+        "nearest_vertex_p95_mm": 1.6289425266419624
+      },
+      {
+        "candidate_teeth": 29,
+        "nearest_vertex_rms_mm": 1.0959160194137996,
+        "nearest_vertex_p95_mm": 1.655704922055267
+      },
+      {
+        "candidate_teeth": 22,
+        "nearest_vertex_rms_mm": 1.0966500040815723,
+        "nearest_vertex_p95_mm": 2.0786930972559863
+      },
+      {
+        "candidate_teeth": 21,
+        "nearest_vertex_rms_mm": 1.1296801680933832,
+        "nearest_vertex_p95_mm": 1.847851051001079
+      },
+      {
+        "candidate_teeth": 30,
+        "nearest_vertex_rms_mm": 1.1726914922728615,
+        "nearest_vertex_p95_mm": 1.784524573064809
+      }
+    ],
+    "all_candidates": [
+      {
+        "candidate_teeth": 25,
+        "nearest_vertex_rms_mm": 0.8685052000526066,
+        "nearest_vertex_p95_mm": 1.947849047294154
+      },
+      {
+        "candidate_teeth": 26,
+        "nearest_vertex_rms_mm": 0.8785800890147154,
+        "nearest_vertex_p95_mm": 1.6899498242882358
+      },
+      {
+        "candidate_teeth": 24,
+        "nearest_vertex_rms_mm": 0.9098261821375406,
+        "nearest_vertex_p95_mm": 1.9422753421706707
+      },
+      {
+        "candidate_teeth": 27,
+        "nearest_vertex_rms_mm": 0.9407086766844739,
+        "nearest_vertex_p95_mm": 1.5459374469206213
+      },
+      {
+        "candidate_teeth": 23,
+        "nearest_vertex_rms_mm": 1.0289037691803422,
+        "nearest_vertex_p95_mm": 1.9917036376488726
+      },
+      {
+        "candidate_teeth": 28,
+        "nearest_vertex_rms_mm": 1.0430212762137983,
+        "nearest_vertex_p95_mm": 1.6289425266419624
+      },
+      {
+        "candidate_teeth": 29,
+        "nearest_vertex_rms_mm": 1.0959160194137996,
+        "nearest_vertex_p95_mm": 1.655704922055267
+      },
+      {
+        "candidate_teeth": 22,
+        "nearest_vertex_rms_mm": 1.0966500040815723,
+        "nearest_vertex_p95_mm": 2.0786930972559863
+      },
+      {
+        "candidate_teeth": 21,
+        "nearest_vertex_rms_mm": 1.1296801680933832,
+        "nearest_vertex_p95_mm": 1.847851051001079
+      },
+      {
+        "candidate_teeth": 30,
+        "nearest_vertex_rms_mm": 1.1726914922728615,
+        "nearest_vertex_p95_mm": 1.784524573064809
+      },
+      {
+        "candidate_teeth": 31,
+        "nearest_vertex_rms_mm": 1.2640733172539917,
+        "nearest_vertex_p95_mm": 1.9581790969983583
+      },
+      {
+        "candidate_teeth": 20,
+        "nearest_vertex_rms_mm": 1.2731368954220463,
+        "nearest_vertex_p95_mm": 2.0293110739106415
+      },
+      {
+        "candidate_teeth": 32,
+        "nearest_vertex_rms_mm": 1.3587649778765345,
+        "nearest_vertex_p95_mm": 2.0677342160120387
+      },
+      {
+        "candidate_teeth": 33,
+        "nearest_vertex_rms_mm": 1.4571981613913687,
+        "nearest_vertex_p95_mm": 1.9367067206063475
+      },
+      {
+        "candidate_teeth": 19,
+        "nearest_vertex_rms_mm": 1.5199451077213806,
+        "nearest_vertex_p95_mm": 2.2382058518060077
+      },
+      {
+        "candidate_teeth": 34,
+        "nearest_vertex_rms_mm": 1.5561329499196344,
+        "nearest_vertex_p95_mm": 1.9966080599268548
+      },
+      {
+        "candidate_teeth": 35,
+        "nearest_vertex_rms_mm": 1.655626939664202,
+        "nearest_vertex_p95_mm": 2.1271966867669763
+      },
+      {
+        "candidate_teeth": 64,
+        "nearest_vertex_rms_mm": 1.746720805289964,
+        "nearest_vertex_p95_mm": 2.7408323540740556
+      },
+      {
+        "candidate_teeth": 63,
+        "nearest_vertex_rms_mm": 1.7484579743517539,
+        "nearest_vertex_p95_mm": 2.697071291937064
+      },
+      {
+        "candidate_teeth": 62,
+        "nearest_vertex_rms_mm": 1.7511134926055745,
+        "nearest_vertex_p95_mm": 2.6518984573285524
+      },
+      {
+        "candidate_teeth": 36,
+        "nearest_vertex_rms_mm": 1.7512374052519895,
+        "nearest_vertex_p95_mm": 2.1784664745608375
+      },
+      {
+        "candidate_teeth": 61,
+        "nearest_vertex_rms_mm": 1.754628187775994,
+        "nearest_vertex_p95_mm": 2.6052445829197564
+      },
+      {
+        "candidate_teeth": 60,
+        "nearest_vertex_rms_mm": 1.7593425131572566,
+        "nearest_vertex_p95_mm": 2.557035759831329
+      },
+      {
+        "candidate_teeth": 59,
+        "nearest_vertex_rms_mm": 1.7652991558871178,
+        "nearest_vertex_p95_mm": 2.507193097164417
+      },
+      {
+        "candidate_teeth": 58,
+        "nearest_vertex_rms_mm": 1.7727316345004398,
+        "nearest_vertex_p95_mm": 2.455632298546279
+      },
+      {
+        "candidate_teeth": 57,
+        "nearest_vertex_rms_mm": 1.7796093715386578,
+        "nearest_vertex_p95_mm": 2.402263267819195
+      },
+      {
+        "candidate_teeth": 56,
+        "nearest_vertex_rms_mm": 1.7883137268170075,
+        "nearest_vertex_p95_mm": 2.3469893039807443
+      },
+      {
+        "candidate_teeth": 55,
+        "nearest_vertex_rms_mm": 1.7988308579249739,
+        "nearest_vertex_p95_mm": 2.2897069711768205
+      },
+      {
+        "candidate_teeth": 54,
+        "nearest_vertex_rms_mm": 1.8110405865104195,
+        "nearest_vertex_p95_mm": 2.230305177373366
+      },
+      {
+        "candidate_teeth": 53,
+        "nearest_vertex_rms_mm": 1.8254483619754378,
+        "nearest_vertex_p95_mm": 2.1686645540813476
+      },
+      {
+        "candidate_teeth": 52,
+        "nearest_vertex_rms_mm": 1.842133428893553,
+        "nearest_vertex_p95_mm": 2.1046566887372453
+      },
+      {
+        "candidate_teeth": 37,
+        "nearest_vertex_rms_mm": 1.8455143830275897,
+        "nearest_vertex_p95_mm": 2.310702041622457
+      },
+      {
+        "candidate_teeth": 51,
+        "nearest_vertex_rms_mm": 1.8602744738504968,
+        "nearest_vertex_p95_mm": 2.0381435579846023
+      },
+      {
+        "candidate_teeth": 18,
+        "nearest_vertex_rms_mm": 1.8653265204769898,
+        "nearest_vertex_p95_mm": 2.7530857358489356
+      },
+      {
+        "candidate_teeth": 50,
+        "nearest_vertex_rms_mm": 1.880092711364964,
+        "nearest_vertex_p95_mm": 2.0402472336582944
+      },
+      {
+        "candidate_teeth": 49,
+        "nearest_vertex_rms_mm": 1.9029603132810975,
+        "nearest_vertex_p95_mm": 2.112540118874947
+      },
+      {
+        "candidate_teeth": 17,
+        "nearest_vertex_rms_mm": 1.9285434466554499,
+        "nearest_vertex_p95_mm": 2.268861109687854
+      },
+      {
+        "candidate_teeth": 48,
+        "nearest_vertex_rms_mm": 1.9291358783396402,
+        "nearest_vertex_p95_mm": 2.1878415122338155
+      },
+      {
+        "candidate_teeth": 38,
+        "nearest_vertex_rms_mm": 1.9375521627962529,
+        "nearest_vertex_p95_mm": 2.435968404583302
+      },
+      {
+        "candidate_teeth": 47,
+        "nearest_vertex_rms_mm": 1.9583937845881378,
+        "nearest_vertex_p95_mm": 2.266343062108115
+      },
+      {
+        "candidate_teeth": 15,
+        "nearest_vertex_rms_mm": 1.985789147495234,
+        "nearest_vertex_p95_mm": 2.889996650313367
+      },
+      {
+        "candidate_teeth": 46,
+        "nearest_vertex_rms_mm": 1.9915283959033476,
+        "nearest_vertex_p95_mm": 2.3482523010630474
+      },
+      {
+        "candidate_teeth": 39,
+        "nearest_vertex_rms_mm": 2.0247319887743163,
+        "nearest_vertex_p95_mm": 2.5548014654831737
+      },
+      {
+        "candidate_teeth": 45,
+        "nearest_vertex_rms_mm": 2.028854659925548,
+        "nearest_vertex_p95_mm": 2.433797417894881
+      },
+      {
+        "candidate_teeth": 44,
+        "nearest_vertex_rms_mm": 2.070157237544648,
+        "nearest_vertex_p95_mm": 2.523224952051463
+      },
+      {
+        "candidate_teeth": 40,
+        "nearest_vertex_rms_mm": 2.1052487838288485,
+        "nearest_vertex_p95_mm": 2.653394714625563
+      },
+      {
+        "candidate_teeth": 43,
+        "nearest_vertex_rms_mm": 2.1161448290327525,
+        "nearest_vertex_p95_mm": 2.616805100399201
+      },
+      {
+        "candidate_teeth": 16,
+        "nearest_vertex_rms_mm": 2.136584168446288,
+        "nearest_vertex_p95_mm": 2.4829843721364067
+      },
+      {
+        "candidate_teeth": 42,
+        "nearest_vertex_rms_mm": 2.166316233162386,
+        "nearest_vertex_p95_mm": 2.7148337034925354
+      },
+      {
+        "candidate_teeth": 41,
+        "nearest_vertex_rms_mm": 2.17966808760704,
+        "nearest_vertex_p95_mm": 2.743522519801458
+      }
+    ]
+  },
+  "large0": {
+    "source": "C:\\Practice_project\\biped_sim\\meshes_after_shaft_fix\\assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-29-589-1.STL",
+    "outer_vertices": 504,
+    "max_radius_mm": 54.32700611750092,
+    "best_candidates": [
+      {
+        "candidate_teeth": 50,
+        "nearest_vertex_rms_mm": 0.046382072431700096,
+        "nearest_vertex_p95_mm": 8.356945495472628e-06
+      },
+      {
+        "candidate_teeth": 25,
+        "nearest_vertex_rms_mm": 0.046382130039688475,
+        "nearest_vertex_p95_mm": 8.141691108408712e-06
+      },
+      {
+        "candidate_teeth": 51,
+        "nearest_vertex_rms_mm": 0.14035707262418726,
+        "nearest_vertex_p95_mm": 0.13386382483885875
+      },
+      {
+        "candidate_teeth": 49,
+        "nearest_vertex_rms_mm": 0.14232266354239026,
+        "nearest_vertex_p95_mm": 0.13932747290512834
+      },
+      {
+        "candidate_teeth": 52,
+        "nearest_vertex_rms_mm": 0.26222374822527933,
+        "nearest_vertex_p95_mm": 0.2625765014118552
+      },
+      {
+        "candidate_teeth": 48,
+        "nearest_vertex_rms_mm": 0.28042892038909756,
+        "nearest_vertex_p95_mm": 0.28445745933410016
+      },
+      {
+        "candidate_teeth": 53,
+        "nearest_vertex_rms_mm": 0.3819263676538738,
+        "nearest_vertex_p95_mm": 0.38643175011461206
+      },
+      {
+        "candidate_teeth": 17,
+        "nearest_vertex_rms_mm": 0.3966343827596816,
+        "nearest_vertex_p95_mm": 0.40158673732295885
+      },
+      {
+        "candidate_teeth": 47,
+        "nearest_vertex_rms_mm": 0.42714452414281956,
+        "nearest_vertex_p95_mm": 0.43576273739552945
+      },
+      {
+        "candidate_teeth": 54,
+        "nearest_vertex_rms_mm": 0.49729964914229774,
+        "nearest_vertex_p95_mm": 0.5056992946858494
+      }
+    ],
+    "all_candidates": [
+      {
+        "candidate_teeth": 50,
+        "nearest_vertex_rms_mm": 0.046382072431700096,
+        "nearest_vertex_p95_mm": 8.356945495472628e-06
+      },
+      {
+        "candidate_teeth": 25,
+        "nearest_vertex_rms_mm": 0.046382130039688475,
+        "nearest_vertex_p95_mm": 8.141691108408712e-06
+      },
+      {
+        "candidate_teeth": 51,
+        "nearest_vertex_rms_mm": 0.14035707262418726,
+        "nearest_vertex_p95_mm": 0.13386382483885875
+      },
+      {
+        "candidate_teeth": 49,
+        "nearest_vertex_rms_mm": 0.14232266354239026,
+        "nearest_vertex_p95_mm": 0.13932747290512834
+      },
+      {
+        "candidate_teeth": 52,
+        "nearest_vertex_rms_mm": 0.26222374822527933,
+        "nearest_vertex_p95_mm": 0.2625765014118552
+      },
+      {
+        "candidate_teeth": 48,
+        "nearest_vertex_rms_mm": 0.28042892038909756,
+        "nearest_vertex_p95_mm": 0.28445745933410016
+      },
+      {
+        "candidate_teeth": 53,
+        "nearest_vertex_rms_mm": 0.3819263676538738,
+        "nearest_vertex_p95_mm": 0.38643175011461206
+      },
+      {
+        "candidate_teeth": 17,
+        "nearest_vertex_rms_mm": 0.3966343827596816,
+        "nearest_vertex_p95_mm": 0.40158673732295885
+      },
+      {
+        "candidate_teeth": 47,
+        "nearest_vertex_rms_mm": 0.42714452414281956,
+        "nearest_vertex_p95_mm": 0.43576273739552945
+      },
+      {
+        "candidate_teeth": 54,
+        "nearest_vertex_rms_mm": 0.49729964914229774,
+        "nearest_vertex_p95_mm": 0.5056992946858494
+      },
+      {
+        "candidate_teeth": 26,
+        "nearest_vertex_rms_mm": 0.5160551609405644,
+        "nearest_vertex_p95_mm": 0.5251495747998459
+      },
+      {
+        "candidate_teeth": 24,
+        "nearest_vertex_rms_mm": 0.5552589079131189,
+        "nearest_vertex_p95_mm": 0.5689093815606479
+      },
+      {
+        "candidate_teeth": 46,
+        "nearest_vertex_rms_mm": 0.577760539879705,
+        "nearest_vertex_p95_mm": 0.5936444479364757
+      },
+      {
+        "candidate_teeth": 55,
+        "nearest_vertex_rms_mm": 0.6046491155084192,
+        "nearest_vertex_p95_mm": 0.6206292627874047
+      },
+      {
+        "candidate_teeth": 56,
+        "nearest_vertex_rms_mm": 0.7067363911204241,
+        "nearest_vertex_p95_mm": 0.7314538885220271
+      },
+      {
+        "candidate_teeth": 45,
+        "nearest_vertex_rms_mm": 0.7299520064038143,
+        "nearest_vertex_p95_mm": 0.7585429788961879
+      },
+      {
+        "candidate_teeth": 57,
+        "nearest_vertex_rms_mm": 0.7952397460253978,
+        "nearest_vertex_p95_mm": 0.8383879419778023
+      },
+      {
+        "candidate_teeth": 16,
+        "nearest_vertex_rms_mm": 0.8015972713686427,
+        "nearest_vertex_p95_mm": 0.8467562857109532
+      },
+      {
+        "candidate_teeth": 44,
+        "nearest_vertex_rms_mm": 0.8478029684916277,
+        "nearest_vertex_p95_mm": 0.9237321083111499
+      },
+      {
+        "candidate_teeth": 58,
+        "nearest_vertex_rms_mm": 0.8563237553359988,
+        "nearest_vertex_p95_mm": 0.94163511219228
+      },
+      {
+        "candidate_teeth": 27,
+        "nearest_vertex_rms_mm": 0.8996089177575735,
+        "nearest_vertex_p95_mm": 1.0113842000386128
+      },
+      {
+        "candidate_teeth": 59,
+        "nearest_vertex_rms_mm": 0.9097471231387193,
+        "nearest_vertex_p95_mm": 1.041381571770937
+      },
+      {
+        "candidate_teeth": 60,
+        "nearest_vertex_rms_mm": 0.9473092474108963,
+        "nearest_vertex_p95_mm": 1.1378023159422261
+      },
+      {
+        "candidate_teeth": 43,
+        "nearest_vertex_rms_mm": 0.969750437997838,
+        "nearest_vertex_p95_mm": 1.1027439418560145
+      },
+      {
+        "candidate_teeth": 61,
+        "nearest_vertex_rms_mm": 0.9905072903901014,
+        "nearest_vertex_p95_mm": 1.2310608725105232
+      },
+      {
+        "candidate_teeth": 23,
+        "nearest_vertex_rms_mm": 1.0258180941267063,
+        "nearest_vertex_p95_mm": 1.1780837641089252
+      },
+      {
+        "candidate_teeth": 62,
+        "nearest_vertex_rms_mm": 1.0381176414797364,
+        "nearest_vertex_p95_mm": 1.3213102256435432
+      },
+      {
+        "candidate_teeth": 63,
+        "nearest_vertex_rms_mm": 1.0890783769593726,
+        "nearest_vertex_p95_mm": 1.4086936518107132
+      },
+      {
+        "candidate_teeth": 42,
+        "nearest_vertex_rms_mm": 1.113259586476694,
+        "nearest_vertex_p95_mm": 1.2902768789955728
+      },
+      {
+        "candidate_teeth": 28,
+        "nearest_vertex_rms_mm": 1.1227898076696756,
+        "nearest_vertex_p95_mm": 1.462871280033691
+      },
+      {
+        "candidate_teeth": 64,
+        "nearest_vertex_rms_mm": 1.1423983128398716,
+        "nearest_vertex_p95_mm": 1.4933454774630397
+      },
+      {
+        "candidate_teeth": 18,
+        "nearest_vertex_rms_mm": 1.1474442931922801,
+        "nearest_vertex_p95_mm": 1.5170485237031743
+      },
+      {
+        "candidate_teeth": 29,
+        "nearest_vertex_rms_mm": 1.272054759828658,
+        "nearest_vertex_p95_mm": 1.883198771543744
+      },
+      {
+        "candidate_teeth": 41,
+        "nearest_vertex_rms_mm": 1.2752031755619782,
+        "nearest_vertex_p95_mm": 1.4869535560939224
+      },
+      {
+        "candidate_teeth": 32,
+        "nearest_vertex_rms_mm": 1.3209387189231465,
+        "nearest_vertex_p95_mm": 2.0594374300156635
+      },
+      {
+        "candidate_teeth": 30,
+        "nearest_vertex_rms_mm": 1.3443026029563712,
+        "nearest_vertex_p95_mm": 2.275479124072338
+      },
+      {
+        "candidate_teeth": 33,
+        "nearest_vertex_rms_mm": 1.3484221779492256,
+        "nearest_vertex_p95_mm": 1.7455084228889564
+      },
+      {
+        "candidate_teeth": 20,
+        "nearest_vertex_rms_mm": 1.3725373508267882,
+        "nearest_vertex_p95_mm": 1.7931250030941144
+      },
+      {
+        "candidate_teeth": 31,
+        "nearest_vertex_rms_mm": 1.3735081253208632,
+        "nearest_vertex_p95_mm": 2.395939227460671
+      },
+      {
+        "candidate_teeth": 40,
+        "nearest_vertex_rms_mm": 1.377254340724928,
+        "nearest_vertex_p95_mm": 1.6934587322731032
+      },
+      {
+        "candidate_teeth": 19,
+        "nearest_vertex_rms_mm": 1.4108457611479512,
+        "nearest_vertex_p95_mm": 2.5149626614899088
+      },
+      {
+        "candidate_teeth": 34,
+        "nearest_vertex_rms_mm": 1.438645890311433,
+        "nearest_vertex_p95_mm": 1.993886468333149
+      },
+      {
+        "candidate_teeth": 22,
+        "nearest_vertex_rms_mm": 1.466106542711932,
+        "nearest_vertex_p95_mm": 1.8473950108967785
+      },
+      {
+        "candidate_teeth": 39,
+        "nearest_vertex_rms_mm": 1.505254736729867,
+        "nearest_vertex_p95_mm": 1.9105472031137198
+      },
+      {
+        "candidate_teeth": 35,
+        "nearest_vertex_rms_mm": 1.570628763454776,
+        "nearest_vertex_p95_mm": 2.2806767668090067
+      },
+      {
+        "candidate_teeth": 38,
+        "nearest_vertex_rms_mm": 1.5777977342102287,
+        "nearest_vertex_p95_mm": 2.139052991301992
+      },
+      {
+        "candidate_teeth": 15,
+        "nearest_vertex_rms_mm": 1.6148366219766406,
+        "nearest_vertex_p95_mm": 2.257872290119882
+      },
+      {
+        "candidate_teeth": 37,
+        "nearest_vertex_rms_mm": 1.660259193634964,
+        "nearest_vertex_p95_mm": 2.3799000165862916
+      },
+      {
+        "candidate_teeth": 36,
+        "nearest_vertex_rms_mm": 1.7062166288869836,
+        "nearest_vertex_p95_mm": 2.485140696766214
+      },
+      {
+        "candidate_teeth": 21,
+        "nearest_vertex_rms_mm": 1.7093500879942294,
+        "nearest_vertex_p95_mm": 2.4370767896611056
+      }
+    ]
+  },
+  "large1": {
+    "source": "C:\\Practice_project\\biped_sim\\meshes_after_shaft_fix\\assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068_1-1 2026-04-23-16-17-29-589_1-1.STL",
+    "outer_vertices": 500,
+    "max_radius_mm": 54.327006150952485,
+    "best_candidates": [
+      {
+        "candidate_teeth": 50,
+        "nearest_vertex_rms_mm": 4.629750980932661e-06,
+        "nearest_vertex_p95_mm": 8.855046776734373e-06
+      },
+      {
+        "candidate_teeth": 25,
+        "nearest_vertex_rms_mm": 4.783663225684126e-06,
+        "nearest_vertex_p95_mm": 9.422122887045726e-06
+      },
+      {
+        "candidate_teeth": 51,
+        "nearest_vertex_rms_mm": 0.13097068454323774,
+        "nearest_vertex_p95_mm": 0.13386481354229487
+      },
+      {
+        "candidate_teeth": 49,
+        "nearest_vertex_rms_mm": 0.1363164238905055,
+        "nearest_vertex_p95_mm": 0.13932863223169606
+      },
+      {
+        "candidate_teeth": 52,
+        "nearest_vertex_rms_mm": 0.25690384988232806,
+        "nearest_vertex_p95_mm": 0.2625774893118934
+      },
+      {
+        "candidate_teeth": 48,
+        "nearest_vertex_rms_mm": 0.2783124570028319,
+        "nearest_vertex_p95_mm": 0.2844587078667535
+      },
+      {
+        "candidate_teeth": 53,
+        "nearest_vertex_rms_mm": 0.3780844820617519,
+        "nearest_vertex_p95_mm": 0.38643273727202254
+      },
+      {
+        "candidate_teeth": 17,
+        "nearest_vertex_rms_mm": 0.3929112582522482,
+        "nearest_vertex_p95_mm": 0.40158702904553456
+      },
+      {
+        "candidate_teeth": 47,
+        "nearest_vertex_rms_mm": 0.4263503420174913,
+        "nearest_vertex_p95_mm": 0.4357639871276906
+      },
+      {
+        "candidate_teeth": 54,
+        "nearest_vertex_rms_mm": 0.4947764801977312,
+        "nearest_vertex_p95_mm": 0.5057002811347197
+      }
+    ],
+    "all_candidates": [
+      {
+        "candidate_teeth": 50,
+        "nearest_vertex_rms_mm": 4.629750980932661e-06,
+        "nearest_vertex_p95_mm": 8.855046776734373e-06
+      },
+      {
+        "candidate_teeth": 25,
+        "nearest_vertex_rms_mm": 4.783663225684126e-06,
+        "nearest_vertex_p95_mm": 9.422122887045726e-06
+      },
+      {
+        "candidate_teeth": 51,
+        "nearest_vertex_rms_mm": 0.13097068454323774,
+        "nearest_vertex_p95_mm": 0.13386481354229487
+      },
+      {
+        "candidate_teeth": 49,
+        "nearest_vertex_rms_mm": 0.1363164238905055,
+        "nearest_vertex_p95_mm": 0.13932863223169606
+      },
+      {
+        "candidate_teeth": 52,
+        "nearest_vertex_rms_mm": 0.25690384988232806,
+        "nearest_vertex_p95_mm": 0.2625774893118934
+      },
+      {
+        "candidate_teeth": 48,
+        "nearest_vertex_rms_mm": 0.2783124570028319,
+        "nearest_vertex_p95_mm": 0.2844587078667535
+      },
+      {
+        "candidate_teeth": 53,
+        "nearest_vertex_rms_mm": 0.3780844820617519,
+        "nearest_vertex_p95_mm": 0.38643273727202254
+      },
+      {
+        "candidate_teeth": 17,
+        "nearest_vertex_rms_mm": 0.3929112582522482,
+        "nearest_vertex_p95_mm": 0.40158702904553456
+      },
+      {
+        "candidate_teeth": 47,
+        "nearest_vertex_rms_mm": 0.4263503420174913,
+        "nearest_vertex_p95_mm": 0.4357639871276906
+      },
+      {
+        "candidate_teeth": 54,
+        "nearest_vertex_rms_mm": 0.4947764801977312,
+        "nearest_vertex_p95_mm": 0.5057002811347197
+      },
+      {
+        "candidate_teeth": 26,
+        "nearest_vertex_rms_mm": 0.5138061993850926,
+        "nearest_vertex_p95_mm": 0.5251505072236444
+      },
+      {
+        "candidate_teeth": 24,
+        "nearest_vertex_rms_mm": 0.5559285861846313,
+        "nearest_vertex_p95_mm": 0.5689121196239879
+      },
+      {
+        "candidate_teeth": 46,
+        "nearest_vertex_rms_mm": 0.5785370885213722,
+        "nearest_vertex_p95_mm": 0.5936468513169315
+      },
+      {
+        "candidate_teeth": 55,
+        "nearest_vertex_rms_mm": 0.6023586290586218,
+        "nearest_vertex_p95_mm": 0.6206282789969777
+      },
+      {
+        "candidate_teeth": 56,
+        "nearest_vertex_rms_mm": 0.7052882263563173,
+        "nearest_vertex_p95_mm": 0.731452945182057
+      },
+      {
+        "candidate_teeth": 45,
+        "nearest_vertex_rms_mm": 0.7318997460834021,
+        "nearest_vertex_p95_mm": 0.7585453881391114
+      },
+      {
+        "candidate_teeth": 57,
+        "nearest_vertex_rms_mm": 0.7945067554952157,
+        "nearest_vertex_p95_mm": 0.8319015924698913
+      },
+      {
+        "candidate_teeth": 16,
+        "nearest_vertex_rms_mm": 0.8042546555209135,
+        "nearest_vertex_p95_mm": 0.8533596355304649
+      },
+      {
+        "candidate_teeth": 44,
+        "nearest_vertex_rms_mm": 0.8504328037643484,
+        "nearest_vertex_p95_mm": 0.930935893423311
+      },
+      {
+        "candidate_teeth": 58,
+        "nearest_vertex_rms_mm": 0.8555391530978045,
+        "nearest_vertex_p95_mm": 0.9343498705086838
+      },
+      {
+        "candidate_teeth": 27,
+        "nearest_vertex_rms_mm": 0.9008393087401924,
+        "nearest_vertex_p95_mm": 1.0035579306157438
+      },
+      {
+        "candidate_teeth": 59,
+        "nearest_vertex_rms_mm": 0.9211896549903732,
+        "nearest_vertex_p95_mm": 1.0333245252425816
+      },
+      {
+        "candidate_teeth": 43,
+        "nearest_vertex_rms_mm": 0.9369043414904474,
+        "nearest_vertex_p95_mm": 1.111343658658397
+      },
+      {
+        "candidate_teeth": 23,
+        "nearest_vertex_rms_mm": 0.9701493898451953,
+        "nearest_vertex_p95_mm": 1.1872713130977042
+      },
+      {
+        "candidate_teeth": 60,
+        "nearest_vertex_rms_mm": 0.9896574025673466,
+        "nearest_vertex_p95_mm": 1.128999197845365
+      },
+      {
+        "candidate_teeth": 42,
+        "nearest_vertex_rms_mm": 1.0276635139706296,
+        "nearest_vertex_p95_mm": 1.3003389765888516
+      },
+      {
+        "candidate_teeth": 61,
+        "nearest_vertex_rms_mm": 1.059655048777772,
+        "nearest_vertex_p95_mm": 1.221536150797861
+      },
+      {
+        "candidate_teeth": 62,
+        "nearest_vertex_rms_mm": 1.1302724835096583,
+        "nearest_vertex_p95_mm": 1.3110871845273433
+      },
+      {
+        "candidate_teeth": 41,
+        "nearest_vertex_rms_mm": 1.1453766731294717,
+        "nearest_vertex_p95_mm": 1.4985493524197133
+      },
+      {
+        "candidate_teeth": 63,
+        "nearest_vertex_rms_mm": 1.200869480053055,
+        "nearest_vertex_p95_mm": 1.3977944668777498
+      },
+      {
+        "candidate_teeth": 40,
+        "nearest_vertex_rms_mm": 1.202379601502056,
+        "nearest_vertex_p95_mm": 1.706664867146414
+      },
+      {
+        "candidate_teeth": 28,
+        "nearest_vertex_rms_mm": 1.2455726389585215,
+        "nearest_vertex_p95_mm": 1.4515515668063506
+      },
+      {
+        "candidate_teeth": 22,
+        "nearest_vertex_rms_mm": 1.2646871991202355,
+        "nearest_vertex_p95_mm": 1.8618018254498152
+      },
+      {
+        "candidate_teeth": 64,
+        "nearest_vertex_rms_mm": 1.270997084225094,
+        "nearest_vertex_p95_mm": 1.4817912849268415
+      },
+      {
+        "candidate_teeth": 18,
+        "nearest_vertex_rms_mm": 1.2839373945812214,
+        "nearest_vertex_p95_mm": 1.50531106619948
+      },
+      {
+        "candidate_teeth": 39,
+        "nearest_vertex_rms_mm": 1.2945379540870459,
+        "nearest_vertex_p95_mm": 1.92544620563774
+      },
+      {
+        "candidate_teeth": 35,
+        "nearest_vertex_rms_mm": 1.3238863538497974,
+        "nearest_vertex_p95_mm": 2.1189046379432614
+      },
+      {
+        "candidate_teeth": 38,
+        "nearest_vertex_rms_mm": 1.3279136856490088,
+        "nearest_vertex_p95_mm": 2.1557338985507872
+      },
+      {
+        "candidate_teeth": 34,
+        "nearest_vertex_rms_mm": 1.3301918511355324,
+        "nearest_vertex_p95_mm": 1.8397680013923692
+      },
+      {
+        "candidate_teeth": 15,
+        "nearest_vertex_rms_mm": 1.346712155648613,
+        "nearest_vertex_p95_mm": 2.275479460409922
+      },
+      {
+        "candidate_teeth": 20,
+        "nearest_vertex_rms_mm": 1.3692429970355886,
+        "nearest_vertex_p95_mm": 1.793126144453131
+      },
+      {
+        "candidate_teeth": 36,
+        "nearest_vertex_rms_mm": 1.3716670533392243,
+        "nearest_vertex_p95_mm": 2.3839463362133313
+      },
+      {
+        "candidate_teeth": 37,
+        "nearest_vertex_rms_mm": 1.3761889479380978,
+        "nearest_vertex_p95_mm": 2.3984590678780218
+      },
+      {
+        "candidate_teeth": 21,
+        "nearest_vertex_rms_mm": 1.3871141665261186,
+        "nearest_vertex_p95_mm": 2.437078054157697
+      },
+      {
+        "candidate_teeth": 33,
+        "nearest_vertex_rms_mm": 1.3997308171908949,
+        "nearest_vertex_p95_mm": 1.8965499536404191
+      },
+      {
+        "candidate_teeth": 29,
+        "nearest_vertex_rms_mm": 1.4790070501863022,
+        "nearest_vertex_p95_mm": 1.8686267172924236
+      },
+      {
+        "candidate_teeth": 32,
+        "nearest_vertex_rms_mm": 1.5346145500858446,
+        "nearest_vertex_p95_mm": 2.2197367343232823
+      },
+      {
+        "candidate_teeth": 30,
+        "nearest_vertex_rms_mm": 1.6141308394097982,
+        "nearest_vertex_p95_mm": 2.2578717467549976
+      },
+      {
+        "candidate_teeth": 31,
+        "nearest_vertex_rms_mm": 1.704351690695552,
+        "nearest_vertex_p95_mm": 2.4731338351635426
+      },
+      {
+        "candidate_teeth": 19,
+        "nearest_vertex_rms_mm": 1.708723148914046,
+        "nearest_vertex_p95_mm": 2.495503709421376
+      }
+    ]
+  }
+}

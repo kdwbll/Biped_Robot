@@ -1,0 +1,50 @@
+[
+  {
+    "weight_support": 0.0,
+    "leg": 0,
+    "lift_mm": 0.0,
+    "supported_frames": 0,
+    "fell": false,
+    "seconds": 2.0
+  },
+  {
+    "weight_support": 0.0,
+    "leg": 1,
+    "lift_mm": 0.0024870766695446467,
+    "supported_frames": 0,
+    "fell": false,
+    "seconds": 2.0
+  },
+  {
+    "weight_support": 0.5,
+    "leg": 0,
+    "lift_mm": 0.001374898672083097,
+    "supported_frames": 0,
+    "fell": false,
+    "seconds": 2.0
+  },
+  {
+    "weight_support": 0.5,
+    "leg": 1,
+    "lift_mm": 0.0004634210365554725,
+    "supported_frames": 0,
+    "fell": false,
+    "seconds": 2.0
+  },
+  {
+    "weight_support": 0.8,
+    "leg": 0,
+    "lift_mm": 6.74938506978404,
+    "supported_frames": 10,
+    "fell": false,
+    "seconds": 2.0
+  },
+  {
+    "weight_support": 0.8,
+    "leg": 1,
+    "lift_mm": 9.712418301232303,
+    "supported_frames": 67,
+    "fell": false,
+    "seconds": 2.0
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "assumption": "file_degrees",
+    "command": "neutral",
+    "range_deg": [
+      -0.2,
+      0.2
+    ],
+    "duration_s": 4.0,
+    "max_hip_degrees": [
+      1.6451765027592962,
+      0.6009662983374129
+    ],
+    "max_soft_limit_violation_degrees": [
+      1.445176502759296,
+      0.40096629833741293
+    ],
+    "sampled_shaft_speed_rad_s": 0.07808508238944985,
+    "max_tilt_deg": 0.8612038381010928,
+    "body_height_change_mm": -84.77876447185284,
+    "terminated": false
+  },
+  {
+    "assumption": "file_degrees",
+    "command": "hip_sine",
+    "range_deg": [
+      -0.2,
+      0.2
+    ],
+    "duration_s": 4.0,
+    "max_hip_degrees": [
+      1.6493017905190168,
+      0.6008234095881223
+    ],
+    "max_soft_limit_violation_degrees": [
+      1.4493017905190169,
+      0.4008234095881223
+    ],
+    "sampled_shaft_speed_rad_s": 0.142411747854608,
+    "max_tilt_deg": 0.8609620456157667,
+    "body_height_change_mm": -84.77357328478338,
+    "terminated": false
+  },
+  {
+    "assumption": "hypothesis_0p2rad",
+    "command": "neutral",
+    "range_deg": [
+      -11.459155902616466,
+      11.459155902616466
+    ],
+    "duration_s": 4.0,
+    "max_hip_degrees": [
+      1.7974379775438953,
+      0.6141098755577752
+    ],
+    "max_soft_limit_violation_degrees": [
+      0.0,
+      0.0
+    ],
+    "sampled_shaft_speed_rad_s": 0.07808508238944985,
+    "max_tilt_deg": 0.8610962626302706,
+    "body_height_change_mm": -84.77546790130297,
+    "terminated": false
+  },
+  {
+    "assumption": "hypothesis_0p2rad",
+    "command": "hip_sine",
+    "range_deg": [
+      -11.459155902616466,
+      11.459155902616466
+    ],
+    "duration_s": 4.0,
+    "max_hip_degrees": [
+      1.801676008300309,
+      0.613966760791746
+    ],
+    "max_soft_limit_violation_degrees": [
+      0.0,
+      0.0
+    ],
+    "sampled_shaft_speed_rad_s": 0.148936092673425,
+    "max_tilt_deg": 0.8609671332082414,
+    "body_height_change_mm": -84.77087580306528,
+    "terminated": false
+  }
+]

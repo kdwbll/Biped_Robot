@@ -1,0 +1,54 @@
+[
+  {
+    "weight_support": 0.0,
+    "case": "zero_residual",
+    "seed": 17,
+    "seconds": 3.0,
+    "reason": "completed",
+    "contact_mismatch_frames": 12,
+    "frames": 150,
+    "reward_mae": 0.0008504600433943782,
+    "obs_max_error": 0.7090206742286682,
+    "body_position_max_error_mm": 5.986257742518956,
+    "overflow": 0
+  },
+  {
+    "weight_support": 0.0,
+    "case": "hip_residual",
+    "seed": 17,
+    "seconds": 3.0,
+    "reason": "completed",
+    "contact_mismatch_frames": 4,
+    "frames": 150,
+    "reward_mae": 0.0011545223423223335,
+    "obs_max_error": 0.7445528507232666,
+    "body_position_max_error_mm": 6.431582279819644,
+    "overflow": 0
+  },
+  {
+    "weight_support": 0.35,
+    "case": "zero_residual",
+    "seed": 17,
+    "seconds": 3.0,
+    "reason": "completed",
+    "contact_mismatch_frames": 16,
+    "frames": 150,
+    "reward_mae": 0.0006650287552646901,
+    "obs_max_error": 0.04530996456742287,
+    "body_position_max_error_mm": 1.3985007983899653,
+    "overflow": 0
+  },
+  {
+    "weight_support": 0.35,
+    "case": "hip_residual",
+    "seed": 17,
+    "seconds": 3.0,
+    "reason": "completed",
+    "contact_mismatch_frames": 10,
+    "frames": 150,
+    "reward_mae": 0.00023364803285091173,
+    "obs_max_error": 0.04707587882876396,
+    "body_position_max_error_mm": 1.1302461868645461,
+    "overflow": 0
+  }
+]

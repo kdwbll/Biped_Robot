@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="single_leg_constraint_experiment">
+  <option gravity="0 0 0" timestep="0.001" iterations="100" />
+  <worldbody>
+    <light pos="0 -1 1" />
+    <camera name="side" pos="0.04 -0.7 0.04" xyaxes="1 0 0 0 0 1" />
+    <body name="part0">
+      <geom type="capsule" fromto="0.017 0 -0.115000000447035 0.06699999999999999 0 -0.115000000447035" size="0.003" mass="0.05" contype="0" conaffinity="0" />
+    </body>
+    <body name="part1">
+      <joint name="part1_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part1_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part1_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.06699999999999999 0 -0.115000000447035 0.10238126598085893 0 -0.037713741103840535" size="0.003" mass="0.05" contype="0" conaffinity="0" />
+    </body>
+    <body name="part2">
+      <joint name="part2_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part2_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part2_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.017 0 -0.115000000447035 0.05238126631692844 0 -0.03771374026759506" size="0.003" mass="0.05" contype="0" conaffinity="0" />
+    </body>
+    <body name="part3">
+      <joint name="part3_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part3_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part3_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.1023812661222582 0 -0.03771374054201058 0.05238126631692825 0 -0.03771374026759508" size="0.003" mass="0.05" contype="0" conaffinity="0" />
+    </body>
+    <body name="part4">
+      <joint name="part4_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part4_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part4_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.10238126598085893 0 -0.037713741103840535 0.06654203024346284 0 0.03936121709763598" size="0.003" mass="0.05" contype="0" conaffinity="0" />
+    </body>
+    <body name="part5">
+      <joint name="part5_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part5_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part5_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.05238126631692844 0 -0.03771374026759506 0.016542030242360315 0 0.03936121745767608" size="0.003" mass="0.05" contype="0" conaffinity="0" />
+    </body>
+    <body name="part6">
+      <joint name="part6_x" type="slide" axis="1 0 0" damping="0.1" />
+      <joint name="part6_z" type="slide" axis="0 0 1" damping="0.1" />
+      <joint name="part6_r" type="hinge" axis="0 1 0" damping="0.002" />
+      <geom type="capsule" fromto="0.016542030242360315 0 0.03936121745767608 0.06654203024346284 0 0.03936121709763598" size="0.003" mass="0.05" contype="0" conaffinity="0" />
+    </body>
+  </worldbody>
+  <equality>
+    <connect name="pin0" body1="part0" body2="part2" anchor="0.017 0 -0.115000000447035" solref="0.005 1" />
+    <connect name="pin1" body1="part0" body2="part1" anchor="0.06699999999999999 0 -0.115000000447035" solref="0.005 1" />
+    <connect name="pin2" body1="part2" body2="part5" anchor="0.05238126631692844 0 -0.03771374026759506" solref="0.005 1" />
+    <connect name="pin3" body1="part5" body2="part6" anchor="0.016542030242360315 0 0.03936121745767608" solref="0.005 1" />
+    <connect name="pin4" body1="part4" body2="part1" anchor="0.10238126598085893 0 -0.037713741103840535" solref="0.005 1" />
+    <connect name="pin5" body1="part4" body2="part6" anchor="0.06654203024346284 0 0.03936121709763598" solref="0.005 1" />
+    <connect name="pin6" body1="part3" body2="part1" anchor="0.1023812661222582 0 -0.03771374054201058" solref="0.005 1" />
+    <connect name="pin7" body1="part2" body2="part3" anchor="0.05238126631692825 0 -0.03771374026759508" solref="0.005 1" />
+  </equality>
+</mujoco>

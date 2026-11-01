@@ -1,0 +1,132 @@
+[
+  {
+    "variant": "neutral",
+    "seed": 7001,
+    "distance_m": 0.0017580377498537317,
+    "max_tilt_deg": 0.9398048612188121,
+    "switches": 0,
+    "max_clearance_m": [
+      4.5543589101762483e-07,
+      0.0
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "neutral",
+    "seed": 7002,
+    "distance_m": 0.0011838299283257678,
+    "max_tilt_deg": 0.8927123523088952,
+    "switches": 0,
+    "max_clearance_m": [
+      5.021350555356463e-07,
+      0.0
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "neutral",
+    "seed": 7003,
+    "distance_m": -0.00018152920428640001,
+    "max_tilt_deg": 0.8641471257959628,
+    "switches": 1,
+    "max_clearance_m": [
+      4.932599815959948e-07,
+      3.798572708810233e-08
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "neutral",
+    "seed": 7004,
+    "distance_m": 0.0002168240060412968,
+    "max_tilt_deg": 0.9007340566303965,
+    "switches": 0,
+    "max_clearance_m": [
+      4.513098666135418e-07,
+      0.0
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "neutral",
+    "seed": 7005,
+    "distance_m": 0.0018840867483659596,
+    "max_tilt_deg": 0.7998637280488855,
+    "switches": 1,
+    "max_clearance_m": [
+      9.132505965313287e-07,
+      5.17069478275789e-08
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "sinusoid",
+    "seed": 7001,
+    "distance_m": 0.02063447996152925,
+    "max_tilt_deg": 1.9100787172030775,
+    "switches": 5,
+    "max_clearance_m": [
+      3.1385804309322363e-07,
+      4.573937091821578e-07
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "sinusoid",
+    "seed": 7002,
+    "distance_m": 0.01310765300600613,
+    "max_tilt_deg": 35.84662240966916,
+    "switches": 3,
+    "max_clearance_m": [
+      0.0001230105350553505,
+      1.1446459851939539e-06
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "sinusoid",
+    "seed": 7003,
+    "distance_m": 0.016762820956229586,
+    "max_tilt_deg": 1.459668769032307,
+    "switches": 1,
+    "max_clearance_m": [
+      5.043069668912714e-07,
+      1.9296749423705628e-07
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "sinusoid",
+    "seed": 7004,
+    "distance_m": 0.015134104476691793,
+    "max_tilt_deg": 5.801258871882632,
+    "switches": 1,
+    "max_clearance_m": [
+      3.709310775340535e-07,
+      1.4318133926757848e-07
+    ],
+    "fell": false,
+    "seconds": 4.0
+  },
+  {
+    "variant": "sinusoid",
+    "seed": 7005,
+    "distance_m": 0.02029593018383316,
+    "max_tilt_deg": 23.15703595473916,
+    "switches": 4,
+    "max_clearance_m": [
+      6.6661912165241755e-06,
+      2.7412257035813736e-07
+    ],
+    "fell": false,
+    "seconds": 4.0
+  }
+]

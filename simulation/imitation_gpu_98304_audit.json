@@ -1,0 +1,71 @@
+{
+  "timesteps": 98304,
+  "training_weight_support": 0.5333333333333333,
+  "training_balance_gain": 2.0,
+  "mean_forward_m": 0.0036607131870847603,
+  "falls": 5,
+  "max_tilt_deg": 36.817693114877166,
+  "supported_swing_frames": 5,
+  "episodes": [
+    {
+      "seed": 9001,
+      "seconds": 0.42,
+      "forward_m": 0.00427845246285985,
+      "peak_clearance_m": [
+        8.470543878300041e-06,
+        0.0047747821255743755
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.41057243342226,
+      "fell": true
+    },
+    {
+      "seed": 9002,
+      "seconds": 0.42,
+      "forward_m": 0.0034401912258768402,
+      "peak_clearance_m": [
+        1.9718023251229233e-06,
+        0.004168088487992386
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.168373661512355,
+      "fell": true
+    },
+    {
+      "seed": 9003,
+      "seconds": 0.42,
+      "forward_m": 0.003311338409057972,
+      "peak_clearance_m": [
+        3.6010916530555825e-06,
+        0.004793671642968792
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.3906193759713,
+      "fell": true
+    },
+    {
+      "seed": 9004,
+      "seconds": 0.42,
+      "forward_m": 0.0030450777549071925,
+      "peak_clearance_m": [
+        4.786797346181815e-06,
+        0.0045083474572100955
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.354974859088415,
+      "fell": true
+    },
+    {
+      "seed": 9005,
+      "seconds": 0.42,
+      "forward_m": 0.004228506082721947,
+      "peak_clearance_m": [
+        2.042526626461899e-06,
+        0.005512077037681442
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.817693114877166,
+      "fell": true
+    }
+  ]
+}

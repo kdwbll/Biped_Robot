@@ -1,0 +1,3 @@
+from pathlib import Path
+import numpy as np,xml.etree.ElementTree as E,mujoco
+p=Path(__file__).parent;t=E.parse(p/'biped_mirrored_part_experiment.xml');root=t.getroot();key=root.find("./keyframe/key[@name='centered_start']");q=np.load(p/'balanced_mirrored_part_pose.npz')['qpos'];key.set('qpos',' '.join(f'{x:.16g}' for x in q));out=p/'biped_mirrored_part_centered_experiment.xml';root.set('model','biped_mirrored_part_centered_experiment');E.indent(root);t.write(out,encoding='utf8',xml_declaration=True);m=mujoco.MjModel.from_xml_path(str(out));d=mujoco.MjData(m);mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d);print('initial contacts',d.ncon,'mass',mujoco.mj_getTotalmass(m),'initial finite',np.isfinite(d.qpos).all())

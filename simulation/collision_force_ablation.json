@@ -1,0 +1,50 @@
+[
+  {
+    "model": "biped_standing_gear_candidate.xml",
+    "removed_self_collision_pairs": 0,
+    "duration_s": 6.000000000001587,
+    "height_loss_mm": 0.3453123704811878,
+    "final_servo_error_deg": [
+      0.33042009973786346,
+      -0.308343543146319,
+      -0.32384933443754915,
+      0.31162172120492077,
+      1.2875054155212493
+    ],
+    "final_servo_torque_nm": [
+      0.3009785326613085,
+      -0.31361513413838593,
+      -0.30205689327573526,
+      0.321821560395711,
+      0.27886849732482055
+    ],
+    "max_tilt_deg": 1.3005869603621405,
+    "max_servo_speed_rad_s": 2.045944418691929,
+    "final_max_single_ground_contact_force_n": 8.381181558122348,
+    "final_max_single_self_contact_force_n": 17458.554215318007
+  },
+  {
+    "model": "diagnostic_standing_gear_ground_only.xml",
+    "removed_self_collision_pairs": 9513,
+    "duration_s": 6.000000000001587,
+    "height_loss_mm": 0.344980470651679,
+    "final_servo_error_deg": [
+      0.3302852186077644,
+      -0.3096480919724443,
+      -0.3226789865797528,
+      0.3117022640533123,
+      0.0007336918346617347
+    ],
+    "final_servo_torque_nm": [
+      0.30064665026972387,
+      -0.31359306343888915,
+      -0.30236653811511416,
+      0.32185537693722316,
+      -0.00014880253949770247
+    ],
+    "max_tilt_deg": 1.21582524854513,
+    "max_servo_speed_rad_s": 2.008959778871109,
+    "final_max_single_ground_contact_force_n": 8.37761724134068,
+    "final_max_single_self_contact_force_n": 0.0
+  }
+]

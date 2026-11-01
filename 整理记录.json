@@ -1,0 +1,1654 @@
+{
+  "sources": {
+    "cad": "C:\\Practice_project\\fangzhen",
+    "printing": "C:\\Practice_project\\打印",
+    "firmware": "C:\\Practice_project\\BipedRobot",
+    "simulation": "C:\\Practice_project\\biped_sim",
+    "upstream": "C:\\Practice_project\\YouCanBuildBiPed-main"
+  },
+  "excluded_directories": [
+    ".git",
+    ".pio",
+    ".venv",
+    "__pycache__",
+    "gpu_packages",
+    "warp_cache",
+    "warp_test_packages"
+  ],
+  "unpacked_checkpoints": [
+    {
+      "source": "assisted_imitation_start.zip",
+      "directory": "simulation/模型检查点/assisted_imitation_start",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "continued_gpu_98304.zip",
+      "directory": "simulation/模型检查点/continued_gpu_98304",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "continuous_best.zip",
+      "directory": "simulation/模型检查点/continuous_best",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "continuous_current.zip",
+      "directory": "simulation/模型检查点/continuous_current",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "curriculum_gpu_114688.zip",
+      "directory": "simulation/模型检查点/curriculum_gpu_114688",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "drift50_gpu_147456.zip",
+      "directory": "simulation/模型检查点/drift50_gpu_147456",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "fast_cpu_294912.zip",
+      "directory": "simulation/模型检查点/fast_cpu_294912",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "focusleft_gpu_131072.zip",
+      "directory": "simulation/模型检查点/focusleft_gpu_131072",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "harness_gpu_147456.zip",
+      "directory": "simulation/模型检查点/harness_gpu_147456",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "imitation_gpu_147456.zip",
+      "directory": "simulation/模型检查点/imitation_gpu_147456",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "iteration_alternation_8192.zip",
+      "directory": "simulation/模型检查点/iteration_alternation_8192",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "iteration_clock_16384.zip",
+      "directory": "simulation/模型检查点/iteration_clock_16384",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "iteration_large_16384.zip",
+      "directory": "simulation/模型检查点/iteration_large_16384",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "iteration_safe_32768.zip",
+      "directory": "simulation/模型检查点/iteration_safe_32768",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "iteration_safe_gpu_8192.zip",
+      "directory": "simulation/模型检查点/iteration_safe_gpu_8192",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "iteration_velocity_8192.zip",
+      "directory": "simulation/模型检查点/iteration_velocity_8192",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "partial40_gpu_163840.zip",
+      "directory": "simulation/模型检查点/partial40_gpu_163840",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "partial50b_gpu_114688.zip",
+      "directory": "simulation/模型检查点/partial50b_gpu_114688",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "partial50_gpu_81920.zip",
+      "directory": "simulation/模型检查点/partial50_gpu_81920",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "partial_gpu_65536.zip",
+      "directory": "simulation/模型检查点/partial_gpu_65536",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "ppo_experiment_4096.zip",
+      "directory": "simulation/模型检查点/ppo_experiment_4096",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "ppo_smoke_test.zip",
+      "directory": "simulation/模型检查点/ppo_smoke_test",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "residual_gpu_65536.zip",
+      "directory": "simulation/模型检查点/residual_gpu_65536",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "stabilized_best.zip",
+      "directory": "simulation/模型检查点/stabilized_best",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "stabilized_current.zip",
+      "directory": "simulation/模型检查点/stabilized_current",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "stepping_gpu_114688.zip",
+      "directory": "simulation/模型检查点/stepping_gpu_114688",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "warp_ppo_smoke.zip",
+      "directory": "simulation/模型检查点/warp_ppo_smoke",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "warp_training_best.zip",
+      "directory": "simulation/模型检查点/warp_training_best",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "warp_training_current.zip",
+      "directory": "simulation/模型检查点/warp_training_current",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "warp_trial_32768.zip",
+      "directory": "simulation/模型检查点/warp_trial_32768",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_40960_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_40960_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_49152_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_49152_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_73728_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_73728_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_81920_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_81920_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_90112_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_90112_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/continued_gpu_98304_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/continued_gpu_98304_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_106496_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_106496_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_114688_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_114688_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_73728_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_73728_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_81920_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_81920_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_90112_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_90112_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/curriculum_gpu_98304_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/curriculum_gpu_98304_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/drift50_gpu_122880_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/drift50_gpu_122880_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/drift50_gpu_131072_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/drift50_gpu_131072_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/drift50_gpu_139264_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/drift50_gpu_139264_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/drift50_gpu_147456_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/drift50_gpu_147456_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_172032_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_172032_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_180224_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_180224_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_188416_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_188416_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_196608_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_196608_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_204800_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_204800_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_212992_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_212992_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_221184_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_221184_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_229376_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_229376_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_237568_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_237568_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_245760_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_245760_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_253952_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_253952_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_262144_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_262144_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_270336_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_270336_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_278528_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_278528_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_286720_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_286720_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/fast_cpu_294912_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/fast_cpu_294912_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/focusleft_gpu_106496_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/focusleft_gpu_106496_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/focusleft_gpu_114688_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/focusleft_gpu_114688_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/focusleft_gpu_122880_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/focusleft_gpu_122880_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/focusleft_gpu_131072_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/focusleft_gpu_131072_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_106496_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_106496_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_114688_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_114688_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_122880_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_122880_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_131072_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_131072_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_139264_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_139264_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_147456_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_147456_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_73728_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_73728_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_81920_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_81920_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_90112_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_90112_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/harness_gpu_98304_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/harness_gpu_98304_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_106496_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_106496_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_114688_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_114688_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_122880_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_122880_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_131072_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_131072_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_139264_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_139264_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_147456_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_147456_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_73728_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_73728_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_81920_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_81920_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_90112_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_90112_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/imitation_gpu_98304_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/imitation_gpu_98304_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_12288_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_12288_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_16384_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_16384_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_20480_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_20480_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_24576_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_24576_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_28672_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_28672_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_32768_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_32768_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_4096_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_4096_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_32768_8192_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_32768_8192_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_gpu_8192_4096_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_gpu_8192_4096_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/iteration_safe_gpu_8192_8192_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/iteration_safe_gpu_8192_8192_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial40_gpu_139264_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial40_gpu_139264_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial40_gpu_147456_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial40_gpu_147456_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial40_gpu_155648_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial40_gpu_155648_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial40_gpu_163840_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial40_gpu_163840_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50b_gpu_106496_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50b_gpu_106496_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50b_gpu_114688_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50b_gpu_114688_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50b_gpu_90112_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50b_gpu_90112_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50b_gpu_98304_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50b_gpu_98304_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50_gpu_73728_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50_gpu_73728_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial50_gpu_81920_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial50_gpu_81920_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial_gpu_40960_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial_gpu_40960_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial_gpu_49152_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial_gpu_49152_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/partial_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/partial_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_16384_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_16384_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_24576_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_24576_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_32768_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_32768_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_40960_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_40960_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_49152_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_49152_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/residual_gpu_8192_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/residual_gpu_8192_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_106496_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_106496_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_114688_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_114688_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_57344_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_57344_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_65536_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_65536_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_73728_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_73728_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_81920_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_81920_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_90112_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_90112_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    },
+    {
+      "source": "training_checkpoints/stepping_gpu_98304_steps.zip",
+      "directory": "simulation/模型检查点/training_checkpoints/stepping_gpu_98304_steps",
+      "files": [
+        "_stable_baselines3_version",
+        "data",
+        "policy.optimizer.pth",
+        "policy.pth",
+        "pytorch_variables.pth",
+        "system_info.txt"
+      ]
+    }
+  ],
+  "skipped_other_archives": [],
+  "copied_count": 866
+}

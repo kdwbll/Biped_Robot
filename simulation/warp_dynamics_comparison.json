@@ -1,0 +1,26 @@
+[
+  {
+    "seconds": 0.01,
+    "max_qpos_error": 0.00014236877918903895,
+    "max_qvel_error": 0.07842035742288322,
+    "finite": true
+  },
+  {
+    "seconds": 0.1,
+    "max_qpos_error": 0.0011117112504743006,
+    "max_qvel_error": 0.05627264051534229,
+    "finite": true
+  },
+  {
+    "seconds": 0.5,
+    "max_qpos_error": 0.006239820701750345,
+    "max_qvel_error": 0.17048930580661148,
+    "finite": true
+  },
+  {
+    "seconds": 1.0,
+    "max_qpos_error": 0.0060995417399926505,
+    "max_qvel_error": 0.03492606093698669,
+    "finite": true
+  }
+]

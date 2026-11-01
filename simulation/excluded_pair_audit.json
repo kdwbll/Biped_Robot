@@ -1,0 +1,404 @@
+{
+  "model": "biped_filtered_collision_experimental.xml",
+  "state": "keyframe 0, before stepping",
+  "method": "MuJoCo signed distance between convex proxy geoms; negative is overlap",
+  "limitations": "Proxy geometry is approximate; overlap does not establish actual CAD interference. Other states and physically acceptable contacts are not evaluated.",
+  "excluded_count": 55,
+  "overlap_count": 55,
+  "group_by_chassis_solid": {
+    "dc_chassis_0": 37,
+    "dc_chassis_2": 2,
+    "dc_chassis_5": 16
+  },
+  "group_by_leg": {
+    "L0": 27,
+    "L1": 28
+  },
+  "pairs": [
+    {
+      "geoms": [
+        "dc_chassis_0_0",
+        "tower_L0_tower_0"
+      ],
+      "signed_distance_mm": -6.48555377665955
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_0",
+        "tower_L0_tower_2"
+      ],
+      "signed_distance_mm": -1.5521697883207843
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_0",
+        "tower_L0_tower_3"
+      ],
+      "signed_distance_mm": -3.3729833001091762
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_0",
+        "tower_L0_tower_6"
+      ],
+      "signed_distance_mm": -1.5521696872727455
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_1",
+        "tower_L1_tower_4"
+      ],
+      "signed_distance_mm": -1.5521697414749893
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_1",
+        "tower_L1_tower_6"
+      ],
+      "signed_distance_mm": -1.5521696912281522
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_1",
+        "tower_L1_tower_7"
+      ],
+      "signed_distance_mm": -1.0183379912550476
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_1",
+        "tower_L1_tower_8"
+      ],
+      "signed_distance_mm": -3.0911527157974583
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_2",
+        "tower_L1_tower_12"
+      ],
+      "signed_distance_mm": -0.8569855621930021
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_2",
+        "tower_L1_tower_4"
+      ],
+      "signed_distance_mm": -1.5521697388856543
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_2",
+        "tower_L1_tower_5"
+      ],
+      "signed_distance_mm": -1.5521697066573836
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_2",
+        "tower_L1_tower_7"
+      ],
+      "signed_distance_mm": -7.013742917180965
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_3",
+        "tower_L1_tower_10"
+      ],
+      "signed_distance_mm": -3.7275141984014764
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_3",
+        "tower_L1_tower_12"
+      ],
+      "signed_distance_mm": -1.5521696768052933
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_3",
+        "tower_L1_tower_5"
+      ],
+      "signed_distance_mm": -1.5521697153424567
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_3",
+        "tower_L1_tower_7"
+      ],
+      "signed_distance_mm": -2.073968230691019
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_4",
+        "tower_L0_tower_0"
+      ],
+      "signed_distance_mm": -4.26003656459694
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_4",
+        "tower_L0_tower_2"
+      ],
+      "signed_distance_mm": -1.5521697651781343
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_4",
+        "tower_L0_tower_4"
+      ],
+      "signed_distance_mm": -4.263181694171245
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_4",
+        "tower_L0_tower_7"
+      ],
+      "signed_distance_mm": -1.552169824166526
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_4",
+        "tower_L1_tower_0"
+      ],
+      "signed_distance_mm": -2.489202615149585
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_4",
+        "tower_L1_tower_12"
+      ],
+      "signed_distance_mm": -1.552169791049668
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_4",
+        "tower_L1_tower_9"
+      ],
+      "signed_distance_mm": -1.5515289118409974
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_5",
+        "tower_L0_tower_1"
+      ],
+      "signed_distance_mm": -2.1181368258383038
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_5",
+        "tower_L0_tower_3"
+      ],
+      "signed_distance_mm": -2.704648818900161
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_5",
+        "tower_L0_tower_5"
+      ],
+      "signed_distance_mm": -1.325519930332709
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_5",
+        "tower_L0_tower_6"
+      ],
+      "signed_distance_mm": -1.5521697136844694
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_6",
+        "tower_L0_tower_1"
+      ],
+      "signed_distance_mm": -2.6867535340713093
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_6",
+        "tower_L0_tower_5"
+      ],
+      "signed_distance_mm": -1.5521697484938355
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_6",
+        "tower_L0_tower_6"
+      ],
+      "signed_distance_mm": -1.5055929844058014
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_7",
+        "tower_L0_tower_1"
+      ],
+      "signed_distance_mm": -2.409512169044335
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_7",
+        "tower_L0_tower_4"
+      ],
+      "signed_distance_mm": -2.133698546425153
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_7",
+        "tower_L0_tower_5"
+      ],
+      "signed_distance_mm": -1.5521697282634452
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_7",
+        "tower_L0_tower_7"
+      ],
+      "signed_distance_mm": -1.5521698008016311
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_7",
+        "tower_L1_tower_0"
+      ],
+      "signed_distance_mm": -2.45372702843203
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_7",
+        "tower_L1_tower_6"
+      ],
+      "signed_distance_mm": -1.5521697113028614
+    },
+    {
+      "geoms": [
+        "dc_chassis_0_7",
+        "tower_L1_tower_9"
+      ],
+      "signed_distance_mm": -1.551528930803195
+    },
+    {
+      "geoms": [
+        "dc_chassis_2_3",
+        "tower_L1_tower_4"
+      ],
+      "signed_distance_mm": -0.6852447331743708
+    },
+    {
+      "geoms": [
+        "dc_chassis_2_3",
+        "tower_L1_tower_6"
+      ],
+      "signed_distance_mm": -0.6853051143849581
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_0",
+        "tower_L0_tower_0"
+      ],
+      "signed_distance_mm": -7.21035326697397
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_0",
+        "tower_L0_tower_1"
+      ],
+      "signed_distance_mm": -7.231394086317723
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_0",
+        "tower_L0_tower_4"
+      ],
+      "signed_distance_mm": -9.940331148890126
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_1",
+        "tower_L1_tower_0"
+      ],
+      "signed_distance_mm": -4.296465855351191
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_1",
+        "tower_L1_tower_8"
+      ],
+      "signed_distance_mm": -1.6866759927368826
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_2",
+        "tower_L1_tower_10"
+      ],
+      "signed_distance_mm": -6.447026539197215
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_2",
+        "tower_L1_tower_7"
+      ],
+      "signed_distance_mm": -6.397557506604506
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_3",
+        "tower_L0_tower_1"
+      ],
+      "signed_distance_mm": -2.3451713790023807
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_3",
+        "tower_L0_tower_3"
+      ],
+      "signed_distance_mm": -2.8648040973321742
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_4",
+        "tower_L0_tower_1"
+      ],
+      "signed_distance_mm": -3.2916409162720695
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_5",
+        "tower_L0_tower_0"
+      ],
+      "signed_distance_mm": -7.590037044632697
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_5",
+        "tower_L0_tower_3"
+      ],
+      "signed_distance_mm": -3.6774276231456122
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_6",
+        "tower_L1_tower_7"
+      ],
+      "signed_distance_mm": -10.526631052000333
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_6",
+        "tower_L1_tower_8"
+      ],
+      "signed_distance_mm": -10.051014482110654
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_7",
+        "tower_L1_tower_0"
+      ],
+      "signed_distance_mm": -2.4415603624528184
+    },
+    {
+      "geoms": [
+        "dc_chassis_5_7",
+        "tower_L1_tower_10"
+      ],
+      "signed_distance_mm": -1.217388627734743
+    }
+  ]
+}

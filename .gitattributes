@@ -1,0 +1,13 @@
+*.SLDASM binary
+*.SLDPRT binary
+*.STEP binary
+*.step binary
+*.stp binary
+*.STL binary
+*.stl binary
+*.3mf binary
+*.npz binary
+*.pth binary
+*.png binary
+*.jpg binary
+*.jpeg binary

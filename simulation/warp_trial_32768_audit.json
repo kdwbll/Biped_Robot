@@ -1,0 +1,83 @@
+{
+  "envs": 32,
+  "steps": 32768,
+  "train_seconds": 41.67843119997997,
+  "train_env_steps_per_second": 786.2100145462229,
+  "cpu_stabilized_assisted": [
+    {
+      "seed": 9101,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.01778297186239989,
+      "peak_clearance_m": [
+        3.0515474469874904e-06,
+        2.995464203691539e-06
+      ],
+      "events": [],
+      "alternations": 0
+    },
+    {
+      "seed": 9102,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.020151256857337825,
+      "peak_clearance_m": [
+        3.4000207981867148e-06,
+        2.797587691484582e-06
+      ],
+      "events": [],
+      "alternations": 0
+    },
+    {
+      "seed": 9103,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.018338196788482114,
+      "peak_clearance_m": [
+        3.7192058763291236e-06,
+        2.7862631423077044e-06
+      ],
+      "events": [],
+      "alternations": 0
+    }
+  ],
+  "cpu_stabilized_unassisted": [
+    {
+      "seed": 9101,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": -0.001136057389924068,
+      "peak_clearance_m": [
+        1.5690503708462589e-06,
+        1.8295622218299223e-06
+      ],
+      "events": [],
+      "alternations": 0
+    },
+    {
+      "seed": 9102,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": 0.001201775670638186,
+      "peak_clearance_m": [
+        2.23245233063607e-07,
+        3.6435347656321726e-07
+      ],
+      "events": [],
+      "alternations": 0
+    },
+    {
+      "seed": 9103,
+      "seconds": 4.0,
+      "fell": false,
+      "forward_m": -0.0005312220781020852,
+      "peak_clearance_m": [
+        4.4771593395165343e-07,
+        0.0
+      ],
+      "events": [],
+      "alternations": 0
+    }
+  ],
+  "note": "experimental numerical simulator; no physical deployment"
+}

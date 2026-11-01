@@ -1,0 +1,27 @@
+{
+  "model": "biped_fresh_mass_only_candidate.xml",
+  "perturbation_rad": {
+    "hypothetical_servo_shaft": 0.001,
+    "L0_hip_candidate": -0.00046,
+    "L1_hip_candidate": -0.00046
+  },
+  "axis_dot_with_pinion": {
+    "hypothetical_servo_shaft": 1.0,
+    "L0_hip_candidate": 1.0,
+    "L1_hip_candidate": -0.9999999999999998
+  },
+  "world_axis_signed_angular_delta_rad": {
+    "hypothetical_servo_shaft": 0.001,
+    "L0_hip_candidate": -0.00046,
+    "L1_hip_candidate": 0.0004599999999999999
+  },
+  "candidate_gear_equality_residual_change_rad": {
+    "opposite_world_rotation_assumption": 0.0,
+    "estimated_pinion_23_gear_50": 0.0
+  },
+  "pinion_to_candidate_gear_axis_distances_m": {
+    "L0_hip_candidate": 0.07870759041606416,
+    "L1_hip_candidate": 0.09560450684514257
+  },
+  "limitations": "L0 anatomical left/right mapping and tooth counts remain to be verified. This is a local constraint check, not a driven motion or physical validation."
+}

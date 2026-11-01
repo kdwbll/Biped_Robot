@@ -1,0 +1,15 @@
+{
+  "small_gear_world_z_phase_deg": 0.6652173913043486,
+  "other_large_gear_world_z_phase_deg": 0.26999999999999985,
+  "hip_range_degrees_assumption": [
+    -5,
+    5
+  ],
+  "baseline_gear_constraint_residual_rad": [
+    0.0,
+    4.336808689942018e-18
+  ],
+  "original_chassis_faces": 18586,
+  "split_chassis_faces": 18586,
+  "note": "Visualization pinion now rotates with shaft; gear masses and collision proxies are unchanged. CAD remains untouched."
+}

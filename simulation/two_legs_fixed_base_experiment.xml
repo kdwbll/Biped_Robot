@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf8'?>
+<mujoco model="biped_fixed_base_experiment">
+  <option gravity="0 0 0" timestep="0.001" iterations="100" />
+  <statistic center="0.04 -0.04 0.1" extent="0.45" />
+  <asset>
+    <mesh name="L0_mesh0" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-29-589-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="L0_mesh1" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-17-57-395-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="L0_mesh2" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-18-33-632-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="L0_mesh3" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-18-52-233-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="L0_mesh4" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-10-960-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="L0_mesh5" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-25-688-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="L0_mesh6" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-32-05-068-1 2026-04-23-16-19-39-145-1.STL" scale="0.001 0.001 0.001" />
+    <mesh name="L1_mesh0" file="meshes_second_leg_local/part0.stl" scale="0.001 0.001 0.001" />
+    <mesh name="L1_mesh1" file="meshes_second_leg_local/part1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="L1_mesh2" file="meshes_second_leg_local/part2.stl" scale="0.001 0.001 0.001" />
+    <mesh name="L1_mesh3" file="meshes_second_leg_local/part3.stl" scale="0.001 0.001 0.001" />
+    <mesh name="L1_mesh4" file="meshes_second_leg_local/part4.stl" scale="0.001 0.001 0.001" />
+    <mesh name="L1_mesh5" file="meshes_second_leg_local/part5.stl" scale="0.001 0.001 0.001" />
+    <mesh name="L1_mesh6" file="meshes_second_leg_local/part6.stl" scale="0.001 0.001 0.001" />
+    <mesh name="chassis_mesh" file="meshes_original_coords/assembly - SimpleBiped2a-1 2026-04-23-16-40-03-958-1.STL" scale="0.001 0.001 0.001" />
+  </asset>
+  <worldbody>
+    <light pos="0 -1 1" dir="0 0 -1" />
+    <body name="L0_mount" pos="0 0 0" quat="1 0 0 0">
+      <body name="L0_part0">
+        <geom type="capsule" fromto="0.06673784790942769 0 0.115000000447039 0.016736159287865808 0 0.115000000447039" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L0_visual0" type="mesh" mesh="L0_mesh0" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L0_part1">
+        <joint name="L0_part1_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L0_part1_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L0_part1_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.06673784790942769 0 0.115000000447039 0.10443548864423943 0 0.0388161185100238" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L0_visual1" type="mesh" mesh="L0_mesh1" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L0_part2">
+        <joint name="L0_part2_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L0_part2_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L0_part2_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.016736159287865808 0 0.115000000447039 0.05443380002267164 0 0.03881611851003893" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L0_visual2" type="mesh" mesh="L0_mesh2" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L0_part3">
+        <joint name="L0_part3_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L0_part3_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L0_part3_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.05443380002267458 0 0.038816118510037856 0.104435488644229 0 0.03881611851004897" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L0_visual3" type="mesh" mesh="L0_mesh3" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L0_part4">
+        <joint name="L0_part4_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L0_part4_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L0_part4_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.10443548864423943 0 0.0388161185100238 0.09938883057863651 0 -0.04603394314325654" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L0_visual4" type="mesh" mesh="L0_mesh4" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L0_part5">
+        <joint name="L0_part5_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L0_part5_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L0_part5_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.05443380002267164 0 0.03881611851003893 0.04938714195707722 0 -0.046033943143242814" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L0_visual5" type="mesh" mesh="L0_mesh5" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L0_part6">
+        <joint name="L0_part6_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L0_part6_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L0_part6_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.04938714195707722 0 -0.046033943143242814 0.09938883057863651 0 -0.04603394314325654" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L0_visual6" type="mesh" mesh="L0_mesh6" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+    </body>
+    <body name="L1_mount" pos="0 -0.041 0" quat="0 1 0 0">
+      <body name="L1_part0">
+        <geom type="capsule" fromto="0.017 0 -0.115000000447035 0.06699999999999999 0 -0.115000000447035" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L1_visual0" type="mesh" mesh="L1_mesh0" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L1_part1">
+        <joint name="L1_part1_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L1_part1_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L1_part1_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.06699999999999999 0 -0.115000000447035 0.10238126598085893 0 -0.037713741103840535" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L1_visual1" type="mesh" mesh="L1_mesh1" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L1_part2">
+        <joint name="L1_part2_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L1_part2_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L1_part2_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.017 0 -0.115000000447035 0.05238126631692844 0 -0.03771374026759506" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L1_visual2" type="mesh" mesh="L1_mesh2" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L1_part3">
+        <joint name="L1_part3_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L1_part3_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L1_part3_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.1023812661222582 0 -0.03771374054201058 0.05238126631692825 0 -0.03771374026759508" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L1_visual3" type="mesh" mesh="L1_mesh3" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L1_part4">
+        <joint name="L1_part4_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L1_part4_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L1_part4_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.10238126598085893 0 -0.037713741103840535 0.06654203024346284 0 0.03936121709763598" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L1_visual4" type="mesh" mesh="L1_mesh4" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L1_part5">
+        <joint name="L1_part5_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L1_part5_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L1_part5_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.05238126631692844 0 -0.03771374026759506 0.016542030242360315 0 0.03936121745767608" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L1_visual5" type="mesh" mesh="L1_mesh5" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+      <body name="L1_part6">
+        <joint name="L1_part6_x" type="slide" axis="1 0 0" damping="0.1" />
+        <joint name="L1_part6_z" type="slide" axis="0 0 1" damping="0.1" />
+        <joint name="L1_part6_r" type="hinge" axis="0 1 0" damping="0.002" />
+        <geom type="capsule" fromto="0.016542030242360315 0 0.03936121745767608 0.06654203024346284 0 0.03936121709763598" size="0.003" mass="0.05" contype="0" conaffinity="0" rgba="0.9 0.3 0.1 0.3" />
+        <geom name="L1_visual6" type="mesh" mesh="L1_mesh6" contype="0" conaffinity="0" mass="0" rgba="0.65 0.72 0.85 1" />
+      </body>
+    </body>
+    <geom name="chassis_visual" type="mesh" mesh="chassis_mesh" contype="0" conaffinity="0" rgba="0.6 0.65 0.72 1" />
+  </worldbody>
+  <equality>
+    <connect name="L0_pin0" body1="L0_part0" body2="L0_part1" anchor="0.06673784790942769 0 0.115000000447039" solref="0.005 1" />
+    <connect name="L0_pin1" body1="L0_part0" body2="L0_part2" anchor="0.016736159287865808 0 0.115000000447039" solref="0.005 1" />
+    <connect name="L0_pin2" body1="L0_part2" body2="L0_part5" anchor="0.05443380002267164 0 0.03881611851003893" solref="0.005 1" />
+    <connect name="L0_pin3" body1="L0_part5" body2="L0_part3" anchor="0.05443380002267458 0 0.038816118510037856" solref="0.005 1" />
+    <connect name="L0_pin4" body1="L0_part4" body2="L0_part1" anchor="0.10443548864423943 0 0.0388161185100238" solref="0.005 1" />
+    <connect name="L0_pin5" body1="L0_part3" body2="L0_part1" anchor="0.104435488644229 0 0.03881611851004897" solref="0.005 1" />
+    <connect name="L0_pin6" body1="L0_part5" body2="L0_part6" anchor="0.04938714195707722 0 -0.046033943143242814" solref="0.005 1" />
+    <connect name="L0_pin7" body1="L0_part4" body2="L0_part6" anchor="0.09938883057863651 0 -0.04603394314325654" solref="0.005 1" />
+    <connect name="L1_pin0" body1="L1_part0" body2="L1_part2" anchor="0.017 0 -0.115000000447035" solref="0.005 1" />
+    <connect name="L1_pin1" body1="L1_part0" body2="L1_part1" anchor="0.06699999999999999 0 -0.115000000447035" solref="0.005 1" />
+    <connect name="L1_pin2" body1="L1_part2" body2="L1_part5" anchor="0.05238126631692844 0 -0.03771374026759506" solref="0.005 1" />
+    <connect name="L1_pin3" body1="L1_part5" body2="L1_part6" anchor="0.016542030242360315 0 0.03936121745767608" solref="0.005 1" />
+    <connect name="L1_pin4" body1="L1_part4" body2="L1_part1" anchor="0.10238126598085893 0 -0.037713741103840535" solref="0.005 1" />
+    <connect name="L1_pin5" body1="L1_part4" body2="L1_part6" anchor="0.06654203024346284 0 0.03936121709763598" solref="0.005 1" />
+    <connect name="L1_pin6" body1="L1_part3" body2="L1_part1" anchor="0.1023812661222582 0 -0.03771374054201058" solref="0.005 1" />
+    <connect name="L1_pin7" body1="L1_part2" body2="L1_part3" anchor="0.05238126631692825 0 -0.03771374026759508" solref="0.005 1" />
+  </equality>
+  <tendon>
+    <fixed name="L0_knee_relative_angle">
+      <joint joint="L0_part5_r" coef="1" />
+      <joint joint="L0_part3_r" coef="-1" />
+    </fixed>
+    <fixed name="L1_knee_relative_angle">
+      <joint joint="L1_part5_r" coef="1" />
+      <joint joint="L1_part3_r" coef="-1" />
+    </fixed>
+  </tendon>
+  <actuator>
+    <motor name="L0_upper_candidate" joint="L0_part1_r" gear="1" ctrllimited="true" ctrlrange="-0.001 0.001" />
+    <motor name="L0_knee_candidate" tendon="L0_knee_relative_angle" gear="1" ctrllimited="true" ctrlrange="-0.001 0.001" />
+    <motor name="L1_upper_candidate" joint="L1_part1_r" gear="1" ctrllimited="true" ctrlrange="-0.001 0.001" />
+    <motor name="L1_knee_candidate" tendon="L1_knee_relative_angle" gear="1" ctrllimited="true" ctrlrange="-0.001 0.001" />
+  </actuator>
+</mujoco>

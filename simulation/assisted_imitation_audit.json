@@ -1,0 +1,144 @@
+[
+  {
+    "support": 0.8,
+    "seed": 9001,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": -0.021479986264403585,
+    "peak_clearance_m": [
+      0.005363305029918927,
+      0.010191075073551412
+    ],
+    "supported_frames": [
+      18,
+      35
+    ],
+    "event_order": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "support": 0.8,
+    "seed": 9002,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": -0.026883087676955516,
+    "peak_clearance_m": [
+      0.005213837007181039,
+      0.01018827858149604
+    ],
+    "supported_frames": [
+      18,
+      41
+    ],
+    "event_order": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "support": 0.8,
+    "seed": 9003,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": -0.02592527247697824,
+    "peak_clearance_m": [
+      0.005488505165059516,
+      0.01025062254146392
+    ],
+    "supported_frames": [
+      18,
+      31
+    ],
+    "event_order": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "support": 0.0,
+    "seed": 9001,
+    "seconds": 1.34,
+    "fell": true,
+    "forward_m": 0.010367948099058458,
+    "peak_clearance_m": [
+      0.006206630675536812,
+      0.0
+    ],
+    "supported_frames": [
+      2,
+      0
+    ],
+    "event_order": [
+      0
+    ]
+  },
+  {
+    "support": 0.0,
+    "seed": 9002,
+    "seconds": 1.34,
+    "fell": true,
+    "forward_m": 0.009134176000769073,
+    "peak_clearance_m": [
+      0.005529921560176888,
+      0.0
+    ],
+    "supported_frames": [
+      2,
+      0
+    ],
+    "event_order": [
+      0
+    ]
+  },
+  {
+    "support": 0.0,
+    "seed": 9003,
+    "seconds": 1.34,
+    "fell": true,
+    "forward_m": 0.008612282861915156,
+    "peak_clearance_m": [
+      0.004222347348430272,
+      0.0
+    ],
+    "supported_frames": [
+      1,
+      0
+    ],
+    "event_order": [
+      0
+    ]
+  }
+]

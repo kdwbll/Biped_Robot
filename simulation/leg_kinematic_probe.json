@@ -1,0 +1,162 @@
+[
+  {
+    "leg": 0,
+    "action": [
+      1,
+      0
+    ],
+    "max_relative_up_mm": 0.0,
+    "actuator_displacement_rad": 0.42411540224485134,
+    "terminated": false
+  },
+  {
+    "leg": 0,
+    "action": [
+      -1,
+      0
+    ],
+    "max_relative_up_mm": 16.68878927657688,
+    "actuator_displacement_rad": 0.4241212178575566,
+    "terminated": false
+  },
+  {
+    "leg": 0,
+    "action": [
+      0,
+      1
+    ],
+    "max_relative_up_mm": 16.951589264397327,
+    "actuator_displacement_rad": 0.42411736742660194,
+    "terminated": false
+  },
+  {
+    "leg": 0,
+    "action": [
+      0,
+      -1
+    ],
+    "max_relative_up_mm": 0.0,
+    "actuator_displacement_rad": 0.4241169917006244,
+    "terminated": false
+  },
+  {
+    "leg": 0,
+    "action": [
+      1,
+      1
+    ],
+    "max_relative_up_mm": 8.55619787000428,
+    "actuator_displacement_rad": 0.42594380621088146,
+    "terminated": false
+  },
+  {
+    "leg": 0,
+    "action": [
+      1,
+      -1
+    ],
+    "max_relative_up_mm": 0.0,
+    "actuator_displacement_rad": 0.42411586570521587,
+    "terminated": false
+  },
+  {
+    "leg": 0,
+    "action": [
+      -1,
+      1
+    ],
+    "max_relative_up_mm": 35.89303974971736,
+    "actuator_displacement_rad": 0.42428386109654853,
+    "terminated": false
+  },
+  {
+    "leg": 0,
+    "action": [
+      -1,
+      -1
+    ],
+    "max_relative_up_mm": 8.814010059663257,
+    "actuator_displacement_rad": 0.4262674739909229,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      1,
+      0
+    ],
+    "max_relative_up_mm": 17.78480606262009,
+    "actuator_displacement_rad": 0.42411612794041903,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      -1,
+      0
+    ],
+    "max_relative_up_mm": 0.0,
+    "actuator_displacement_rad": 0.42412436226918654,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      0,
+      1
+    ],
+    "max_relative_up_mm": 0.0,
+    "actuator_displacement_rad": 0.4241145808135624,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      0,
+      -1
+    ],
+    "max_relative_up_mm": 17.914891086718843,
+    "actuator_displacement_rad": 0.42411404743331677,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      1,
+      1
+    ],
+    "max_relative_up_mm": 8.863322935043882,
+    "actuator_displacement_rad": 0.4261519572638877,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      1,
+      -1
+    ],
+    "max_relative_up_mm": 37.88324056985532,
+    "actuator_displacement_rad": 0.42461881632758547,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      -1,
+      1
+    ],
+    "max_relative_up_mm": 0.0,
+    "actuator_displacement_rad": 0.4241161063412143,
+    "terminated": false
+  },
+  {
+    "leg": 1,
+    "action": [
+      -1,
+      -1
+    ],
+    "max_relative_up_mm": 8.346131549109625,
+    "actuator_displacement_rad": 0.42585365173524425,
+    "terminated": false
+  }
+]

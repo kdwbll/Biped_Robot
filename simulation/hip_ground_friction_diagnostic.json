@@ -1,0 +1,62 @@
+[
+  {
+    "ground_friction_factor": 1.0,
+    "valid": true,
+    "invalid_reason": null,
+    "command": "simulated 1510 us starting at 2 s, model maps to +1.35 deg",
+    "samples": [
+      {
+        "time_s": 3.999999999999143,
+        "actual_shaft_delta_deg": 0.1505974368911041,
+        "shaft_target_error_deg": 1.1994025631088958,
+        "shaft_torque_nm": 0.14876801563691747,
+        "horizontal_drift_mm": 0.8068001955341063
+      },
+      {
+        "time_s": 8.00000000000403,
+        "actual_shaft_delta_deg": 0.39596326894025446,
+        "shaft_target_error_deg": 0.9540367310597454,
+        "shaft_torque_nm": 0.2453259582304806,
+        "horizontal_drift_mm": 0.8831171562297809
+      }
+    ],
+    "peak_shaft_torque_nm": 0.2453259582304806,
+    "peak_shaft_velocity_rad_s": 1.2027529785086857,
+    "note": "Changing ground friction is an ablation, not a validated floor model."
+  },
+  {
+    "ground_friction_factor": 0.1,
+    "valid": true,
+    "invalid_reason": null,
+    "command": "simulated 1510 us starting at 2 s, model maps to +1.35 deg",
+    "samples": [
+      {
+        "time_s": 3.999999999999143,
+        "actual_shaft_delta_deg": 0.3468977508995428,
+        "shaft_target_error_deg": 1.003102249100457,
+        "shaft_torque_nm": 0.13093539707858104,
+        "horizontal_drift_mm": 1.2267754553146033
+      },
+      {
+        "time_s": 8.00000000000403,
+        "actual_shaft_delta_deg": 0.9897404720739941,
+        "shaft_target_error_deg": 0.3602595279260058,
+        "shaft_torque_nm": 0.14924646648664852,
+        "horizontal_drift_mm": 1.3059304794338196
+      }
+    ],
+    "peak_shaft_torque_nm": 0.14924646648664852,
+    "peak_shaft_velocity_rad_s": 1.1990277579545485,
+    "note": "Changing ground friction is an ablation, not a validated floor model."
+  },
+  {
+    "ground_friction_factor": 0.0,
+    "valid": false,
+    "invalid_reason": "numerical instability or automatic reset at 0.002750 s",
+    "command": "simulated 1510 us starting at 2 s, model maps to +1.35 deg",
+    "samples": [],
+    "peak_shaft_torque_nm": 0.2643198768067654,
+    "peak_shaft_velocity_rad_s": 93.75356586856017,
+    "note": "Changing ground friction is an ablation, not a validated floor model."
+  }
+]

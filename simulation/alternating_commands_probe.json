@@ -1,0 +1,206 @@
+[
+  {
+    "weight_support": 0.0,
+    "amplitude": 0.4,
+    "period": 1.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": -0.00010079913535696039,
+    "peak_clearance_m": [
+      0.0,
+      1.016797676958725e-08
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 4.679656458955298
+  },
+  {
+    "weight_support": 0.0,
+    "amplitude": 0.4,
+    "period": 2.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.00022668638747987135,
+    "peak_clearance_m": [
+      2.534659944361528e-07,
+      4.5844715270554337e-07
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 6.239859274541911
+  },
+  {
+    "weight_support": 0.0,
+    "amplitude": 0.7,
+    "period": 1.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.002386527579745154,
+    "peak_clearance_m": [
+      0.0,
+      2.2379623100879376e-07
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 6.485019273935157
+  },
+  {
+    "weight_support": 0.0,
+    "amplitude": 0.7,
+    "period": 2.0,
+    "seconds": 3.24,
+    "fell": true,
+    "forward_m": 0.0054191497174104555,
+    "peak_clearance_m": [
+      0.00331163289245396,
+      3.4722588447902436e-07
+    ],
+    "supported_frames": [
+      1,
+      0
+    ],
+    "max_tilt_deg": 35.39219003112059
+  },
+  {
+    "weight_support": 0.0,
+    "amplitude": 1.0,
+    "period": 1.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.0009020070356226123,
+    "peak_clearance_m": [
+      8.432905779648392e-07,
+      1.0447054708435932e-06
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 10.476080082040351
+  },
+  {
+    "weight_support": 0.0,
+    "amplitude": 1.0,
+    "period": 2.0,
+    "seconds": 2.2,
+    "fell": true,
+    "forward_m": 0.005224477483057072,
+    "peak_clearance_m": [
+      0.008910639174734569,
+      1.6972644239707235e-07
+    ],
+    "supported_frames": [
+      3,
+      0
+    ],
+    "max_tilt_deg": 35.371530185706234
+  },
+  {
+    "weight_support": 0.8,
+    "amplitude": 0.4,
+    "period": 1.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": -0.000456898782978353,
+    "peak_clearance_m": [
+      1.107297352084119e-06,
+      1.009678349400689e-06
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 3.35023641095128
+  },
+  {
+    "weight_support": 0.8,
+    "amplitude": 0.4,
+    "period": 2.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.0025309027600982914,
+    "peak_clearance_m": [
+      1.1402015563030665e-06,
+      3.573113817358087e-07
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 2.7071684590496945
+  },
+  {
+    "weight_support": 0.8,
+    "amplitude": 0.7,
+    "period": 1.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": -0.008482386102841806,
+    "peak_clearance_m": [
+      0.00035590183094735134,
+      0.0018938057927887393
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 5.759958428651874
+  },
+  {
+    "weight_support": 0.8,
+    "amplitude": 0.7,
+    "period": 2.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.0021607879696657617,
+    "peak_clearance_m": [
+      1.2881758150867784e-06,
+      3.530836286957939e-07
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 4.6981789486760706
+  },
+  {
+    "weight_support": 0.8,
+    "amplitude": 1.0,
+    "period": 1.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": -0.022999440148304472,
+    "peak_clearance_m": [
+      0.005052759009848046,
+      0.008348058992887677
+    ],
+    "supported_frames": [
+      23,
+      39
+    ],
+    "max_tilt_deg": 6.639072248361277
+  },
+  {
+    "weight_support": 0.8,
+    "amplitude": 1.0,
+    "period": 2.0,
+    "seconds": 4.0,
+    "fell": false,
+    "forward_m": 0.0025831168369363985,
+    "peak_clearance_m": [
+      1.6983786317141536e-06,
+      1.768909749965547e-06
+    ],
+    "supported_frames": [
+      0,
+      0
+    ],
+    "max_tilt_deg": 6.734936246701808
+  }
+]

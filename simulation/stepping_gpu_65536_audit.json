@@ -1,0 +1,69 @@
+{
+  "timesteps": 65536,
+  "mean_forward_m": 0.017793549358290944,
+  "falls": 5,
+  "max_tilt_deg": 36.3446034742319,
+  "supported_swing_frames": 3,
+  "episodes": [
+    {
+      "seed": 9001,
+      "seconds": 1.74,
+      "forward_m": 0.019082350097989746,
+      "peak_clearance_m": [
+        0.0039045428456745863,
+        3.9871726746631975e-08
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.3446034742319,
+      "fell": true
+    },
+    {
+      "seed": 9002,
+      "seconds": 1.78,
+      "forward_m": 0.017463515847776542,
+      "peak_clearance_m": [
+        0.0036963211671934906,
+        2.9165941441144927e-07
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.26043345035045,
+      "fell": true
+    },
+    {
+      "seed": 9003,
+      "seconds": 1.74,
+      "forward_m": 0.017060038372813773,
+      "peak_clearance_m": [
+        0.0036441136102790123,
+        2.896761006065951e-07
+      ],
+      "supported_swing_frames": 1,
+      "peak_tilt_deg": 36.255326514187345,
+      "fell": true
+    },
+    {
+      "seed": 9004,
+      "seconds": 1.74,
+      "forward_m": 0.016365760318893148,
+      "peak_clearance_m": [
+        0.002192660474328579,
+        0.0
+      ],
+      "supported_swing_frames": 0,
+      "peak_tilt_deg": 35.54846480958386,
+      "fell": true
+    },
+    {
+      "seed": 9005,
+      "seconds": 1.72,
+      "forward_m": 0.018996082153981513,
+      "peak_clearance_m": [
+        0.002465621050454357,
+        1.9301658132873933e-06
+      ],
+      "supported_swing_frames": 0,
+      "peak_tilt_deg": 35.717344692123,
+      "fell": true
+    }
+  ]
+}
