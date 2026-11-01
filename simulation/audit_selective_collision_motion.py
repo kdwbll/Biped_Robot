@@ -2,13 +2,16 @@
 from pathlib import Path
 from dataclasses import replace
 import json
+import sys
 import mujoco
 import numpy as np
 from theoretical_servo import ServoSpec
 from candidate_standing_servo import CandidateStandingServo
 
 p=Path(__file__).parent;rows=[]
-for filename in ('diagnostic_post_shaft_fix_gear_phase_25.xml','diagnostic_selective_collision_trial.xml'):
+range_trial='--range' in sys.argv
+models=('diagnostic_selective_collision_trial.xml','diagnostic_range_collision_trial.xml') if range_trial else ('diagnostic_post_shaft_fix_gear_phase_25.xml','diagnostic_selective_collision_trial.xml')
+for filename in models:
  for delta in (-10,10):
   m=mujoco.MjModel.from_xml_path(str(p/filename));d=mujoco.MjData(m)
   mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d)
@@ -31,5 +34,5 @@ for filename in ('diagnostic_post_shaft_fix_gear_phase_25.xml','diagnostic_selec
    'error_deg':float(np.degrees(servo.target_positions[4]-d.actuator_length[4])),
    'sampled_peak_self_contact_n':peak,'peak_pair':pair}
   rows.append(row);print(row,flush=True)
-(p/'selective_collision_motion_audit.json').write_text(json.dumps({'results':rows,'limitations':
- 'Short limited motion; 79 near/overlapping high-resolution pairs deliberately disabled, remaining geometric coverage not established.'},indent=2),encoding='utf8')
+(p/('range_collision_motion_audit.json' if range_trial else 'selective_collision_motion_audit.json')).write_text(json.dumps({'results':rows,'limitations':
+ 'Short limited motion; near/overlapping high-resolution pairs deliberately disabled, remaining geometric coverage not established.'},indent=2),encoding='utf8')

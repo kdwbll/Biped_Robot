@@ -1,0 +1,842 @@
+{
+  "hypothetical_hip_range_deg": [
+    -5,
+    5
+  ],
+  "sample_count": 21,
+  "pair_count": 18432,
+  "pairs_with_overlap_in_any_sample": 64,
+  "previously_enabled_pairs_with_sampled_overlap": 2,
+  "previously_excluded_pairs_never_overlapping_in_samples": 17,
+  "near_pairs": [
+    {
+      "geoms": [
+        "highres_chassis5_000",
+        "highres_L0_018"
+      ],
+      "initial_mm": -0.2615981822225821,
+      "min_mm": -0.6523545501020709,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_000",
+        "highres_L0_022"
+      ],
+      "initial_mm": -0.3263409764304594,
+      "min_mm": -0.6941285973667128,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_000",
+        "highres_L0_048"
+      ],
+      "initial_mm": -1.0559073592300385,
+      "min_mm": -1.0562857019993346,
+      "min_at_hip_deg": 0.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_001",
+        "highres_L0_018"
+      ],
+      "initial_mm": 0.11575256682298106,
+      "min_mm": 0.03666797151199325,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_001",
+        "highres_L0_048"
+      ],
+      "initial_mm": 0.08430358224773774,
+      "min_mm": 0.03579460637248885,
+      "min_at_hip_deg": 4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_002",
+        "highres_L0_022"
+      ],
+      "initial_mm": -0.06087456625952044,
+      "min_mm": -0.18803703355490686,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_002",
+        "highres_L0_048"
+      ],
+      "initial_mm": -0.25613217954820844,
+      "min_mm": -0.26797900437727323,
+      "min_at_hip_deg": 2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_003",
+        "highres_L0_001"
+      ],
+      "initial_mm": -0.23814093953352086,
+      "min_mm": -0.3146925580229498,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_003",
+        "highres_L0_018"
+      ],
+      "initial_mm": -0.2596860910139749,
+      "min_mm": -0.3143602528396503,
+      "min_at_hip_deg": 4.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_003",
+        "highres_L0_048"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.210530125198439,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_004",
+        "highres_L0_007"
+      ],
+      "initial_mm": 0.25263371569915555,
+      "min_mm": 0.1237772741678245,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_004",
+        "highres_L0_055"
+      ],
+      "initial_mm": 0.07175710962017877,
+      "min_mm": 0.046988880640460556,
+      "min_at_hip_deg": -3.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_005",
+        "highres_L0_001"
+      ],
+      "initial_mm": -0.2531626863678835,
+      "min_mm": -0.25348093228330526,
+      "min_at_hip_deg": 0.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_005",
+        "highres_L0_024"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.2339128096096212,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_007",
+        "highres_L0_001"
+      ],
+      "initial_mm": -0.3364299780122212,
+      "min_mm": -0.7572001793102953,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_007",
+        "highres_L0_009"
+      ],
+      "initial_mm": -0.7164651788890627,
+      "min_mm": -1.005120445877729,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_007",
+        "highres_L0_024"
+      ],
+      "initial_mm": -1.2092673412661752,
+      "min_mm": -1.2102186385196747,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_008",
+        "highres_L0_009"
+      ],
+      "initial_mm": 0.13767727683710967,
+      "min_mm": 0.1250236361806531,
+      "min_at_hip_deg": 2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_008",
+        "highres_L0_024"
+      ],
+      "initial_mm": 0.20083925927986745,
+      "min_mm": 0.16238358965686014,
+      "min_at_hip_deg": 3.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_009",
+        "highres_L0_009"
+      ],
+      "initial_mm": -0.7591571278856619,
+      "min_mm": -0.8008872404254681,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_009",
+        "highres_L0_063"
+      ],
+      "initial_mm": 0.1116315473929346,
+      "min_mm": 0.10708144843530082,
+      "min_at_hip_deg": -1.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_009",
+        "highres_L0_068"
+      ],
+      "initial_mm": -0.7635957069783167,
+      "min_mm": -0.8036748418600227,
+      "min_at_hip_deg": -3.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_014",
+        "highres_L0_002"
+      ],
+      "initial_mm": -0.1611366198436721,
+      "min_mm": -0.40552729267095705,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_014",
+        "highres_L0_003"
+      ],
+      "initial_mm": -0.5172650990026785,
+      "min_mm": -0.5278865723893628,
+      "min_at_hip_deg": 2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_015",
+        "highres_L0_002"
+      ],
+      "initial_mm": -0.7275531312665248,
+      "min_mm": -0.8157987213371855,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_015",
+        "highres_L0_026"
+      ],
+      "initial_mm": 0.24511012899400297,
+      "min_mm": 0.11449948353358298,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_015",
+        "highres_L0_068"
+      ],
+      "initial_mm": -0.8010055685934252,
+      "min_mm": -0.8497571099385154,
+      "min_at_hip_deg": -4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_016",
+        "highres_L1_019"
+      ],
+      "initial_mm": -0.4379084933865705,
+      "min_mm": -0.4388575371171697,
+      "min_at_hip_deg": -0.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_016",
+        "highres_L1_064"
+      ],
+      "initial_mm": -0.21466110262529497,
+      "min_mm": -0.36157888199640115,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_016",
+        "highres_L1_089"
+      ],
+      "initial_mm": -0.35730532670781623,
+      "min_mm": -0.3846326698148782,
+      "min_at_hip_deg": -3.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_021",
+        "highres_L1_011"
+      ],
+      "initial_mm": 0.05623466182908425,
+      "min_mm": -0.024454436809041805,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_021",
+        "highres_L1_012"
+      ],
+      "initial_mm": 0.026053678335506574,
+      "min_mm": -0.038582734042977955,
+      "min_at_hip_deg": -4.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_024",
+        "highres_L1_011"
+      ],
+      "initial_mm": -1.25187525247609,
+      "min_mm": -1.2524377642502411,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_024",
+        "highres_L1_014"
+      ],
+      "initial_mm": -0.19152327899194624,
+      "min_mm": -0.6729314217250567,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_026",
+        "highres_L1_011"
+      ],
+      "initial_mm": -0.3203785763629498,
+      "min_mm": -0.32390947918809654,
+      "min_at_hip_deg": 1.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_027",
+        "highres_L1_011"
+      ],
+      "initial_mm": 0.062115248854706165,
+      "min_mm": 0.003650512532546278,
+      "min_at_hip_deg": 4.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_027",
+        "highres_L1_014"
+      ],
+      "initial_mm": 0.08721562941342494,
+      "min_mm": 0.004501677600184409,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_028",
+        "highres_L1_020"
+      ],
+      "initial_mm": -0.21759423589331675,
+      "min_mm": -0.22738453423955535,
+      "min_at_hip_deg": -2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_028",
+        "highres_L1_021"
+      ],
+      "initial_mm": 0.05538778832602749,
+      "min_mm": -0.12837036667251325,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_028",
+        "highres_L1_034"
+      ],
+      "initial_mm": -0.14667548880735548,
+      "min_mm": -0.2016214979586111,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_031",
+        "highres_L0_001"
+      ],
+      "initial_mm": 0.15298110630906173,
+      "min_mm": 0.13726382466808834,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_031",
+        "highres_L0_024"
+      ],
+      "initial_mm": 0.11323854809563168,
+      "min_mm": 0.1062367190125144,
+      "min_at_hip_deg": -1.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_032",
+        "highres_L0_009"
+      ],
+      "initial_mm": 0.7749054131702574,
+      "min_mm": 0.15115807588304692,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_032",
+        "highres_L0_024"
+      ],
+      "initial_mm": -0.03543240464714205,
+      "min_mm": -0.037953407098466424,
+      "min_at_hip_deg": -4.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_033",
+        "highres_L0_068"
+      ],
+      "initial_mm": -0.37286657714481813,
+      "min_mm": -0.3825926744708837,
+      "min_at_hip_deg": 2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_034",
+        "highres_L1_020"
+      ],
+      "initial_mm": 0.34702945891738224,
+      "min_mm": -0.1225325949973138,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_034",
+        "highres_L1_032"
+      ],
+      "initial_mm": -0.5622684540519622,
+      "min_mm": -0.7007473311077504,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_034",
+        "highres_L1_034"
+      ],
+      "initial_mm": -0.6934870369302197,
+      "min_mm": -0.714187138526353,
+      "min_at_hip_deg": -2.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_037",
+        "highres_L0_002"
+      ],
+      "initial_mm": -0.014623931601561427,
+      "min_mm": -0.06195948472032309,
+      "min_at_hip_deg": -4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_037",
+        "highres_L0_003"
+      ],
+      "initial_mm": 0.03564853414517974,
+      "min_mm": -0.03722286902761224,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_037",
+        "highres_L0_068"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.21827232282388884,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_040",
+        "highres_L1_018"
+      ],
+      "initial_mm": -0.5022106558105822,
+      "min_mm": -0.5508487578502659,
+      "min_at_hip_deg": -4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_041",
+        "highres_L1_012"
+      ],
+      "initial_mm": -0.3240504978903569,
+      "min_mm": -0.4847015739130734,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_041",
+        "highres_L1_018"
+      ],
+      "initial_mm": -0.5653423949143542,
+      "min_mm": -0.5738459821598527,
+      "min_at_hip_deg": -1.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_043",
+        "highres_L1_018"
+      ],
+      "initial_mm": 0.10232447754831976,
+      "min_mm": 0.08852247575840731,
+      "min_at_hip_deg": -2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_044",
+        "highres_L1_012"
+      ],
+      "initial_mm": 0.027400440495749665,
+      "min_mm": -0.03628327200707646,
+      "min_at_hip_deg": -4.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_044",
+        "highres_L1_018"
+      ],
+      "initial_mm": 0.032466225775883505,
+      "min_mm": -0.03477374413464507,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_045",
+        "highres_L1_011"
+      ],
+      "initial_mm": -0.5135391107525571,
+      "min_mm": -0.5216285269033365,
+      "min_at_hip_deg": 1.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_045",
+        "highres_L1_012"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.21751576436441303,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_047",
+        "highres_L1_011"
+      ],
+      "initial_mm": 0.027546492044429313,
+      "min_mm": -0.035986856463372456,
+      "min_at_hip_deg": -4.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_047",
+        "highres_L1_012"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.24049580241115642,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_048",
+        "highres_L1_011"
+      ],
+      "initial_mm": 0.12681315864029843,
+      "min_mm": 0.11432825028534231,
+      "min_at_hip_deg": 2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_050",
+        "highres_L1_011"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.021537597440582878,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_050",
+        "highres_L1_014"
+      ],
+      "initial_mm": -0.7273401653808645,
+      "min_mm": -0.7453021527730853,
+      "min_at_hip_deg": 2.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_050",
+        "highres_L1_032"
+      ],
+      "initial_mm": -0.7745560015991492,
+      "min_mm": -0.7789066096401513,
+      "min_at_hip_deg": 1.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_052",
+        "highres_L1_032"
+      ],
+      "initial_mm": 0.09652164599485111,
+      "min_mm": 0.06599794624612998,
+      "min_at_hip_deg": 3.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_053",
+        "highres_L1_011"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.10484268303040767,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_053",
+        "highres_L1_014"
+      ],
+      "initial_mm": -0.10245815257396557,
+      "min_mm": -0.13947664822958902,
+      "min_at_hip_deg": 3.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_053",
+        "highres_L1_032"
+      ],
+      "initial_mm": -0.034521165739947506,
+      "min_mm": -0.13608110005113988,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_057",
+        "highres_L0_007"
+      ],
+      "initial_mm": -0.39154907079792084,
+      "min_mm": -0.5522794771151349,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_057",
+        "highres_L0_022"
+      ],
+      "initial_mm": -0.6292288829651943,
+      "min_mm": -0.6467238268244786,
+      "min_at_hip_deg": 2.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_057",
+        "highres_L0_048"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.29476413692590664,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_059",
+        "highres_L0_007"
+      ],
+      "initial_mm": -0.6311108365297096,
+      "min_mm": -0.6518979091172201,
+      "min_at_hip_deg": -2.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_059",
+        "highres_L0_055"
+      ],
+      "initial_mm": -0.5533855891587587,
+      "min_mm": -0.6377106853008702,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_061",
+        "highres_L0_007"
+      ],
+      "initial_mm": -0.3677484871224611,
+      "min_mm": -0.3677484871224611,
+      "min_at_hip_deg": 0.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_061",
+        "highres_L0_022"
+      ],
+      "initial_mm": 0.2726157917249809,
+      "min_mm": -0.06482516553715299,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_061",
+        "highres_L0_055"
+      ],
+      "initial_mm": 0.5839902454374996,
+      "min_mm": 0.04315986067873796,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_062",
+        "highres_L0_003"
+      ],
+      "initial_mm": -0.5102989405504762,
+      "min_mm": -0.5594248114821496,
+      "min_at_hip_deg": 4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_062",
+        "highres_L0_055"
+      ],
+      "initial_mm": -0.4955907184027992,
+      "min_mm": -0.5574233411500603,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_064",
+        "highres_L0_003"
+      ],
+      "initial_mm": 0.14938265065111742,
+      "min_mm": 0.12632293087230034,
+      "min_at_hip_deg": 3.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_065",
+        "highres_L0_002"
+      ],
+      "initial_mm": 1.0,
+      "min_mm": 0.2568692273017506,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_065",
+        "highres_L0_003"
+      ],
+      "initial_mm": 0.13281262799793178,
+      "min_mm": 0.11745466953686792,
+      "min_at_hip_deg": 2.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_080",
+        "highres_L1_015"
+      ],
+      "initial_mm": -0.21070551569452028,
+      "min_mm": -0.2213444345598447,
+      "min_at_hip_deg": -2.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_080",
+        "highres_L1_018"
+      ],
+      "initial_mm": -0.048148436175356295,
+      "min_mm": -0.15077802304942278,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_081",
+        "highres_L1_015"
+      ],
+      "initial_mm": -0.31264494488607136,
+      "min_mm": -0.35643258146367374,
+      "min_at_hip_deg": -4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_081",
+        "highres_L1_045"
+      ],
+      "initial_mm": 0.017333604515996224,
+      "min_mm": -0.03909241579885447,
+      "min_at_hip_deg": -4.5
+    },
+    {
+      "geoms": [
+        "highres_chassis5_081",
+        "highres_L1_064"
+      ],
+      "initial_mm": -0.42299000193685704,
+      "min_mm": -0.42299000193685704,
+      "min_at_hip_deg": 0.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_083",
+        "highres_L1_015"
+      ],
+      "initial_mm": -0.3443729938899305,
+      "min_mm": -0.3959431381556283,
+      "min_at_hip_deg": -4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_083",
+        "highres_L1_018"
+      ],
+      "initial_mm": -0.1251926248976675,
+      "min_mm": -0.2967000046171315,
+      "min_at_hip_deg": -5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_084",
+        "highres_L1_019"
+      ],
+      "initial_mm": -0.554931009387608,
+      "min_mm": -0.6078778947352464,
+      "min_at_hip_deg": -4.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_084",
+        "highres_L1_020"
+      ],
+      "initial_mm": 0.7390258637672072,
+      "min_mm": -0.021942875538238742,
+      "min_at_hip_deg": 5.0
+    },
+    {
+      "geoms": [
+        "highres_chassis5_084",
+        "highres_L1_021"
+      ],
+      "initial_mm": -0.6071395551304121,
+      "min_mm": -0.6342949641101892,
+      "min_at_hip_deg": -3.0
+    }
+  ],
+  "limitations": "21 kinematic samples, proxy distances only; not continuous clearance, contact proof or measured real travel."
+}
