@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_range_collision_trial.xml",
+      "valid": true,
+      "duration_s": 3.999999999999143,
+      "height_change_mm": -0.8869027096037874,
+      "max_sampled_tilt_deg": 1.204752576353819,
+      "max_sampled_qvel": 2.005638082741585
+    },
+    {
+      "model": "diagnostic_aligned_foot_proxy_trial.xml",
+      "valid": true,
+      "duration_s": 3.999999999999143,
+      "height_change_mm": -1.361733222549566,
+      "max_sampled_tilt_deg": 0.7997179428391022,
+      "max_sampled_qvel": 2.096599281855396
+    }
+  ],
+  "limitations": "Box bottom is aligned only at initial pose. Box support region is not validated against curved source mesh; dynamics are hypothetical. This trial is not for training."
+}

@@ -1,0 +1,45 @@
+{
+  "model": "diagnostic_range_collision_trial.xml",
+  "explicit_ground_foot_proxy_pairs": [],
+  "samples": [
+    {
+      "time_s": 0.9999999999999176,
+      "contacts": {
+        "L0_visual6": {
+          "contact_points": 2,
+          "sum_normal_n": 15.02363854885494,
+          "min_distance_mm": -0.00013467219235271943
+        },
+        "L1_visual6": {
+          "contact_points": 2,
+          "sum_normal_n": 14.250060648099893,
+          "min_distance_mm": -0.00012365685567172768
+        }
+      },
+      "foot_proxy_ground_distance_mm": [
+        -0.5967334114975005,
+        -0.43178011928844773
+      ]
+    },
+    {
+      "time_s": 3.999999999999143,
+      "contacts": {
+        "L0_visual6": {
+          "contact_points": 2,
+          "sum_normal_n": 14.989637412028904,
+          "min_distance_mm": -0.00013243412062824422
+        },
+        "L1_visual6": {
+          "contact_points": 2,
+          "sum_normal_n": 14.286147987800115,
+          "min_distance_mm": -0.0001247696160729117
+        }
+      },
+      "foot_proxy_ground_distance_mm": [
+        -0.5566901095903918,
+        -0.40291962642973256
+      ]
+    }
+  ],
+  "limitations": "Only two simulation instants under hypothetical gains; rendered mesh geometry used for explicit ground contact may be convexified. Foot proxy clearance alone does not validate its dimensions or pose."
+}

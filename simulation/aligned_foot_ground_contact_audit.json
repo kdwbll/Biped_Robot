@@ -1,0 +1,54 @@
+{
+  "model": "diagnostic_aligned_foot_proxy_trial.xml",
+  "explicit_ground_foot_proxy_pairs": [
+    {
+      "first": "ground",
+      "second": "L0_foot_proxy"
+    },
+    {
+      "first": "ground",
+      "second": "L1_foot_proxy"
+    }
+  ],
+  "samples": [
+    {
+      "time_s": 0.9999999999999176,
+      "contacts": {
+        "L0_foot_proxy": {
+          "contact_points": 2,
+          "sum_normal_n": 17.175844020657003,
+          "min_distance_mm": -0.0001698433451588488
+        },
+        "L1_foot_proxy": {
+          "contact_points": 2,
+          "sum_normal_n": 11.944657988616857,
+          "min_distance_mm": -0.00012893513899082942
+        }
+      },
+      "foot_proxy_ground_distance_mm": [
+        -0.00016520736971416955,
+        -0.00012390420689629977
+      ]
+    },
+    {
+      "time_s": 3.999999999999143,
+      "contacts": {
+        "L0_foot_proxy": {
+          "contact_points": 4,
+          "sum_normal_n": 19.57312327380886,
+          "min_distance_mm": -0.00011598638953273788
+        },
+        "L1_foot_proxy": {
+          "contact_points": 4,
+          "sum_normal_n": 9.702654814971915,
+          "min_distance_mm": -6.481141324662931e-05
+        }
+      },
+      "foot_proxy_ground_distance_mm": [
+        -0.0001159884667270572,
+        -6.481235068338947e-05
+      ]
+    }
+  ],
+  "limitations": "Only two simulation instants under hypothetical gains; rendered mesh geometry used for explicit ground contact may be convexified. Foot proxy clearance alone does not validate its dimensions or pose."
+}

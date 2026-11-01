@@ -1,0 +1,72 @@
+{
+  "pose": "initial keyframe",
+  "results": [
+    {
+      "leg": 0,
+      "mesh_world_bounds_mm": [
+        [
+          -16.647712686805303,
+          7.491303020751821,
+          2.0079961984831307e-05
+        ],
+        [
+          108.82423936382396,
+          75.63425276306647,
+          45.16034267162776
+        ]
+      ],
+      "proxy_world_bounds_mm": [
+        [
+          -16.611791920264547,
+          7.964404437629892,
+          -0.5238672794244279
+        ],
+        [
+          108.78823203935306,
+          75.8694635307127,
+          8.422031093528227
+        ]
+      ],
+      "proxy_minus_mesh_bottom_mm": -0.5238873593864127,
+      "near_lowest_0_2mm_vertex_count": 22,
+      "near_lowest_mesh_hull_area_mm2": 1124.8903141790977,
+      "box_projected_hull_area_mm2": 8515.295377228604,
+      "proxy_ground_signed_distance_mm": -0.5238672794244271,
+      "proxy_floor_pair_present": false
+    },
+    {
+      "leg": 1,
+      "mesh_world_bounds_mm": [
+        [
+          -16.471140952681445,
+          -122.95788174322034,
+          -0.003836803873405459
+        ],
+        [
+          108.80957109489422,
+          -47.62053682769461,
+          45.6540081481836
+        ]
+      ],
+      "proxy_world_bounds_mm": [
+        [
+          -16.526583432432282,
+          -122.72483833734543,
+          -0.3934229138576953
+        ],
+        [
+          108.82545652820579,
+          -47.032329417585395,
+          8.660801938142317
+        ]
+      ],
+      "proxy_minus_mesh_bottom_mm": -0.38958610998428983,
+      "near_lowest_0_2mm_vertex_count": 22,
+      "near_lowest_mesh_hull_area_mm2": 1124.8904168219508,
+      "box_projected_hull_area_mm2": 9388.083372511965,
+      "proxy_ground_signed_distance_mm": -0.3934229138576944,
+      "proxy_floor_pair_present": false
+    }
+  ],
+  "limitations": "World axis bounds from raw mesh and oriented box, not support polygon comparison or validation across foot motion. Mesh includes all component geometry."
+}
