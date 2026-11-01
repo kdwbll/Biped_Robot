@@ -1,0 +1,256 @@
+{
+  "pinion_first_big_mm3": 0.0,
+  "first_big_second_big_mm3": 0.0,
+  "pinion_second_big_mm3": 0.0,
+  "cycle_samples": [
+    {
+      "pinion_delta_deg": -10.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -9.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -9.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -8.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -8.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -7.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -7.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -6.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -6.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -5.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -5.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -4.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -4.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -3.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -3.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -2.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -2.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -1.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -1.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": -0.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 0.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 0.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 1.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 1.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 2.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 2.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 3.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 3.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 4.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 4.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 5.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 5.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 6.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 6.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 7.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 7.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 8.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 8.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 9.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 9.5,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    },
+    {
+      "pinion_delta_deg": 10.0,
+      "pinion_first_big_mm3": 0.0,
+      "first_big_second_big_mm3": 0.0,
+      "pinion_second_big_mm3": 0.0
+    }
+  ],
+  "assumed_tooth_count_pinion": 25,
+  "assumed_ratio": 0.5,
+  "note": "41 discrete samples over hypothetical pinion range -10 to +10 degrees (large gears +/-5 degrees); not a measured physical limit or continuous collision proof."
+}

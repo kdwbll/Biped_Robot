@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "hip_damping_nm_per_rad_s": 0.01,
+      "valid": true,
+      "actual_deg": 1.0656566884536343,
+      "error_deg": 0.28434331154636566,
+      "sampled_peak_self_contact_n": 67.24237956533491
+    },
+    {
+      "hip_damping_nm_per_rad_s": 0.04,
+      "valid": true,
+      "actual_deg": 1.0656760972804384,
+      "error_deg": 0.28432390271956137,
+      "sampled_peak_self_contact_n": 67.24318642147816
+    },
+    {
+      "hip_damping_nm_per_rad_s": 0.08,
+      "valid": true,
+      "actual_deg": 1.0657027948334197,
+      "error_deg": 0.28429720516658025,
+      "sampled_peak_self_contact_n": 67.24409982596902
+    },
+    {
+      "hip_damping_nm_per_rad_s": 0.16,
+      "valid": true,
+      "actual_deg": 1.0661342454015141,
+      "error_deg": 0.28386575459848584,
+      "sampled_peak_self_contact_n": 67.71266559551457
+    }
+  ],
+  "limitations": "Numerical gain experiments, not measured servo parameters; incomplete collisions; sampled forces."
+}

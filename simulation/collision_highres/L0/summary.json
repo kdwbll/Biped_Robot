@@ -1,0 +1,9 @@
+{
+  "target": "L0",
+  "source_faces": 2548,
+  "threshold": 0.008,
+  "max_convex_hull": 96,
+  "output_count": 96,
+  "seconds": 53.53519490000326,
+  "units": "mm"
+}

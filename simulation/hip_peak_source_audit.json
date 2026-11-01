@@ -1,0 +1,12 @@
+{
+  "time_s": 6.000000000001587,
+  "proxy_pair": [
+    "dc_chassis_0_7",
+    "tower_L1_tower_8"
+  ],
+  "proxy_signed_distance_mm": -0.0007471224829808081,
+  "source_triangles_intersect": false,
+  "source_contact_count": 0,
+  "source_surface_distance_mm": 7.165061599589961e-07,
+  "limitations": "Source STL triangle collision is not an exact solid CAD interference or validation of individual proxy contact."
+}

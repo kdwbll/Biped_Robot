@@ -5,7 +5,7 @@ from theoretical_servo import TheoreticalServoController
 
 class CandidateStandingServo(TheoreticalServoController):
     def __init__(self, model, data, spec, ki=1.5, integral_limit_nm=1.0,
-                 kp_by_servo=None, ki_by_servo=None):
+                 kp_by_servo=None, ki_by_servo=None, hip_damping=0.01):
         super().__init__(model, data, spec)
         self.ki = float(ki)
         self.kp_by_servo = np.full(5, spec.kp_nm_per_rad) if kp_by_servo is None else np.asarray(kp_by_servo,dtype=float)
@@ -13,6 +13,9 @@ class CandidateStandingServo(TheoreticalServoController):
         if self.kp_by_servo.shape != (5,) or self.ki_by_servo.shape != (5,) or not np.isfinite(self.kp_by_servo).all() or not np.isfinite(self.ki_by_servo).all():
             raise ValueError('Expected five finite simulated gains')
         self.integral_limit_nm = float(integral_limit_nm)
+        self.hip_damping = float(hip_damping)
+        if not np.isfinite(self.hip_damping) or self.hip_damping < 0:
+            raise ValueError('hip_damping must be finite and nonnegative')
         self.integral_torque = np.zeros(5)
 
     def step(self):
@@ -26,7 +29,7 @@ class CandidateStandingServo(TheoreticalServoController):
             self.next_update = now+s.update_interval_s
         error = self.target_positions-self.data.actuator_length
         velocity = self.data.actuator_velocity.copy()
-        damping = np.array([s.kd_nm_per_rad_s]*4+[.01])
+        damping = np.array([s.kd_nm_per_rad_s]*4+[self.hip_damping])
         raw = self.kp_by_servo*error-damping*velocity+self.integral_torque
         available = np.where(raw*velocity > 0,
                              s.stall_torque_nm*np.maximum(0.,1.-np.abs(velocity)/s.no_load_speed_rad_s),

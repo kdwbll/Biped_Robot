@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "ki": 10.0,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "actual_deg": 1.1139772294335268,
+      "error_deg": 0.236022770566473,
+      "sampled_peak_self_contact_n": 17.03237501002707,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "sampled_peak_time_s": 5.985250000001569
+    }
+  ],
+  "limitations": "Hypothetical simulation, no physical validation and collision coverage is incomplete."
+}

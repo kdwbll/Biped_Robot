@@ -28,6 +28,14 @@
 - 最新实验模型是 [`diagnostic_post_shaft_fix_gear_phase_25.xml`](simulation/diagnostic_post_shaft_fix_gear_phase_25.xml)。其中 ±5° 髋部范围、舵机控制增益、质量与齿轮相位仍是假设；齿轮使用理想耦合，没有完整的齿面接触。还存在尚未逐一核对的碰撞对，带地面转向时仍有目标误差。
 - 已做不启动训练的 20 秒中立站姿、有限幅度推力和步长对照；这只说明所测数值场景的表现。完整证据、旧结果及限制见 [`核验进展_2026-11-01.md`](simulation/核验进展_2026-11-01.md)。
 - 对中央舵机采用更强的假设仿真控制时，落地小幅转向响应有所改善，但仍未达到目标；更激进增益出现较高内部接触力。具体对照记录在 `simulation/hip_servo_gains_diagnostic.json`，参数不能直接用于实机。
+- 进一步使用 SolidWorks 2025 检查保存姿态和一侧腿架 +0.27° 相位，所选机身/腿架 CAD 实体未发现体积交叠；假设齿轮活动范围的 41 个离散采样点也未发现齿轮实体交叠。两项都不是完整行程或制造公差验证。
+- 新增 [`diagnostic_selective_collision_trial.xml`](simulation/diagnostic_selective_collision_trial.xml)，使用更细的凸代理尝试恢复机身局部碰撞关系，仍刻意排除 79 对初始间距不足的代理对。中立和双向小幅转向短测未出现自动重置；这只验证有限测试，**碰撞覆盖不完整，不能用于训练或实机**。另几个带 `trial`、`ablation` 的模型是碰撞对照实验，其中部分会产生严重虚假接触力，不是修复版本。所有结果见 [`核验进展_2026-11-01.md`](simulation/核验进展_2026-11-01.md)。
+
+### 复现本轮碰撞检查
+
+在 `simulation/` 目录中，先安装上面的仿真和可选诊断依赖。运行 `python audit_highres_proxy_gap.py` 比较细分代理在中立姿态的间距；运行 `python build_selective_collision_trial.py` 重新生成部分碰撞试验并执行半秒对照，再运行 `python audit_selective_collision_motion.py` 做双向转向对照。生成脚本会覆盖同名实验 XML/JSON，请先备份需要保留的结果。
+
+`audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
 ## SolidWorks 装配
 
