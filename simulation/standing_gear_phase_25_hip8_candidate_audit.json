@@ -1,0 +1,194 @@
+[
+  {
+    "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+    "ki_nm_per_rad_s": 0.0,
+    "kp_nm_per_rad": 4.0,
+    "hip_kp_nm_per_rad": 8,
+    "hip_ki_nm_per_rad_s": 6,
+    "timestep_s": 0.00025,
+    "duration_s": 6.000000000001587,
+    "external_push": "none",
+    "initial_height_m": 0.2867112610405117,
+    "final_height_m": 0.2803172577478426,
+    "height_loss_mm": 6.394003292669092,
+    "final_position_error_deg": [
+      5.112590583672313,
+      -5.636281170939466,
+      -5.31434324579139,
+      5.924601679905246,
+      0.0021867751685703315
+    ],
+    "max_position_error_deg": [
+      6.554288572590973,
+      6.885347567803763,
+      6.214809001481846,
+      6.674843871249397,
+      0.0021867411372791033
+    ],
+    "max_abs_torque_nm": [
+      0.4794968432609149,
+      0.5002221025995564,
+      0.45389058467682886,
+      0.4839170950752218,
+      0.0010556011405317397
+    ],
+    "max_abs_speed_rad_s": [
+      1.8290683083772625,
+      2.0191869766711164,
+      1.7147848803242678,
+      1.9096799272925062,
+      0.0006001607198936201
+    ],
+    "peak_integral_torque_nm": 0.000750312714028092,
+    "max_tilt_deg": 1.239965730325609,
+    "max_horizontal_drift_mm": 2.062109779815366,
+    "max_leg_constraint_residual_mm": 0.003971552064468975,
+    "max_ground_penetration_mm": 0.0038375689577485605,
+    "max_other_penetration_mm": 1.4896748863361887e-06,
+    "sampled_max_self_contact_force_n": 0.5421124512140976
+  },
+  {
+    "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+    "ki_nm_per_rad_s": 1.5,
+    "kp_nm_per_rad": 4.0,
+    "hip_kp_nm_per_rad": 8,
+    "hip_ki_nm_per_rad_s": 6,
+    "timestep_s": 0.00025,
+    "duration_s": 6.000000000001587,
+    "external_push": "none",
+    "initial_height_m": 0.2867112610405117,
+    "final_height_m": 0.28636650867573793,
+    "height_loss_mm": 0.34475236477377047,
+    "final_position_error_deg": [
+      0.33025782739556986,
+      -0.3095854924860561,
+      -0.3228298318011526,
+      0.31158606137425604,
+      0.001548523367724098
+    ],
+    "max_position_error_deg": [
+      6.473959008559995,
+      6.79305310496996,
+      6.13517199147944,
+      6.5810891522097785,
+      0.0015485233598947648
+    ],
+    "max_abs_torque_nm": [
+      0.48171291164766633,
+      0.5024354360711598,
+      0.45592162237883777,
+      0.4860032777088183,
+      0.0008697087110688721
+    ],
+    "max_abs_speed_rad_s": [
+      1.8244606197237685,
+      2.017559766586323,
+      1.7138965989796326,
+      1.9079495391970946,
+      0.0006001802656702816
+    ],
+    "peak_integral_torque_nm": 0.3000503458545887,
+    "max_tilt_deg": 1.2047564266118382,
+    "max_horizontal_drift_mm": 1.9159258194742101,
+    "max_leg_constraint_residual_mm": 0.003993272159330541,
+    "max_ground_penetration_mm": 0.0038375689577485605,
+    "max_other_penetration_mm": 1.4896748076040384e-06,
+    "sampled_max_self_contact_force_n": 0.5423268353248272
+  },
+  {
+    "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+    "ki_nm_per_rad_s": 1.5,
+    "kp_nm_per_rad": 4.0,
+    "hip_kp_nm_per_rad": 8,
+    "hip_ki_nm_per_rad_s": 6,
+    "timestep_s": 0.000125,
+    "duration_s": 5.999999999997354,
+    "external_push": "none",
+    "initial_height_m": 0.2867112610405117,
+    "final_height_m": 0.28636646161865875,
+    "height_loss_mm": 0.3447994218529482,
+    "final_position_error_deg": [
+      0.3303012873846669,
+      -0.3096298286713147,
+      -0.3228761916586009,
+      0.31163166396014047,
+      0.0015563864080715129
+    ],
+    "max_position_error_deg": [
+      6.465601960358475,
+      6.78440851506055,
+      6.12794871018314,
+      6.573828789341958,
+      0.001556757050394629
+    ],
+    "max_abs_torque_nm": [
+      0.4808214063307474,
+      0.501542244568729,
+      0.45513031805546567,
+      0.4852255370279746,
+      0.0008912077255021768
+    ],
+    "max_abs_speed_rad_s": [
+      1.8071135267001635,
+      1.9991443632942911,
+      1.6920198148255738,
+      1.892728971329184,
+      0.00036673547724492054
+    ],
+    "peak_integral_torque_nm": 0.30004941136492547,
+    "max_tilt_deg": 1.2044011137634634,
+    "max_horizontal_drift_mm": 1.913898253726253,
+    "max_leg_constraint_residual_mm": 0.00399545184079364,
+    "max_ground_penetration_mm": 0.0038375689577485605,
+    "max_other_penetration_mm": 1.489674778974165e-06,
+    "sampled_max_self_contact_force_n": 0.6254254893906109
+  },
+  {
+    "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+    "ki_nm_per_rad_s": 1.5,
+    "kp_nm_per_rad": 4.0,
+    "hip_kp_nm_per_rad": 8,
+    "hip_ki_nm_per_rad_s": 6,
+    "timestep_s": 0.00025,
+    "duration_s": 6.000000000001587,
+    "external_push": "1 N in world +y for 0.2 s starting at 3 s",
+    "initial_height_m": 0.2867112610405117,
+    "final_height_m": 0.2863688126488028,
+    "height_loss_mm": 0.34244839170888275,
+    "final_position_error_deg": [
+      0.2893584929595077,
+      -0.2729901198900222,
+      -0.3570210304905891,
+      0.3407501703064588,
+      0.00042078391131585333
+    ],
+    "max_position_error_deg": [
+      6.473959008559995,
+      6.79305310496996,
+      6.13517199147944,
+      6.5810891522097785,
+      0.010488381051445705
+    ],
+    "max_abs_torque_nm": [
+      0.48171291164766633,
+      0.5024354360711598,
+      0.45592162237883777,
+      0.4860032777088183,
+      0.0013228777741938972
+    ],
+    "max_abs_speed_rad_s": [
+      1.8244606197237685,
+      2.017559766586323,
+      1.7138965989796326,
+      1.9079495391970946,
+      0.003351798521266515
+    ],
+    "peak_integral_torque_nm": 0.3001291662377254,
+    "max_tilt_deg": 1.989035509887171,
+    "max_horizontal_drift_mm": 6.265591362575349,
+    "max_leg_constraint_residual_mm": 0.004459857326624683,
+    "max_ground_penetration_mm": 0.0038375689577485605,
+    "max_other_penetration_mm": 1.4896904295865341e-06,
+    "sampled_max_self_contact_force_n": 5.432880079829372
+  }
+]
