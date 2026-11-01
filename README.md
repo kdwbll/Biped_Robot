@@ -36,6 +36,7 @@
 - 可选的 [`guarded_pruned_servo.py`](simulation/guarded_pruned_servo.py) 为 Python 仿真诊断提供 ±4.5° 停止检查，测试 `python audit_pruned_range_guard.py`。**保护只在该控制器运行时生效**；直接打开 XML、使用其他控制器、单步跨越阈值、未建碰撞和实际硬件均不受其保护。它不能作为训练许可或实机安全控制。
 - 更细代理试验 [`diagnostic_finer_collision_trial.xml`](simulation/diagnostic_finer_collision_trial.xml) 使用 822 块机身代理和两侧 315 / 348 块腿架代理，在 201 个假设姿态中最大代理重叠约 0.178 mm，仍有 89 对近距离代理被排除。与旧模型的 95 对来自不同分解，不能直接比较物理覆盖比例。6 秒小幅双向转向和有限站姿、侧推对照未自动重置；仍不用于训练或实机。测试该模型的可选控制器检查可运行 `python audit_pruned_range_guard.py --finer`。
 - 另一机身部件的独立试验 [`diagnostic_chassis0_collision_trial.xml`](simulation/diagnostic_chassis0_collision_trial.xml) 将该部件分解为 544 块代理，假设髋部行程内最大代理重叠约 0.080 mm；其 820 对近距离代理仍被排除。较高增益的小幅正向转动对照中，采样最大单点内部接触力从约 59.77 N 降到 17.03 N，不能据此推断实机力或完整碰撞。该模型只用于诊断，不用于训练或实机；可选角度检查使用 `python audit_pruned_range_guard.py --chassis0`。
+- 原始 STL 源网格在 21 个髋部采样姿态的 FCL 对照中，机身部件 0 的三角面与两侧腿架网格均有相交，而 SolidWorks 实体的离散检查未检测到体积重叠；这两种检查不等价。机身部件 5 的 STL 三角面没有检出相交，采样最小表面距离约 0.178 mm。见 `simulation/source_mesh_clearance_range_audit.json`；不能将 STL 表面距离当作 CAD 精确间隙或完整行程证明。
 
 ### 复现本轮碰撞检查
 
@@ -50,6 +51,8 @@
 复现更细候选：在 `simulation/` 依次运行 `python audit_nomerge_proxy_gap.py --legs --finer`、`python audit_finer_proxy_range.py`、`python build_finer_collision_trial.py`、`python verify_finer_collision_trial.py`；然后运行 `python audit_selective_collision_motion.py --finer` 和 `python audit_refined_tower_scenarios.py --finer-trial` 做有限动态测试。脚本覆盖对应实验文件，不启动训练；`simulation/collision_finer/` 和 `simulation/collision_nomerge/L0`、`L1` 保存本次生成的代理，重新分解需要 CoACD。
 
 复现另一机身部件的试验：在 `simulation/` 先运行 `python audit_chassis0_proxy_gap.py --finer`、`python audit_finer_proxy_range.py --chassis0`，再运行 `python build_chassis0_collision_trial.py` 和 `python verify_chassis0_collision_trial.py`。动态对照可运行 `python audit_hip_integral_trial.py --chassis0 --positive-ki10`、`python audit_selective_collision_motion.py --chassis0`、`python audit_refined_tower_scenarios.py --chassis0-trial`。这些命令覆盖相应实验输出，不训练；范围裁剪和缺失碰撞对的限制仍然适用。
+
+如需比较原始 STL 表面，可在安装可选诊断依赖后运行 `python audit_source_mesh_clearance_range.py`；会覆盖对应 JSON，不能替代 SolidWorks 实体与实物的间隙核验。
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
