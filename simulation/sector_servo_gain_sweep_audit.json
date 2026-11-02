@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "kp_nm_per_rad": 8.0,
+      "ki_nm_per_rad_s": 6.0,
+      "simulation_s": 2.999999999999697,
+      "stop_reason": null,
+      "shaft_delta_deg": -3.8317956964192135,
+      "shaft_error_deg": 1.1317956964192128,
+      "peak_shaft_speed_rad_s": 0.7292001520071737,
+      "peak_shaft_torque_nm": 0.7142314739572837,
+      "peak_hip_change_deg": 1.9027730309397524,
+      "wall_seconds": 19.02434139989782
+    },
+    {
+      "kp_nm_per_rad": 12.0,
+      "ki_nm_per_rad_s": 3.0,
+      "simulation_s": 2.999999999999697,
+      "stop_reason": null,
+      "shaft_delta_deg": -1.0326859057955846,
+      "shaft_error_deg": -1.6673140942044156,
+      "peak_shaft_speed_rad_s": 0.5524184870295206,
+      "peak_shaft_torque_nm": 0.6281126799042323,
+      "peak_hip_change_deg": 0.474568109711561,
+      "wall_seconds": 18.934811900020577
+    },
+    {
+      "kp_nm_per_rad": 16.0,
+      "ki_nm_per_rad_s": 3.0,
+      "simulation_s": 2.999999999999697,
+      "stop_reason": null,
+      "shaft_delta_deg": -1.436740451177137,
+      "shaft_error_deg": -1.2632595488228633,
+      "peak_shaft_speed_rad_s": 0.8538558863089473,
+      "peak_shaft_torque_nm": 0.7548511645249669,
+      "peak_hip_change_deg": 0.6774861420516788,
+      "wall_seconds": 18.88670670008287
+    }
+  ],
+  "limitations": "Three assumed gain settings, one timestep, friction value and command; no measured servo behavior, comprehensive contact check, training or hardware validation."
+}
