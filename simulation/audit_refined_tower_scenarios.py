@@ -9,6 +9,7 @@ from theoretical_servo import ServoSpec
 from candidate_standing_servo import CandidateStandingServo
 
 p=Path(__file__).parent
+foot_trial='--foot-suppressed-plate' in sys.argv
 smooth_trial='--smooth-hip' in sys.argv
 phase='--phase' in sys.argv
 phase25='--phase25' in sys.argv
@@ -19,7 +20,7 @@ chassis0_trial='--chassis0-trial' in sys.argv
 cases=[(.00025,'neutral'),(.000125,'neutral'),(.00025,'push_plus'),(.00025,'push_minus'),(.00025,'hip_command')]
 rows=[]
 for dt,case in cases:
- model_name='diagnostic_smooth_hip_trial.xml' if smooth_trial else 'diagnostic_chassis0_collision_trial.xml' if chassis0_trial else ('diagnostic_finer_collision_trial.xml' if finer_trial else ('diagnostic_pruned_nomerge_trial.xml' if pruned_trial else ('diagnostic_range_collision_trial.xml' if range_trial else ('diagnostic_post_shaft_fix_gear_phase_25.xml' if phase25 else 'diagnostic_post_shaft_fix_gear_phase.xml' if phase else 'diagnostic_refined_tower.xml'))))
+ model_name='diagnostic_foot_suppressed_plate_trial.xml' if foot_trial else 'diagnostic_smooth_hip_trial.xml' if smooth_trial else 'diagnostic_chassis0_collision_trial.xml' if chassis0_trial else ('diagnostic_finer_collision_trial.xml' if finer_trial else ('diagnostic_pruned_nomerge_trial.xml' if pruned_trial else ('diagnostic_range_collision_trial.xml' if range_trial else ('diagnostic_post_shaft_fix_gear_phase_25.xml' if phase25 else 'diagnostic_post_shaft_fix_gear_phase.xml' if phase else 'diagnostic_refined_tower.xml'))))
  m=mujoco.MjModel.from_xml_path(str(p/model_name));m.opt.timestep=dt
  d=mujoco.MjData(m);mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d)
  servo=CandidateStandingServo(m,d,replace(ServoSpec(),kp_nm_per_rad=4.),ki=1.5)
@@ -52,4 +53,4 @@ for dt,case in cases:
  rows.append(row)
  print(case,'dt',dt,'sag mm',round(row['height_loss_mm'],3),'tilt',round(max_tilt,2),
        'max self contact N',round(peak_force,2),'pair',pair,'hip error deg',round(row['final_servo_error_deg'][4],3),flush=True)
-(p/('smooth_hip_scenarios_audit.json' if smooth_trial else 'chassis0_collision_scenarios_audit.json' if chassis0_trial else 'finer_collision_scenarios_audit.json' if finer_trial else 'pruned_nomerge_scenarios_audit.json' if pruned_trial else 'range_collision_scenarios_audit.json' if range_trial else 'gear_phase_25_scenarios_audit.json' if phase25 else 'gear_phase_scenarios_audit.json' if phase else 'refined_tower_scenarios_audit.json')).write_text(json.dumps(rows,indent=2),encoding='utf8')
+(p/('foot_suppressed_plate_scenarios_audit.json' if foot_trial else 'smooth_hip_scenarios_audit.json' if smooth_trial else 'chassis0_collision_scenarios_audit.json' if chassis0_trial else 'finer_collision_scenarios_audit.json' if finer_trial else 'pruned_nomerge_scenarios_audit.json' if pruned_trial else 'range_collision_scenarios_audit.json' if range_trial else 'gear_phase_25_scenarios_audit.json' if phase25 else 'gear_phase_scenarios_audit.json' if phase else 'refined_tower_scenarios_audit.json')).write_text(json.dumps(rows,indent=2),encoding='utf8')

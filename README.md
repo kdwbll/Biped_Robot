@@ -20,7 +20,7 @@
 
 所有文件的逐项说明见 [完整文件清单](文件清单.md)。仓库的后续更新要求见 [AGENTS.md](AGENTS.md)。
 
-**2026-11-02 脚部更新待核对：** 用户指出原装配已删除脚部一块浮空板。当前旧仿真脚部网格中一侧有独立薄条，另一侧没有；尚未确认这就是被删除的板。脚部视觉网格同时作为地面接触几何，历史站姿和舵机诊断均受此不确定性影响，需对照最新已保存的 SolidWorks 装配、更新网格并重新测试。查看器仍展示旧网格。
+**2026-11-02 左脚更新：** 用户确认 SolidWorks 中已压缩左脚外侧浮空板。只读检查当前打开的装配，两脚均各有两个可见实体；旧仿真左脚网格多出的一块约 125 × 2 × 10 mm 薄条对应旧质量清单中的额外实体。独立候选 `diagnostic_foot_suppressed_plate_trial.xml` 移除了该薄条和约 2.94 g 的估算质量；原模型保留。脚部网格参与地面碰撞，相关历史结果应在新模型上重测。
 
 ## 当前模型进度
 
@@ -69,9 +69,12 @@
 
 ### 脚部网格和中央舵机响应复核
 
-运行 `python audit_foot_visual_components.py` 可以输出两侧脚部网格的连通分量及初始世界坐标包围盒，结果为 `foot_visual_components_audit.json`。旧模型一侧有一个 628 面、约 125 × 2 × 10 mm 的额外薄条，初始离地约 15 mm；网格连通性不能证明它就是用户删除的板，尚需与当前 CAD 核对。
+运行 `python audit_foot_visual_components.py` 可以输出两侧脚部网格的连通分量及初始世界坐标包围盒，结果为 `foot_visual_components_audit.json`。旧模型一侧有一个 628 面、约 125 × 2 × 10 mm 的额外薄条，初始离地约 15 mm；独立网格检查本身不能证明实体身份；已结合用户说明、当前 CAD 可见实体及旧质量清单比对。
 
 运行 `python audit_hip_ground_load.py` 可对 ±10 微秒阶跃比较落地和抬起无重力的 8 秒响应，覆盖 `hip_ground_load_diagnostic.json`。落地时正负指令末端误差分别约 -0.094° 和 -0.018°，说明较短测试的误差会随时间变化；两个无重力测试的末端误差约 ±0.285°，不能仅归因于地面负载，因为比较同时改变了重力和位置，且碰撞未完整。此诊断不启动训练，结果受旧脚部网格、假设舵机参数和接触影响。
+
+
+左脚修正候选的 `build_foot_suppressed_plate_trial.py` 在旧网格中按连通分量识别并移除对应薄条，同时从左脚刚体的原质量及包围盒惯量估算中扣除该实体；运行会覆盖新 STL、XML 与 `foot_suppressed_plate_trial_build.json`，保留源模型。`audit_cad_foot_visible_bodies.py` 使用 SolidWorks 2025 和 pywin32 对当前打开的装配进行只读复核，输出 `cad_foot_visible_bodies_audit.json`。`python audit_refined_tower_scenarios.py --foot-suppressed-plate` 可重测站姿和轻推；`view_foot_suppressed_plate.py` 或双击 `查看左脚修正站姿.bat` 可查看该候选。五组 4 秒对照（中立、步长减半、双向短时轻推和小幅指令）均完成，数值与旧模型接近；不代表完整接触已验证。旧网格而非重新导出的 CAD 网格构成其他部分，接地网格可能被凸化，质量、惯量和碰撞仍为估算，不用于训练或实机。
 
 ### 柱面支承和理想润滑诊断
 
