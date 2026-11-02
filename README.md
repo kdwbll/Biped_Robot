@@ -330,3 +330,12 @@ python .\simulation\train_guarded_standing.py --output-dir C:\Practice_project\b
 `sector_warp_standing_vec_env.py` 提供可选 `action_amplitude_us`，默认仍为旧范围；实验把四个腿部舵机的最大指令偏移设为 150 μs（仿真假设，不是实物允许范围）。`sector_gait_curriculum.py` 在观测中加入周期相位，并提供两种实验目标：按相位卸载一只脚（`unload`）或改变左右脚底法向负载比例（`load_shift`）。负载由已有脚底接触代理每 2.5 ms 采样得到，漏采、非脚底地面接触和代理误差都可能影响判断。
 
 `train_gait_curriculum.py --output-dir <新目录> --timesteps 16384 --objective unload` 或 `--objective load_shift` 会实际启动 GPU 仿真与 PPO 训练；不得用于实物。两轮均为 16 环境、16384 环境步、4 秒回合，最终模型已展开保存于 `simulation/模型检查点/gait_curriculum_20261102_a/` 和 `simulation/模型检查点/gait_load_20261102_b/`，配置、曲线及基线对照位于同名 `simulation/训练记录/` 目录。卸载目标训练后，相位匹配的采样卸载比例约 0.19%，基线约 0.06%；承重转移目标的同种子评估未优于零动作。两者均未证明脚底离地、重心有效转移或机器人迈步。
+
+
+## 并行扩展与接触风险实验
+
+`benchmark_gait_world_scaling.py 32` 在本机进行 1 秒无学习短测，约 175 环境步/秒；64 环境尝试时 CUDA 显存不足，本次已采用 32 环境，不能将短测速度当作所有训练任务的性能保证。
+
+`gait_load_20261102_c` 使用 32 环境训练 65536 环境步，采用相位条件脚底承重比例奖励（`--objective load_shift --load-weight 1`）。同种子 4 秒评估中零动作没有触发保护，训练策略累计触发 49 次；16 环境复测中 22 次保护均由同一机身与塔架碰撞代理接触力超过 20 N 触发。该阈值、接触代理和采样均为仿真假设，结果不能直接解释为实物碰撞力，但不能把该策略视为安全或有效行走。模型和记录分别展开保存于 `simulation/模型检查点/gait_load_20261102_c/` 与 `simulation/训练记录/gait_load_20261102_c/`。
+
+`audit_gait_policy_guards.py` 可对本地训练 ZIP 检查保护代码、采样峰值和接触对。`train_gait_curriculum.py` 支持 `--worlds`、`--load-weight` 和 `--resume`；`--risk-weight` 可以加入接近保护阈值时的连续惩罚（8 N 开始增加、20 N 达到上限，均为实验值），并保留原有终止保护。该惩罚是训练假设，效果必须通过独立评估验证。
