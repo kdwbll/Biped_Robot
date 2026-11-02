@@ -370,3 +370,20 @@ python .\simulation\audit_leg0_clearance_search.py 9121
 python .\simulation\audit_fixed_body_leg_motion.py
 python .\simulation\audit_leaned_leg0_lift.py 0
 ```
+
+
+## 另一侧抬脚优化与连续动作检查（2026-11-03）
+
+`simulation/optimize_opposite_supported_lift.py --output-dir <不存在的新目录> --iterations 8` 从单侧候选的镜像序列出发，以每轮 8 组动作、每组 4 个相同的随机初始姿态进行 GPU 开环搜索。动作限制和碰撞保护不变；这不是强化学习或实物控制。运行记录存放在 `simulation/训练记录/opposite_lift_20261103_a/`，包括每一轮 `iteration_*.json` 和最佳动作 `best.json`。最佳候选在筛选的 4 个姿态中均满足条件，目标脚底采样峰值间隙约 7.1–9.2 mm。
+
+`simulation/audit_opposite_lift_robustness.py <best.json> <输出.json>` 使用 16 个未参与筛选的小幅随机初始姿态检查另一侧动作，记录为 `heldout_16.json`：16 个姿态都出现过另一脚采样接触、机身倾角小于 10° 且脚底最低点高于地面 1 mm 的时刻；其中 13 个在整个 1.8 秒内无保护终止、结束倾角小于 10°，其余 3 个触发保护。这是一次短暂抬脚，不代表完成一步。
+
+`simulation/audit_back_to_back_lifts.py` 直接衔接先前两侧开环序列，不重置状态；`alternating_probe.json` 记录两种动作顺序各 8 个初始姿态，先执行本次另一侧序列的顺序有 4/8 同时满足两次抬脚及结束检查，反向顺序为 0/8，共 6 个环境触发保护。`simulation/audit_repeated_lifts.py` 将序列重复两轮，记录在 `alternating_two_cycles_probe.json`：16 个环境均未在无保护和结束倾角条件下完成四个有效抬脚阶段，8 个触发保护。脚离地、单点采样接触和机身位移不等于有效前进，现阶段不能称为稳定步行。
+
+这些结果均依赖当前模型和采样，不含实测硬件参数；脚底接触阈值及保护阈值仍是假设。示例命令：
+
+```powershell
+python .\simulation\audit_opposite_lift_robustness.py .\simulation\训练记录\opposite_lift_20261103_a\best.json .\simulation\训练记录\opposite_lift_20261103_a\heldout_16.json
+python .\simulation\audit_back_to_back_lifts.py
+python .\simulation\audit_repeated_lifts.py
+```
