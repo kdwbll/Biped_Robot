@@ -21,14 +21,17 @@ import mujoco_warp as mjw
 from sector_warp_guard import scan_state,scan_contacts,restore_masked_state,set_masked_qpos
 from sector_warp_servo_kernels import servo_step,update_pwm_targets
 from sector_reset_pose import tilted_pose
+from sector_standing_reward import shaped_standing_reward
 
 class SectorWarpStandingVecEnv(VecEnv):
- def __init__(self,nworld=4,episode_seconds=4.,contact_limit_n=20.,gear_limit_deg=.2,pwm_slew_us=1.,on_guard='abort',reset_tilt_deg=0.):
+ def __init__(self,nworld=4,episode_seconds=4.,contact_limit_n=20.,gear_limit_deg=.2,pwm_slew_us=1.,on_guard='abort',reset_tilt_deg=0.,reward_mode='legacy'):
   if not isinstance(nworld,int) or not 1<=nworld<=64:raise ValueError('Use 1 to 64 diagnostic worlds')
   if not np.isfinite(episode_seconds) or episode_seconds<=0:raise ValueError('Invalid episode duration')
   for v in (contact_limit_n,gear_limit_deg,pwm_slew_us):
    if not np.isfinite(v) or v<=0:raise ValueError('Diagnostic limits must be positive finite')
   if on_guard not in ('abort','terminate'):raise ValueError('Unknown guard policy')
+  if reward_mode not in ('legacy','shaped'):raise ValueError('Unknown reward mode')
+  self.reward_mode=reward_mode
   if not np.isfinite(reset_tilt_deg) or not 0<=reset_tilt_deg<=2:raise ValueError('Reset tilt must be between 0 and 2 degrees')
   self.reset_tilt_deg=float(reset_tilt_deg);self.reset_rng=[np.random.default_rng() for _ in range(nworld)];self.reset_tilts=np.zeros((nworld,2));self.reset_lifts=np.zeros(nworld)
   self.on_guard=on_guard
@@ -130,8 +133,10 @@ class SectorWarpStandingVecEnv(VecEnv):
    mjw.forward(self.gm,self.gd);wp.synchronize()
   self.previous[~guard_done]=action[~guard_done];self.count[~guard_done]+=1;rot=self.gd.xmat.numpy()[:,self.body];height=self.gd.xipos.numpy()[:,self.body,2];upright=rot[:,2,2]
   term=guard_done|(upright<np.cos(np.deg2rad(35)))|(height<self.initial_height-.08);trunc=(self.count>=self.horizon)&~term;done=term|trunc
-  reward=.02*np.maximum(0,upright)-.001*np.mean(action**2,axis=1)-.001*np.mean((action-prev)**2,axis=1)-term.astype(float)
-  obs=self._observation();infos=[{'sampled_peak_self_contact_n':float(peak[i]),'sampled_peak_self_contact_pair':peak_pair[i],'upright':float(upright[i]),'height':float(height[i]),'TimeLimit.truncated':bool(trunc[i]),'guard_flags':int(guard_codes[i]),'model_scope':'experimental simulation only'} for i in range(self.nworld)]
+  obs=self._observation()
+  if self.reward_mode=='shaped':reward=shaped_standing_reward(upright,height,self.initial_height,obs[:,3:6],action,prev,term);reward[guard_done]=-1.
+  else:reward=.02*np.maximum(0,upright)-.001*np.mean(action**2,axis=1)-.001*np.mean((action-prev)**2,axis=1)-term.astype(float)
+  infos=[{'sampled_peak_self_contact_n':float(peak[i]),'sampled_peak_self_contact_pair':peak_pair[i],'upright':float(upright[i]),'height':float(height[i]),'TimeLimit.truncated':bool(trunc[i]),'guard_flags':int(guard_codes[i]),'model_scope':'experimental simulation only'} for i in range(self.nworld)]
   for i in np.flatnonzero(done):infos[i]['terminal_observation']=terminal[i] if guard_done[i] else obs[i].copy()
   if np.any(done):
    self._reset_mask(done);obs=self._observation()

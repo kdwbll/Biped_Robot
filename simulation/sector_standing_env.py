@@ -11,10 +11,13 @@ import mujoco
 import numpy as np
 from candidate_standing_servo import CandidateStandingServo
 from theoretical_servo import ServoSpec
+from sector_standing_reward import shaped_standing_reward
 
 class SectorStandingEnv(gym.Env):
     metadata={'render_modes': []}
-    def __init__(self,episode_seconds=4.0,max_sampled_self_contact_n=None,model_variant='baseline',max_gear_residual_deg=None,friction_range=None,max_pwm_delta_us_per_control=None):
+    def __init__(self,episode_seconds=4.0,max_sampled_self_contact_n=None,model_variant='baseline',max_gear_residual_deg=None,friction_range=None,max_pwm_delta_us_per_control=None,reward_mode='legacy'):
+        if reward_mode not in ('legacy','shaped'):raise ValueError('Unknown reward mode')
+        self.reward_mode=reward_mode
         variants={'baseline':('diagnostic_sector_collision_trial.xml',12851,.01),'implicit':('diagnostic_sector_implicit_damping_trial.xml',12850,0.),'implicit_stiff':('diagnostic_sector_implicit_stiff_trial.xml',12850,0.)}
         if model_variant not in variants:raise ValueError('Unknown diagnostic model variant')
         filename,expected_pairs,self.hip_damping=variants[model_variant];self.model_variant=model_variant
@@ -98,5 +101,7 @@ class SectorStandingEnv(gym.Env):
         upright=float(self.data.xmat[self.body].reshape(3,3)[2,2]);height=float(self.data.xipos[self.body,2])
         if upright<np.cos(np.deg2rad(35)) or height<self.initial_height-.08:reason='fall'
         terminated=reason is not None;truncated=self.count>=self.horizon and not terminated;self.done=terminated or truncated
-        reward=float(.02*max(0.,upright)-.001*np.mean(action*action)-.001*np.mean((action-prev)**2)-(1. if terminated else 0.))
-        return self._observation(),reward,terminated,truncated,{'reason':reason,'upright':upright,'height':height,'simulation_time':float(self.data.time),'max_hip_deg':float(np.max(np.abs(np.rad2deg(self.data.qpos[self.hip_qadr]-self.initial_hips)))),'sampled_peak_self_contact_n':peak_contact,'sampled_peak_pair':peak_pair,'max_gear_residual_deg':max_gear_residual,'applied_pwm_us':self.applied_pwm_us.tolist()}
+        obs=self._observation()
+        if self.reward_mode=='shaped':reward=float(shaped_standing_reward(upright,height,self.initial_height,obs[3:6],action,prev,terminated))
+        else:reward=float(.02*max(0.,upright)-.001*np.mean(action*action)-.001*np.mean((action-prev)**2)-(1. if terminated else 0.))
+        return obs,reward,terminated,truncated,{'reason':reason,'upright':upright,'height':height,'simulation_time':float(self.data.time),'max_hip_deg':float(np.max(np.abs(np.rad2deg(self.data.qpos[self.hip_qadr]-self.initial_hips)))),'sampled_peak_self_contact_n':peak_contact,'sampled_peak_pair':peak_pair,'max_gear_residual_deg':max_gear_residual,'applied_pwm_us':self.applied_pwm_us.tolist()}

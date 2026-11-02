@@ -265,3 +265,10 @@ python .\audit_sector_warp_vec_16_4s.py
 `sector_reset_pose.py` 提供初始倾斜和地面抬升计算，`SectorWarpStandingVecEnv(reset_tilt_deg=2.0)` 可选对横滚和俯仰分别随机采样 ±2°，默认仍关闭随机倾斜；`env.seed(314)` 后 `env.reset()` 可重现采样。随机重置时只更改选中环境的初始位置，开始前以碰撞代理的地面接触距离修正高度。坐标和倾角是仿真假设，不能作为真实倾倒安全范围。环境还记录每帧采样峰值的接触代理名称。
 
 `audit_sector_initial_tilt_geometry.py` 测初始穿地；`audit_sector_warp_neutral_long.py`、`audit_sector_warp_tilt_response.py`、`audit_sector_random_tilt_reset.py` 和 `audit_sector_random_tilt_episode.py` 检查零动作与随机重置，后者可指定 1 或 2 度：`python audit_sector_random_tilt_episode.py 1`。一次较早候选测试中四个随机环境有一个超过 20 N 保护阈值，后续加入碰撞对记录后的两次同种子检查均未触发；它们使用不同版本的诊断代码，不能当成严格的可重复性结论。即使通过短测试，也没有验证复杂动作、步长收敛、未覆盖的碰撞和真实舵机参数。
+
+
+### 站姿奖励候选
+
+`sector_standing_reward.py` 是仅供仿真的站姿奖励：直立得分，机身下降、角速度、动作幅度及动作变化扣分，终止额外扣分。权重是待验证的实验假设，奖励使用仿真器中的高度，仅说明训练时可以取得该信号；它并不意味着实物能直接测到机身高度。奖励不包含向前速度、迈步或左右脚交替，因此**不能单靠它训练行走**。
+
+CPU 和 GPU 环境均可使用 `reward_mode="shaped"` 选择候选，默认仍是 `legacy`，以保留旧试验结果的含义。GPU 可另用 `reset_tilt_deg=1.0`、`on_guard="terminate"` 进行诊断。`audit_sector_shaped_reward.py` 核对静态奖励偏好及 CPU/GPU 短序列，`audit_sector_shaped_policy_interface.py` 只验证未训练 PPO 模型的一次预测与环境步进，`audit_sector_shaped_random_actions.py` 测小幅随机动作；它们不调用学习，也不保存策略。短时间对照无法证明奖励避免投机、能够收敛或可用于实物。
