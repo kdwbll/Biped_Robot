@@ -42,6 +42,9 @@ class SectorWarpStandingVecEnv(VecEnv):
   servo=CandidateStandingServo(self.m,self.c,replace(ServoSpec(),kp_nm_per_rad=4),ki=1.5,kp_by_servo=[4,4,4,4,8],ki_by_servo=[1.5,1.5,1.5,1.5,6],hip_damping=0.)
   self.initial_q=self.c.qpos.astype(np.float32).copy();self.initial_target=servo.initial_positions.astype(np.float32).copy()
   self.body=mujoco.mj_name2id(self.m,mujoco.mjtObj.mjOBJ_BODY,'robot_free');self.ground=mujoco.mj_name2id(self.m,mujoco.mjtObj.mjOBJ_GEOM,'ground')
+  self.soles=[mujoco.mj_name2id(self.m,mujoco.mjtObj.mjOBJ_GEOM,f'L{i}_sole_trial_geom') for i in (0,1)]
+  if min(self.soles)<0:raise ValueError('Missing foot sole collision proxies')
+  self.foot_bodies=[int(self.m.geom_bodyid[g]) for g in self.soles]
   joint_ids=[mujoco.mj_name2id(self.m,mujoco.mjtObj.mjOBJ_JOINT,f'L{i}_hip_candidate') for i in (0,1)];shaft_id=mujoco.mj_name2id(self.m,mujoco.mjtObj.mjOBJ_JOINT,'hypothetical_servo_shaft')
   root_id=mujoco.mj_name2id(self.m,mujoco.mjtObj.mjOBJ_JOINT,'floating_base')
   if root_id<0 or self.m.jnt_type[root_id]!=mujoco.mjtJoint.mjJNT_FREE or self.m.jnt_qposadr[root_id]!=0:raise ValueError('Expected floating base quaternion at qpos[3:7]')
@@ -92,8 +95,8 @@ class SectorWarpStandingVecEnv(VecEnv):
   self.pending=np.clip(a,-1,1)
  def step_wait(self):
   if self.pending is None:raise RuntimeError('No pending action')
-  action=self.pending;self.pending=None;prev=self.previous.copy();start_xy=self.gd.xpos.numpy()[:,self.body,:2].copy();desired=1500.+action*np.array([30.,30.,30.,30.,20.]);self.pwm+=np.clip(desired-self.pwm,-self.slew,self.slew)
-  self.previous=action.copy();peak=np.zeros(self.nworld);peak_pair=[None]*self.nworld;guard_done=np.zeros(self.nworld,dtype=bool);guard_codes=np.zeros(self.nworld,dtype=np.int32);terminal=[None]*self.nworld;previous_time=self.gd.time.numpy().copy()
+  action=self.pending;self.pending=None;prev=self.previous.copy();start_pos=self.gd.xpos.numpy();start_xy=start_pos[:,self.body,:2].copy();start_feet=start_pos[:,self.foot_bodies,:2].copy();desired=1500.+action*np.array([30.,30.,30.,30.,20.]);self.pwm+=np.clip(desired-self.pwm,-self.slew,self.slew)
+  self.previous=action.copy();peak=np.zeros(self.nworld);peak_pair=[None]*self.nworld;foot_force=np.zeros((self.nworld,2));guard_done=np.zeros(self.nworld,dtype=bool);guard_codes=np.zeros(self.nworld,dtype=np.int32);terminal=[None]*self.nworld;previous_time=self.gd.time.numpy().copy()
   def check_flags(step):
    wp.launch(scan_state,dim=self.nworld,inputs=self.guard_args);wp.synchronize();flags=self.flags.numpy();overflow=self.gd.overflow.numpy()
    if np.any(overflow):
@@ -122,6 +125,10 @@ class SectorWarpStandingVecEnv(VecEnv):
       ids=wp.array(np.arange(n,dtype=np.int32),dtype=wp.int32,device='cuda:0');force=wp.zeros(n,dtype=wp.spatial_vector,device='cuda:0');mjw.contact_force(self.gm,self.gd,ids,False,force)
       wp.launch(scan_contacts,dim=n,inputs=[self.gd.contact.geom,self.gd.contact.worldid,force,self.flags,n,self.nworld,self.ground,self.contact_limit]);wp.synchronize()
       f=force.numpy();geom=self.gd.contact.geom.numpy()[:n];world=self.gd.contact.worldid.numpy()[:n];valid=(geom[:,0]!=self.ground)&(geom[:,1]!=self.ground)&(world>=0)&(world<self.nworld)
+      for leg,sole in enumerate(self.soles):
+       touch=((geom[:,0]==self.ground)&(geom[:,1]==sole))|((geom[:,1]==self.ground)&(geom[:,0]==sole))
+       touch &= (world>=0)&(world<self.nworld)
+       if np.any(touch):np.maximum.at(foot_force[:,leg],world[touch],np.maximum(0.,f[touch,0]))
       for idx in np.flatnonzero(valid):
        w=int(world[idx]);normal=float(f[idx,0])
        if normal>peak[w]:
@@ -134,11 +141,11 @@ class SectorWarpStandingVecEnv(VecEnv):
   self.previous[~guard_done]=action[~guard_done];self.count[~guard_done]+=1;rot=self.gd.xmat.numpy()[:,self.body];height=self.gd.xipos.numpy()[:,self.body,2];upright=rot[:,2,2]
   term=guard_done|(upright<np.cos(np.deg2rad(35)))|(height<self.initial_height-.08);trunc=(self.count>=self.horizon)&~term;done=term|trunc
   obs=self._observation()
-  velocity_xy=(self.gd.xpos.numpy()[:,self.body,:2]-start_xy)/.02
+  end_pos=self.gd.xpos.numpy();velocity_xy=(end_pos[:,self.body,:2]-start_xy)/.02;foot_delta=end_pos[:,self.foot_bodies,:2]-start_feet
   if self.reward_mode=='walking':reward=walking_reward(upright,height,self.initial_height,obs[:,3:6],action,prev,term,velocity_xy);reward[guard_done]=-1.
   elif self.reward_mode=='shaped':reward=shaped_standing_reward(upright,height,self.initial_height,obs[:,3:6],action,prev,term);reward[guard_done]=-1.
   else:reward=.02*np.maximum(0,upright)-.001*np.mean(action**2,axis=1)-.001*np.mean((action-prev)**2,axis=1)-term.astype(float)
-  infos=[{'sampled_peak_self_contact_n':float(peak[i]),'sampled_peak_self_contact_pair':peak_pair[i],'upright':float(upright[i]),'height':float(height[i]),'velocity_xy_mps':velocity_xy[i].tolist() if not guard_done[i] else None,'TimeLimit.truncated':bool(trunc[i]),'guard_flags':int(guard_codes[i]),'model_scope':'experimental simulation only'} for i in range(self.nworld)]
+  infos=[{'sampled_peak_self_contact_n':float(peak[i]),'sampled_peak_self_contact_pair':peak_pair[i],'upright':float(upright[i]),'height':float(height[i]),'velocity_xy_mps':velocity_xy[i].tolist() if not guard_done[i] else None,'sampled_sole_peak_normal_n':foot_force[i].tolist(),'foot_body_delta_xy_m':foot_delta[i].tolist() if not guard_done[i] else None,'TimeLimit.truncated':bool(trunc[i]),'guard_flags':int(guard_codes[i]),'model_scope':'experimental simulation only'} for i in range(self.nworld)]
   for i in np.flatnonzero(done):infos[i]['terminal_observation']=terminal[i] if guard_done[i] else obs[i].copy()
   if np.any(done):
    self._reset_mask(done);obs=self._observation()
