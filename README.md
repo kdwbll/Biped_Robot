@@ -67,6 +67,18 @@
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
+### 站姿训练环境与轴向接触诊断
+
+`sector_standing_env.py` 是基于分段候选的实验性 Gymnasium 站姿环境，不包含训练启动程序。五个动作映射到有限的假设舵机 PWM 偏移；每个物理子步检查非有限状态、仿真重置、髋轴相对初始姿态超过 ±4.5° 和接触容量，触发时结束回合。回合信息记录采样内部接触力及齿轮约束误差；力每 10 个物理子步采样一次，可能漏掉尖峰，未设置实测安全阈值。保护只在该环境的 Python 步进中生效，可能在一个物理子步内越过边界，不能保护 XML 直接运行或实物。观测假设可获得机身重力方向、角速度和控制命令，奖励只针对站姿，尚不是走路奖励；尚未验证真实传感器延迟或舵机反馈。
+
+`python audit_sector_standing_env.py` 检查确定性复位、无效动作、结束后再步进、髋轴越界和非有限状态；`python audit_sector_standing_env_sustained.py` 检查两个持续中央动作，`python audit_sector_standing_env_single_axis.py` 单独检查五轴双向动作。它们不启动训练，覆盖同名 JSON。Gymnasium 和 Stable-Baselines3 接口检查通过；Gymnasium 对观测空间使用无穷界发出提示。十个单轴双向 2 秒测试均正常结束，1 秒随机动作也已测试；组合动作和更长场景仍需检验。`audit_sector_training_readiness.py` 汇总当前保守判断，输出 `sector_training_readiness_audit.json`；它不是训练启动器，也不是实物安全认证。
+
+`audit_cad_peak_force_pair.py` 在打开的 SolidWorks 2025 原装配中，以临时实体副本检查高接触力涉及的机身侧板与左腿架；11 个假设角度未发现体积干涉。`audit_sector_peak_contact_direction.py` 在一组 -20 µs 指令下记录该代理采样峰值约 35 N，法向与理想髋轴接近平行；`audit_peak_pair_axial_bounds.py` 检查两代理轴向边界及刚性父子关系。该数值力是仿真中的采样值，不等于实物力。
+
+`diagnostic_sector_axial_contact_trial.xml` 仅在独立候选中移除此对显式接触。`audit_sector_motion_stress.py --axial` 的双向短测显示采样内部接触峰值消失，但控制响应发生明显变化、一个方向出现较大超调；`audit_axial_contact_gear_response.py` 还记录齿轮约束误差。删除该对同时会删除接触摩擦，理想铰链不模拟真实预紧和摩擦，因此该候选未被选作训练模型。`audit_sector_axial_damped_motion.py` 和 `audit_sector_axial_low_integral_motion.py` 是不同假设控制参数的对照，不代表实测或推荐参数。
+
+`build_sector_gear_stiff_trial.py` 和 `audit_sector_gear_stiff_motion.py` 构建并测试仅修改两条齿轮等式数值刚度的独立候选；`audit_sector_gear_stiff_halfstep.py` 做较小时间步长对照。较硬候选负向 6 秒测试的最大齿轮约束误差约 0.046°，原候选约 0.106°；步长减半后结果接近，但高接触力仍然存在且正向跟踪误差没有改善。更硬的等式约束不等同真实齿轮刚度，也不会自动解决高接触力。相关脚本覆盖同名 XML/JSON；实际舵机参数、碰撞覆盖及训练策略仍未验证，不能用于实机。
+
 ### 髋部孔边凸代理分段候选
 
 对上轮 58 个距 CAD 面超过 0.1 mm 的机身代理见证点，用对应封闭 STL 做近似点内外检查：58 个都在 STL 外，其中 57 个靠近孔边。这支持这些代理有外扩的可能，但 STL 检查不能代替准确 CAD 实体布尔判断。SolidWorks 只读测量确认相应机身实体有两个半径 20 mm、轴向范围 136–146 mm 的孔。

@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_gear_stiff_trial.xml",
+      "pulse_delta_us": -20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": -2.8040110328318324,
+      "shaft_error_deg": 0.1040110328318321,
+      "max_hip_change_deg": 1.357172835992006,
+      "max_gear_residual_deg": 0.045885926906452476,
+      "max_shaft_speed_rad_s": 2.9319086541160115,
+      "sampled_peak_self_contact_n": 35.89230726146776,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    },
+    {
+      "model": "diagnostic_sector_gear_stiff_trial.xml",
+      "pulse_delta_us": 20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": 3.755674527602269,
+      "shaft_error_deg": -1.0556745276022685,
+      "max_hip_change_deg": 1.8382409214619777,
+      "max_gear_residual_deg": 0.04436517064474169,
+      "max_shaft_speed_rad_s": 2.9318810905024817,
+      "sampled_peak_self_contact_n": 31.241381634012473,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    }
+  ],
+  "limitations": "Short controlled diagnostic with 20 us step, sampled forces, unmeasured gains and incomplete collisions. Range check only inside this script, not XML. Not training or real-hardware evidence."
+}

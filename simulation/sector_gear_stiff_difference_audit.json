@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "changes": [
+    {
+      "name": "opposite_world_rotation_assumption",
+      "old": "0.001 1",
+      "new": "0.0005 1"
+    },
+    {
+      "name": "candidate_pinion_25_gear_50",
+      "old": "0.001 1",
+      "new": "0.0005 1"
+    }
+  ],
+  "limitations": "Only XML comparison; no stability or hardware guarantee."
+}

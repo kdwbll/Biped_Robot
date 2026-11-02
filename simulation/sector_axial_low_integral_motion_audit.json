@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_axial_contact_trial.xml",
+      "pulse_delta_us": -20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": -1.1546643253140487,
+      "shaft_error_deg": -1.5453356746859515,
+      "max_hip_change_deg": 0.5207612965423478,
+      "max_shaft_speed_rad_s": 3.850222618171135,
+      "sampled_peak_self_contact_n": 0.0,
+      "sampled_peak_pair": null,
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    },
+    {
+      "model": "diagnostic_sector_axial_contact_trial.xml",
+      "pulse_delta_us": 20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": 4.194456929390111,
+      "shaft_error_deg": -1.4944569293901109,
+      "max_hip_change_deg": 2.0748994967408643,
+      "max_shaft_speed_rad_s": 3.9000829752172756,
+      "sampled_peak_self_contact_n": 0.0,
+      "sampled_peak_pair": null,
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    }
+  ],
+  "hypothetical_hip_damping_nm_per_rad_s": 0.08,
+  "hypothetical_hip_integral_gain": 1.5,
+  "limitations": "Short controlled diagnostic with 20 us step, sampled forces, unmeasured gains and incomplete collisions. Range check only inside this script, not XML. Not training or real-hardware evidence."
+}

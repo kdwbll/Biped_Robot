@@ -1,0 +1,17 @@
+{
+  "changes": [
+    {
+      "constraint": "opposite_world_rotation_assumption",
+      "old": "0.001 1",
+      "new": "0.0005 1"
+    },
+    {
+      "constraint": "candidate_pinion_25_gear_50",
+      "old": "0.001 1",
+      "new": "0.0005 1"
+    }
+  ],
+  "timestep_s": 0.00025,
+  "minimum_refsafety_timestep_multiple": 2,
+  "limitations": "Hypothetical solver stiffness, not measured gear mechanics; at the 2*timestep reference setting; this does not prove stability. Short tests required; only this XML carries change. Not for training or hardware."
+}

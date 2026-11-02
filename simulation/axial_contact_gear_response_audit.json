@@ -1,0 +1,153 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_collision_trial.xml",
+      "stop_reason": null,
+      "max_gear_residual_deg": 0.10566672123232335,
+      "max_hip_deg": 1.2483076358434215,
+      "samples": [
+        {
+          "time_s": 0.9999999999999176,
+          "hip_delta_deg": [
+            0.0003510896151196107,
+            0.00035194395286987606
+          ],
+          "shaft_delta_deg": -0.0005330935715814592,
+          "gear_residual_deg": 8.454282932888107e-05,
+          "servo_error_deg": 0.0005330935715814592,
+          "torque_nm": 7.256376308607457e-05
+        },
+        {
+          "time_s": 2.0000000000002514,
+          "hip_delta_deg": [
+            0.08961681115379655,
+            0.08918347895136522
+          ],
+          "shaft_delta_deg": -0.31444485365225416,
+          "gear_residual_deg": -0.06760561567233053,
+          "servo_error_deg": -2.385555146347746,
+          "torque_nm": -0.5901439362598746
+        },
+        {
+          "time_s": 2.999999999999697,
+          "hip_delta_deg": [
+            0.25144387377089855,
+            0.2508957847334259
+          ],
+          "shaft_delta_deg": -0.6795538879867109,
+          "gear_residual_deg": -0.0883330702224569,
+          "servo_error_deg": -2.020446112013289,
+          "torque_nm": -0.7709001229816872
+        },
+        {
+          "time_s": 3.999999999999143,
+          "hip_delta_deg": [
+            0.4853099489028192,
+            0.4846872991233469
+          ],
+          "shaft_delta_deg": -1.174366311490193,
+          "gear_residual_deg": -0.1018732068422773,
+          "servo_error_deg": -1.5256336885098074,
+          "torque_nm": -0.8889262417286754
+        },
+        {
+          "time_s": 5.000000000000365,
+          "hip_delta_deg": [
+            0.8225896554265113,
+            0.8220660213739929
+          ],
+          "shaft_delta_deg": -1.8558853403892999,
+          "gear_residual_deg": -0.10535301476813863,
+          "servo_error_deg": -0.8441146596107005,
+          "torque_nm": -0.9198788224477124
+        },
+        {
+          "time_s": 6.000000000001587,
+          "hip_delta_deg": [
+            1.2483076358434215,
+            1.2478508860625595
+          ],
+          "shaft_delta_deg": -2.6911012350052843,
+          "gear_residual_deg": -0.09724298165922063,
+          "servo_error_deg": -0.008898764994715909,
+          "torque_nm": -0.8484853100462254
+        }
+      ]
+    },
+    {
+      "model": "diagnostic_sector_axial_contact_trial.xml",
+      "stop_reason": null,
+      "max_gear_residual_deg": 0.08089075873632362,
+      "max_hip_deg": 3.77321326704689,
+      "samples": [
+        {
+          "time_s": 0.9999999999999176,
+          "hip_delta_deg": [
+            -0.001252117856011303,
+            -0.0012523620516891791
+          ],
+          "shaft_delta_deg": 0.0014528454022410763,
+          "gear_residual_deg": -0.0005256951548907648,
+          "servo_error_deg": -0.0014528454022410763,
+          "torque_nm": -0.0004503063775004127
+        },
+        {
+          "time_s": 2.0000000000002514,
+          "hip_delta_deg": [
+            0.11816939610970051,
+            0.11765724555845561
+          ],
+          "shaft_delta_deg": -0.3693453538890662,
+          "gear_residual_deg": -0.06650328083483259,
+          "servo_error_deg": -2.330654646110934,
+          "torque_nm": -0.5805978160939139
+        },
+        {
+          "time_s": 2.999999999999697,
+          "hip_delta_deg": [
+            0.44799378951371227,
+            0.44738072843052207
+          ],
+          "shaft_delta_deg": -1.0552015486595718,
+          "gear_residual_deg": -0.07960698481607364,
+          "servo_error_deg": -1.6447984513404283,
+          "torque_nm": -0.6948038390095848
+        },
+        {
+          "time_s": 3.999999999999143,
+          "hip_delta_deg": [
+            2.557816544685006,
+            2.557833445980636
+          ],
+          "shaft_delta_deg": -5.080521846965141,
+          "gear_residual_deg": 0.01755562120243548,
+          "servo_error_deg": 2.3805218469651397,
+          "torque_nm": 0.018455367535917755
+        },
+        {
+          "time_s": 5.000000000000365,
+          "hip_delta_deg": [
+            2.4455724266568417,
+            2.445762246751139
+          ],
+          "shaft_delta_deg": -4.801068533913903,
+          "gear_residual_deg": 0.04503815969989011,
+          "servo_error_deg": 2.101068533913903,
+          "torque_nm": 0.21531477923273473
+        },
+        {
+          "time_s": 6.000000000001587,
+          "hip_delta_deg": [
+            2.0580910663158583,
+            2.0583365490848244
+          ],
+          "shaft_delta_deg": -4.020849775682458,
+          "gear_residual_deg": 0.047666178474629284,
+          "servo_error_deg": 1.320849775682458,
+          "torque_nm": 0.2782605906723684
+        }
+      ]
+    }
+  ],
+  "limitations": "Two six-second ideal-model tests for one command; monitors one linear gear constraint residual only. Does not validate real servo, all contact forces or other maneuvers."
+}

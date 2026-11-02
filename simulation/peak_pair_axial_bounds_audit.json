@@ -1,0 +1,17 @@
+{
+  "model": "diagnostic_sector_collision_trial.xml",
+  "results": [
+    {
+      "geom": "dc_chassis_1_1",
+      "axial_min_mm": -64.00000149207987,
+      "axial_max_mm": 63.9968885585899
+    },
+    {
+      "geom": "tower_L0_tower_8",
+      "axial_min_mm": -69.00000007730884,
+      "axial_max_mm": -63.99999995622237
+    }
+  ],
+  "axial_gap_mm": -1.535857506951288e-06,
+  "limitations": "Bounds and ancestry reflect the ideal model, not CAD manufacturing or real contact. Axial hinge prohibits relative separation as well as penetration; tangential friction/load not represented by removing this contact."
+}
