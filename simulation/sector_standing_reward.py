@@ -17,3 +17,12 @@ def shaped_standing_reward(upright, height, initial_height, angular_velocity, ac
              - .01*np.mean(action**2,axis=-1)
              - .02*np.mean((action-previous)**2,axis=-1))
     return .02*score-np.asarray(terminated,dtype=float)
+
+def walking_reward(upright, height, initial_height, angular_velocity, action, previous_action, terminated, velocity_xy, target_speed=.05):
+    """Candidate +X velocity reward; no gait or foot-contact objective is implied."""
+    velocity = np.asarray(velocity_xy,dtype=float)
+    if not np.isfinite(target_speed) or target_speed<=0:raise ValueError('Target speed must be positive')
+    base = shaped_standing_reward(upright,height,initial_height,angular_velocity,action,previous_action,terminated)
+    tracking = np.exp(-((velocity[...,0]-target_speed)/target_speed)**2)
+    lateral = np.minimum((velocity[...,1]/target_speed)**2,4.)
+    return base+.01*tracking-.002*lateral

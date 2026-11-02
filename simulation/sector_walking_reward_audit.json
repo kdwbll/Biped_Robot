@@ -1,0 +1,13 @@
+{
+  "scores": {
+    "forward_target": 0.03,
+    "stationary": 0.023678794411714423,
+    "backward": 0.020183156388887343,
+    "sideways": 0.02167879441171442,
+    "target_with_sideways": 0.027999999999999997
+  },
+  "short_cpu_gpu_max_abs_reward_difference": 9.125099901731437e-06,
+  "frames": 10,
+  "worlds": 4,
+  "limitations": "Candidate assumes world +X is forward, fixed 0.05 m/s target and uses simulation displacement. No footstep objective, full gait evaluation, optimization, or hardware validation."
+}

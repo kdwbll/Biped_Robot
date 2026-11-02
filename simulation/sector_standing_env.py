@@ -11,12 +11,12 @@ import mujoco
 import numpy as np
 from candidate_standing_servo import CandidateStandingServo
 from theoretical_servo import ServoSpec
-from sector_standing_reward import shaped_standing_reward
+from sector_standing_reward import shaped_standing_reward,walking_reward
 
 class SectorStandingEnv(gym.Env):
     metadata={'render_modes': []}
     def __init__(self,episode_seconds=4.0,max_sampled_self_contact_n=None,model_variant='baseline',max_gear_residual_deg=None,friction_range=None,max_pwm_delta_us_per_control=None,reward_mode='legacy'):
-        if reward_mode not in ('legacy','shaped'):raise ValueError('Unknown reward mode')
+        if reward_mode not in ('legacy','shaped','walking'):raise ValueError('Unknown reward mode')
         self.reward_mode=reward_mode
         variants={'baseline':('diagnostic_sector_collision_trial.xml',12851,.01),'implicit':('diagnostic_sector_implicit_damping_trial.xml',12850,0.),'implicit_stiff':('diagnostic_sector_implicit_stiff_trial.xml',12850,0.)}
         if model_variant not in variants:raise ValueError('Unknown diagnostic model variant')
@@ -69,7 +69,7 @@ class SectorStandingEnv(gym.Env):
         if self.done:raise RuntimeError('Call reset after episode ends')
         action=np.asarray(action,dtype=float)
         if action.shape!=(5,) or not np.isfinite(action).all():raise ValueError('Expected five finite actions')
-        action=np.clip(action,-1,1);prev=self.previous.copy();desired_pwm=1500+self.amplitude_us*action
+        action=np.clip(action,-1,1);prev=self.previous.copy();start_xy=self.data.xpos[self.body,:2].copy();desired_pwm=1500+self.amplitude_us*action
         if self.max_pwm_delta_us_per_control is None:self.applied_pwm_us=desired_pwm
         else:self.applied_pwm_us+=np.clip(desired_pwm-self.applied_pwm_us,-self.max_pwm_delta_us_per_control,self.max_pwm_delta_us_per_control)
         self.controller.set_pulse_us(self.applied_pwm_us);reason=None;peak_contact=0.;peak_pair=None;max_gear_residual=0.
@@ -102,6 +102,8 @@ class SectorStandingEnv(gym.Env):
         if upright<np.cos(np.deg2rad(35)) or height<self.initial_height-.08:reason='fall'
         terminated=reason is not None;truncated=self.count>=self.horizon and not terminated;self.done=terminated or truncated
         obs=self._observation()
-        if self.reward_mode=='shaped':reward=float(shaped_standing_reward(upright,height,self.initial_height,obs[3:6],action,prev,terminated))
+        velocity_xy=(self.data.xpos[self.body,:2]-start_xy)/self.control_dt
+        if self.reward_mode=='walking':reward=float(walking_reward(upright,height,self.initial_height,obs[3:6],action,prev,terminated,velocity_xy))
+        elif self.reward_mode=='shaped':reward=float(shaped_standing_reward(upright,height,self.initial_height,obs[3:6],action,prev,terminated))
         else:reward=float(.02*max(0.,upright)-.001*np.mean(action*action)-.001*np.mean((action-prev)**2)-(1. if terminated else 0.))
-        return obs,reward,terminated,truncated,{'reason':reason,'upright':upright,'height':height,'simulation_time':float(self.data.time),'max_hip_deg':float(np.max(np.abs(np.rad2deg(self.data.qpos[self.hip_qadr]-self.initial_hips)))),'sampled_peak_self_contact_n':peak_contact,'sampled_peak_pair':peak_pair,'max_gear_residual_deg':max_gear_residual,'applied_pwm_us':self.applied_pwm_us.tolist()}
+        return obs,reward,terminated,truncated,{'reason':reason,'upright':upright,'height':height,'velocity_xy_mps':velocity_xy.tolist(),'simulation_time':float(self.data.time),'max_hip_deg':float(np.max(np.abs(np.rad2deg(self.data.qpos[self.hip_qadr]-self.initial_hips)))),'sampled_peak_self_contact_n':peak_contact,'sampled_peak_pair':peak_pair,'max_gear_residual_deg':max_gear_residual,'applied_pwm_us':self.applied_pwm_us.tolist()}
