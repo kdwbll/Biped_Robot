@@ -14,7 +14,7 @@ from theoretical_servo import ServoSpec
 
 class SectorStandingEnv(gym.Env):
     metadata={'render_modes': []}
-    def __init__(self,episode_seconds=4.0):
+    def __init__(self,episode_seconds=4.0,max_sampled_self_contact_n=None):
         self.model=mujoco.MjModel.from_xml_path(str(Path(__file__).parent/'diagnostic_sector_collision_trial.xml'))
         self.model.opt.timestep=.00025
         if self.model.nu!=5 or self.model.npair!=12851:raise ValueError('Unexpected sector candidate')
@@ -29,6 +29,8 @@ class SectorStandingEnv(gym.Env):
         if not np.isfinite(episode_seconds) or episode_seconds<=0:raise ValueError('Episode duration must be positive')
         self.control_dt=.02;self.steps_per_control=round(self.control_dt/self.model.opt.timestep)
         if not np.isclose(self.steps_per_control*self.model.opt.timestep,self.control_dt):raise ValueError('Invalid timestep')
+        if max_sampled_self_contact_n is not None and (not np.isfinite(max_sampled_self_contact_n) or max_sampled_self_contact_n<=0):raise ValueError('Contact guard must be positive or None')
+        self.max_sampled_self_contact_n=max_sampled_self_contact_n
         self.horizon=max(1,round(episode_seconds/self.control_dt));self.amplitude_us=np.array([30.,30.,30.,30.,20.]);self.hip_limit_rad=np.deg2rad(4.5)
         self.controller=None;self.previous=np.zeros(5);self.count=0;self.done=True
     def _observation(self):
@@ -62,6 +64,8 @@ class SectorStandingEnv(gym.Env):
                     force=np.zeros(6);mujoco.mj_contactForce(self.model,self.data,ci,force)
                     if force[0]>peak_contact:
                         peak_contact=float(force[0]);peak_pair=[mujoco.mj_id2name(self.model,mujoco.mjtObj.mjOBJ_GEOM,contact.geom1),mujoco.mj_id2name(self.model,mujoco.mjtObj.mjOBJ_GEOM,contact.geom2)]
+                if self.max_sampled_self_contact_n is not None and peak_contact>self.max_sampled_self_contact_n:
+                    reason='contact_guard';break
         self.previous=action.copy();self.count+=1
         if reason:
             self.done=True;return np.zeros(16,dtype=np.float32),-1.,True,False,{'reason':reason,'simulation_time':float(self.data.time),'sampled_peak_self_contact_n':peak_contact,'sampled_peak_pair':peak_pair,'max_gear_residual_deg':max_gear_residual}

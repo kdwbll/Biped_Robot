@@ -69,7 +69,7 @@
 
 ### 站姿训练环境与轴向接触诊断
 
-`sector_standing_env.py` 是基于分段候选的实验性 Gymnasium 站姿环境，不包含训练启动程序。五个动作映射到有限的假设舵机 PWM 偏移；每个物理子步检查非有限状态、仿真重置、髋轴相对初始姿态超过 ±4.5° 和接触容量，触发时结束回合。回合信息记录采样内部接触力及齿轮约束误差；力每 10 个物理子步采样一次，可能漏掉尖峰，未设置实测安全阈值。保护只在该环境的 Python 步进中生效，可能在一个物理子步内越过边界，不能保护 XML 直接运行或实物。观测假设可获得机身重力方向、角速度和控制命令，奖励只针对站姿，尚不是走路奖励；尚未验证真实传感器延迟或舵机反馈。
+`sector_standing_env.py` 是基于分段候选的实验性 Gymnasium 站姿环境，不包含训练启动程序。五个动作映射到有限的假设舵机 PWM 偏移；每个物理子步检查非有限状态、仿真重置、髋轴相对初始姿态超过 ±4.5° 和接触容量，触发时结束回合。回合信息记录采样内部接触力及齿轮约束误差；力每 10 个物理子步采样一次，可能漏掉尖峰，未设置实测安全阈值。保护只在该环境的 Python 步进中生效，可能在一个物理子步内越过边界，不能保护 XML 直接运行或实物。可选参数 `max_sampled_self_contact_n` 可设置仿真内部接触力采样截断，例如 `SectorStandingEnv(max_sampled_self_contact_n=20.0)`；默认不启用。20 N 只是用于测试的假设数值，不是实体安全限值。`python audit_sector_sampled_force_guard.py` 验证双向高力回合会结束和较高阈值对照；实际采样可在超过阈值之后才检测到，间隔内尖峰可能漏检。`python audit_sector_mixed_action_smoke.py` 验证三个低幅度组合动作轨迹，均仅 2 秒。观测假设可获得机身重力方向、角速度和控制命令，奖励只针对站姿，尚不是走路奖励；尚未验证真实传感器延迟或舵机反馈。
 
 `python audit_sector_standing_env.py` 检查确定性复位、无效动作、结束后再步进、髋轴越界和非有限状态；`python audit_sector_standing_env_sustained.py` 检查两个持续中央动作，`python audit_sector_standing_env_single_axis.py` 单独检查五轴双向动作。它们不启动训练，覆盖同名 JSON。Gymnasium 和 Stable-Baselines3 接口检查通过；Gymnasium 对观测空间使用无穷界发出提示。十个单轴双向 2 秒测试均正常结束，1 秒随机动作也已测试；组合动作和更长场景仍需检验。`audit_sector_training_readiness.py` 汇总当前保守判断，输出 `sector_training_readiness_audit.json`；它不是训练启动器，也不是实物安全认证。
 
@@ -78,6 +78,12 @@
 `diagnostic_sector_axial_contact_trial.xml` 仅在独立候选中移除此对显式接触。`audit_sector_motion_stress.py --axial` 的双向短测显示采样内部接触峰值消失，但控制响应发生明显变化、一个方向出现较大超调；`audit_axial_contact_gear_response.py` 还记录齿轮约束误差。删除该对同时会删除接触摩擦，理想铰链不模拟真实预紧和摩擦，因此该候选未被选作训练模型。`audit_sector_axial_damped_motion.py` 和 `audit_sector_axial_low_integral_motion.py` 是不同假设控制参数的对照，不代表实测或推荐参数。
 
 `build_sector_gear_stiff_trial.py` 和 `audit_sector_gear_stiff_motion.py` 构建并测试仅修改两条齿轮等式数值刚度的独立候选；`audit_sector_gear_stiff_halfstep.py` 做较小时间步长对照。较硬候选负向 6 秒测试的最大齿轮约束误差约 0.046°，原候选约 0.106°；步长减半后结果接近，但高接触力仍然存在且正向跟踪误差没有改善。更硬的等式约束不等同真实齿轮刚度，也不会自动解决高接触力。相关脚本覆盖同名 XML/JSON；实际舵机参数、碰撞覆盖及训练策略仍未验证，不能用于实机。
+
+### CAD 加密碰撞检查和简化阻力试验
+
+`cad_collision_source_range_dense.json` 保存 SolidWorks 2025 对两个机身实体与两侧腿架在假设髋部 ±5° 的 101 个离散角度检查（共 404 次），无体积重叠；`verify_cad_collision_dense_coverage.py` 可验证角度覆盖和结果。原始测量由 `audit_cad_collision_sources.py --range --dense` 在打开的原装配上使用临时实体副本完成，不保存或关闭装配。离散零重叠不是连续运动或所有零件碰撞证明。
+
+`audit_sector_axial_joint_friction_motion.py` 在内存中给去掉疑似重复接触的独立候选添加每侧假设 0.1 N·m 的关节阻力，对比 ±20 µs 指令；`sector_axial_joint_friction_motion_audit.json` 保存结果。负向末端仍超调约 1.29°，不能据此替换原接触或认定真实摩擦；无训练和硬件操作。
 
 ### 髋部孔边凸代理分段候选
 

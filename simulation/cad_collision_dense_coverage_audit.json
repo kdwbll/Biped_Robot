@@ -1,0 +1,7 @@
+{
+  "source_checks": 404,
+  "groups": 4,
+  "angles_per_group": 101,
+  "intersections": 0,
+  "limitations": "Validates saved coverage/results, not CAD execution or continuous angles. Nominal CAD solids and selected body pairs only; real tolerances and friction not covered."
+}
