@@ -33,3 +33,9 @@ def restore_masked_state(q:wp.array2d(dtype=wp.float32),v:wp.array2d(dtype=wp.fl
    targets[w,i]=initial_target[i]
    integral[w,i]=0.
   flags[w]=0
+
+@wp.kernel
+def set_masked_qpos(q:wp.array2d(dtype=wp.float32),poses:wp.array2d(dtype=wp.float32),mask:wp.array(dtype=wp.bool),nq:int):
+ w=wp.tid()
+ if mask[w]:
+  for i in range(nq):q[w,i]=poses[w,i]

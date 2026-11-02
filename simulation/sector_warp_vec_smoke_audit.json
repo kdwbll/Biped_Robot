@@ -1,8 +1,8 @@
 {
   "worlds": 4,
-  "cpu_gpu_max_observation_difference": 0.004503476433455944,
+  "cpu_gpu_max_observation_difference": 0.0053874775767326355,
   "neutral_steps_each": 4,
-  "wall_seconds_including_cpu": 1.0186298999469727,
+  "wall_seconds_including_cpu": 0.8892040000064299,
   "masked_timeout_reset_passed": true,
   "injected_hip_violation_aborts_before_step": true,
   "aborted_batch_rejects_steps_until_reset": true,

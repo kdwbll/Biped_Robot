@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "roll_change_deg": 0.0,
+      "ground_contact_count": 1,
+      "minimum_ground_distance_m": -3.8364961849456786e-06,
+      "pair_contact_count": 0,
+      "minimum_pair_distance_m": null
+    },
+    {
+      "roll_change_deg": -2.0,
+      "ground_contact_count": 4,
+      "minimum_ground_distance_m": -0.0017602057198138291,
+      "pair_contact_count": 0,
+      "minimum_pair_distance_m": null
+    },
+    {
+      "roll_change_deg": 2.0,
+      "ground_contact_count": 4,
+      "minimum_ground_distance_m": -0.0032549132620787787,
+      "pair_contact_count": 0,
+      "minimum_pair_distance_m": null
+    }
+  ],
+  "limitations": "Rigid root rotation around the free-joint origin, before simulation step; contact proxy distances do not prove CAD interference or real-world loads."
+}

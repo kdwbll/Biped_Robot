@@ -1,0 +1,43 @@
+{
+  "seed": 314,
+  "tilts_deg": [
+    [
+      1.6901686959542057,
+      0.8505912578457071
+    ],
+    [
+      1.1419504458444272,
+      1.5256357203312478
+    ],
+    [
+      1.986106185251685,
+      -1.7833175813177746
+    ],
+    [
+      1.7371619187311182,
+      -1.1707714834293736
+    ]
+  ],
+  "minimum_floor_distances_m": [
+    -3.440148478583982e-10,
+    0.0,
+    0.0,
+    -1.874367775572816e-09
+  ],
+  "seed_reproducible": true,
+  "other_world_qpos_unchanged_at_reset": true,
+  "reset_world_changed": true,
+  "first_frame_done": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "guard_flags": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "limitations": "Four worlds, one seed, one step and one isolated reset; no long-run isolation, training or hardware validation."
+}

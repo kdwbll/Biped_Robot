@@ -1,0 +1,16 @@
+{
+  "worlds": 16,
+  "horizon_seconds": 10.0,
+  "control_frames": 500,
+  "guard_terminations": 0,
+  "fall_terminations": 0,
+  "time_limit_truncations": 16,
+  "max_self_contact_n": 5.481072425842285,
+  "minimum_upright": 0.9997813701629639,
+  "min_height_m": 0.2790287435054779,
+  "max_height_m": 0.28664880990982056,
+  "batch_abort": null,
+  "wall_seconds": 55.62902520003263,
+  "world_steps_per_second": 143.80981818813729,
+  "limitations": "Neutral action only, identical initial conditions, fixed hypothetical friction; sampled contact force can miss spikes. No learning or hardware verification."
+}

@@ -1,0 +1,32 @@
+{
+  "initial_tilts_deg": [
+    [
+      1.1419504458444272,
+      1.5256357203312478
+    ],
+    [
+      1.986106185251685,
+      -1.7833175813177746
+    ],
+    [
+      1.7371619187311182,
+      -1.1707714834293736
+    ],
+    [
+      1.835617624332528,
+      1.0549172347744493
+    ]
+  ],
+  "control_frames": 200,
+  "guard_events": [
+    [
+      1,
+      2,
+      8
+    ]
+  ],
+  "falls": [],
+  "time_limit_truncations": 3,
+  "peak_sampled_self_contact_n": 21.741243362426758,
+  "limitations": "Four worlds, one seed and zero actions for four seconds; fixed hypothetical friction, sampled contacts, no learning or hardware validation."
+}

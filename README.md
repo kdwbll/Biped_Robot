@@ -256,3 +256,12 @@ python .\audit_sector_warp_vec_16_4s.py
 ```
 
 这些脚本运行短时仿真并覆盖对应的 JSON 结果，不会训练；其他 `audit_sector_*`、`build_sector_*` 文件的用途及运行方式见文件清单。碰撞代理、齿轮约束的数值收敛、实际舵机与负载参数和行走奖励仍需核实，不能据此把仿真动作下发到实体机器人。
+
+
+### 初始倾斜与地面接触检查
+
+零动作 16 环境、10 秒检查未见倒地或保护触发；八个单轴 ±1°、±2° 初始倾斜在修正脚底初始穿地后完成 4 秒。直接绕自由关节旋转会使脚底深入地面，最多约 3.25 mm；碰撞冲击曾使一对机身/塔架代理出现约 107 N 的采样力，因此初始化必须检查地面距离，不能靠关闭碰撞解决。
+
+`sector_reset_pose.py` 提供初始倾斜和地面抬升计算，`SectorWarpStandingVecEnv(reset_tilt_deg=2.0)` 可选对横滚和俯仰分别随机采样 ±2°，默认仍关闭随机倾斜；`env.seed(314)` 后 `env.reset()` 可重现采样。随机重置时只更改选中环境的初始位置，开始前以碰撞代理的地面接触距离修正高度。坐标和倾角是仿真假设，不能作为真实倾倒安全范围。环境还记录每帧采样峰值的接触代理名称。
+
+`audit_sector_initial_tilt_geometry.py` 测初始穿地；`audit_sector_warp_neutral_long.py`、`audit_sector_warp_tilt_response.py`、`audit_sector_random_tilt_reset.py` 和 `audit_sector_random_tilt_episode.py` 检查零动作与随机重置，后者可指定 1 或 2 度：`python audit_sector_random_tilt_episode.py 1`。一次较早候选测试中四个随机环境有一个超过 20 N 保护阈值，后续加入碰撞对记录后的两次同种子检查均未触发；它们使用不同版本的诊断代码，不能当成严格的可重复性结论。即使通过短测试，也没有验证复杂动作、步长收敛、未覆盖的碰撞和真实舵机参数。
