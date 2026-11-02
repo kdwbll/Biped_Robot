@@ -339,3 +339,6 @@ python .\simulation\train_guarded_standing.py --output-dir C:\Practice_project\b
 `gait_load_20261102_c` 使用 32 环境训练 65536 环境步，采用相位条件脚底承重比例奖励（`--objective load_shift --load-weight 1`）。同种子 4 秒评估中零动作没有触发保护，训练策略累计触发 49 次；16 环境复测中 22 次保护均由同一机身与塔架碰撞代理接触力超过 20 N 触发。该阈值、接触代理和采样均为仿真假设，结果不能直接解释为实物碰撞力，但不能把该策略视为安全或有效行走。模型和记录分别展开保存于 `simulation/模型检查点/gait_load_20261102_c/` 与 `simulation/训练记录/gait_load_20261102_c/`。
 
 `audit_gait_policy_guards.py` 可对本地训练 ZIP 检查保护代码、采样峰值和接触对。`train_gait_curriculum.py` 支持 `--worlds`、`--load-weight` 和 `--resume`；`--risk-weight` 可以加入接近保护阈值时的连续惩罚（8 N 开始增加、20 N 达到上限，均为实验值），并保留原有终止保护。该惩罚是训练假设，效果必须通过独立评估验证。
+
+
+`gait_load_20261102_d` 从较稳定的前一检查点继续训练 32768 环境步，使用 32 环境、150 μs 腿部动作幅度和接触风险权重 1；种子 9901、32 环境 4 秒复测累计触发 66 次保护，平均相位负载对齐约 -0.013，未优于零动作。训练参数和结果保存在同名训练记录，模型按文件拆分保存；该策略不应视为有效步态。`train_gait_curriculum.py` 的 `--leg-amplitude` 可设置假设的腿部动作幅度；它是仿真实验参数而非硬件允许范围。`evaluate_gait_generalization.py` 可对本地检查点做多随机种子零动作对照并采样足底网格最低点，具体假设与限制见脚本。

@@ -38,12 +38,12 @@ def evaluate(env,model,seed):
             'stance_air_fraction':stance_air/max(1,valid),'mean_load_alignment':alignment/max(1,valid),'guard_terminations':guards,'falls':falls,'timeouts':timeouts}
 
 def main():
-    a=argparse.ArgumentParser();a.add_argument('--output-dir',required=True);a.add_argument('--timesteps',type=int,default=16384);a.add_argument('--objective',choices=['unload','load_shift'],default='unload');a.add_argument('--worlds',type=int,default=16);a.add_argument('--load-weight',type=float,default=.5);a.add_argument('--risk-weight',type=float,default=0.);a.add_argument('--resume');args=a.parse_args()
+    a=argparse.ArgumentParser();a.add_argument('--output-dir',required=True);a.add_argument('--timesteps',type=int,default=16384);a.add_argument('--objective',choices=['unload','load_shift'],default='unload');a.add_argument('--worlds',type=int,default=16);a.add_argument('--load-weight',type=float,default=.5);a.add_argument('--risk-weight',type=float,default=0.);a.add_argument('--leg-amplitude',type=float,default=150.);a.add_argument('--resume');args=a.parse_args()
     p=Path(args.output_dir);p.mkdir(parents=True,exist_ok=False)
-    config={'worlds':args.worlds,'timesteps':args.timesteps,'episode_seconds':4.,'reset_tilt_deg':1.,'leg_amplitude_us':150.,'slew_us_per_frame':2.,'phase_period_s':1.6,'load_weight':args.load_weight,'risk_weight':args.risk_weight,
+    config={'worlds':args.worlds,'timesteps':args.timesteps,'episode_seconds':4.,'reset_tilt_deg':1.,'leg_amplitude_us':args.leg_amplitude,'slew_us_per_frame':2.,'phase_period_s':1.6,'load_weight':args.load_weight,'risk_weight':args.risk_weight,
             'objective':args.objective,'resume_checkpoint':args.resume,'scope':'hypothetical mechanics, phase-conditioned load shift or foot unloading; not walking or hardware'}
     (p/'config.json').write_text(json.dumps(config,indent=2),encoding='utf8')
-    base=SectorWarpStandingVecEnv(nworld=args.worlds,episode_seconds=4.,on_guard='terminate',reset_tilt_deg=1.,reward_mode='shaped',pwm_slew_us=2.,action_amplitude_us=[150]*4+[20.])
+    base=SectorWarpStandingVecEnv(nworld=args.worlds,episode_seconds=4.,on_guard='terminate',reset_tilt_deg=1.,reward_mode='shaped',pwm_slew_us=2.,action_amplitude_us=[args.leg_amplitude]*4+[20.])
     env=GaitCurriculum(base,objective=args.objective,load_weight=args.load_weight,contact_risk_weight=args.risk_weight)
     try:
         model=PPO.load(args.resume,env=env,device='cpu') if args.resume else PPO('MlpPolicy',env,device='cpu',seed=2211,n_steps=64,batch_size=256,n_epochs=4,verbose=1)
