@@ -1,0 +1,11 @@
+{
+  "worlds": 16,
+  "timesteps": 16384,
+  "episode_seconds": 4.0,
+  "reset_tilt_deg": 1.0,
+  "leg_amplitude_us": 150.0,
+  "slew_us_per_frame": 2.0,
+  "phase_period_s": 1.6,
+  "objective": "load_shift",
+  "scope": "hypothetical mechanics, phase-conditioned load shift or foot unloading; not walking or hardware"
+}

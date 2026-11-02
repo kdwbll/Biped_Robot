@@ -25,7 +25,7 @@ from sector_standing_reward import shaped_standing_reward,walking_reward
 from sector_foot_slip import sole_sample_slip
 
 class SectorWarpStandingVecEnv(VecEnv):
- def __init__(self,nworld=4,episode_seconds=4.,contact_limit_n=20.,gear_limit_deg=.2,pwm_slew_us=1.,on_guard='abort',reset_tilt_deg=0.,reward_mode='legacy',slip_weight=.1):
+ def __init__(self,nworld=4,episode_seconds=4.,contact_limit_n=20.,gear_limit_deg=.2,pwm_slew_us=1.,on_guard='abort',reset_tilt_deg=0.,reward_mode='legacy',slip_weight=.1,action_amplitude_us=None):
   if not isinstance(nworld,int) or not 1<=nworld<=64:raise ValueError('Use 1 to 64 diagnostic worlds')
   if not np.isfinite(episode_seconds) or episode_seconds<=0:raise ValueError('Invalid episode duration')
   for v in (contact_limit_n,gear_limit_deg,pwm_slew_us):
@@ -34,6 +34,8 @@ class SectorWarpStandingVecEnv(VecEnv):
   if reward_mode not in ('legacy','shaped','walking'):raise ValueError('Unknown reward mode')
   if not np.isfinite(slip_weight) or slip_weight<0:raise ValueError('Invalid slip weight')
   self.slip_weight=float(slip_weight)
+  self.action_amplitude_us=np.array([30.,30.,30.,30.,20.]) if action_amplitude_us is None else np.asarray(action_amplitude_us,dtype=float)
+  if self.action_amplitude_us.shape!=(5,) or not np.isfinite(self.action_amplitude_us).all() or np.any(self.action_amplitude_us<0) or np.any(self.action_amplitude_us>200):raise ValueError('Action amplitudes must be five finite values in [0,200] microseconds')
   self.reward_mode=reward_mode
   if not np.isfinite(reset_tilt_deg) or not 0<=reset_tilt_deg<=2:raise ValueError('Reset tilt must be between 0 and 2 degrees')
   self.reset_tilt_deg=float(reset_tilt_deg);self.reset_rng=[np.random.default_rng() for _ in range(nworld)];self.reset_tilts=np.zeros((nworld,2));self.reset_lifts=np.zeros(nworld)
@@ -99,8 +101,8 @@ class SectorWarpStandingVecEnv(VecEnv):
   self.pending=np.clip(a,-1,1)
  def step_wait(self):
   if self.pending is None:raise RuntimeError('No pending action')
-  action=self.pending;self.pending=None;prev=self.previous.copy();start_pos=self.gd.xpos.numpy();start_xy=start_pos[:,self.body,:2].copy();start_feet=start_pos[:,self.foot_bodies,:2].copy();desired=1500.+action*np.array([30.,30.,30.,30.,20.]);self.pwm+=np.clip(desired-self.pwm,-self.slew,self.slew)
-  self.previous=action.copy();peak=np.zeros(self.nworld);peak_pair=[None]*self.nworld;foot_force=np.zeros((self.nworld,2));slip_sum=np.zeros((self.nworld,2));sample_count=0;guard_done=np.zeros(self.nworld,dtype=bool);guard_codes=np.zeros(self.nworld,dtype=np.int32);terminal=[None]*self.nworld;previous_time=self.gd.time.numpy().copy()
+  action=self.pending;self.pending=None;prev=self.previous.copy();start_pos=self.gd.xpos.numpy();start_xy=start_pos[:,self.body,:2].copy();start_feet=start_pos[:,self.foot_bodies,:2].copy();desired=1500.+action*self.action_amplitude_us;self.pwm+=np.clip(desired-self.pwm,-self.slew,self.slew)
+  self.previous=action.copy();peak=np.zeros(self.nworld);peak_pair=[None]*self.nworld;foot_force=np.zeros((self.nworld,2));foot_load_sum=np.zeros((self.nworld,2));slip_sum=np.zeros((self.nworld,2));sample_count=0;guard_done=np.zeros(self.nworld,dtype=bool);guard_codes=np.zeros(self.nworld,dtype=np.int32);terminal=[None]*self.nworld;previous_time=self.gd.time.numpy().copy()
   def check_flags(step):
    wp.launch(scan_state,dim=self.nworld,inputs=self.guard_args);wp.synchronize();flags=self.flags.numpy();overflow=self.gd.overflow.numpy()
    if np.any(overflow):
@@ -129,8 +131,8 @@ class SectorWarpStandingVecEnv(VecEnv):
       ids=wp.array(np.arange(n,dtype=np.int32),dtype=wp.int32,device='cuda:0');force=wp.zeros(n,dtype=wp.spatial_vector,device='cuda:0');mjw.contact_force(self.gm,self.gd,ids,False,force)
       wp.launch(scan_contacts,dim=n,inputs=[self.gd.contact.geom,self.gd.contact.worldid,force,self.flags,n,self.nworld,self.ground,self.contact_limit]);wp.synchronize()
       f=force.numpy();geom=self.gd.contact.geom.numpy()[:n];world=self.gd.contact.worldid.numpy()[:n];valid=(geom[:,0]!=self.ground)&(geom[:,1]!=self.ground)&(world>=0)&(world<self.nworld)
-      _,speed=sole_sample_slip(geom,world,self.gd.contact.pos.numpy()[:n],f[:,0],self.gd.cvel.numpy(),self.gd.subtree_com.numpy(),self.ground,self.soles,self.foot_bodies,self.foot_roots,self.nworld)
-      slip_sum+=speed
+      load,speed=sole_sample_slip(geom,world,self.gd.contact.pos.numpy()[:n],f[:,0],self.gd.cvel.numpy(),self.gd.subtree_com.numpy(),self.ground,self.soles,self.foot_bodies,self.foot_roots,self.nworld)
+      foot_load_sum+=load;slip_sum+=speed
       for leg,sole in enumerate(self.soles):
        touch=((geom[:,0]==self.ground)&(geom[:,1]==sole))|((geom[:,1]==self.ground)&(geom[:,0]==sole))
        touch &= (world>=0)&(world<self.nworld)
@@ -152,7 +154,7 @@ class SectorWarpStandingVecEnv(VecEnv):
   if self.reward_mode=='walking':reward=walking_reward(upright,height,self.initial_height,obs[:,3:6],action,prev,term,velocity_xy)-.02*self.slip_weight*np.sum(slip_avg,axis=1);reward[guard_done]=-1.
   elif self.reward_mode=='shaped':reward=shaped_standing_reward(upright,height,self.initial_height,obs[:,3:6],action,prev,term);reward[guard_done]=-1.
   else:reward=.02*np.maximum(0,upright)-.001*np.mean(action**2,axis=1)-.001*np.mean((action-prev)**2,axis=1)-term.astype(float)
-  infos=[{'sampled_peak_self_contact_n':float(peak[i]),'sampled_peak_self_contact_pair':peak_pair[i],'upright':float(upright[i]),'height':float(height[i]),'velocity_xy_mps':velocity_xy[i].tolist() if not guard_done[i] else None,'sampled_sole_peak_normal_n':foot_force[i].tolist(),'sampled_contact_slip_mps':slip_avg[i].tolist() if not guard_done[i] else None,'foot_body_delta_xy_m':foot_delta[i].tolist() if not guard_done[i] else None,'TimeLimit.truncated':bool(trunc[i]),'guard_flags':int(guard_codes[i]),'model_scope':'experimental simulation only'} for i in range(self.nworld)]
+  infos=[{'sampled_peak_self_contact_n':float(peak[i]),'sampled_peak_self_contact_pair':peak_pair[i],'upright':float(upright[i]),'height':float(height[i]),'velocity_xy_mps':velocity_xy[i].tolist() if not guard_done[i] else None,'sampled_sole_peak_normal_n':foot_force[i].tolist(),'sampled_sole_mean_load_n':(foot_load_sum[i]/max(sample_count,1)).tolist(),'sampled_contact_slip_mps':slip_avg[i].tolist() if not guard_done[i] else None,'foot_body_delta_xy_m':foot_delta[i].tolist() if not guard_done[i] else None,'TimeLimit.truncated':bool(trunc[i]),'guard_flags':int(guard_codes[i]),'model_scope':'experimental simulation only'} for i in range(self.nworld)]
   for i in np.flatnonzero(done):infos[i]['terminal_observation']=terminal[i] if guard_done[i] else obs[i].copy()
   if np.any(done):
    self._reset_mask(done);obs=self._observation()

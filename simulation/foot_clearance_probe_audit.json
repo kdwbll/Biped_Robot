@@ -1,0 +1,27 @@
+{
+  "action": [
+    1,
+    1,
+    0,
+    1,
+    0
+  ],
+  "max_sole_mesh_min_z_m": [
+    6.51925802230835e-08,
+    3.650784492492676e-07
+  ],
+  "min_sole_mesh_min_z_m": [
+    -1.15223228931427e-05,
+    -4.122965037822723e-06
+  ],
+  "sampled_unloaded_frames": [
+    0,
+    0
+  ],
+  "max_single_contact_force_n": [
+    30.280895233154297,
+    16.3909854888916
+  ],
+  "guard_events": 0,
+  "limitations": "One open-loop action, mesh minimum relative to assumed ground z=0, 20 ms sampling; not gait or hardware validation."
+}

@@ -1,0 +1,44 @@
+{
+  "config": {
+    "worlds": 16,
+    "timesteps": 16384,
+    "episode_seconds": 4.0,
+    "reset_tilt_deg": 1.0,
+    "leg_amplitude_us": 150.0,
+    "slew_us_per_frame": 2.0,
+    "phase_period_s": 1.6,
+    "scope": "hypothetical mechanics, phase-conditioned foot unloading only; not walking or hardware"
+  },
+  "baseline": {
+    "seed": 9901,
+    "worlds": 16,
+    "frames": 200,
+    "mean_return": 4.795721423346549,
+    "air_fraction": [
+      0.000625,
+      0.0015625
+    ],
+    "phase_matched_swing_fraction": 0.000625,
+    "stance_air_fraction": 0.0015625,
+    "guard_terminations": 0,
+    "falls": 0,
+    "timeouts": 16
+  },
+  "trained": {
+    "seed": 9901,
+    "worlds": 16,
+    "frames": 200,
+    "mean_return": 4.618371349526569,
+    "air_fraction": [
+      0.001875,
+      0.0015625
+    ],
+    "phase_matched_swing_fraction": 0.001875,
+    "stance_air_fraction": 0.0015625,
+    "guard_terminations": 0,
+    "falls": 0,
+    "timeouts": 16
+  },
+  "actual_timesteps": 16384,
+  "limitations": "One short deterministic evaluation on sampled contact proxy; no true foot-height validation, walking or hardware."
+}

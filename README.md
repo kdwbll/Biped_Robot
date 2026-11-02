@@ -321,3 +321,12 @@ python .\simulation\train_guarded_standing.py --output-dir C:\Practice_project\b
 运行该命令会实际训练并在指定输出目录保存本地 SB3 ZIP 检查点、配置和评估记录；`latest_before_update.zip` 在每次采样后、参数更新前保存，`standing_final.zip` 才是末次更新后的最终模型。只运行评估可使用 `evaluate_guarded_standing.py --model <本地ZIP> --output <JSON路径>`。训练及评估需要安装对应的 MuJoCo Warp、Stable-Baselines3 和 NVIDIA CUDA 环境；策略网络当前使用 CPU，GPU 用于物理仿真。
 
 仓库按要求不存通用压缩包：最终检查点拆分保存于 `simulation/模型检查点/standing_20261102_first/`。可用 `tools/恢复模型检查点.py` 在本地重建 ZIP；已验证重建前后的模型对同一批输入给出完全相同的预测。该检查点是实验数据，不可直接控制实体机器人。
+
+
+## 阶段式卸载与承重转移实验（2026-11-02）
+
+`audit_gait_contact_reachability.py` 测试开环动作是否能使足底接触力下降；`audit_leg_displacement_sweep.py` 记录脚部刚体原点运动；`audit_foot_clearance_probe.py` 对一个动作计算足底网格最低点。脚部原点大幅升高并不等于脚底离地：所测动作的足底最低点仍接近地面。
+
+`sector_warp_standing_vec_env.py` 提供可选 `action_amplitude_us`，默认仍为旧范围；实验把四个腿部舵机的最大指令偏移设为 150 μs（仿真假设，不是实物允许范围）。`sector_gait_curriculum.py` 在观测中加入周期相位，并提供两种实验目标：按相位卸载一只脚（`unload`）或改变左右脚底法向负载比例（`load_shift`）。负载由已有脚底接触代理每 2.5 ms 采样得到，漏采、非脚底地面接触和代理误差都可能影响判断。
+
+`train_gait_curriculum.py --output-dir <新目录> --timesteps 16384 --objective unload` 或 `--objective load_shift` 会实际启动 GPU 仿真与 PPO 训练；不得用于实物。两轮均为 16 环境、16384 环境步、4 秒回合，最终模型已展开保存于 `simulation/模型检查点/gait_curriculum_20261102_a/` 和 `simulation/模型检查点/gait_load_20261102_b/`，配置、曲线及基线对照位于同名 `simulation/训练记录/` 目录。卸载目标训练后，相位匹配的采样卸载比例约 0.19%，基线约 0.06%；承重转移目标的同种子评估未优于零动作。两者均未证明脚底离地、重心有效转移或机器人迈步。

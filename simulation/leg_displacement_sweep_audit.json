@@ -1,0 +1,373 @@
+{
+  "results": [
+    {
+      "action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        0.3717690706253052
+      ],
+      "min_foot_origin_change_mm": [
+        -0.3453195095062256,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        54.939836263656616,
+        0.37173181772232056
+      ],
+      "min_foot_origin_change_mm": [
+        -0.3453195095062256,
+        -15.11886715888977
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        16.103677451610565
+      ],
+      "min_foot_origin_change_mm": [
+        -22.182513028383255,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        1,
+        0
+      ]
+    },
+    {
+      "action": [
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.37785619497299194,
+        1.048654317855835
+      ],
+      "min_foot_origin_change_mm": [
+        -0.9687617421150208,
+        -0.4516690969467163
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        1.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        2.7655288577079773,
+        0.371783971786499
+      ],
+      "min_foot_origin_change_mm": [
+        -0.34536421298980713,
+        -2.6407167315483093
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        5.414053797721863
+      ],
+      "min_foot_origin_change_mm": [
+        -5.418784916400909,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        14.887146651744843,
+        0.3717467188835144
+      ],
+      "min_foot_origin_change_mm": [
+        -0.34531205892562866,
+        -17.89078116416931
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        1
+      ]
+    },
+    {
+      "action": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        5.43561577796936
+      ],
+      "min_foot_origin_change_mm": [
+        -5.443550646305084,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        3.469593822956085
+      ],
+      "min_foot_origin_change_mm": [
+        -3.406807780265808,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        1.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        15.625350177288055
+      ],
+      "min_foot_origin_change_mm": [
+        -20.433448255062103,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        1,
+        0
+      ]
+    },
+    {
+      "action": [
+        1.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        2.514481544494629
+      ],
+      "min_foot_origin_change_mm": [
+        -2.402491867542267,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        13.908974826335907,
+        0.3717690706253052
+      ],
+      "min_foot_origin_change_mm": [
+        -0.34533441066741943,
+        -22.33731374144554
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        -1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        2.0575225353240967,
+        0.3717690706253052
+      ],
+      "min_foot_origin_change_mm": [
+        -0.34534186124801636,
+        -1.9882842898368835
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        15.279389917850494,
+        0.3717467188835144
+      ],
+      "min_foot_origin_change_mm": [
+        -0.34530460834503174,
+        -24.949755519628525
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        0.0,
+        20.22033929824829
+      ],
+      "min_foot_origin_change_mm": [
+        -34.37991440296173,
+        0.0
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    },
+    {
+      "action": [
+        0.0,
+        -1.0,
+        -1.0,
+        1.0,
+        0.0
+      ],
+      "max_foot_origin_rise_mm": [
+        3.4557878971099854,
+        0.37173181772232056
+      ],
+      "min_foot_origin_change_mm": [
+        -0.3452971577644348,
+        -3.3083930611610413
+      ],
+      "guard_count": 0,
+      "valid_frames": 200,
+      "sampled_unload_frames": [
+        0,
+        0
+      ]
+    }
+  ],
+  "limitations": "One seed and 16 actions, fixed unmeasured mechanics; foot origin change is not clearance, contact is sampled, and no training or hardware."
+}
