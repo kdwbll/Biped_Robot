@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_chassis0_collision_trial.xml",
+      "pulse_delta_us": -10,
+      "valid": true,
+      "stop_reason": null,
+      "duration_s": 3.999999999999143,
+      "shaft_delta_deg": -0.4358628389261661,
+      "shaft_target_error_deg": -0.9141371610738339,
+      "max_hip_change_deg": 0.1624087865930609,
+      "max_shaft_speed_rad_s": 2.2013982616514185,
+      "sampled_peak_self_contact_n": 2.8949302756929876
+    },
+    {
+      "model": "diagnostic_chassis0_collision_trial.xml",
+      "pulse_delta_us": 10,
+      "valid": true,
+      "stop_reason": null,
+      "duration_s": 3.999999999999143,
+      "shaft_delta_deg": 0.44254734764365994,
+      "shaft_target_error_deg": 0.90745265235634,
+      "max_hip_change_deg": 0.1657895985902765,
+      "max_shaft_speed_rad_s": 2.19839214422635,
+      "sampled_peak_self_contact_n": 3.0457565890355944
+    },
+    {
+      "model": "diagnostic_smooth_hip_trial.xml",
+      "pulse_delta_us": -10,
+      "valid": true,
+      "stop_reason": null,
+      "duration_s": 3.999999999999143,
+      "shaft_delta_deg": -0.4358738334224277,
+      "shaft_target_error_deg": -0.9141261665775724,
+      "max_hip_change_deg": 0.1624144407124988,
+      "max_shaft_speed_rad_s": 2.201398219499311,
+      "sampled_peak_self_contact_n": 2.895074860356377
+    },
+    {
+      "model": "diagnostic_smooth_hip_trial.xml",
+      "pulse_delta_us": 10,
+      "valid": true,
+      "stop_reason": null,
+      "duration_s": 3.999999999999143,
+      "shaft_delta_deg": 0.442559177080119,
+      "shaft_target_error_deg": 0.9074408229198809,
+      "max_hip_change_deg": 0.1657956818107957,
+      "max_shaft_speed_rad_s": 2.1983925013630614,
+      "sampled_peak_self_contact_n": 3.045871812644093
+    }
+  ],
+  "limitations": "Ideal zero damping is a hypothesis; finite small motions, unmeasured actuator and incomplete collisions. Does not measure actual lubricated friction."
+}

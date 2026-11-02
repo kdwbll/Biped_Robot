@@ -65,6 +65,27 @@
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
+### 柱面支承和理想润滑诊断
+
+用户确认柱子、大齿轮与腿架刚性连接，柱面相对机身转动并计划润滑。SolidWorks 2025 名义孔半径为 20 mm，柱半径为 19.75 mm，名义径向间隙为 0.25 mm；两侧 CAD 轴线与仿真髋轴对齐。理想铰链没有模拟间隙、轴承径向碰撞或真实润滑摩擦。
+
+`diagnostic_smooth_hip_trial.xml` 是独立试验模型：两侧髋关节阻尼和摩擦损失取零，其他碰撞及舵机假设保持不变。这是理想化假设，不能说明实物无摩擦。±10 微秒小幅脉宽测试中，新旧模型 4 秒末的轴角差小于 0.00002°；现有碰撞排除和传动、舵机参数不确定性仍然存在，不应用于训练或实机控制。
+
+4 秒无虚拟辅助的中立站姿测试中，假设控制器作用下机身质心高度下降约 0.887 mm、最大倾角约 1.20°；步长减半结果接近。两侧 1 N、0.2 秒短时推力测试最大倾角分别约 2.09° 和 2.53°，不能据此保证真实站立。`view_smooth_hip_standing.py` 或双击 `查看柱面支承站姿.bat` 可查看实时站姿，需先按下文安装仿真依赖；关闭窗口即停止。该查看器采用带髋轴范围检查的控制器，参数与情景测试的第五轴略有不同。
+
+在 `simulation/` 使用安装 MuJoCo 和 NumPy 的 Python 依次执行：
+
+```powershell
+python build_smooth_hip_trial.py
+python audit_smooth_model_difference.py
+python audit_hip_cylinder_alignment.py
+python audit_gear_leg_rigidity.py --smooth-hip
+python audit_smooth_hip_trial.py
+python audit_refined_tower_scenarios.py --smooth-hip
+```
+
+这些命令会覆盖对应 XML 或 JSON 诊断结果；最后两项运行数分钟。要重新测量柱孔，需先在 SolidWorks 2025 打开原装配，再用带 `pywin32` 的 Python 运行 `audit_cad_hip_cylinders.py`。脚本只读取装配并使用临时实体副本，不保存或关闭原装配；`cad_hip_cylinders_audit.json` 和 `hip_cylinder_alignment_audit.json` 保存测量和轴线对照结果。`smooth_hip_model_difference_audit.json` 记录 XML 差异；`smooth_hip_gear_leg_rigidity_audit.json` 记录腿架与小齿轮的运动学层级；`smooth_hip_trial_audit.json` 保存小幅指令对照，`smooth_hip_scenarios_audit.json` 保存站姿和推力情景。具体限制及每个文件用途见核验进展和文件索引。
+
 ## SolidWorks 装配
 
 1. 将 `cad/` 下的文件放在同一个文件夹，用 SolidWorks 2025 打开 `SimpleBiped2a_new.SLDASM`。如果软件提示定位引用，优先选择同目录的零件和子装配。

@@ -1,0 +1,53 @@
+{
+  "model": "diagnostic_smooth_hip_trial.xml",
+  "changes": [
+    {
+      "joint": "L0_hip_candidate",
+      "before": {
+        "name": "L0_hip_candidate",
+        "type": "hinge",
+        "pos": "0.042 0.032 0.2",
+        "axis": "0 0 1",
+        "damping": "0.01",
+        "limited": "true",
+        "range": "-5 5"
+      },
+      "after": {
+        "name": "L0_hip_candidate",
+        "type": "hinge",
+        "pos": "0.042 0.032 0.2",
+        "axis": "0 0 1",
+        "damping": "0",
+        "limited": "true",
+        "range": "-5 5",
+        "frictionloss": "0"
+      }
+    },
+    {
+      "joint": "L1_hip_candidate",
+      "before": {
+        "name": "L1_hip_candidate",
+        "type": "hinge",
+        "pos": "0.042 0.032 0.2",
+        "axis": "0 0 1",
+        "damping": "0.01",
+        "limited": "true",
+        "range": "-5 5"
+      },
+      "after": {
+        "name": "L1_hip_candidate",
+        "type": "hinge",
+        "pos": "0.042 0.032 0.2",
+        "axis": "0 0 1",
+        "damping": "0",
+        "limited": "true",
+        "range": "-5 5",
+        "frictionloss": "0"
+      }
+    }
+  ],
+  "nq": 46,
+  "ngeom": 2596,
+  "contact_pairs": 11433,
+  "limitations": "Zero hip damping and friction are ideal lubrication assumptions, not measured hardware; hinge removes the CAD radial clearance. Other exclusions remain; not for training."
+}

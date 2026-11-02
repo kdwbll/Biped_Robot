@@ -1,0 +1,5276 @@
+[
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 0,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535411584
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 3,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.55932610285757
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 10,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102857034
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 15,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535412287
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 16,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535412134
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 20,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856415
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 24,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535411882
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 27,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856833
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 34,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856746
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 39,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535411733
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 40,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535412184
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 44,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856815
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 48,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541183
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 51,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856325
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 58,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102857227
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 63,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535411427
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 64,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535411882
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 68,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856941
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 72,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541168
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 75,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.55932610285675
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 82,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.55932610285706
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 87,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535412085
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 88,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535411353
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 92,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.55932610285682
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 96,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541198
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 99,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856843
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 106,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102857398
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 111,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541198
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 112,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541198
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 116,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.55932610285715
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 120,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535412287
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 123,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856943
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 130,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102858062
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 135,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535412184
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 136,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541178
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 140,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102857144
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 144,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.811460535412387
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 147,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856721
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 154,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856815
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 159,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541178
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 160,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541178
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 164,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.559326102856893
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 168,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541198
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 171,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.55932610285707
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 177,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.506875,
+    "face_area_mm2": 21.81146053541198
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 179,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360746,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 28.20825,
+    "face_area_mm2": 14.55932610285764
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 191,
+    "axis_point_m": [
+      -0.0469174963094318,
+      -0.018881459298165898,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 5.5,
+    "face_area_mm2": 84.52609174287647
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 195,
+    "axis_point_m": [
+      -0.028406811573503,
+      -0.021624543148058503,
+      0.27032
+    ],
+    "axis_direction": [
+      5.01881367047912e-17,
+      1.23429503234409e-17,
+      1.0
+    ],
+    "radius_mm": 7.5,
+    "face_area_mm2": 21.345285923860104
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 197,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360745,
+      0.27032
+    ],
+    "axis_direction": [
+      -4.14218892069428e-17,
+      -4.798772051865909e-17,
+      -1.0
+    ],
+    "radius_mm": 7.75,
+    "face_area_mm2": 141.50296317059406
+  },
+  {
+    "component": "frame",
+    "body_name": "输入8",
+    "body_volume_mm3": 19218.992646304243,
+    "face_index": 198,
+    "axis_point_m": [
+      -0.041390937601887196,
+      -0.00251898188231613,
+      0.27032
+    ],
+    "axis_direction": [
+      -3.657509034871295e-17,
+      -5.1434294590550297e-17,
+      -1.0
+    ],
+    "radius_mm": 7.5,
+    "face_area_mm2": 21.345285923860008
+  },
+  {
+    "component": "frame",
+    "body_name": "输入9",
+    "body_volume_mm3": 1242.6453558546216,
+    "face_index": 3,
+    "axis_point_m": [
+      -0.026662879485577398,
+      -0.00647458602360745,
+      0.27032
+    ],
+    "axis_direction": [
+      -4.14218892069429e-17,
+      -4.798772051865919e-17,
+      -1.0
+    ],
+    "radius_mm": 7.5,
+    "face_area_mm2": 137.3085927105296
+  },
+  {
+    "component": "frame",
+    "body_name": "输入9",
+    "body_volume_mm3": 1242.6453558546216,
+    "face_index": 8,
+    "axis_point_m": [
+      -0.028470142382209,
+      -0.0213653147103595,
+      0.27032
+    ],
+    "axis_direction": [
+      -4.14218892069429e-17,
+      -4.798772051865919e-17,
+      -1.0
+    ],
+    "radius_mm": 7.5,
+    "face_area_mm2": 21.530406551418057
+  },
+  {
+    "component": "frame",
+    "body_name": "输入9",
+    "body_volume_mm3": 1242.6453558546216,
+    "face_index": 10,
+    "axis_point_m": [
+      -0.0411732267216671,
+      -0.0026732937317544,
+      0.27032
+    ],
+    "axis_direction": [
+      4.14218892069429e-17,
+      4.798772051865919e-17,
+      1.0
+    ],
+    "radius_mm": 7.5,
+    "face_area_mm2": 21.530406551418135
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 19,
+    "axis_point_m": [
+      0.042,
+      0.032,
+      0.256
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 1174.3273339118673
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 22,
+    "axis_point_m": [
+      0.042,
+      0.032,
+      0.206
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 20.0,
+    "face_area_mm2": 1580.8494232863882
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 33,
+    "axis_point_m": [
+      0.042,
+      -0.073,
+      0.256
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 1174.3273339118673
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 34,
+    "axis_point_m": [
+      0.042,
+      -0.073,
+      0.206
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 20.0,
+    "face_area_mm2": 1580.8494232863882
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 45,
+    "axis_point_m": [
+      0.0945,
+      -0.043,
+      0.265
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 12.5,
+    "face_area_mm2": 201.9530203216159
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 48,
+    "axis_point_m": [
+      0.0945,
+      0.002,
+      0.265
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 12.5,
+    "face_area_mm2": 209.70130962711914
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 53,
+    "axis_point_m": [
+      0.042,
+      -0.073,
+      0.264
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.5,
+    "face_area_mm2": 280.5442239655704
+  },
+  {
+    "component": "frame",
+    "body_name": "输入6",
+    "body_volume_mm3": 143768.6855515342,
+    "face_index": 54,
+    "axis_point_m": [
+      0.042,
+      0.032,
+      0.264
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 23.5,
+    "face_area_mm2": 280.5442239655704
+  },
+  {
+    "component": "frame",
+    "body_name": "输入1",
+    "body_volume_mm3": 135648.7792893041,
+    "face_index": 0,
+    "axis_point_m": [
+      0.042,
+      -0.073,
+      0.086
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 20.0,
+    "face_area_mm2": 1256.6370614359137
+  },
+  {
+    "component": "frame",
+    "body_name": "输入1",
+    "body_volume_mm3": 135648.7792893041,
+    "face_index": 1,
+    "axis_point_m": [
+      0.042,
+      0.032,
+      0.136
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 1099.5574287564255
+  },
+  {
+    "component": "frame",
+    "body_name": "输入1",
+    "body_volume_mm3": 135648.7792893041,
+    "face_index": 2,
+    "axis_point_m": [
+      0.042,
+      0.032,
+      0.086
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 20.0,
+    "face_area_mm2": 1256.6370614359137
+  },
+  {
+    "component": "frame",
+    "body_name": "输入1",
+    "body_volume_mm3": 135648.7792893041,
+    "face_index": 22,
+    "axis_point_m": [
+      0.042,
+      -0.073,
+      0.136
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 1099.5574287564255
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入5",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.057446265859365554,
+      0.03187305273952022,
+      0.295000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入3",
+    "body_volume_mm3": 129952.33830480481,
+    "face_index": 4,
+    "axis_point_m": [
+      0.04199999999999988,
+      0.03200000000000035,
+      0.131000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 19.75,
+    "face_area_mm2": 16163.101503637783
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入3",
+    "body_volume_mm3": 129952.33830480481,
+    "face_index": 6,
+    "axis_point_m": [
+      0.0287018057321368,
+      0.05661012046321961,
+      0.126000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 8.0,
+    "face_area_mm2": 2.37362029532185
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入3",
+    "body_volume_mm3": 129952.33830480481,
+    "face_index": 7,
+    "axis_point_m": [
+      0.04199999999999988,
+      0.03200000000000035,
+      0.136000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 252.86623158156235
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入8",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.04177936343565344,
+      0.00515411913334793,
+      0.295000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入6",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.04222063656434569,
+      0.058845880866652,
+      0.295000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入1",
+    "body_volume_mm3": 92168.92242847382,
+    "face_index": 5,
+    "axis_point_m": [
+      0.041999999999999565,
+      0.03199999999999998,
+      0.136000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 298.3821532662414
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入1",
+    "body_volume_mm3": 92168.92242847382,
+    "face_index": 18,
+    "axis_point_m": [
+      0.0287018057321368,
+      0.05661012046321961,
+      0.126000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 8.0,
+    "face_area_mm2": 2.8008719484797826
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入4",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 2,
+    "axis_point_m": [
+      0.041999999999999565,
+      0.03199999999999998,
+      0.276000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 42.5,
+    "face_area_mm2": 801.106126665398
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入4",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 4,
+    "axis_point_m": [
+      0.04222063656434569,
+      0.058845880866652,
+      0.279000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入4",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 6,
+    "axis_point_m": [
+      0.05749947654499374,
+      0.03187261542018167,
+      0.279000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入4",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 8,
+    "axis_point_m": [
+      0.04177936343565344,
+      0.00515411913334793,
+      0.279000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入4",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 10,
+    "axis_point_m": [
+      0.026500523455005382,
+      0.032127384579818286,
+      0.279000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 1,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.6841273932983
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 4,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656014
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 5,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298311
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 8,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656838
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 9,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298215
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 12,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656216
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 13,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298283
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 16,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015657033
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 17,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298358
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 20,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656667
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 21,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298764
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 24,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655285
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 25,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298924
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 28,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656376
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 29,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298382
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 32,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656426
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 33,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298006
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 36,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565664
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 37,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298528
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 40,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656614
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 41,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298569
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 44,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656216
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 45,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298196
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 48,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656312
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 49,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298388
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 52,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565573
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 53,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298429
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 56,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656646
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 57,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298107
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 60,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656703
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 61,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298484
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 64,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655996
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 65,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298388
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 68,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656596
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 69,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329832
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 72,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655577
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 73,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298107
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 76,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656266
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 77,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298095
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 80,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655804
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 81,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298354
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 84,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565634
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 85,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298246
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 88,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656017
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 89,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298283
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 92,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.8989890156562
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 93,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298313
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 96,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656678
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 97,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298278
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 100,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655747
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 101,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298134
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 104,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015657143
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 105,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298334
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 108,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565667
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 109,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298592
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 112,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656685
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 113,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298327
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 116,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565568
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 117,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329916
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 120,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565638
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 121,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329876
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 124,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655996
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 125,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298278
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 128,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656454
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 129,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298615
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 132,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656696
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 133,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298551
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 136,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565582
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 137,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298585
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 140,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656287
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 141,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393297508
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 144,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656685
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 145,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298134
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 148,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656426
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 149,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298379
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 152,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656607
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 153,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298237
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 156,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565567
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 157,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298192
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 160,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655843
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 161,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298324
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 164,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656998
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 165,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298663
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 168,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656785
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 169,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329888
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 172,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565649
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 173,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298978
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 176,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656454
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 177,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298388
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 180,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655676
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 181,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329845
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 184,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655975
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 185,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298484
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 188,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565646
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 189,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298168
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 192,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565632
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 193,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298757
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 196,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565661
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 197,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.8989890156563
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入9",
+    "body_volume_mm3": 81681.8048269435,
+    "face_index": 198,
+    "axis_point_m": [
+      0.041999999999994965,
+      0.032000000000025106,
+      0.280000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298354
+  },
+  {
+    "component": "leg0",
+    "body_name": "输入7",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.026553734140633563,
+      0.03212694726047973,
+      0.295000000000004
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutHolder[1]",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 2,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.276
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 42.5,
+    "face_area_mm2": 801.106126665398
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutHolder[1]",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 4,
+    "axis_point_m": [
+      0.042,
+      -0.0998467875173176,
+      0.279
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutHolder[1]",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 6,
+    "axis_point_m": [
+      0.0575,
+      -0.07300000000000001,
+      0.279
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutHolder[1]",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 8,
+    "axis_point_m": [
+      0.042,
+      -0.04615321248268239,
+      0.279
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutHolder[1]",
+    "body_volume_mm3": 33495.88078406011,
+    "face_index": 10,
+    "axis_point_m": [
+      0.0265,
+      -0.07300000000000001,
+      0.279
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 9.15,
+    "face_area_mm2": 919.858328971089
+  },
+  {
+    "component": "leg1",
+    "body_name": "HipUpper[1]",
+    "body_volume_mm3": 129952.33830480493,
+    "face_index": 6,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.131
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 19.75,
+    "face_area_mm2": 16163.101503637783
+  },
+  {
+    "component": "leg1",
+    "body_name": "HipUpper[1]",
+    "body_volume_mm3": 129952.33830480493,
+    "face_index": 30,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.136
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 252.86623158156004
+  },
+  {
+    "component": "leg1",
+    "body_name": "HipUpper[1]",
+    "body_volume_mm3": 129952.33830480493,
+    "face_index": 31,
+    "axis_point_m": [
+      0.0285,
+      -0.0975,
+      0.126
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 8.0,
+    "face_area_mm2": 2.3736202953218632
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutRetainer (2)[1]",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.042,
+      -0.04615321248268239,
+      0.295
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutRetainer[1]",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.042,
+      -0.0998467875173176,
+      0.295
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 0,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298866
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 3,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656465
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 4,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299127
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 7,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655697
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 8,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298906
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 11,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565652
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 12,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299297
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 15,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565634
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 16,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298843
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 19,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656884
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 20,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299306
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 23,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655392
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 24,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298965
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 27,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656646
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 28,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299114
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 31,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655932
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 32,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298962
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 35,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656557
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 36,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.6841273932995
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 39,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565606
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 40,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298608
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 43,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565612
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 44,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298727
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 47,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655797
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 48,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298741
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 51,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015657186
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 52,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298862
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 55,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565622
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 56,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329887
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 59,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565655
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 60,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298716
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 63,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565655
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 64,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299164
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 67,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656937
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 68,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329845
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 71,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656273
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 72,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329907
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 75,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656248
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 76,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299093
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 79,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565675
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 80,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298358
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 83,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656955
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 84,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298954
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 87,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656586
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 88,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329894
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 91,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565571
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 92,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299574
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 95,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656586
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 96,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298812
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 99,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565613
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 100,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298866
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 103,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656518
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 104,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298574
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 107,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656728
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 108,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299011
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 111,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.8989890156565
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 112,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298517
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 115,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656547
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 116,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298887
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 119,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656717
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 120,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298786
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 123,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655967
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 124,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298853
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 127,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656465
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 128,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298711
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 131,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656582
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 132,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299178
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 135,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015657058
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 136,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298752
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 139,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656117
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 140,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298954
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 143,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656266
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 144,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298704
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 147,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656486
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 148,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298686
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 151,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565591
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 152,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298771
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 155,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655637
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 156,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298931
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 159,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.8989890156554
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 160,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329922
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 163,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565719
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 164,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.68412739329869
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 167,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656188
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 168,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298091
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 171,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565654
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 172,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298748
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 175,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656596
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 176,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299082
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 179,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656596
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 180,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393299297
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 183,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656014
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 184,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298088
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 187,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656742
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 188,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298334
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 191,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015655676
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 192,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298958
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 196,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.898989015656074
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 197,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 49.625625,
+    "face_area_mm2": 16.89898901565554
+  },
+  {
+    "component": "leg1",
+    "body_name": "gear2[1]",
+    "body_volume_mm3": 81621.84612727504,
+    "face_index": 198,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.26632
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 54.327,
+    "face_area_mm2": 15.684127393298903
+  },
+  {
+    "component": "leg1",
+    "body_name": "Hip (1)[1]",
+    "body_volume_mm3": 92168.9224284738,
+    "face_index": 5,
+    "axis_point_m": [
+      0.042,
+      -0.07300000000000001,
+      0.136
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 35.0,
+    "face_area_mm2": 298.38215326624146
+  },
+  {
+    "component": "leg1",
+    "body_name": "Hip (1)[1]",
+    "body_volume_mm3": 92168.9224284738,
+    "face_index": 18,
+    "axis_point_m": [
+      0.0285,
+      -0.0975,
+      0.126
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "radius_mm": 8.0,
+    "face_area_mm2": 2.800871948479804
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutRetainer (3)[1]",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.0265532124826824,
+      -0.07300000000000001,
+      0.295
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  },
+  {
+    "component": "leg1",
+    "body_name": "nutRetainer (1)[1]",
+    "body_volume_mm3": 1829.2368284485851,
+    "face_index": 1,
+    "axis_point_m": [
+      0.0574467875173176,
+      -0.07300000000000001,
+      0.295
+    ],
+    "axis_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "radius_mm": 14.149999999999999,
+    "face_area_mm2": 266.7212162897737
+  }
+]
