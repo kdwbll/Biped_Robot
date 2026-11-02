@@ -12,11 +12,14 @@ import numpy as np
 from candidate_standing_servo import CandidateStandingServo
 from theoretical_servo import ServoSpec
 from sector_standing_reward import shaped_standing_reward,walking_reward
+from sector_foot_slip import sole_sample_slip
 
 class SectorStandingEnv(gym.Env):
     metadata={'render_modes': []}
-    def __init__(self,episode_seconds=4.0,max_sampled_self_contact_n=None,model_variant='baseline',max_gear_residual_deg=None,friction_range=None,max_pwm_delta_us_per_control=None,reward_mode='legacy'):
+    def __init__(self,episode_seconds=4.0,max_sampled_self_contact_n=None,model_variant='baseline',max_gear_residual_deg=None,friction_range=None,max_pwm_delta_us_per_control=None,reward_mode='legacy',slip_weight=.1):
         if reward_mode not in ('legacy','shaped','walking'):raise ValueError('Unknown reward mode')
+        if not np.isfinite(slip_weight) or slip_weight<0:raise ValueError('Invalid slip weight')
+        self.slip_weight=float(slip_weight)
         self.reward_mode=reward_mode
         variants={'baseline':('diagnostic_sector_collision_trial.xml',12851,.01),'implicit':('diagnostic_sector_implicit_damping_trial.xml',12850,0.),'implicit_stiff':('diagnostic_sector_implicit_stiff_trial.xml',12850,0.)}
         if model_variant not in variants:raise ValueError('Unknown diagnostic model variant')
@@ -30,6 +33,7 @@ class SectorStandingEnv(gym.Env):
         self.soles=[mujoco.mj_name2id(self.model,mujoco.mjtObj.mjOBJ_GEOM,f'L{i}_sole_trial_geom') for i in (0,1)]
         if min(self.soles)<0:raise ValueError('Missing foot sole collision proxies')
         self.foot_bodies=[int(self.model.geom_bodyid[g]) for g in self.soles]
+        self.foot_roots=[int(self.model.body_rootid[b]) for b in self.foot_bodies]
         joints=[mujoco.mj_name2id(self.model,mujoco.mjtObj.mjOBJ_JOINT,f'L{i}_hip_candidate') for i in (0,1)]
         if min(self.body,self.ground,*joints)<0:raise ValueError('Missing body or hip joints')
         self.hip_qadr=[int(self.model.jnt_qposadr[j]) for j in joints]
@@ -72,7 +76,7 @@ class SectorStandingEnv(gym.Env):
         if self.done:raise RuntimeError('Call reset after episode ends')
         action=np.asarray(action,dtype=float)
         if action.shape!=(5,) or not np.isfinite(action).all():raise ValueError('Expected five finite actions')
-        action=np.clip(action,-1,1);prev=self.previous.copy();start_xy=self.data.xpos[self.body,:2].copy();start_feet=self.data.xpos[self.foot_bodies,:2].copy();foot_force=np.zeros(2);desired_pwm=1500+self.amplitude_us*action
+        action=np.clip(action,-1,1);prev=self.previous.copy();start_xy=self.data.xpos[self.body,:2].copy();start_feet=self.data.xpos[self.foot_bodies,:2].copy();foot_force=np.zeros(2);slip_sum=np.zeros(2);sample_count=0;desired_pwm=1500+self.amplitude_us*action
         if self.max_pwm_delta_us_per_control is None:self.applied_pwm_us=desired_pwm
         else:self.applied_pwm_us+=np.clip(desired_pwm-self.applied_pwm_us,-self.max_pwm_delta_us_per_control,self.max_pwm_delta_us_per_control)
         self.controller.set_pulse_us(self.applied_pwm_us);reason=None;peak_contact=0.;peak_pair=None;max_gear_residual=0.
@@ -90,14 +94,19 @@ class SectorStandingEnv(gym.Env):
             max_gear_residual=max(max_gear_residual,abs(float(np.rad2deg(residual))))
             if self.max_gear_residual_deg is not None and max_gear_residual>self.max_gear_residual_deg:reason='gear_guard';break
             if substep%10==0:
+                contact_geom=[];contact_pos=[];contact_normal=[];sample_count+=1
                 for ci,contact in enumerate(self.data.contact[:self.data.ncon]):
                     force=np.zeros(6);mujoco.mj_contactForce(self.model,self.data,ci,force)
                     if self.ground in (contact.geom1,contact.geom2):
+                        contact_geom.append([contact.geom1,contact.geom2]);contact_pos.append(contact.pos.copy());contact_normal.append(force[0])
                         for leg,sole in enumerate(self.soles):
                             if sole in (contact.geom1,contact.geom2):foot_force[leg]=max(foot_force[leg],float(force[0]))
                         continue
                     if force[0]>peak_contact:
                         peak_contact=float(force[0]);peak_pair=[mujoco.mj_id2name(self.model,mujoco.mjtObj.mjOBJ_GEOM,contact.geom1),mujoco.mj_id2name(self.model,mujoco.mjtObj.mjOBJ_GEOM,contact.geom2)]
+                if contact_geom:
+                    _,speed=sole_sample_slip(contact_geom,np.zeros(len(contact_geom),dtype=int),contact_pos,contact_normal,self.data.cvel[None,...],self.data.subtree_com[None,...],self.ground,self.soles,self.foot_bodies,self.foot_roots,1)
+                    slip_sum+=speed[0]
                 if self.max_sampled_self_contact_n is not None and peak_contact>self.max_sampled_self_contact_n:
                     reason='contact_guard';break
         self.previous=action.copy();self.count+=1
@@ -109,7 +118,8 @@ class SectorStandingEnv(gym.Env):
         terminated=reason is not None;truncated=self.count>=self.horizon and not terminated;self.done=terminated or truncated
         obs=self._observation()
         velocity_xy=(self.data.xpos[self.body,:2]-start_xy)/self.control_dt
-        if self.reward_mode=='walking':reward=float(walking_reward(upright,height,self.initial_height,obs[3:6],action,prev,terminated,velocity_xy))
+        slip_avg=slip_sum/max(sample_count,1)
+        if self.reward_mode=='walking':reward=float(walking_reward(upright,height,self.initial_height,obs[3:6],action,prev,terminated,velocity_xy)-self.control_dt*self.slip_weight*np.sum(slip_avg))
         elif self.reward_mode=='shaped':reward=float(shaped_standing_reward(upright,height,self.initial_height,obs[3:6],action,prev,terminated))
         else:reward=float(.02*max(0.,upright)-.001*np.mean(action*action)-.001*np.mean((action-prev)**2)-(1. if terminated else 0.))
-        return obs,reward,terminated,truncated,{'reason':reason,'upright':upright,'height':height,'velocity_xy_mps':velocity_xy.tolist(),'sampled_sole_peak_normal_n':foot_force.tolist(),'foot_body_delta_xy_m':(self.data.xpos[self.foot_bodies,:2]-start_feet).tolist(),'simulation_time':float(self.data.time),'max_hip_deg':float(np.max(np.abs(np.rad2deg(self.data.qpos[self.hip_qadr]-self.initial_hips)))),'sampled_peak_self_contact_n':peak_contact,'sampled_peak_pair':peak_pair,'max_gear_residual_deg':max_gear_residual,'applied_pwm_us':self.applied_pwm_us.tolist()}
+        return obs,reward,terminated,truncated,{'reason':reason,'upright':upright,'height':height,'velocity_xy_mps':velocity_xy.tolist(),'sampled_sole_peak_normal_n':foot_force.tolist(),'sampled_contact_slip_mps':slip_avg.tolist(),'foot_body_delta_xy_m':(self.data.xpos[self.foot_bodies,:2]-start_feet).tolist(),'simulation_time':float(self.data.time),'max_hip_deg':float(np.max(np.abs(np.rad2deg(self.data.qpos[self.hip_qadr]-self.initial_hips)))),'sampled_peak_self_contact_n':peak_contact,'sampled_peak_pair':peak_pair,'max_gear_residual_deg':max_gear_residual,'applied_pwm_us':self.applied_pwm_us.tolist()}

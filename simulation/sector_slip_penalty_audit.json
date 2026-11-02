@@ -1,0 +1,17 @@
+{
+  "without_penalty_reward": 0.024599921032134764,
+  "with_penalty_reward": 0.024312470086836593,
+  "sampled_slip_mps": [
+    0.06518184714325374,
+    0.07854362550583145
+  ],
+  "observed_penalty": 0.0002874509452981712,
+  "expected_penalty": 0.0002874509452981704,
+  "unloaded_foot_slip_mps": [
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "limitations": "One simulated initial translation and one control step. Contact samples every 2.5 ms, with hypothetical 0.5 N load threshold and 0.1 weight; no policy training or hardware validation."
+}

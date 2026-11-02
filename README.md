@@ -289,9 +289,18 @@ CPU 和 GPU 环境均可使用 `reward_mode="shaped"` 选择候选，默认仍�
 
 `reward_mode="walking"` 是在站姿奖励基础上加入的实验目标：按此前项目约定将世界坐标 +X 当作前方，目标速度固定为 0.05 m/s，并对横向滑移扣分。CPU 和 GPU 环境的 `info["velocity_xy_mps"]` 记录机身在一个控制周期内的水平平均速度；异常中止的 GPU 环境该值为 `None`。`audit_sector_walking_reward.py` 对前进、静止、倒退的静态评分和十帧 CPU/GPU 一致性做检查，不启动训练。
 
-这个奖励尚未区分迈步与双脚滑行，目标速度、方向、舵机行程和力矩也未经过真实硬件标定。它只是接口候选，不代表能够学会走路；训练前仍需脚部接触与滑移评估、更广动作测试和仿真模型动态一致性检查。默认奖励模式仍是 `legacy`。
+这个奖励现在包含实验性接触点滑移惩罚，但尚未验证能否产生交替迈步；目标速度、方向、舵机行程和力矩也未经过真实硬件标定。它只是接口候选，不代表能够学会走路；训练前仍需脚部接触与滑移评估、更广动作测试和仿真模型动态一致性检查。默认奖励模式仍是 `legacy`。
 
 
 ### 双脚接触诊断
 
 CPU 和 GPU 环境在 `info` 中提供 `sampled_sole_peak_normal_n`（左右脚底碰撞代理在一个控制周期内、按 2.5 ms 采样获得的单个接触点最大法向力）及 `foot_body_delta_xy_m`（左右脚刚体坐标原点在整个控制周期内的水平位移）。采样值不是脚底总力，可能漏掉短暂接触；刚体原点位移包含腾空运动和转动影响，不能直接等同于接触点滑移。GPU 异常中止环境的位移记录为 `None`。`audit_sector_foot_telemetry.py` 检查 1 秒零动作中 CPU 与四个 GPU 环境能记录双脚接触，不启动训练。下一步需要结合接触状态、接触点速度和足部高度评估步态。
+
+
+### 接触点滑动惩罚（实验）
+
+参考 [Isaac Lab 的足部滑动惩罚](https://github.com/isaac-sim/IsaacLab/blob/main/source/isaaclab_tasks/isaaclab_tasks/contrib/velocity/config/spot/mdp/rewards.py)，只在脚底受力时惩罚其水平滑动。本项目的 `sector_foot_slip.py` 使用 MuJoCo 的接触点位置与脚部空间速度计算接触点平面速度，并按同一脚的各接触点法向力加权；接触点绕地面纯转动时不因脚部原点位移而误判滑动。假设地面固定且水平。
+
+每 2.5 ms 对接触采样一次，单脚合计法向力达到假设的 0.5 N 阈值时才计入；每个 20 ms 控制周期取平均，在 `reward_mode="walking"` 中按 `0.02 × slip_weight × 左右脚速度之和` 扣分，默认 `slip_weight=0.1`，设为零可关闭惩罚。其他奖励模式不扣分。`info["sampled_contact_slip_mps"]` 为左右脚该周期采样的平均值，异常中止时 GPU 环境返回 `None`。
+
+`audit_sector_foot_slip_math.py` 与 MuJoCo 接触点雅可比对照，并验证纯滚动；`audit_sector_slip_penalty.py` 核查滑动扣分和无负载不扣分；`audit_sector_walking_reward.py` 做十帧 CPU/GPU 对照。阈值、权重、地面摩擦和采样间隔均需后续验证，短暂接触可能被漏掉，滑动惩罚不能保证产生交替步态；这些检查均未启动训练。

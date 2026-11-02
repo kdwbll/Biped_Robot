@@ -17,15 +17,16 @@ gpu=SectorWarpStandingVecEnv(nworld=4,episode_seconds=1.,reward_mode='walking')
 cpu=SectorStandingEnv(episode_seconds=1.,model_variant='implicit_stiff',max_sampled_self_contact_n=20.,
                       max_gear_residual_deg=.2,max_pwm_delta_us_per_control=1.,reward_mode='walking')
 try:
-    gpu.reset();cpu.reset(seed=1);rng=np.random.default_rng(10);errors=[]
+    gpu.reset();cpu.reset(seed=1);rng=np.random.default_rng(10);errors=[];slip_errors=[]
     for _ in range(10):
         action=rng.uniform(-.2,.2,5)
-        _,gr,gd,_=gpu.step(np.tile(action,(4,1)))
-        _,cr,ct,cu,_=cpu.step(action)
+        _,gr,gd,gi=gpu.step(np.tile(action,(4,1)))
+        _,cr,ct,cu,ci=cpu.step(action)
         if gd.any() or ct or cu:raise RuntimeError('Unexpected termination')
         errors.append(abs(float(gr[0])-float(cr)))
+        slip_errors.append(float(np.max(np.abs(np.asarray(gi[0]['sampled_contact_slip_mps'])-np.asarray(ci['sampled_contact_slip_mps'])))))
     if max(errors)>1e-3:raise RuntimeError('Short CPU/GPU reward discrepancy exceeded test tolerance')
-    out={'scores':scores,'short_cpu_gpu_max_abs_reward_difference':max(errors),'frames':10,'worlds':4,
+    out={'scores':scores,'short_cpu_gpu_max_abs_reward_difference':max(errors),'short_cpu_gpu_max_slip_difference_mps':max(slip_errors),'frames':10,'worlds':4,
          'limitations':'Candidate assumes world +X is forward, fixed 0.05 m/s target and uses simulation displacement. No footstep objective, full gait evaluation, optimization, or hardware validation.'}
     (p/'sector_walking_reward_audit.json').write_text(json.dumps(out,indent=2),encoding='utf-8')
     print(json.dumps(out,indent=2),flush=True)

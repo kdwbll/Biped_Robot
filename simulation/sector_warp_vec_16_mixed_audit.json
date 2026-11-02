@@ -3,10 +3,10 @@
   "seed": 13,
   "control_frames": 100,
   "total_world_steps": 1600,
-  "wall_seconds": 12.321424000081606,
-  "world_steps_per_second": 129.85512064103978,
+  "wall_seconds": 12.506050399970263,
+  "world_steps_per_second": 127.93807387852878,
   "all_horizon_resets": true,
-  "max_sampled_self_contact_n": 6.825856685638428,
+  "max_sampled_self_contact_n": 6.4087629318237305,
   "batch_abort": null,
   "limitations": "One 2 s low-amplitude action schedule, fixed unmeasured friction and heuristic guards; host sync and no renderer. No PPO training. Not evidence of hardware safety or broad walking robustness."
 }
