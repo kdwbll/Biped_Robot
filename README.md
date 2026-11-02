@@ -351,3 +351,22 @@ python .\simulation\train_guarded_standing.py --output-dir C:\Practice_project\b
 `audit_exploration_clearance.py` 搜索随机开环动作并直接计算足底网格最低点；`audit_replay_clearance_candidate.py` 用单环境复现候选；`audit_candidate_robustness.py` 在独立随机姿态中检查保护和落地；`audit_candidate_scaling.py`、`audit_refine_openloop.py`、`audit_robust_action_search.py` 探索不同幅度及动作扰动。一个未筛选动作虽有约 50 mm 间隙，但机身倾角接近 35°，不能视为稳定抬脚。
 
 `optimize_supported_lift.py --output-dir <新目录> --iterations 4` 实际执行仿真动作搜索，并非 PPO 训练；在四个共享初始姿态下以脚底间隙、另一脚接触、保护和结束倾角为条件筛选。记录 `simulation/训练记录/lift_search_20261102_a/` 中最佳开环动作在筛选姿态中为 4/4；在未参与筛选的 16 个初始姿态中，16 个曾有单脚支撑下 >1 mm 离地，13 个同时满足 1.8 秒内无保护且结束倾角小于 10°，另 3 个触发保护。该动作只产生短暂单侧抬脚，不是策略、持续站稳或走路；碰撞阈值、舵机与动力学仍为假设，不能用于实体机器人。
+
+
+## 双腿抬脚不对称诊断（2026-11-03）
+
+在保留原脚底形状、假设舵机模型和既有碰撞保护的条件下，增加了以下可复现的仿真检查，均不连接实物、不执行策略训练：
+
+- `simulation/audit_mirrored_lift.py`：将已有单侧抬脚序列交换左右腿舵机，并尝试四个腿舵机各自正反方向。默认测试中央舵机保持零或同向的 32 组组合；附加 `minus1` 参数可重测中央舵机反向的 16 组。一次共同初始姿态的结果分别记录在 `mirrored_lift_additional_audit.json` 和 `mirrored_lift_audit.json`；这 48 组均未满足另一侧抬脚、支撑和结束姿态条件，不能排除其他映射或其他初始状态。
+- `simulation/audit_leg0_clearance_search.py <种子>`：对另一侧进行 32 环境随机开环搜索，搜索结果为 `exploration_leg0_seed_<种子>_audit.json`。种子 4012、9101、9121、9301 的有限搜索中，未发现同时满足支撑、倾角、脚底净空及全程保护条件的候选；这不是不可实现的证明。
+- `simulation/audit_fixed_body_leg_motion.py`：建立临时固定机身、无重力和无地面模型，逐个改变四个腿部舵机，记录于 `fixed_body_leg_motion_audit.json`。两条腿的足底网格最低点均可上升 20 mm 以上；这是隔离运动学检查，不能证明承重下能够抬脚，也不能验证碰撞安全或实物。
+- `simulation/audit_leaned_leg0_lift.py 0` 或 `25`：分别在初始姿态后立即或等待 25 个 20 ms 控制周期再发出动作，结果保存在 `leaned_leg0_lift_start_<帧数>_audit.json`。五种人为设定的初始侧倾和四种腿部动作组合均未观察到满足该脚最低点较起始和地面均高于 1 mm、另一脚有采样接触且倾角小于 10° 的有效帧；保护触发后不计入。`leaned_leg0_lift_waited_legacy_audit.json` 保留先前等待版结果。人为倾斜是诊断假设，不能证明机器人能自行到达该姿态。
+
+以上检查使用假设的 0.5 N 单点采样支撑条件和 20 N 碰撞保护阈值，采样可能遗漏瞬时事件；无训练结果、连续迈步或硬件验证。完整运行需要项目的 MuJoCo Warp、CUDA 及相关 Python 依赖；例如安装依赖后在仓库根目录执行：
+
+```powershell
+python .\simulation\audit_mirrored_lift.py
+python .\simulation\audit_leg0_clearance_search.py 9121
+python .\simulation\audit_fixed_body_leg_motion.py
+python .\simulation\audit_leaned_leg0_lift.py 0
+```

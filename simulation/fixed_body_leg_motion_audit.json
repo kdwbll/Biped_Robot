@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "actuator": 0,
+      "sign": -1,
+      "peak_sole_rise_mm": [
+        25.561588209125077,
+        0.00021592488795574294
+      ],
+      "peak_sole_drop_mm": [
+        0.0,
+        -0.00017098989985725455
+      ],
+      "stop_reason": null
+    },
+    {
+      "actuator": 0,
+      "sign": 1,
+      "peak_sole_rise_mm": [
+        0.0,
+        0.00017673580666489885
+      ],
+      "peak_sole_drop_mm": [
+        -5.713555139572716,
+        -0.00027480809156044117
+      ],
+      "stop_reason": null
+    },
+    {
+      "actuator": 1,
+      "sign": -1,
+      "peak_sole_rise_mm": [
+        0.0,
+        0.00019125547555225164
+      ],
+      "peak_sole_drop_mm": [
+        -4.835256488897994,
+        -0.00021215129349799744
+      ],
+      "stop_reason": null
+    },
+    {
+      "actuator": 1,
+      "sign": 1,
+      "peak_sole_rise_mm": [
+        22.05810080404365,
+        0.00015960556213646948
+      ],
+      "peak_sole_drop_mm": [
+        0.0,
+        -0.00023190138566733798
+      ],
+      "stop_reason": null
+    },
+    {
+      "actuator": 2,
+      "sign": -1,
+      "peak_sole_rise_mm": [
+        0.00040796782277766064,
+        0.0
+      ],
+      "peak_sole_drop_mm": [
+        -8.575051288657598e-05,
+        -6.936925336562471
+      ],
+      "stop_reason": null
+    },
+    {
+      "actuator": 2,
+      "sign": 1,
+      "peak_sole_rise_mm": [
+        0.0004441574069993792,
+        26.780730701418385
+      ],
+      "peak_sole_drop_mm": [
+        0.0,
+        0.0
+      ],
+      "stop_reason": null
+    },
+    {
+      "actuator": 3,
+      "sign": -1,
+      "peak_sole_rise_mm": [
+        0.00037769101563292495,
+        23.183929632390537
+      ],
+      "peak_sole_drop_mm": [
+        -4.3219164341107286e-05,
+        0.0
+      ],
+      "stop_reason": null
+    },
+    {
+      "actuator": 3,
+      "sign": 1,
+      "peak_sole_rise_mm": [
+        0.0004207328717573122,
+        0.0
+      ],
+      "peak_sole_drop_mm": [
+        -1.9157913448350494e-05,
+        -5.642485496748912
+      ],
+      "stop_reason": null
+    }
+  ],
+  "limitations": "Body fixed to initial pose, no gravity, ground contact removed, one actuator at a time for 0.8 s; checks numerical kinematic reachability only, not balance, real joint range, collision safety or hardware."
+}

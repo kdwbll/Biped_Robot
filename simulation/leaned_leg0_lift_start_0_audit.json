@@ -1,0 +1,286 @@
+{
+  "command_start_frame": 0,
+  "results": [
+    {
+      "initial_roll_deg": -8.0,
+      "leg0_action": [
+        -1.0,
+        0.0
+      ],
+      "initial_clearance_m": -2.1420419216156006e-08,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9725537896156311
+    },
+    {
+      "initial_roll_deg": -8.0,
+      "leg0_action": [
+        0.0,
+        1.0
+      ],
+      "initial_clearance_m": -2.1420419216156006e-08,
+      "peak_extra_clearance_m": 3.3248215913772583e-07,
+      "peak_absolute_clearance_m": 3.110617399215698e-07,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9779894948005676
+    },
+    {
+      "initial_roll_deg": -8.0,
+      "leg0_action": [
+        -1.0,
+        1.0
+      ],
+      "initial_clearance_m": -2.1420419216156006e-08,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "final_upright": 0.9739078283309937
+    },
+    {
+      "initial_roll_deg": -8.0,
+      "leg0_action": [
+        0.0,
+        0.0
+      ],
+      "initial_clearance_m": -2.1420419216156006e-08,
+      "peak_extra_clearance_m": 1.51805579662323e-07,
+      "peak_absolute_clearance_m": 1.30385160446167e-07,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9999988079071045
+    },
+    {
+      "initial_roll_deg": -4.0,
+      "leg0_action": [
+        -1.0,
+        0.0
+      ],
+      "initial_clearance_m": -9.313225746154785e-10,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9724216461181641
+    },
+    {
+      "initial_roll_deg": -4.0,
+      "leg0_action": [
+        0.0,
+        1.0
+      ],
+      "initial_clearance_m": -9.313225746154785e-10,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9783065319061279
+    },
+    {
+      "initial_roll_deg": -4.0,
+      "leg0_action": [
+        -1.0,
+        1.0
+      ],
+      "initial_clearance_m": -9.313225746154785e-10,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "final_upright": 0.9692360758781433
+    },
+    {
+      "initial_roll_deg": -4.0,
+      "leg0_action": [
+        0.0,
+        0.0
+      ],
+      "initial_clearance_m": -9.313225746154785e-10,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9999598860740662
+    },
+    {
+      "initial_roll_deg": 0.0,
+      "leg0_action": [
+        -1.0,
+        0.0
+      ],
+      "initial_clearance_m": 3.827735781669617e-06,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9736595153808594
+    },
+    {
+      "initial_roll_deg": 0.0,
+      "leg0_action": [
+        0.0,
+        1.0
+      ],
+      "initial_clearance_m": 3.827735781669617e-06,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.977971076965332
+    },
+    {
+      "initial_roll_deg": 0.0,
+      "leg0_action": [
+        -1.0,
+        1.0
+      ],
+      "initial_clearance_m": 3.827735781669617e-06,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9049122929573059
+    },
+    {
+      "initial_roll_deg": 0.0,
+      "leg0_action": [
+        0.0,
+        0.0
+      ],
+      "initial_clearance_m": 3.827735781669617e-06,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.0,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.999885618686676
+    },
+    {
+      "initial_roll_deg": 4.0,
+      "leg0_action": [
+        -1.0,
+        0.0
+      ],
+      "initial_clearance_m": 0.009805090725421906,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.008103394880890846,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9729469418525696
+    },
+    {
+      "initial_roll_deg": 4.0,
+      "leg0_action": [
+        0.0,
+        1.0
+      ],
+      "initial_clearance_m": 0.009805090725421906,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.008119107224047184,
+      "supported_lift_frames": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "final_upright": 0.9518951177597046
+    },
+    {
+      "initial_roll_deg": 4.0,
+      "leg0_action": [
+        -1.0,
+        1.0
+      ],
+      "initial_clearance_m": 0.009805090725421906,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.008186238817870617,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9079191088676453
+    },
+    {
+      "initial_roll_deg": 4.0,
+      "leg0_action": [
+        0.0,
+        0.0
+      ],
+      "initial_clearance_m": 0.009805090725421906,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.008035872131586075,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9998782277107239
+    },
+    {
+      "initial_roll_deg": 8.0,
+      "leg0_action": [
+        -1.0,
+        0.0
+      ],
+      "initial_clearance_m": 0.01955847442150116,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.017879780381917953,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9736002683639526
+    },
+    {
+      "initial_roll_deg": 8.0,
+      "leg0_action": [
+        0.0,
+        1.0
+      ],
+      "initial_clearance_m": 0.01955847442150116,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.017892416566610336,
+      "supported_lift_frames": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "final_upright": 0.988875150680542
+    },
+    {
+      "initial_roll_deg": 8.0,
+      "leg0_action": [
+        -1.0,
+        1.0
+      ],
+      "initial_clearance_m": 0.01955847442150116,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.017958054319024086,
+      "supported_lift_frames": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "final_upright": 0.9888995885848999
+    },
+    {
+      "initial_roll_deg": 8.0,
+      "leg0_action": [
+        0.0,
+        0.0
+      ],
+      "initial_clearance_m": 0.01955847442150116,
+      "peak_extra_clearance_m": 0.0,
+      "peak_absolute_clearance_m": 0.017812181264162064,
+      "supported_lift_frames": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "final_upright": 0.9999205470085144
+    }
+  ],
+  "limitations": "Preset free-body tilt is an artificial diagnostic initial condition, not proof it can be reached safely. One pose per combination, sampled at 20 ms. No virtual support forces, learning, walking or hardware validation."
+}

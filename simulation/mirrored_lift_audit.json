@@ -1,0 +1,266 @@
+{
+  "seed": 7317,
+  "mirrored_leg": 0,
+  "central_sign": -1,
+  "results": [
+    {
+      "signs": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "guard_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ],
+      "final_upright": 0.9751969575881958,
+      "success": false
+    },
+    {
+      "signs": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 1.30385160446167e-07,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9940794706344604,
+      "success": false
+    },
+    {
+      "signs": [
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 9.313225746154785e-08,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9998670816421509,
+      "success": false
+    },
+    {
+      "signs": [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 9.12696123123169e-08,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9736247658729553,
+      "success": false
+    },
+    {
+      "signs": [
+        -1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "guard_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ],
+      "final_upright": 0.9745231866836548,
+      "success": false
+    },
+    {
+      "signs": [
+        -1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 1.955777406692505e-08,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9981632232666016,
+      "success": false
+    },
+    {
+      "signs": [
+        -1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 7.171183824539185e-08,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9903315901756287,
+      "success": false
+    },
+    {
+      "signs": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "guard_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ],
+      "final_upright": 0.9816163182258606,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "guard_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ],
+      "final_upright": 0.9740801453590393,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9746688008308411,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9949286580085754,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9464742541313171,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "guard_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ],
+      "final_upright": 0.9848800897598267,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 2.0489096641540527e-08,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9991757869720459,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 0,
+      "fall_count": 0,
+      "guard_pair": null,
+      "final_upright": 0.9991249442100525,
+      "success": false
+    },
+    {
+      "signs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "supported_peak_clearance_m": 0.0,
+      "supported_frames_over_1mm": 0,
+      "guard_count": 1,
+      "fall_count": 0,
+      "guard_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ],
+      "final_upright": 0.9782446026802063,
+      "success": false
+    }
+  ],
+  "limitations": "One common initial pose, 16 speculative sign mappings, one open-loop sequence, 1.8 s. Symmetry is unverified in hardware; not training or walking."
+}
