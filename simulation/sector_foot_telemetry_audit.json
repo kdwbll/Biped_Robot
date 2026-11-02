@@ -1,0 +1,28 @@
+{
+  "frames": 50,
+  "gpu_worlds": 4,
+  "gpu_peak_per_contact_n": [
+    [
+      11.308799743652344,
+      9.576227188110352
+    ],
+    [
+      10.60113525390625,
+      10.263250350952148
+    ],
+    [
+      10.09100341796875,
+      9.57315444946289
+    ],
+    [
+      10.701038360595703,
+      10.256343841552734
+    ]
+  ],
+  "cpu_peak_per_contact_n": [
+    12.127360597391618,
+    10.28421410902623
+  ],
+  "max_gpu_foot_body_delta_per_frame_m": 0.000589986564591527,
+  "limitations": "Neutral standing only; peak is per single sampled contact, not total foot load. Contact sampled every 2.5 ms; body displacement is not sole slip distance during contact. No training or hardware validation."
+}

@@ -1,0 +1,29 @@
+{
+  "old_pairs_removed": 160,
+  "new_pairs": 2048,
+  "results": [
+    {
+      "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+      "valid": true,
+      "duration_s": 0.9999999999999176,
+      "height_change_mm": -3.8987756787083883,
+      "sampled_peak_self_force_n": 0.7886226099375415,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "model": "diagnostic_refined_chassis5_trial.xml",
+      "valid": true,
+      "duration_s": 0.9999999999999176,
+      "height_change_mm": -3.906116896383205,
+      "sampled_peak_self_force_n": 1570171.0584330084,
+      "peak_pair": [
+        "refined_chassis5_18",
+        "refined_L0_tower_14"
+      ]
+    }
+  ],
+  "limitations": "Experimental convex decomposition; contacts sampled every 10 steps, no moving range or solid CAD proof."
+}

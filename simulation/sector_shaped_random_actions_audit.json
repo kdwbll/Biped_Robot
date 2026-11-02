@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "seed": 42,
+      "returns": [
+        1.9963907916098833,
+        1.996180947870016,
+        1.996412068605423,
+        1.9962508380413055
+      ],
+      "early_terminations": [],
+      "time_limit_truncations": 4,
+      "peak_sampled_self_contact_n": 6.532393455505371
+    },
+    {
+      "seed": 43,
+      "returns": [
+        1.9962656553834677,
+        1.996147906407714,
+        1.9965052492916584,
+        1.9963124878704548
+      ],
+      "early_terminations": [],
+      "time_limit_truncations": 4,
+      "peak_sampled_self_contact_n": 4.504979133605957
+    },
+    {
+      "seed": 44,
+      "returns": [
+        1.9965966381132603,
+        1.9964083451777697,
+        1.9966378267854452,
+        1.9960343558341265
+      ],
+      "early_terminations": [],
+      "time_limit_truncations": 4,
+      "peak_sampled_self_contact_n": 5.855987548828125
+    }
+  ],
+  "limitations": "Four worlds per seed, small random open-loop actions for two seconds. No optimizer or learned policy; guard thresholds and dynamics remain approximate."
+}

@@ -1,0 +1,29 @@
+{
+  "model": "diagnostic_highres_gap_only.xml",
+  "highres_chassis_piece_count": 96,
+  "results": [
+    {
+      "leg": 0,
+      "tower_proxy_prefix": "highres_L0_",
+      "tower_pieces": 96,
+      "minimum_signed_distance_mm": -1.2092673412661752,
+      "worst_pair": [
+        "highres_chassis5_007",
+        "highres_L0_024"
+      ],
+      "overlapping_proxy_pairs": 27
+    },
+    {
+      "leg": 1,
+      "tower_proxy_prefix": "highres_L1_",
+      "tower_pieces": 96,
+      "minimum_signed_distance_mm": -1.25187525247609,
+      "worst_pair": [
+        "highres_chassis5_024",
+        "highres_L1_011"
+      ],
+      "overlapping_proxy_pairs": 26
+    }
+  ],
+  "limitations": "Static initial pose only; signed distances are convex proxy approximations, not CAD solid distances."
+}

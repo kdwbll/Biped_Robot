@@ -1,0 +1,9 @@
+{
+  "worlds": 32,
+  "frames": 50,
+  "world_steps_per_second": 175.12158609678988,
+  "wall_s": 9.136509299976751,
+  "guards": 0,
+  "falls": 0,
+  "limitations": "One second of small random actions, one seed, no rendering or training; guard and sampled collisions remain approximate."
+}

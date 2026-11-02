@@ -1,0 +1,17 @@
+{
+  "model": "diagnostic_sector_implicit_stiff_trial.xml",
+  "nworld": 1,
+  "training_started": false,
+  "conversion_forward_s": 4.993175300071016,
+  "one_step_wall_s": 0.059042799985036254,
+  "success": true,
+  "qpos_max_difference_one_step": 2.0270894727768168e-07,
+  "qvel_max_difference_one_step": 0.0008108349943111558,
+  "gpu_step_max_qpos_change": 7.2196125984191895e-06,
+  "gpu_finite": true,
+  "overflow": [
+    0
+  ],
+  "gpu_name": "cuda:0",
+  "limitations": "One GPU world and one unactuated physics step; no controller, force guard, batched rollout, PPO or training. One-step agreement alone is not useful parity validation. Memory and runtime scale with worlds/contacts."
+}

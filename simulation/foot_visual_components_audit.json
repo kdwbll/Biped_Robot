@@ -1,0 +1,107 @@
+{
+  "model": "diagnostic_smooth_hip_trial.xml",
+  "ground_world_z_mm": 0,
+  "feet": [
+    {
+      "geom": "L0_visual6",
+      "components_at_least_100_triangles": [
+        {
+          "face_count": 2108,
+          "local_extent_mm": [
+            36.199397407472134,
+            48.53316396474838,
+            125.00067800283432
+          ],
+          "world_min_mm": [
+            -16.574266300961163,
+            25.543697993603832,
+            1.9903667856230323e-05
+          ],
+          "world_max_mm": [
+            108.82423813067109,
+            75.63425263894574,
+            25.417044023459187
+          ]
+        },
+        {
+          "face_count": 1394,
+          "local_extent_mm": [
+            37.36380115151405,
+            69.3905670195818,
+            125.00068545341492
+          ],
+          "world_min_mm": [
+            -16.647713994660794,
+            7.491304264075932,
+            15.05335473553113
+          ],
+          "world_max_mm": [
+            108.82423813067109,
+            75.56446591052385,
+            45.16034277170501
+          ]
+        }
+      ]
+    },
+    {
+      "geom": "L1_visual6",
+      "components_at_least_100_triangles": [
+        {
+          "face_count": 2222,
+          "local_extent_mm": [
+            33.5563700646162,
+            49.159424379467964,
+            125.00345706939697
+          ],
+          "world_min_mm": [
+            -16.42973158620857,
+            -114.96290625252848,
+            -0.0038375689577485605
+          ],
+          "world_max_mm": [
+            108.79979008133009,
+            -65.30944772438745,
+            25.406705378631404
+          ]
+        },
+        {
+          "face_count": 1394,
+          "local_extent_mm": [
+            35.97165923565626,
+            69.91667672991753,
+            125.00396743416786
+          ],
+          "world_min_mm": [
+            -16.471140040364944,
+            -114.9763877144154,
+            15.053104973586033
+          ],
+          "world_max_mm": [
+            108.79979008133009,
+            -47.62053813227265,
+            45.65400809375531
+          ]
+        },
+        {
+          "face_count": 628,
+          "local_extent_mm": [
+            10.138079058378935,
+            4.9448516219854355,
+            125.00014528632164
+          ],
+          "world_min_mm": [
+            -16.198462813525097,
+            -122.95788315690567,
+            15.143482275072019
+          ],
+          "world_max_mm": [
+            108.8095710842843,
+            -120.25316932711654,
+            25.178248997614524
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": "Connectivity analysis of pre-existing STL, not a SolidWorks comparison. Components can contain multiple connected solids or separate visible details. Identification of the deleted board requires the user or CAD."
+}

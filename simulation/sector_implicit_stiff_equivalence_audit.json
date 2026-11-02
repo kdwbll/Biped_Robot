@@ -1,0 +1,7 @@
+{
+  "duration_s": 0.49999999999997263,
+  "max_qpos_difference": 0.0,
+  "max_qvel_difference": 0.0,
+  "max_control_difference": 0.0,
+  "limitations": "Only verifies saved model and in-memory parameters coincide under one short input; not physical validity."
+}

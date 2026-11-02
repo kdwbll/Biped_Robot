@@ -1,0 +1,160 @@
+{
+  "model": "diagnostic_sector_implicit_stiff_trial.xml",
+  "nworld": 1,
+  "training_started": false,
+  "samples": [
+    {
+      "step": 1,
+      "time_s": 0.00025,
+      "max_qpos_error": 2.0271736010367308e-07,
+      "max_qvel_error": 0.000810868521923842,
+      "max_ctrl_error": 2.9802322387695312e-08,
+      "cpu_hip_delta_deg": [
+        1.4416504249099464e-06,
+        1.4740857758538498e-06
+      ],
+      "gpu_hip_delta_deg": [
+        1.4272225664319756e-06,
+        1.4748510588065094e-06
+      ],
+      "overflow": [
+        0
+      ]
+    },
+    {
+      "step": 80,
+      "time_s": 0.020000000000000014,
+      "max_qpos_error": 1.3919671995238359e-05,
+      "max_qvel_error": 0.015332727631500065,
+      "max_ctrl_error": 0.004886838998430398,
+      "cpu_hip_delta_deg": [
+        -0.0011197599363314944,
+        -0.0011199935109344461
+      ],
+      "gpu_hip_delta_deg": [
+        -0.0006186464476381378,
+        -0.00061831145526696
+      ],
+      "overflow": [
+        0
+      ]
+    },
+    {
+      "step": 400,
+      "time_s": 0.10000000000000007,
+      "max_qpos_error": 2.402938232655069e-05,
+      "max_qvel_error": 0.0004061581675099124,
+      "max_ctrl_error": 0.00020375505671439958,
+      "cpu_hip_delta_deg": [
+        -0.001671840238406843,
+        -0.0016720529242485707
+      ],
+      "gpu_hip_delta_deg": [
+        -0.0009242283148605316,
+        -0.000924442668301047
+      ],
+      "overflow": [
+        0
+      ]
+    },
+    {
+      "step": 800,
+      "time_s": 0.20000000000000015,
+      "max_qpos_error": 2.5783520387222605e-05,
+      "max_qvel_error": 0.0003056119900439469,
+      "max_ctrl_error": 0.0002174997161754654,
+      "cpu_hip_delta_deg": [
+        -0.0017379360759456237,
+        -0.001737978512108039
+      ],
+      "gpu_hip_delta_deg": [
+        -0.0009885629522127326,
+        -0.0009886090939021433
+      ],
+      "overflow": [
+        0
+      ]
+    },
+    {
+      "step": 1200,
+      "time_s": 0.29999999999999466,
+      "max_qpos_error": 3.502566103264458e-05,
+      "max_qvel_error": 0.00015397814209532415,
+      "max_ctrl_error": 0.0003237642558943099,
+      "cpu_hip_delta_deg": [
+        -0.00492332845226501,
+        -0.004880851202127941
+      ],
+      "gpu_hip_delta_deg": [
+        -0.003908928017545208,
+        -0.0038677205920476356
+      ],
+      "overflow": [
+        0
+      ]
+    },
+    {
+      "step": 2000,
+      "time_s": 0.49999999999997263,
+      "max_qpos_error": 4.914346410703728e-05,
+      "max_qvel_error": 6.668384387835402e-05,
+      "max_ctrl_error": 0.0004885446935819493,
+      "cpu_hip_delta_deg": [
+        -0.011776893857626593,
+        -0.011729024180672468
+      ],
+      "gpu_hip_delta_deg": [
+        -0.010347162129637415,
+        -0.010299197469260892
+      ],
+      "overflow": [
+        0
+      ]
+    }
+  ],
+  "ground_forces": {
+    "gpu": [
+      {
+        "other": "L0_sole_trial_geom",
+        "normal_n": 9.031704902648926
+      },
+      {
+        "other": "L1_sole_trial_geom",
+        "normal_n": 8.75634765625
+      },
+      {
+        "other": "L0_sole_trial_geom",
+        "normal_n": 5.601921558380127
+      },
+      {
+        "other": "L1_sole_trial_geom",
+        "normal_n": 5.8590240478515625
+      }
+    ],
+    "cpu": [
+      {
+        "other": "L0_sole_trial_geom",
+        "normal_n": 9.115835423801965
+      },
+      {
+        "other": "L0_sole_trial_geom",
+        "normal_n": 5.523999862982354
+      },
+      {
+        "other": "L1_sole_trial_geom",
+        "normal_n": 8.836773788223585
+      },
+      {
+        "other": "L1_sole_trial_geom",
+        "normal_n": 5.779672666157591
+      }
+    ],
+    "gpu_total_n": 29.248998165130615,
+    "cpu_total_n": 29.256281741165495,
+    "gpu_contact_count": 4
+  },
+  "stop_reason": null,
+  "wall_seconds_including_cpu_and_sync": 3.2380986000644043,
+  "success": true,
+  "limitations": "One GPU world, 0.5 s, single 10 us central step and ground force extraction. No force guard, no batch, no domain randomization and no training; GPU hip checked only at samples. Numerical divergence may reflect contact dynamics, precision or controller differences; not parity certification."
+}

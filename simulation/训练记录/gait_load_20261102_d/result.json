@@ -1,0 +1,50 @@
+{
+  "config": {
+    "worlds": 32,
+    "timesteps": 32768,
+    "episode_seconds": 4.0,
+    "reset_tilt_deg": 1.0,
+    "leg_amplitude_us": 150.0,
+    "slew_us_per_frame": 2.0,
+    "phase_period_s": 1.6,
+    "load_weight": 1.0,
+    "risk_weight": 1.0,
+    "objective": "load_shift",
+    "resume_checkpoint": "C:\\Practice_project\\biped_sim\\training_runs\\gait_load_20261102_b\\final_policy.zip",
+    "scope": "hypothetical mechanics, phase-conditioned load shift or foot unloading; not walking or hardware"
+  },
+  "baseline": {
+    "seed": 9901,
+    "worlds": 32,
+    "frames": 200,
+    "mean_return": 3.991219244839158,
+    "air_fraction": [
+      0.00078125,
+      0.0009375
+    ],
+    "phase_matched_swing_fraction": 0.00078125,
+    "stance_air_fraction": 0.0009375,
+    "mean_load_alignment": -0.0012528634046375627,
+    "guard_terminations": 0,
+    "falls": 0,
+    "timeouts": 32
+  },
+  "trained": {
+    "seed": 9901,
+    "worlds": 32,
+    "frames": 200,
+    "mean_return": 1.4062135032727383,
+    "air_fraction": [
+      0.00268392800757815,
+      0.0031575623618566467
+    ],
+    "phase_matched_swing_fraction": 0.00268392800757815,
+    "stance_air_fraction": 0.0031575623618566467,
+    "mean_load_alignment": -0.012932276044000471,
+    "guard_terminations": 66,
+    "falls": 0,
+    "timeouts": 0
+  },
+  "actual_timesteps": 49152,
+  "limitations": "One short deterministic evaluation on sampled contact proxy; no true foot-height validation, walking or hardware."
+}

@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_collision_trial.xml",
+      "pulse_delta_us": -20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": -2.691296402399829,
+      "shaft_error_deg": -0.008703597600171212,
+      "max_hip_change_deg": 1.2483076358434215,
+      "max_shaft_speed_rad_s": 3.880757130155179,
+      "sampled_peak_self_contact_n": 35.17815324647792,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    },
+    {
+      "model": "diagnostic_sector_collision_trial.xml",
+      "pulse_delta_us": 20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": 3.637670936649804,
+      "shaft_error_deg": -0.937670936649804,
+      "max_hip_change_deg": 1.7586107682661443,
+      "max_shaft_speed_rad_s": 3.8686895032090325,
+      "sampled_peak_self_contact_n": 28.80296882240572,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    },
+    {
+      "model": "diagnostic_sector_axial_contact_trial.xml",
+      "pulse_delta_us": -20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": -4.020616429269369,
+      "shaft_error_deg": 1.3206164292693687,
+      "max_hip_change_deg": 3.77321326704689,
+      "max_shaft_speed_rad_s": 3.8391069973649765,
+      "sampled_peak_self_contact_n": 0.0,
+      "sampled_peak_pair": null,
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    },
+    {
+      "model": "diagnostic_sector_axial_contact_trial.xml",
+      "pulse_delta_us": 20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": 3.0298388053270675,
+      "shaft_error_deg": -0.3298388053270673,
+      "max_hip_change_deg": 2.761709354668454,
+      "max_shaft_speed_rad_s": 3.911274497098151,
+      "sampled_peak_self_contact_n": 0.0,
+      "sampled_peak_pair": null,
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    }
+  ],
+  "limitations": "Short controlled diagnostic with 20 us step, sampled forces, unmeasured gains and incomplete collisions. Range check only inside this script, not XML. Not training or real-hardware evidence."
+}

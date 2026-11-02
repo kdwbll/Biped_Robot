@@ -1,0 +1,23 @@
+{
+  "valid_for_dynamics": false,
+  "warnings": {
+    "mjWARN_CONTACTFULL": 0,
+    "mjWARN_CNSTRFULL": 0
+  },
+  "pairs": 41719,
+  "total_contacts": 11208,
+  "plane_contact_count": 11206,
+  "plane_active_constraint_count": 11204,
+  "plane_normal_force_sum_n": 180483990462163.5,
+  "min_plane_distance_mm": 1.5131871175016662e-09,
+  "max_plane_distance_mm": 0.0012195030428217785,
+  "sampled_normal_relative_jacobian_norm_max_by_leg": {
+    "0": 1.0068459737819224e-13,
+    "1": 1.3143126994727417e-13
+  },
+  "sampled_jacobian_counts_by_leg": {
+    "0": 100,
+    "1": 100
+  },
+  "limitations": "Single initial-pose experiment. Equal margin/gap does not prevent numerical overconstraint here; total force is an invalid numerical result. 500 N threshold is an arbitrary diagnostic stop, not a physical limit."
+}

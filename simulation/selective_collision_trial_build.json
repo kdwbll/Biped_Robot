@@ -1,0 +1,561 @@
+{
+  "margin_mm": 0.3,
+  "old_proxy_pairs_removed": 160,
+  "new_pair_count": 18353,
+  "excluded_at_initial_pose": [
+    {
+      "geoms": [
+        "highres_chassis5_000",
+        "highres_L0_018"
+      ],
+      "initial_signed_distance_mm": -0.2615981822225821
+    },
+    {
+      "geoms": [
+        "highres_chassis5_000",
+        "highres_L0_022"
+      ],
+      "initial_signed_distance_mm": -0.3263409764304594
+    },
+    {
+      "geoms": [
+        "highres_chassis5_000",
+        "highres_L0_048"
+      ],
+      "initial_signed_distance_mm": -1.0559073592300385
+    },
+    {
+      "geoms": [
+        "highres_chassis5_001",
+        "highres_L0_018"
+      ],
+      "initial_signed_distance_mm": 0.11575256682298106
+    },
+    {
+      "geoms": [
+        "highres_chassis5_001",
+        "highres_L0_048"
+      ],
+      "initial_signed_distance_mm": 0.08430358224773774
+    },
+    {
+      "geoms": [
+        "highres_chassis5_002",
+        "highres_L0_022"
+      ],
+      "initial_signed_distance_mm": -0.06087456625952044
+    },
+    {
+      "geoms": [
+        "highres_chassis5_002",
+        "highres_L0_048"
+      ],
+      "initial_signed_distance_mm": -0.25613217954820844
+    },
+    {
+      "geoms": [
+        "highres_chassis5_003",
+        "highres_L0_001"
+      ],
+      "initial_signed_distance_mm": -0.23814093953352086
+    },
+    {
+      "geoms": [
+        "highres_chassis5_003",
+        "highres_L0_018"
+      ],
+      "initial_signed_distance_mm": -0.2596860910139749
+    },
+    {
+      "geoms": [
+        "highres_chassis5_004",
+        "highres_L0_007"
+      ],
+      "initial_signed_distance_mm": 0.25263371569915555
+    },
+    {
+      "geoms": [
+        "highres_chassis5_004",
+        "highres_L0_055"
+      ],
+      "initial_signed_distance_mm": 0.07175710962017877
+    },
+    {
+      "geoms": [
+        "highres_chassis5_005",
+        "highres_L0_001"
+      ],
+      "initial_signed_distance_mm": -0.2531626863678835
+    },
+    {
+      "geoms": [
+        "highres_chassis5_007",
+        "highres_L0_001"
+      ],
+      "initial_signed_distance_mm": -0.3364299780122212
+    },
+    {
+      "geoms": [
+        "highres_chassis5_007",
+        "highres_L0_009"
+      ],
+      "initial_signed_distance_mm": -0.7164651788890627
+    },
+    {
+      "geoms": [
+        "highres_chassis5_007",
+        "highres_L0_024"
+      ],
+      "initial_signed_distance_mm": -1.2092673412661752
+    },
+    {
+      "geoms": [
+        "highres_chassis5_008",
+        "highres_L0_009"
+      ],
+      "initial_signed_distance_mm": 0.13767727683710967
+    },
+    {
+      "geoms": [
+        "highres_chassis5_008",
+        "highres_L0_024"
+      ],
+      "initial_signed_distance_mm": 0.20083925927986745
+    },
+    {
+      "geoms": [
+        "highres_chassis5_009",
+        "highres_L0_009"
+      ],
+      "initial_signed_distance_mm": -0.7591571278856619
+    },
+    {
+      "geoms": [
+        "highres_chassis5_009",
+        "highres_L0_063"
+      ],
+      "initial_signed_distance_mm": 0.1116315473929346
+    },
+    {
+      "geoms": [
+        "highres_chassis5_009",
+        "highres_L0_068"
+      ],
+      "initial_signed_distance_mm": -0.7635957069783167
+    },
+    {
+      "geoms": [
+        "highres_chassis5_014",
+        "highres_L0_002"
+      ],
+      "initial_signed_distance_mm": -0.1611366198436721
+    },
+    {
+      "geoms": [
+        "highres_chassis5_014",
+        "highres_L0_003"
+      ],
+      "initial_signed_distance_mm": -0.5172650990026785
+    },
+    {
+      "geoms": [
+        "highres_chassis5_015",
+        "highres_L0_002"
+      ],
+      "initial_signed_distance_mm": -0.7275531312665248
+    },
+    {
+      "geoms": [
+        "highres_chassis5_015",
+        "highres_L0_026"
+      ],
+      "initial_signed_distance_mm": 0.24511012899400297
+    },
+    {
+      "geoms": [
+        "highres_chassis5_015",
+        "highres_L0_068"
+      ],
+      "initial_signed_distance_mm": -0.8010055685934252
+    },
+    {
+      "geoms": [
+        "highres_chassis5_016",
+        "highres_L1_019"
+      ],
+      "initial_signed_distance_mm": -0.4379084933865705
+    },
+    {
+      "geoms": [
+        "highres_chassis5_016",
+        "highres_L1_064"
+      ],
+      "initial_signed_distance_mm": -0.21466110262529497
+    },
+    {
+      "geoms": [
+        "highres_chassis5_016",
+        "highres_L1_089"
+      ],
+      "initial_signed_distance_mm": -0.35730532670781623
+    },
+    {
+      "geoms": [
+        "highres_chassis5_021",
+        "highres_L1_011"
+      ],
+      "initial_signed_distance_mm": 0.05623466182908425
+    },
+    {
+      "geoms": [
+        "highres_chassis5_021",
+        "highres_L1_012"
+      ],
+      "initial_signed_distance_mm": 0.026053678335506574
+    },
+    {
+      "geoms": [
+        "highres_chassis5_024",
+        "highres_L1_011"
+      ],
+      "initial_signed_distance_mm": -1.25187525247609
+    },
+    {
+      "geoms": [
+        "highres_chassis5_024",
+        "highres_L1_014"
+      ],
+      "initial_signed_distance_mm": -0.19152327899194624
+    },
+    {
+      "geoms": [
+        "highres_chassis5_026",
+        "highres_L1_011"
+      ],
+      "initial_signed_distance_mm": -0.3203785763629498
+    },
+    {
+      "geoms": [
+        "highres_chassis5_027",
+        "highres_L1_011"
+      ],
+      "initial_signed_distance_mm": 0.062115248854706165
+    },
+    {
+      "geoms": [
+        "highres_chassis5_027",
+        "highres_L1_014"
+      ],
+      "initial_signed_distance_mm": 0.08721562941342494
+    },
+    {
+      "geoms": [
+        "highres_chassis5_028",
+        "highres_L1_020"
+      ],
+      "initial_signed_distance_mm": -0.21759423589331675
+    },
+    {
+      "geoms": [
+        "highres_chassis5_028",
+        "highres_L1_021"
+      ],
+      "initial_signed_distance_mm": 0.05538778832602749
+    },
+    {
+      "geoms": [
+        "highres_chassis5_028",
+        "highres_L1_034"
+      ],
+      "initial_signed_distance_mm": -0.14667548880735548
+    },
+    {
+      "geoms": [
+        "highres_chassis5_031",
+        "highres_L0_001"
+      ],
+      "initial_signed_distance_mm": 0.15298110630906173
+    },
+    {
+      "geoms": [
+        "highres_chassis5_031",
+        "highres_L0_024"
+      ],
+      "initial_signed_distance_mm": 0.11323854809563168
+    },
+    {
+      "geoms": [
+        "highres_chassis5_032",
+        "highres_L0_024"
+      ],
+      "initial_signed_distance_mm": -0.03543240464714205
+    },
+    {
+      "geoms": [
+        "highres_chassis5_033",
+        "highres_L0_068"
+      ],
+      "initial_signed_distance_mm": -0.37286657714481813
+    },
+    {
+      "geoms": [
+        "highres_chassis5_034",
+        "highres_L1_032"
+      ],
+      "initial_signed_distance_mm": -0.5622684540519622
+    },
+    {
+      "geoms": [
+        "highres_chassis5_034",
+        "highres_L1_034"
+      ],
+      "initial_signed_distance_mm": -0.6934870369302197
+    },
+    {
+      "geoms": [
+        "highres_chassis5_037",
+        "highres_L0_002"
+      ],
+      "initial_signed_distance_mm": -0.014623931601561427
+    },
+    {
+      "geoms": [
+        "highres_chassis5_037",
+        "highres_L0_003"
+      ],
+      "initial_signed_distance_mm": 0.03564853414517974
+    },
+    {
+      "geoms": [
+        "highres_chassis5_040",
+        "highres_L1_018"
+      ],
+      "initial_signed_distance_mm": -0.5022106558105822
+    },
+    {
+      "geoms": [
+        "highres_chassis5_041",
+        "highres_L1_012"
+      ],
+      "initial_signed_distance_mm": -0.3240504978903569
+    },
+    {
+      "geoms": [
+        "highres_chassis5_041",
+        "highres_L1_018"
+      ],
+      "initial_signed_distance_mm": -0.5653423949143542
+    },
+    {
+      "geoms": [
+        "highres_chassis5_043",
+        "highres_L1_018"
+      ],
+      "initial_signed_distance_mm": 0.10232447754831976
+    },
+    {
+      "geoms": [
+        "highres_chassis5_044",
+        "highres_L1_012"
+      ],
+      "initial_signed_distance_mm": 0.027400440495749665
+    },
+    {
+      "geoms": [
+        "highres_chassis5_044",
+        "highres_L1_018"
+      ],
+      "initial_signed_distance_mm": 0.032466225775883505
+    },
+    {
+      "geoms": [
+        "highres_chassis5_045",
+        "highres_L1_011"
+      ],
+      "initial_signed_distance_mm": -0.5135391107525571
+    },
+    {
+      "geoms": [
+        "highres_chassis5_047",
+        "highres_L1_011"
+      ],
+      "initial_signed_distance_mm": 0.027546492044429313
+    },
+    {
+      "geoms": [
+        "highres_chassis5_048",
+        "highres_L1_011"
+      ],
+      "initial_signed_distance_mm": 0.12681315864029843
+    },
+    {
+      "geoms": [
+        "highres_chassis5_050",
+        "highres_L1_014"
+      ],
+      "initial_signed_distance_mm": -0.7273401653808645
+    },
+    {
+      "geoms": [
+        "highres_chassis5_050",
+        "highres_L1_032"
+      ],
+      "initial_signed_distance_mm": -0.7745560015991492
+    },
+    {
+      "geoms": [
+        "highres_chassis5_052",
+        "highres_L1_032"
+      ],
+      "initial_signed_distance_mm": 0.09652164599485111
+    },
+    {
+      "geoms": [
+        "highres_chassis5_053",
+        "highres_L1_014"
+      ],
+      "initial_signed_distance_mm": -0.10245815257396557
+    },
+    {
+      "geoms": [
+        "highres_chassis5_053",
+        "highres_L1_032"
+      ],
+      "initial_signed_distance_mm": -0.034521165739947506
+    },
+    {
+      "geoms": [
+        "highres_chassis5_057",
+        "highres_L0_007"
+      ],
+      "initial_signed_distance_mm": -0.39154907079792084
+    },
+    {
+      "geoms": [
+        "highres_chassis5_057",
+        "highres_L0_022"
+      ],
+      "initial_signed_distance_mm": -0.6292288829651943
+    },
+    {
+      "geoms": [
+        "highres_chassis5_059",
+        "highres_L0_007"
+      ],
+      "initial_signed_distance_mm": -0.6311108365297096
+    },
+    {
+      "geoms": [
+        "highres_chassis5_059",
+        "highres_L0_055"
+      ],
+      "initial_signed_distance_mm": -0.5533855891587587
+    },
+    {
+      "geoms": [
+        "highres_chassis5_061",
+        "highres_L0_007"
+      ],
+      "initial_signed_distance_mm": -0.3677484871224611
+    },
+    {
+      "geoms": [
+        "highres_chassis5_061",
+        "highres_L0_022"
+      ],
+      "initial_signed_distance_mm": 0.2726157917249809
+    },
+    {
+      "geoms": [
+        "highres_chassis5_062",
+        "highres_L0_003"
+      ],
+      "initial_signed_distance_mm": -0.5102989405504762
+    },
+    {
+      "geoms": [
+        "highres_chassis5_062",
+        "highres_L0_055"
+      ],
+      "initial_signed_distance_mm": -0.4955907184027992
+    },
+    {
+      "geoms": [
+        "highres_chassis5_064",
+        "highres_L0_003"
+      ],
+      "initial_signed_distance_mm": 0.14938265065111742
+    },
+    {
+      "geoms": [
+        "highres_chassis5_065",
+        "highres_L0_003"
+      ],
+      "initial_signed_distance_mm": 0.13281262799793178
+    },
+    {
+      "geoms": [
+        "highres_chassis5_080",
+        "highres_L1_015"
+      ],
+      "initial_signed_distance_mm": -0.21070551569452028
+    },
+    {
+      "geoms": [
+        "highres_chassis5_080",
+        "highres_L1_018"
+      ],
+      "initial_signed_distance_mm": -0.048148436175356295
+    },
+    {
+      "geoms": [
+        "highres_chassis5_081",
+        "highres_L1_015"
+      ],
+      "initial_signed_distance_mm": -0.31264494488607136
+    },
+    {
+      "geoms": [
+        "highres_chassis5_081",
+        "highres_L1_045"
+      ],
+      "initial_signed_distance_mm": 0.017333604515996224
+    },
+    {
+      "geoms": [
+        "highres_chassis5_081",
+        "highres_L1_064"
+      ],
+      "initial_signed_distance_mm": -0.42299000193685704
+    },
+    {
+      "geoms": [
+        "highres_chassis5_083",
+        "highres_L1_015"
+      ],
+      "initial_signed_distance_mm": -0.3443729938899305
+    },
+    {
+      "geoms": [
+        "highres_chassis5_083",
+        "highres_L1_018"
+      ],
+      "initial_signed_distance_mm": -0.1251926248976675
+    },
+    {
+      "geoms": [
+        "highres_chassis5_084",
+        "highres_L1_019"
+      ],
+      "initial_signed_distance_mm": -0.554931009387608
+    },
+    {
+      "geoms": [
+        "highres_chassis5_084",
+        "highres_L1_021"
+      ],
+      "initial_signed_distance_mm": -0.6071395551304121
+    }
+  ],
+  "limitations": "Pairs within 0.3 mm at initial pose are excluded for false overlap; coverage is incomplete throughout motion. CAD bodies are not convex proxy shapes. Do not use for training."
+}

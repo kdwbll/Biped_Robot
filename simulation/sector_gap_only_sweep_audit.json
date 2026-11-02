@@ -1,0 +1,697 @@
+{
+  "sample_count": 201,
+  "hip_range_deg": [
+    -5,
+    5
+  ],
+  "pair_count": 57,
+  "positive_lower_bound_count": 56,
+  "lower_bound_min_mm": -0.009867927363849609,
+  "results": [
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_268"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.041928702323827866,
+      "sector_min_mm": 0.2500309959767652,
+      "sector_min_at_deg": 4.0,
+      "interpolation_motion_bound_mm": 0.0126375295900488,
+      "bounded_lower_mm": 0.23739346638671638
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_039"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.041456276866701586,
+      "sector_min_mm": 0.25033595284513127,
+      "sector_min_at_deg": -3.8,
+      "interpolation_motion_bound_mm": 0.010572068299501202,
+      "bounded_lower_mm": 0.23976388454563005
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_017"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.07641597634614239,
+      "sector_min_mm": 0.25048450866379174,
+      "sector_min_at_deg": 2.6500000000000004,
+      "interpolation_motion_bound_mm": 0.010267698514007922,
+      "bounded_lower_mm": 0.2402168101497838
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_188"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.018055910509783533,
+      "sector_min_mm": 0.2739035365278072,
+      "sector_min_at_deg": 4.9,
+      "interpolation_motion_bound_mm": 0.02551283082333799,
+      "bounded_lower_mm": 0.24839070570446922
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_065"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.018053975602730272,
+      "sector_min_mm": 0.27390547117093206,
+      "sector_min_at_deg": 4.9,
+      "interpolation_motion_bound_mm": 0.009429540798552622,
+      "bounded_lower_mm": 0.26447593037237943
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_014"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.03878182740701795,
+      "sector_min_mm": 0.25015725682093587,
+      "sector_min_at_deg": 3.950000000000001,
+      "interpolation_motion_bound_mm": 0.01314963638121283,
+      "bounded_lower_mm": 0.23700762043972304
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_239"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.03884524209039099,
+      "sector_min_mm": 0.25009362880186414,
+      "sector_min_at_deg": 3.950000000000001,
+      "interpolation_motion_bound_mm": 0.01013332910213375,
+      "bounded_lower_mm": 0.2399602996997304
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_243"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.07671857605736507,
+      "sector_min_mm": 0.2501767265311231,
+      "sector_min_at_deg": 2.6500000000000004,
+      "interpolation_motion_bound_mm": 0.01669333098481106,
+      "bounded_lower_mm": 0.23348339554631203
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_038"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.02568171288983414,
+      "sector_min_mm": 0.2502844534302891,
+      "sector_min_at_deg": 4.1,
+      "interpolation_motion_bound_mm": 0.01089633856743854,
+      "bounded_lower_mm": 0.23938811486285058
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_064"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.025573903816561373,
+      "sector_min_mm": 0.25039211243418286,
+      "sector_min_at_deg": 4.1,
+      "interpolation_motion_bound_mm": 0.023697097378708946,
+      "bounded_lower_mm": 0.22669501505547388
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_255"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.005451306404859866,
+      "sector_min_mm": 0.2499870461328351,
+      "sector_min_at_deg": -3.8499999999999996,
+      "interpolation_motion_bound_mm": 0.010669453694804796,
+      "bounded_lower_mm": 0.23931759243803027
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_289"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.005453019695219168,
+      "sector_min_mm": 0.2736764156841496,
+      "sector_min_at_deg": -2.55,
+      "interpolation_motion_bound_mm": 0.028459736122715382,
+      "bounded_lower_mm": 0.24521667956143417
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_113"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.03865098662727959,
+      "sector_min_mm": 0.24998690319416692,
+      "sector_min_at_deg": -0.25,
+      "interpolation_motion_bound_mm": 0.012192936163419233,
+      "bounded_lower_mm": 0.2377939670307477
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_034"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.018042844695061892,
+      "sector_min_mm": 0.2500427229448892,
+      "sector_min_at_deg": 1.0500000000000007,
+      "interpolation_motion_bound_mm": 0.00912488141786524,
+      "bounded_lower_mm": 0.240917841527024
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_103"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.01726777097884819,
+      "sector_min_mm": 0.25081779241232166,
+      "sector_min_at_deg": 1.0500000000000007,
+      "interpolation_motion_bound_mm": 0.023164931512572266,
+      "bounded_lower_mm": 0.2276528608997494
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_014"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.01594108985618285,
+      "sector_min_mm": 0.250748316696524,
+      "sector_min_at_deg": -0.7000000000000002,
+      "interpolation_motion_bound_mm": 0.01314963638121283,
+      "bounded_lower_mm": 0.23759868031531112
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_064"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.04145160600572241,
+      "sector_min_mm": 0.24990012362779654,
+      "sector_min_at_deg": -3.8,
+      "interpolation_motion_bound_mm": 0.023697097378708946,
+      "bounded_lower_mm": 0.22620302624908759
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_243"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.0016559659894515469,
+      "sector_min_mm": 0.24998416746277974,
+      "sector_min_at_deg": 2.3000000000000007,
+      "interpolation_motion_bound_mm": 0.01669333098481106,
+      "bounded_lower_mm": 0.23329083647796867
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_017"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.0018596755430052494,
+      "sector_min_mm": 0.25046959661049945,
+      "sector_min_at_deg": -1.75,
+      "interpolation_motion_bound_mm": 0.010267698514007922,
+      "bounded_lower_mm": 0.24020189809649153
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_185"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.02469929932583928,
+      "sector_min_mm": 0.24990849031490503,
+      "sector_min_at_deg": 3.25,
+      "interpolation_motion_bound_mm": 0.020315768352144135,
+      "bounded_lower_mm": 0.22959272196276087
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_038"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.040355872547044425,
+      "sector_min_mm": 0.2509122925130109,
+      "sector_min_at_deg": -0.8499999999999996,
+      "interpolation_motion_bound_mm": 0.01089633856743854,
+      "bounded_lower_mm": 0.24001595394557235
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_060"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.013824019963505747,
+      "sector_min_mm": 0.25072143603155733,
+      "sector_min_at_deg": 0.40000000000000036,
+      "interpolation_motion_bound_mm": 0.017425477419655198,
+      "bounded_lower_mm": 0.23329595861190217
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_060"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.014202946843957343,
+      "sector_min_mm": 0.2507211173864884,
+      "sector_min_at_deg": 4.1,
+      "interpolation_motion_bound_mm": 0.017425477419655198,
+      "bounded_lower_mm": 0.23329563996683322
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_015"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.013980894557804187,
+      "sector_min_mm": 0.2508783952686152,
+      "sector_min_at_deg": 0.40000000000000036,
+      "interpolation_motion_bound_mm": 0.01000309106724314,
+      "bounded_lower_mm": 0.24087530420137207
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_002",
+        "nomerge_L0_285"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.010118226600088756,
+      "sector_min_mm": 0.25390777292579986,
+      "sector_min_at_deg": 0.25,
+      "interpolation_motion_bound_mm": 0.01798670058365365,
+      "bounded_lower_mm": 0.2359210723421462
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_102"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.005956820707746311,
+      "sector_min_mm": 0.24994258950841775,
+      "sector_min_at_deg": 2.0,
+      "interpolation_motion_bound_mm": 0.017211063592155462,
+      "bounded_lower_mm": 0.23273152591626228
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_033"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.00623137425873075,
+      "sector_min_mm": 0.25021724215439933,
+      "sector_min_at_deg": 2.0,
+      "interpolation_motion_bound_mm": 0.009559354661511272,
+      "bounded_lower_mm": 0.24065788749288808
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_238"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.012947174173726695,
+      "sector_min_mm": 0.2755669942771734,
+      "sector_min_at_deg": 0.20000000000000018,
+      "interpolation_motion_bound_mm": 0.03127097489587619,
+      "bounded_lower_mm": 0.24429601938129722
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_013"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.005788928749846717,
+      "sector_min_mm": 0.24971005568664273,
+      "sector_min_at_deg": -4.75,
+      "interpolation_motion_bound_mm": 0.011494678147770655,
+      "bounded_lower_mm": 0.2382153775388721
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_171"
+      ],
+      "leg": 0,
+      "old_min_mm": -0.016038711933293225,
+      "sector_min_mm": 0.250666734826633,
+      "sector_min_at_deg": -0.7000000000000002,
+      "interpolation_motion_bound_mm": 0.02335567502534246,
+      "bounded_lower_mm": 0.22731105980129054
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_014"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.019746537990678853,
+      "sector_min_mm": 0.25156756825611276,
+      "sector_min_at_deg": -0.39999999999999947,
+      "interpolation_motion_bound_mm": 0.01314963638121283,
+      "bounded_lower_mm": 0.2384179318748999
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_022"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.018183163876701318,
+      "sector_min_mm": 0.2500361039238005,
+      "sector_min_at_deg": -0.39999999999999947,
+      "interpolation_motion_bound_mm": 0.01890738669080566,
+      "bounded_lower_mm": 0.23112871723299483
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_022"
+      ],
+      "leg": 0,
+      "old_min_mm": 0.01864750432918715,
+      "sector_min_mm": 0.25003566747042455,
+      "sector_min_at_deg": -0.25,
+      "interpolation_motion_bound_mm": 0.01890738669080566,
+      "bounded_lower_mm": 0.2311282807796189
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_092"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.05760519114340762,
+      "sector_min_mm": 0.2500290496374534,
+      "sector_min_at_deg": 4.35,
+      "interpolation_motion_bound_mm": 0.018209733239949996,
+      "bounded_lower_mm": 0.23181931639750342
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_083"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.05722867275176128,
+      "sector_min_mm": 0.2504061510879153,
+      "sector_min_at_deg": 2.6500000000000004,
+      "interpolation_motion_bound_mm": 0.015835790391763378,
+      "bounded_lower_mm": 0.2345703606961519
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_012"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.05706660309563112,
+      "sector_min_mm": 0.25056767447448025,
+      "sector_min_at_deg": 4.35,
+      "interpolation_motion_bound_mm": 0.009650263102249493,
+      "bounded_lower_mm": 0.24091741137223077
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_031"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.057334954706454784,
+      "sector_min_mm": 0.25006013452152204,
+      "sector_min_at_deg": -4.6,
+      "interpolation_motion_bound_mm": 0.010651410085716413,
+      "bounded_lower_mm": 0.23940872443580563
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_072"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.00019825622103556407,
+      "sector_min_mm": -0.00014945302813860434,
+      "sector_min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.009718474335711004,
+      "bounded_lower_mm": -0.009867927363849609
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_029"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.03908846716592988,
+      "sector_min_mm": 0.2499494624936132,
+      "sector_min_at_deg": 3.8000000000000007,
+      "interpolation_motion_bound_mm": 0.010651658808135461,
+      "bounded_lower_mm": 0.23929780368547773
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_081"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.03904704241157931,
+      "sector_min_mm": 0.2499908128192294,
+      "sector_min_at_deg": 3.8000000000000007,
+      "interpolation_motion_bound_mm": 0.025486018525870374,
+      "bounded_lower_mm": 0.22450479429335904
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_028"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.035946542474871515,
+      "sector_min_mm": 0.2500538760059243,
+      "sector_min_at_deg": 3.75,
+      "interpolation_motion_bound_mm": 0.010767388058522922,
+      "bounded_lower_mm": 0.23928648794740143
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_252"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.03584675064360221,
+      "sector_min_mm": 0.25015361003893766,
+      "sector_min_at_deg": 3.75,
+      "interpolation_motion_bound_mm": 0.029780666126508912,
+      "bounded_lower_mm": 0.22037294391242873
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_031"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.03901934241854993,
+      "sector_min_mm": 0.24992599842680258,
+      "sector_min_at_deg": -0.39999999999999947,
+      "interpolation_motion_bound_mm": 0.010651410085716413,
+      "bounded_lower_mm": 0.23927458834108614
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_082"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.03895998393598613,
+      "sector_min_mm": 0.24998754075142327,
+      "sector_min_at_deg": -0.39999999999999947,
+      "interpolation_motion_bound_mm": 0.025378392793114702,
+      "bounded_lower_mm": 0.22460914795830855
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_290"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.03586149734638679,
+      "sector_min_mm": 0.2500654262768549,
+      "sector_min_at_deg": -3.0999999999999996,
+      "interpolation_motion_bound_mm": 0.024878555363006698,
+      "bounded_lower_mm": 0.2251868709138482
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_205"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.003521306658073396,
+      "sector_min_mm": 0.25002386475527777,
+      "sector_min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.012384638710025223,
+      "bounded_lower_mm": 0.2376392260452526
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_030"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.0030410980609648975,
+      "sector_min_mm": 0.2505038823919995,
+      "sector_min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.010814481104199166,
+      "bounded_lower_mm": 0.2396894012878003
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_272"
+      ],
+      "leg": 1,
+      "old_min_mm": 0.013991242191306003,
+      "sector_min_mm": 0.2507522713817696,
+      "sector_min_at_deg": 3.9000000000000004,
+      "interpolation_motion_bound_mm": 0.012209063481101113,
+      "bounded_lower_mm": 0.23854320790066846
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_272"
+      ],
+      "leg": 1,
+      "old_min_mm": 0.01409435507328722,
+      "sector_min_mm": 0.2507531224459532,
+      "sector_min_at_deg": -2.8,
+      "interpolation_motion_bound_mm": 0.012209063481101113,
+      "bounded_lower_mm": 0.23854405896485212
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_032"
+      ],
+      "leg": 1,
+      "old_min_mm": 0.014861277046890026,
+      "sector_min_mm": 0.25105760872334926,
+      "sector_min_at_deg": -0.5999999999999996,
+      "interpolation_motion_bound_mm": 0.013213534800140241,
+      "bounded_lower_mm": 0.237844073923209
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_013"
+      ],
+      "leg": 1,
+      "old_min_mm": 0.020138264539210183,
+      "sector_min_mm": 0.2501883766099204,
+      "sector_min_at_deg": -0.4500000000000002,
+      "interpolation_motion_bound_mm": 0.018724267877708613,
+      "bounded_lower_mm": 0.23146410873221177
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_013"
+      ],
+      "leg": 1,
+      "old_min_mm": 0.0202208707239337,
+      "sector_min_mm": 0.2501902558319423,
+      "sector_min_at_deg": -0.5999999999999996,
+      "interpolation_motion_bound_mm": 0.018724267877708613,
+      "bounded_lower_mm": 0.23146598795423373
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_206"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.014208416706232107,
+      "sector_min_mm": 0.25006875725473554,
+      "sector_min_at_deg": 2.95,
+      "interpolation_motion_bound_mm": 0.0301515786871771,
+      "bounded_lower_mm": 0.2199171785675584
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_030"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.013656672482288594,
+      "sector_min_mm": 0.25062054069710915,
+      "sector_min_at_deg": 2.95,
+      "interpolation_motion_bound_mm": 0.010814481104199166,
+      "bounded_lower_mm": 0.23980605959291
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_253"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.013983614373811057,
+      "sector_min_mm": 0.2502899499424466,
+      "sector_min_at_deg": -0.7999999999999998,
+      "interpolation_motion_bound_mm": 0.014681562356250755,
+      "bounded_lower_mm": 0.23560838758619582
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_203"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.01401447363833258,
+      "sector_min_mm": 0.25025912489099045,
+      "sector_min_at_deg": -0.7999999999999998,
+      "interpolation_motion_bound_mm": 0.00929837399865688,
+      "bounded_lower_mm": 0.24096075089233357
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_253"
+      ],
+      "leg": 1,
+      "old_min_mm": -0.012509295465239993,
+      "sector_min_mm": 0.27295371707159044,
+      "sector_min_at_deg": 2.9000000000000004,
+      "interpolation_motion_bound_mm": 0.014681562356250755,
+      "bounded_lower_mm": 0.2582721547153397
+    }
+  ],
+  "limitations": "Only 57 selected proxy pairs, rigid ideal hip motion and 201 samples plus geometric interpolation bound. Does not include other proxies, controller overshoot, other contacts, floating manufacturing tolerances, or dynamics. Sector meshes remain inactive."
+}

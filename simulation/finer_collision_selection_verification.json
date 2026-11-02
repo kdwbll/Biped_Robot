@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "active_pairs": 628,
+  "excluded_pairs": 89,
+  "sample_count": 201,
+  "max_between_sample_motion_bound_mm": 0.2083072238154663,
+  "model_contact_pairs": 10055,
+  "limitation": "Motion bound assumes exact rigid rotation and accurate proxy distances. Selection matches saved sampled data; it is not a CAD/continuous collision proof."
+}

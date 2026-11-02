@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+      "valid": true,
+      "duration_s": 0.49999999999997263,
+      "sampled_peak_self_contact_n": 0.7886226099375415,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "model": "diagnostic_selective_collision_trial.xml",
+      "valid": true,
+      "duration_s": 0.49999999999997263,
+      "sampled_peak_self_contact_n": 0.7886226099375415,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    }
+  ],
+  "limitations": "Pairs within 0.3 mm at initial pose are excluded for false overlap; coverage is incomplete throughout motion. CAD bodies are not convex proxy shapes. Do not use for training."
+}

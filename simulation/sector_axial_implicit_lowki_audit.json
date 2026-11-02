@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_axial_contact_trial.xml",
+      "pulse_delta_us": -20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": -1.144413108821255,
+      "shaft_error_deg": -1.5555868911787452,
+      "max_hip_change_deg": 0.5155521266171149,
+      "max_shaft_speed_rad_s": 0.4784257445730303,
+      "sampled_peak_self_contact_n": 0.0,
+      "sampled_peak_pair": null,
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    },
+    {
+      "model": "diagnostic_sector_axial_contact_trial.xml",
+      "pulse_delta_us": 20,
+      "duration_s": 6.000000000001587,
+      "stop_reason": null,
+      "shaft_displacement_deg": 2.467751410642628,
+      "shaft_error_deg": 0.23224858935737222,
+      "max_hip_change_deg": 1.1652569097889194,
+      "max_shaft_speed_rad_s": 0.482385374274013,
+      "sampled_peak_self_contact_n": 0.0,
+      "sampled_peak_pair": null,
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    }
+  ],
+  "hypothetical_joint_frictionloss_nm": 0.1,
+  "hypothetical_implicit_shaft_damping_nm_s_per_rad": 0.301,
+  "explicit_servo_damping": 0.0,
+  "hypothetical_hip_integral_gain": 1.5,
+  "limitations": "Short controlled diagnostic with 20 us step, sampled forces, unmeasured gains and incomplete collisions. Range check only inside this script, not XML. Not training or real-hardware evidence."
+}

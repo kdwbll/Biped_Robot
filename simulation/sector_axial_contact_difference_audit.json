@@ -1,0 +1,5 @@
+{
+  "single_contact_removed": true,
+  "all_other_xml_unchanged": true,
+  "limitations": "XML check only. The removed contact could carry real tangential friction or load not represented by ideal hinge."
+}

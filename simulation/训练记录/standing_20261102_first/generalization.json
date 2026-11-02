@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "seed": 9040,
+      "zero_action": {
+        "seed": 9040,
+        "worlds": 8,
+        "frames": 150,
+        "sim_seconds_per_world": 3.0,
+        "mean_return": 2.99645217275247,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "minimum_upright": 0.9995461702346802,
+        "max_tilt_deg": 1.7262374909912257,
+        "max_sampled_self_contact_n": 5.238105297088623
+      },
+      "trained_policy": {
+        "seed": 9040,
+        "worlds": 8,
+        "frames": 150,
+        "sim_seconds_per_world": 3.0,
+        "mean_return": 2.996346046216786,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "minimum_upright": 0.9995467662811279,
+        "max_tilt_deg": 1.7251034384785704,
+        "max_sampled_self_contact_n": 7.11653995513916
+      }
+    },
+    {
+      "seed": 9060,
+      "zero_action": {
+        "seed": 9060,
+        "worlds": 8,
+        "frames": 150,
+        "sim_seconds_per_world": 3.0,
+        "mean_return": 2.8689130407292396,
+        "guard_terminations": 1,
+        "falls": 0,
+        "timeouts": 7,
+        "minimum_upright": 0.9994799494743347,
+        "max_tilt_deg": 1.847903223870998,
+        "max_sampled_self_contact_n": 24.628337860107422
+      },
+      "trained_policy": {
+        "seed": 9060,
+        "worlds": 8,
+        "frames": 150,
+        "sim_seconds_per_world": 3.0,
+        "mean_return": 2.9963147605303675,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "minimum_upright": 0.9995691776275635,
+        "max_tilt_deg": 1.681908430387842,
+        "max_sampled_self_contact_n": 7.916748046875
+      }
+    }
+  ],
+  "limitations": "Two evaluation seeds, 8 worlds each, 3 seconds per world; assumed dynamics and no walking/hardware validation."
+}

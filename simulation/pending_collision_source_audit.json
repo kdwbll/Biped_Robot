@@ -1,0 +1,279 @@
+{
+  "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+  "pose": "initial keyframe",
+  "method": "FCL source triangle mesh intersections, grouped by original chassis solid and tower",
+  "limitations": "An intersection anywhere in the two source meshes cannot identify whether each proxy pair is valid. No contact restoration, solid CAD check, or moving-state verification.",
+  "excluded_proxy_pair_count": 55,
+  "groups": [
+    {
+      "chassis_source_index": 0,
+      "leg": 0,
+      "excluded_pair_count": 19,
+      "source_triangles_intersect": true,
+      "source_contact_count": 1323,
+      "source_surface_distance_mm": 0.0,
+      "proxy_pairs": [
+        [
+          "dc_chassis_0_0",
+          "tower_L0_tower_0"
+        ],
+        [
+          "dc_chassis_0_0",
+          "tower_L0_tower_2"
+        ],
+        [
+          "dc_chassis_0_0",
+          "tower_L0_tower_3"
+        ],
+        [
+          "dc_chassis_0_0",
+          "tower_L0_tower_6"
+        ],
+        [
+          "dc_chassis_0_4",
+          "tower_L0_tower_0"
+        ],
+        [
+          "dc_chassis_0_4",
+          "tower_L0_tower_2"
+        ],
+        [
+          "dc_chassis_0_4",
+          "tower_L0_tower_4"
+        ],
+        [
+          "dc_chassis_0_4",
+          "tower_L0_tower_7"
+        ],
+        [
+          "dc_chassis_0_5",
+          "tower_L0_tower_1"
+        ],
+        [
+          "dc_chassis_0_5",
+          "tower_L0_tower_3"
+        ],
+        [
+          "dc_chassis_0_5",
+          "tower_L0_tower_5"
+        ],
+        [
+          "dc_chassis_0_5",
+          "tower_L0_tower_6"
+        ],
+        [
+          "dc_chassis_0_6",
+          "tower_L0_tower_1"
+        ],
+        [
+          "dc_chassis_0_6",
+          "tower_L0_tower_5"
+        ],
+        [
+          "dc_chassis_0_6",
+          "tower_L0_tower_6"
+        ],
+        [
+          "dc_chassis_0_7",
+          "tower_L0_tower_1"
+        ],
+        [
+          "dc_chassis_0_7",
+          "tower_L0_tower_4"
+        ],
+        [
+          "dc_chassis_0_7",
+          "tower_L0_tower_5"
+        ],
+        [
+          "dc_chassis_0_7",
+          "tower_L0_tower_7"
+        ]
+      ]
+    },
+    {
+      "chassis_source_index": 0,
+      "leg": 1,
+      "excluded_pair_count": 18,
+      "source_triangles_intersect": true,
+      "source_contact_count": 1300,
+      "source_surface_distance_mm": 0.0,
+      "proxy_pairs": [
+        [
+          "dc_chassis_0_1",
+          "tower_L1_tower_4"
+        ],
+        [
+          "dc_chassis_0_1",
+          "tower_L1_tower_6"
+        ],
+        [
+          "dc_chassis_0_1",
+          "tower_L1_tower_7"
+        ],
+        [
+          "dc_chassis_0_1",
+          "tower_L1_tower_8"
+        ],
+        [
+          "dc_chassis_0_2",
+          "tower_L1_tower_12"
+        ],
+        [
+          "dc_chassis_0_2",
+          "tower_L1_tower_4"
+        ],
+        [
+          "dc_chassis_0_2",
+          "tower_L1_tower_5"
+        ],
+        [
+          "dc_chassis_0_2",
+          "tower_L1_tower_7"
+        ],
+        [
+          "dc_chassis_0_3",
+          "tower_L1_tower_10"
+        ],
+        [
+          "dc_chassis_0_3",
+          "tower_L1_tower_12"
+        ],
+        [
+          "dc_chassis_0_3",
+          "tower_L1_tower_5"
+        ],
+        [
+          "dc_chassis_0_3",
+          "tower_L1_tower_7"
+        ],
+        [
+          "dc_chassis_0_4",
+          "tower_L1_tower_0"
+        ],
+        [
+          "dc_chassis_0_4",
+          "tower_L1_tower_12"
+        ],
+        [
+          "dc_chassis_0_4",
+          "tower_L1_tower_9"
+        ],
+        [
+          "dc_chassis_0_7",
+          "tower_L1_tower_0"
+        ],
+        [
+          "dc_chassis_0_7",
+          "tower_L1_tower_6"
+        ],
+        [
+          "dc_chassis_0_7",
+          "tower_L1_tower_9"
+        ]
+      ]
+    },
+    {
+      "chassis_source_index": 2,
+      "leg": 1,
+      "excluded_pair_count": 2,
+      "source_triangles_intersect": true,
+      "source_contact_count": 91,
+      "source_surface_distance_mm": 0.0,
+      "proxy_pairs": [
+        [
+          "dc_chassis_2_3",
+          "tower_L1_tower_4"
+        ],
+        [
+          "dc_chassis_2_3",
+          "tower_L1_tower_6"
+        ]
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 0,
+      "excluded_pair_count": 8,
+      "source_triangles_intersect": false,
+      "source_contact_count": 0,
+      "source_surface_distance_mm": 0.17861331046584247,
+      "proxy_pairs": [
+        [
+          "dc_chassis_5_0",
+          "tower_L0_tower_0"
+        ],
+        [
+          "dc_chassis_5_0",
+          "tower_L0_tower_1"
+        ],
+        [
+          "dc_chassis_5_0",
+          "tower_L0_tower_4"
+        ],
+        [
+          "dc_chassis_5_3",
+          "tower_L0_tower_1"
+        ],
+        [
+          "dc_chassis_5_3",
+          "tower_L0_tower_3"
+        ],
+        [
+          "dc_chassis_5_4",
+          "tower_L0_tower_1"
+        ],
+        [
+          "dc_chassis_5_5",
+          "tower_L0_tower_0"
+        ],
+        [
+          "dc_chassis_5_5",
+          "tower_L0_tower_3"
+        ]
+      ]
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 1,
+      "excluded_pair_count": 8,
+      "source_triangles_intersect": false,
+      "source_contact_count": 0,
+      "source_surface_distance_mm": 0.178163560236731,
+      "proxy_pairs": [
+        [
+          "dc_chassis_5_1",
+          "tower_L1_tower_0"
+        ],
+        [
+          "dc_chassis_5_1",
+          "tower_L1_tower_8"
+        ],
+        [
+          "dc_chassis_5_2",
+          "tower_L1_tower_10"
+        ],
+        [
+          "dc_chassis_5_2",
+          "tower_L1_tower_7"
+        ],
+        [
+          "dc_chassis_5_6",
+          "tower_L1_tower_7"
+        ],
+        [
+          "dc_chassis_5_6",
+          "tower_L1_tower_8"
+        ],
+        [
+          "dc_chassis_5_7",
+          "tower_L1_tower_0"
+        ],
+        [
+          "dc_chassis_5_7",
+          "tower_L1_tower_10"
+        ]
+      ]
+    }
+  ]
+}

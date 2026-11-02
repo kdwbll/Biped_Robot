@@ -1,0 +1,50 @@
+{
+  "friction_range_nm": [
+    0.05,
+    0.2
+  ],
+  "seed_reproducible": true,
+  "invalid_ranges_rejected": true,
+  "results": [
+    {
+      "seed": 11,
+      "assumed_friction_nm": [
+        0.06928553041537995,
+        0.12489167936601726
+      ],
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "sampled_peak_n": 0.0,
+      "max_gear_residual_deg": 0.02606772008073438
+    },
+    {
+      "seed": 22,
+      "assumed_friction_nm": [
+        0.10495203731481142,
+        0.07989430690626244
+      ],
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "sampled_peak_n": 0.0,
+      "max_gear_residual_deg": 0.027143491431128187
+    },
+    {
+      "seed": 33,
+      "assumed_friction_nm": [
+        0.11654633554440008,
+        0.1352736787886835
+      ],
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "sampled_peak_n": 0.0,
+      "max_gear_residual_deg": 0.029522480342273706
+    }
+  ],
+  "limitations": "Only three short trajectories and arbitrary unmeasured friction range. Guards are simulation heuristics; this is not training or hardware validation."
+}

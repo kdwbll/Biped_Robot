@@ -1,0 +1,18 @@
+{
+  "contact_limit_n": 0.0001,
+  "abort_triggered": true,
+  "flags": [
+    0,
+    0,
+    8,
+    8
+  ],
+  "times_s": [
+    0.0077500008046627045,
+    0.0077500008046627045,
+    0.0077500008046627045,
+    0.0077500008046627045
+  ],
+  "reason": "GPU diagnostic batch aborted: {'flags': [0, 0, 8, 8], 'overflow': [0, 0, 0, 0], 'substep': 31}; discard rollout",
+  "limitations": "Very small artificial threshold is only to exercise a live path; not a physical safety threshold. Four-world short test; no policy or training."
+}

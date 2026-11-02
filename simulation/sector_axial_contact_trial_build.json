@@ -1,0 +1,10 @@
+{
+  "removed_pair": {
+    "geom1": "tower_L0_tower_8",
+    "geom2": "dc_chassis_1_1",
+    "solref": ".001 1",
+    "solimp": ".99 .999 .001"
+  },
+  "compiled_pair_count": 12850,
+  "limitations": "Removes only one explicit contact under ideal rigid hinge assumptions. Does not model actual normal loading or friction; other contact omissions and real clearances remain. No XML range guard; diagnostic only."
+}

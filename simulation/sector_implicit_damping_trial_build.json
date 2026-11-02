@@ -1,0 +1,20 @@
+{
+  "model": "diagnostic_sector_implicit_damping_trial.xml",
+  "changes": [
+    {
+      "joint": "L0_hip_candidate",
+      "frictionloss_nm": 0.1
+    },
+    {
+      "joint": "L1_hip_candidate",
+      "frictionloss_nm": 0.1
+    },
+    {
+      "joint": "hypothetical_servo_shaft",
+      "damping_nm_s_per_rad": 0.301
+    }
+  ],
+  "contact_pairs": 12850,
+  "required_external_servo_hip_damping": 0.0,
+  "limitations": "Friction and damping are unmeasured hypotheses; requires simulation controller configured with zero explicit hip derivative to avoid double-counting. Some collision pairs absent; XML has no runtime range guard. Not hardware validated."
+}

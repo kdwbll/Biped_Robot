@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "hip_damping": 0.01,
+      "peak": {
+        "time_s": 1.0207499999999246,
+        "speed_rad_s": -3.841953618326048,
+        "torque_nm": -0.3423620418000759,
+        "shaft_deg": -0.0957457968193655,
+        "target_deg": -2.7
+      }
+    },
+    {
+      "hip_damping": 0.3,
+      "peak": {
+        "time_s": 0.007750000000000005,
+        "speed_rad_s": -14.149990556847824,
+        "torque_nm": 0.9902153529432325,
+        "shaft_deg": -0.19688419384269915,
+        "target_deg": 0.0
+      }
+    }
+  ],
+  "limitations": "Two seconds, two hypothetical gains, one command. Speed is simulation output; not physical servo limit or hardware test."
+}

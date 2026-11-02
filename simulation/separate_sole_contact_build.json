@@ -1,0 +1,35 @@
+{
+  "source": "diagnostic_foot_suppressed_plate_trial.xml",
+  "model": "diagnostic_separate_sole_contact_trial.xml",
+  "changes": [
+    {
+      "leg": 0,
+      "mesh": "meshes_foot_soles/leg0_sole_trial.stl",
+      "face_count": 2108,
+      "extents_mm": [
+        125.39848804473877,
+        50.0256462097168,
+        25.0
+      ],
+      "pair": "floor_L0_6",
+      "upper_mesh": "meshes_foot_soles/leg0_upper_trial.stl",
+      "upper_faces": 1394
+    },
+    {
+      "leg": 1,
+      "mesh": "meshes_foot_soles/leg1_sole_trial.stl",
+      "face_count": 2222,
+      "extents_mm": [
+        125.0,
+        49.0,
+        25.0
+      ],
+      "pair": "floor_L1_6",
+      "upper_mesh": "meshes_foot_soles/leg1_upper_trial.stl",
+      "upper_faces": 1394
+    }
+  ],
+  "compiled_pair_count": 11435,
+  "initial_contacts": 2,
+  "limitations": "Sole extracted from existing STL, not a new CAD tessellation. Still convex hull of sole, not full concave surface. Initial geometric samples are not dynamic proof. Other excluded contact pairs and actuator uncertainty remain. Diagnostic only, not training or hardware."
+}

@@ -1,0 +1,9 @@
+{
+  "target": "chassis5",
+  "source_faces": 3928,
+  "threshold": 0.008,
+  "max_convex_hull": 96,
+  "output_count": 96,
+  "seconds": 80.21619399997871,
+  "units": "mm"
+}

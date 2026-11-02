@@ -1,0 +1,30 @@
+{
+  "pair": [
+    "dc_chassis_1_1",
+    "tower_L0_tower_8"
+  ],
+  "command_delta_us": -20,
+  "sampling_every_steps": 20,
+  "peak": {
+    "time_s": 4.935250000000286,
+    "normal_force_n": 35.17815324647792,
+    "penetration_mm": 1.4877692982355643e-06,
+    "normal_world": [
+      0.000106935236102348,
+      0.014035739454055592,
+      -0.9999014884391529
+    ],
+    "hip_axis_world": [
+      -0.00010693289600165213,
+      -0.014035736657026104,
+      0.9999014884786652
+    ],
+    "normal_axis_abs_dot": 1.0000000000000002,
+    "normal_relative_jacobian_max_abs": 1.3048405747822373e-10,
+    "hip_deg": [
+      0.7971763815825053,
+      0.7966461839827004
+    ]
+  },
+  "limitations": "Peak sampled at 5 ms intervals for one command and one approximate proxy pair. Contact normal and Jacobian are simulation results, not real contact force or proof over all states."
+}

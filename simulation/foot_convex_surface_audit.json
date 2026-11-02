@@ -1,0 +1,673 @@
+{
+  "model": "diagnostic_foot_suppressed_plate_trial.xml",
+  "pose": "initial and isolated geometric foot tilts; lowest vertex aligned with ground",
+  "results": [
+    {
+      "leg": 0,
+      "rotation_axis": "initial",
+      "rotation_deg": 0,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 937,
+          "max_gap_mm": 8.206021062315272e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 1159,
+          "max_gap_mm": 3.882582114969266e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1451,
+          "max_gap_mm": 9.842389310250194e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1946,
+          "max_gap_mm": 1.1242212959172715e-06,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 7,
+      "max_gap_mm": 12.69070520296722
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "x",
+      "rotation_deg": -15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 447,
+          "max_gap_mm": 3.135974106533313e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 686,
+          "max_gap_mm": 7.903642334789601e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1083,
+          "max_gap_mm": 7.903642334789601e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1905,
+          "max_gap_mm": 7.903642334789601e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 0,
+      "max_gap_mm": 15.404714034343957
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "x",
+      "rotation_deg": -5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 685,
+          "max_gap_mm": 2.9863386476159867e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 1035,
+          "max_gap_mm": 2.9863386476159867e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1403,
+          "max_gap_mm": 6.429021663992285e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1969,
+          "max_gap_mm": 8.984960887283011e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 3,
+      "max_gap_mm": 13.554843286565209
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "x",
+      "rotation_deg": 5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 525,
+          "max_gap_mm": 2.4093696547426713e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 932,
+          "max_gap_mm": 9.013832099344712e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1306,
+          "max_gap_mm": 9.013832099344712e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1863,
+          "max_gap_mm": 0.04188776401748383,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 7,
+      "max_gap_mm": 11.695268858263209
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "x",
+      "rotation_deg": 15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 401,
+          "max_gap_mm": 7.684678914802838e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 589,
+          "max_gap_mm": 7.684678914802838e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 886,
+          "max_gap_mm": 7.684678914802838e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1637,
+          "max_gap_mm": 0.5330149537670568,
+          "count_gap_over_0_5mm": 9,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 22,
+      "max_gap_mm": 10.379863111693734
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "y",
+      "rotation_deg": -15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 9,
+          "max_gap_mm": 5.421010862427522e-17,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 21,
+          "max_gap_mm": 1.0842021724855044e-16,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 77,
+          "max_gap_mm": 9.205505278192527e-06,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 233,
+          "max_gap_mm": 9.205505278192527e-06,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 19,
+      "max_gap_mm": 13.108032856364659
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "y",
+      "rotation_deg": -5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 31,
+          "max_gap_mm": 3.767602549387128e-15,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 78,
+          "max_gap_mm": 1.4718426347495872e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 200,
+          "max_gap_mm": 1.6888774189913192e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 672,
+          "max_gap_mm": 6.320032795714692e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 10,
+      "max_gap_mm": 12.72177784729487
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "y",
+      "rotation_deg": 5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 31,
+          "max_gap_mm": 2.981555974335137e-15,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 81,
+          "max_gap_mm": 2.5839806206198745e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 200,
+          "max_gap_mm": 1.1528258404315539e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 672,
+          "max_gap_mm": 6.550310571729057e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 13,
+      "max_gap_mm": 12.755488585348226
+    },
+    {
+      "leg": 0,
+      "rotation_axis": "y",
+      "rotation_deg": 15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 10,
+          "max_gap_mm": 9.107298248878237e-15,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 23,
+          "max_gap_mm": 8.519056662360802e-09,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 66,
+          "max_gap_mm": 2.899906970024041e-05,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 235,
+          "max_gap_mm": 5.369244758307232e-05,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 12,
+      "max_gap_mm": 13.158424960620765
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "initial",
+      "rotation_deg": 0,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 948,
+          "max_gap_mm": 6.246656154580005e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 1159,
+          "max_gap_mm": 6.246656154580005e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1434,
+          "max_gap_mm": 2.72158984368151e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1983,
+          "max_gap_mm": 6.481817821195335e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 9,
+      "max_gap_mm": 13.03487375284726
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "x",
+      "rotation_deg": -15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 444,
+          "max_gap_mm": 7.421272667576528e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 622,
+          "max_gap_mm": 7.81749050584625e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 982,
+          "max_gap_mm": 7.81749050584625e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1738,
+          "max_gap_mm": 0.3557072609351487,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 19,
+      "max_gap_mm": 10.531716936487552
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "x",
+      "rotation_deg": -5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 711,
+          "max_gap_mm": 5.4416767363604356e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 1027,
+          "max_gap_mm": 5.4416767363604356e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1369,
+          "max_gap_mm": 4.6595277159236503e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1896,
+          "max_gap_mm": 7.330857010844072e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 11,
+      "max_gap_mm": 12.006684972374892
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "x",
+      "rotation_deg": 5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 608,
+          "max_gap_mm": 2.772421506778977e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 948,
+          "max_gap_mm": 3.1537125970600155e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1405,
+          "max_gap_mm": 3.1537125970600155e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1975,
+          "max_gap_mm": 8.399809285630777e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 5,
+      "max_gap_mm": 13.794413931360845
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "x",
+      "rotation_deg": 15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 504,
+          "max_gap_mm": 2.2101418601077477e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 695,
+          "max_gap_mm": 2.2101418601077477e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 1092,
+          "max_gap_mm": 2.2101418601077477e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 1903,
+          "max_gap_mm": 2.2101418601077477e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 0,
+      "max_gap_mm": 15.710756145530338
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "y",
+      "rotation_deg": -15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 9,
+          "max_gap_mm": 1.4283122753110111e-09,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 23,
+          "max_gap_mm": 3.585647946093007e-09,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 65,
+          "max_gap_mm": 3.406143937213779e-06,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 236,
+          "max_gap_mm": 6.528481317612939e-06,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 19,
+      "max_gap_mm": 13.487844841959046
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "y",
+      "rotation_deg": -5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 33,
+          "max_gap_mm": 4.458631272345748e-09,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 79,
+          "max_gap_mm": 8.878855550092934e-09,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 201,
+          "max_gap_mm": 4.363807037076339e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 678,
+          "max_gap_mm": 4.144051542892546e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 12,
+      "max_gap_mm": 13.088029872598824
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "y",
+      "rotation_deg": 5,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 30,
+          "max_gap_mm": 3.065874485709552e-09,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 80,
+          "max_gap_mm": 1.0926173811195983e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 199,
+          "max_gap_mm": 5.0192278285010605e-08,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 676,
+          "max_gap_mm": 3.4376207522918145e-07,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 14,
+      "max_gap_mm": 13.089201292699085
+    },
+    {
+      "leg": 1,
+      "rotation_axis": "y",
+      "rotation_deg": 15,
+      "near_ground_height_mm": {
+        "0.5": {
+          "sample_count": 8,
+          "max_gap_mm": 1.0842021724855044e-16,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "1.0": {
+          "sample_count": 25,
+          "max_gap_mm": 9.024357730926316e-06,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "2.0": {
+          "sample_count": 77,
+          "max_gap_mm": 1.4999214894423352e-05,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        },
+        "5.0": {
+          "sample_count": 235,
+          "max_gap_mm": 1.4999214894423352e-05,
+          "count_gap_over_0_5mm": 0,
+          "hull_only_count": 0
+        }
+      },
+      "samples_grid": [
+        81,
+        49
+      ],
+      "hull_only_total": 22,
+      "max_gap_mm": 13.50820027199584
+    }
+  ],
+  "limitations": "Uniform world-XY grid samples compare original triangles and their mathematical convex hull, not actual MuJoCo contact forces. Tilts are geometric, not necessarily reachable joint poses. Ground flat; lateral and self-collision are excluded. CAD meshes and physical contacts remain estimates."
+}

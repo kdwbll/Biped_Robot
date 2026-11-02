@@ -9,12 +9,19 @@ import win32com.client as w
 
 p=Path(__file__).parent;phase=json.loads((p/'cad_gear_phase_search.json').read_text(encoding='utf8'))
 ratio25='--25-tooth' in sys.argv
+range_scan='--hypothetical-range' in sys.argv
 ratio=.5 if ratio25 else .46
 tooth_count=25 if ratio25 else 23
-pythoncom.CoInitialize();sw=w.DispatchEx('SldWorks.Application.33');sw.Visible=False;doc=None
+attach='--attach' in sys.argv
+pythoncom.CoInitialize();sw=w.GetActiveObject('SldWorks.Application.33') if attach else w.DispatchEx('SldWorks.Application.33')
+if not attach:sw.Visible=False
+doc=None;opened_here=False
 try:
  err=w.VARIANT(pythoncom.VT_BYREF|pythoncom.VT_I4,0);warn=w.VARIANT(pythoncom.VT_BYREF|pythoncom.VT_I4,0)
- doc=sw.OpenDoc6(r'C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM',2,3,'',err,warn)
+ assembly=r'C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM'
+ doc=sw.GetOpenDocumentByName(assembly) if attach else None
+ if not doc:
+  doc=sw.OpenDoc6(assembly,2,3,'',err,warn);opened_here=bool(doc)
  if not doc:raise RuntimeError((err.value,warn.value))
  modeler=sw.GetModeler;util=sw.GetMathUtility;util._FlagAsMethod('CreateTransform')
  cs=[x for x in doc.GetComponents(False) if x.GetPathName.lower().endswith('.sldprt') and not x.IsSuppressed]
@@ -48,7 +55,10 @@ try:
       'pinion_second_big_mm3':overlap(pin_at,right_at),'cycle_samples':[],
       'assumed_tooth_count_pinion':tooth_count,'assumed_ratio':ratio,
       'note':'Exact CAD body copies, 17 samples across one assumed pinion tooth period; not continuous clearance or full-cycle proof.'}
- for delta in np.linspace(0,360/tooth_count,17):
+ samples = np.linspace(-10., 10., 41) if range_scan else np.linspace(0,360/tooth_count,17)
+ if range_scan:
+  out['note'] = '41 discrete samples over hypothetical pinion range -10 to +10 degrees (large gears +/-5 degrees); not a measured physical limit or continuous collision proof.'
+ for delta in samples:
   pin_d=rotate(pin,small['pivot_m'],small_base+float(delta))
   left_d=rotate(left,(.042,.032),-ratio*float(delta))
   right_d=rotate(right,large['pivot_m'],large_base+ratio*float(delta))
@@ -57,8 +67,10 @@ try:
   out['cycle_samples'].append(row)
   print('pinion delta deg',round(delta,3),'interference mm3',
         round(row['pinion_first_big_mm3'],5),round(row['first_big_second_big_mm3'],5),flush=True)
- (p/('cad_gear_phase_25_tooth_verification.json' if ratio25 else 'cad_gear_phase_pairwise_verification.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
+ filename = 'cad_gear_hypothetical_range_audit.json' if range_scan else ('cad_gear_phase_25_tooth_verification.json' if ratio25 else 'cad_gear_phase_pairwise_verification.json')
+ (p/filename).write_text(json.dumps(out,indent=2),encoding='utf8')
  print('maximum sampled pairwise overlap mm3',max(max(x[k] for k in ('pinion_first_big_mm3','first_big_second_big_mm3','pinion_second_big_mm3')) for x in out['cycle_samples']),flush=True)
 finally:
- if doc:sw.CloseDoc(doc.GetTitle)
- sw.ExitApp();pythoncom.CoUninitialize()
+ if doc and (not attach or opened_here):sw.CloseDoc(doc.GetTitle)
+ if not attach:sw.ExitApp()
+ pythoncom.CoUninitialize()

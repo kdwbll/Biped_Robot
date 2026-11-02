@@ -1,0 +1,26 @@
+{
+  "chassis_proxy_count": 250,
+  "results": [
+    {
+      "leg": 0,
+      "tower_proxy_count": 315,
+      "minimum_signed_distance_mm": -0.40293393034347635,
+      "overlapping_pairs": 139,
+      "worst_pair": [
+        "nomerge_chassis0_000",
+        "nomerge_L0_171"
+      ]
+    },
+    {
+      "leg": 1,
+      "tower_proxy_count": 348,
+      "minimum_signed_distance_mm": -0.4858055885979923,
+      "overlapping_pairs": 77,
+      "worst_pair": [
+        "nomerge_chassis0_014",
+        "nomerge_L1_031"
+      ]
+    }
+  ],
+  "limitations": "Initial pose only; convex-proxy gaps are not exact CAD clearances; model adds no contact pairs."
+}

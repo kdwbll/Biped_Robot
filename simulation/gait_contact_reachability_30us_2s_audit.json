@@ -1,0 +1,309 @@
+{
+  "results": [
+    {
+      "action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        10.100985527038574,
+        9.866451263427734
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        10.689159393310547,
+        9.573647499084473
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        10.973073959350586,
+        11.756925582885742
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        12.082404136657715,
+        12.159494400024414
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        10.707966804504395,
+        11.255560874938965
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        9.954216957092285,
+        9.58298110961914
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        11.472200393676758,
+        13.025829315185547
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        11.375598907470703,
+        12.094127655029297
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        10.695771217346191,
+        10.041299819946289
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        9.88397216796875,
+        9.578883171081543
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        11.992806434631348,
+        15.238541603088379
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        9.874974250793457,
+        9.576940536499023
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        12.35693359375,
+        15.12215805053711
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        10.262890815734863,
+        10.020875930786133
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        1.0,
+        1.0,
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        11.300209045410156,
+        10.062313079833984
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    },
+    {
+      "action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "unloaded_fraction_last_second": [
+        0.0,
+        0.0
+      ],
+      "peak_sampled_contact_per_point_n": [
+        12.06541919708252,
+        10.814002990722656
+      ],
+      "guard_episodes": 0,
+      "fall_episodes": 0
+    }
+  ],
+  "limitations": "Open-loop two-second probes, 0.5 N single-contact peak heuristic; no ground truth foot height, learning, walking or hardware validation."
+}

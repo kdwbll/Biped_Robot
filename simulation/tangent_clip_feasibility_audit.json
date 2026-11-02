@@ -1,0 +1,241 @@
+{
+  "prototype_only": true,
+  "candidate_count": 18,
+  "results": [
+    {
+      "geom": "nomerge_chassis0_000",
+      "leg": 1,
+      "witness_count": 4,
+      "old_volume_mm3": 1071.7956510157092,
+      "new_volume_mm3": 1047.5332477598026,
+      "removed_percent": 2.2637154044162946,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.5822557654856233,
+      "tangent_unit": [
+        0.9198776687520029,
+        0.3922053983965293
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_002",
+      "leg": 0,
+      "witness_count": 1,
+      "old_volume_mm3": 916.4948948659274,
+      "new_volume_mm3": 898.738784694868,
+      "removed_percent": 1.9373932435987018,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.3616289911635562,
+      "tangent_unit": [
+        -0.9965096269854617,
+        0.0834779211845623
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_003",
+      "leg": 1,
+      "witness_count": 5,
+      "old_volume_mm3": 1030.1315010531102,
+      "new_volume_mm3": 1010.0306403494635,
+      "removed_percent": 1.951290751044647,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.38659523912179594,
+      "tangent_unit": [
+        0.9995835675366495,
+        -0.028856394624145812
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_009",
+      "leg": 1,
+      "witness_count": 4,
+      "old_volume_mm3": 77.42420185088118,
+      "new_volume_mm3": 59.894052989356574,
+      "removed_percent": 22.641691412315268,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.38699354450472967,
+      "tangent_unit": [
+        -0.3914237856665172,
+        -0.920210530267119
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_010",
+      "leg": 1,
+      "witness_count": 2,
+      "old_volume_mm3": 1726.2108512900159,
+      "new_volume_mm3": 1708.5268269212306,
+      "removed_percent": 1.0244417334979543,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.45216921003881794,
+      "tangent_unit": [
+        -0.20590987623665735,
+        -0.9785709595467282
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_015",
+      "leg": 0,
+      "witness_count": 3,
+      "old_volume_mm3": 785.2234353535459,
+      "new_volume_mm3": 770.1029143759548,
+      "removed_percent": 1.9256329213841064,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.3314759127105802,
+      "tangent_unit": [
+        0.823735050550854,
+        0.5669749258071135
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_016",
+      "leg": 0,
+      "witness_count": 4,
+      "old_volume_mm3": 935.3140891817743,
+      "new_volume_mm3": 917.6943577568411,
+      "removed_percent": 1.8838304296631725,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.3655209625174578,
+      "tangent_unit": [
+        0.9295992033693261,
+        0.3685720025925927
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_018",
+      "leg": 0,
+      "witness_count": 2,
+      "old_volume_mm3": 2671.7931500680797,
+      "new_volume_mm3": 2655.01793080973,
+      "removed_percent": 0.6278636973795055,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.4204733219382675,
+      "tangent_unit": [
+        -0.20247613985395949,
+        0.9792871962758626
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_019",
+      "leg": 0,
+      "witness_count": 2,
+      "old_volume_mm3": 338.15404879649566,
+      "new_volume_mm3": 305.923689090447,
+      "removed_percent": 9.531265356945406,
+      "max_removed_vertex_radial_beyond_hole_mm": 1.0488069115690095,
+      "tangent_unit": [
+        -0.3906690853100817,
+        0.9205311867519667
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_020",
+      "leg": 0,
+      "witness_count": 3,
+      "old_volume_mm3": 103.55860070078054,
+      "new_volume_mm3": 85.57081651012999,
+      "removed_percent": 17.369667095661114,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.3388146685449094,
+      "tangent_unit": [
+        -0.7580050388794228,
+        0.6522486956931418
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_021",
+      "leg": 0,
+      "witness_count": 6,
+      "old_volume_mm3": 215.48519332893196,
+      "new_volume_mm3": 194.49080257017027,
+      "removed_percent": 9.742846102058785,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.5320473997612503,
+      "tangent_unit": [
+        -0.9202028370183378,
+        0.3914418714744277
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_027",
+      "leg": 1,
+      "witness_count": 4,
+      "old_volume_mm3": 100.66164866184265,
+      "new_volume_mm3": 80.38981420214519,
+      "removed_percent": 20.138587763247923,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.42542297625435666,
+      "tangent_unit": [
+        0.4767527366913511,
+        -0.8790374440587313
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_038",
+      "leg": 0,
+      "witness_count": 4,
+      "old_volume_mm3": 815.4662248858862,
+      "new_volume_mm3": 793.3974823786577,
+      "removed_percent": 2.706273029311135,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.5159635531909075,
+      "tangent_unit": [
+        0.994314276497975,
+        -0.10648530204825711
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_042",
+      "leg": 1,
+      "witness_count": 3,
+      "old_volume_mm3": 65.74926606301295,
+      "new_volume_mm3": 63.57213745555572,
+      "removed_percent": 3.311259178727124,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.2844947263883242,
+      "tangent_unit": [
+        0.4502443895179518,
+        0.8929053643626558
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_067",
+      "leg": 1,
+      "witness_count": 2,
+      "old_volume_mm3": 375.2304813202516,
+      "new_volume_mm3": 363.88918574515475,
+      "removed_percent": 3.022487814740535,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.27738757613900944,
+      "tangent_unit": [
+        0.4523339764746086,
+        0.8918486271372896
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_099",
+      "leg": 0,
+      "witness_count": 2,
+      "old_volume_mm3": 357.8328883502227,
+      "new_volume_mm3": 346.9568231412928,
+      "removed_percent": 3.0394258222249104,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.20937115419404861,
+      "tangent_unit": [
+        0.47361291095250774,
+        -0.8807331097325068
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_113",
+      "leg": 0,
+      "witness_count": 2,
+      "old_volume_mm3": 310.6760983399546,
+      "new_volume_mm3": 300.70431920113083,
+      "removed_percent": 3.209702707130122,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.3147738134052531,
+      "tangent_unit": [
+        -0.47242166762730786,
+        -0.8813726612257914
+      ]
+    },
+    {
+      "geom": "nomerge_chassis0_168",
+      "leg": 0,
+      "witness_count": 4,
+      "old_volume_mm3": 63.10540511453831,
+      "new_volume_mm3": 61.02654115555835,
+      "removed_percent": 3.294272424377523,
+      "max_removed_vertex_radial_beyond_hole_mm": 0.20970833717767334,
+      "tangent_unit": [
+        0.47350077668138746,
+        -0.8807934005668541
+      ]
+    }
+  ],
+  "limitations": "One tangent halfspace inscribed outside an ideal 20 mm cylinder. It can remove genuine CAD material beyond the hole. Only witness-selected hulls examined, no collision model changed. Vertex-based removal metric bounds radial overshoot for the removed convex region but not other CAD features; dynamic validation absent."
+}

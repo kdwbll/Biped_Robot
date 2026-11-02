@@ -1,0 +1,27 @@
+{
+  "result": "only model label and two named hip joint damping/frictionloss attributes differ",
+  "changes": [
+    {
+      "joint": "L0_hip_candidate",
+      "before": {
+        "damping": "0.01",
+        "frictionloss": null
+      },
+      "after": {
+        "damping": "0",
+        "frictionloss": "0"
+      }
+    },
+    {
+      "joint": "L1_hip_candidate",
+      "before": {
+        "damping": "0.01",
+        "frictionloss": null
+      },
+      "after": {
+        "damping": "0",
+        "frictionloss": "0"
+      }
+    }
+  ]
+}

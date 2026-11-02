@@ -1,0 +1,148 @@
+{
+  "leg_action_amplitude_us": 100.0,
+  "risk_weight": 4.0,
+  "results": [
+    {
+      "seed": 9911,
+      "zero_action": {
+        "seed": 9911,
+        "mean_return": 3.9921765527687967,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "air_fraction": [
+          0.000625,
+          0.00125
+        ],
+        "phase_matched_swing_fraction": 0.000625,
+        "mean_load_alignment": -0.001011951923830115,
+        "sampled_max_sole_clearance_m": [
+          0.0004826970398426056,
+          0.0008666226640343666
+        ],
+        "sampled_clearance_over_1mm_fraction": [
+          0.0,
+          0.0
+        ],
+        "clearance_sampling_s": 0.1
+      },
+      "trained_policy": {
+        "seed": 9911,
+        "mean_return": 3.4120031009661034,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "air_fraction": [
+          0.000625,
+          0.00125
+        ],
+        "phase_matched_swing_fraction": 0.000625,
+        "mean_load_alignment": 0.00011158669555574023,
+        "sampled_max_sole_clearance_m": [
+          0.00046722590923309326,
+          0.0009543141350150108
+        ],
+        "sampled_clearance_over_1mm_fraction": [
+          0.0,
+          0.0
+        ],
+        "clearance_sampling_s": 0.1
+      }
+    },
+    {
+      "seed": 9921,
+      "zero_action": {
+        "seed": 9921,
+        "mean_return": 3.9907576420810074,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "air_fraction": [
+          0.00125,
+          0.000625
+        ],
+        "phase_matched_swing_fraction": 0.00125,
+        "mean_load_alignment": -0.0013720918711793654,
+        "sampled_max_sole_clearance_m": [
+          0.0004153037443757057,
+          0.00014676526188850403
+        ],
+        "sampled_clearance_over_1mm_fraction": [
+          0.0,
+          0.0
+        ],
+        "clearance_sampling_s": 0.1
+      },
+      "trained_policy": {
+        "seed": 9921,
+        "mean_return": 3.399495413294062,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "air_fraction": [
+          0.000625,
+          0.00125
+        ],
+        "phase_matched_swing_fraction": 0.000625,
+        "mean_load_alignment": 0.0024259216948352867,
+        "sampled_max_sole_clearance_m": [
+          0.00040009431540966034,
+          0.00028314534574747086
+        ],
+        "sampled_clearance_over_1mm_fraction": [
+          0.0,
+          0.0
+        ],
+        "clearance_sampling_s": 0.1
+      }
+    },
+    {
+      "seed": 9931,
+      "zero_action": {
+        "seed": 9931,
+        "mean_return": 3.9872997372876853,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "air_fraction": [
+          0.001875,
+          0.000625
+        ],
+        "phase_matched_swing_fraction": 0.001875,
+        "mean_load_alignment": -0.002236885434294584,
+        "sampled_max_sole_clearance_m": [
+          0.0008303560316562653,
+          9.094737470149994e-05
+        ],
+        "sampled_clearance_over_1mm_fraction": [
+          0.0,
+          0.0
+        ],
+        "clearance_sampling_s": 0.1
+      },
+      "trained_policy": {
+        "seed": 9931,
+        "mean_return": 3.3417737813433632,
+        "guard_terminations": 0,
+        "falls": 0,
+        "timeouts": 8,
+        "air_fraction": [
+          0.001875,
+          0.000625
+        ],
+        "phase_matched_swing_fraction": 0.001875,
+        "mean_load_alignment": 0.0003731672740554369,
+        "sampled_max_sole_clearance_m": [
+          0.0007586376741528511,
+          0.0002061799168586731
+        ],
+        "sampled_clearance_over_1mm_fraction": [
+          0.0,
+          0.0
+        ],
+        "clearance_sampling_s": 0.1
+      }
+    }
+  ],
+  "limitations": "Three seeds, eight worlds and four seconds per evaluation; ground contacts are sampled and dynamics unmeasured. Not evidence of walking or hardware safety."
+}

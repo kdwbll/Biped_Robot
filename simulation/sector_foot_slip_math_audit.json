@@ -1,0 +1,6 @@
+{
+  "contact_points_checked": 1,
+  "max_speed_error_mps": 0.0,
+  "pure_rolling_speed_mps": 0.0,
+  "limitations": "Instantaneous CPU Jacobian and synthetic rotation checks. Flat stationary ground; sampling and full GPU reward parity require separate tests."
+}

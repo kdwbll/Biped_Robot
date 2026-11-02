@@ -1,0 +1,95 @@
+{
+  "restored_pairs": [
+    [
+      "dc_chassis_5_0",
+      "tower_L0_tower_0"
+    ],
+    [
+      "dc_chassis_5_0",
+      "tower_L0_tower_1"
+    ],
+    [
+      "dc_chassis_5_0",
+      "tower_L0_tower_4"
+    ],
+    [
+      "dc_chassis_5_3",
+      "tower_L0_tower_1"
+    ],
+    [
+      "dc_chassis_5_3",
+      "tower_L0_tower_3"
+    ],
+    [
+      "dc_chassis_5_4",
+      "tower_L0_tower_1"
+    ],
+    [
+      "dc_chassis_5_5",
+      "tower_L0_tower_0"
+    ],
+    [
+      "dc_chassis_5_5",
+      "tower_L0_tower_3"
+    ],
+    [
+      "dc_chassis_5_1",
+      "tower_L1_tower_0"
+    ],
+    [
+      "dc_chassis_5_1",
+      "tower_L1_tower_8"
+    ],
+    [
+      "dc_chassis_5_2",
+      "tower_L1_tower_10"
+    ],
+    [
+      "dc_chassis_5_2",
+      "tower_L1_tower_7"
+    ],
+    [
+      "dc_chassis_5_6",
+      "tower_L1_tower_7"
+    ],
+    [
+      "dc_chassis_5_6",
+      "tower_L1_tower_8"
+    ],
+    [
+      "dc_chassis_5_7",
+      "tower_L1_tower_0"
+    ],
+    [
+      "dc_chassis_5_7",
+      "tower_L1_tower_10"
+    ]
+  ],
+  "results": [
+    {
+      "model": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+      "valid": true,
+      "time_s": 2.999999999999697,
+      "max_sampled_self_contact_n": 2.28376044839151,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "height_change_mm": -1.439168812729874,
+      "hip_error_deg": 1.070969076488881
+    },
+    {
+      "model": "diagnostic_restore_chassis5_trial.xml",
+      "valid": true,
+      "time_s": 2.999999999999697,
+      "max_sampled_self_contact_n": 16614233.60195997,
+      "peak_pair": [
+        "dc_chassis_5_6",
+        "tower_L1_tower_7"
+      ],
+      "height_change_mm": -176.50465347216527,
+      "hip_error_deg": -35.30443471454177
+    }
+  ],
+  "limitations": "Initial source triangle separation does not prove solid separation; trial only, no full travel test. Contact force is sampled every 10 steps."
+}

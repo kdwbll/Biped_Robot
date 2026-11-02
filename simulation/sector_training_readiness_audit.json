@@ -1,0 +1,17 @@
+{
+  "simulation_interface_smoke_pass": true,
+  "mixed_short_tests_pass": true,
+  "optional_heuristic_guard_test_pass": true,
+  "nominal_cad_dense_checks": 404,
+  "nominal_cad_dense_intersections": 0,
+  "five_axes_short_tests_pass": true,
+  "remaining_chassis0_near_pairs": 734,
+  "unresolved_constrained_contact_peak_n": 35.17815324647792,
+  "formal_walking_training_recommended": false,
+  "reasons": [
+    "734 chassis-0 near proxy pairs remain excluded; other exclusions also exist",
+    "Nonzero simulated contact force occurs along a locally constrained direction; contact/friction model needs resolution",
+    "Only standing environment and short single-axis and low-amplitude mixed-action tests exist; walking objective, broader robustness and hardware calibration are not validated"
+  ],
+  "limitations": "Decision is a conservative project gate with a manually unvalidated walking requirement, not proof of real hardware safety. It intentionally distinguishes basic interface tests from walking model validity."
+}

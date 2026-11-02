@@ -1,0 +1,4 @@
+{
+  "result": "Only model name, four foot collision meshes/geometries and ground contact pairs differ; other XML including inertials, foot self-collision and drive unchanged",
+  "limitations": "XML equivalence is not physical validation; foot parts still convexified and collisions elsewhere incomplete."
+}

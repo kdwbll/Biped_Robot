@@ -1,0 +1,37 @@
+{
+  "best": {
+    "world": 0,
+    "seed": 7201,
+    "leg": 1,
+    "peak_clearance_m": 0.005568567663431168,
+    "supported_frames_over_1mm": 2,
+    "final_upright": 0.9860519766807556,
+    "action_history": [
+      [
+        -0.5105403932042074,
+        0.6710385766290978,
+        -0.1703115047189978,
+        0.6066615386552467,
+        -0.28923729114436036
+      ],
+      [
+        0.4010784243768837,
+        -0.5296429120630461,
+        -0.007969930956493787,
+        -0.4477732799023302,
+        0.21486743421520382
+      ],
+      [
+        0.3128955799968167,
+        -0.6136928219502362,
+        0.9020678840029981,
+        0.7024302634278012,
+        0.3036734353546675
+      ]
+    ]
+  },
+  "eligible_worlds": 2,
+  "guard_events": 18,
+  "falls": 8,
+  "limitations": "32 random open-loop candidates, one initial pose each, 1.8 s and 20 ms sampling. Eligible requires no guard and final tilt below 10 degrees. Not trained policy or hardware validation."
+}

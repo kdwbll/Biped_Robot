@@ -1,0 +1,23 @@
+{
+  "pose": "initial keyframe",
+  "plane_z_assembly_m": 0.136,
+  "results": [
+    {
+      "leg": 0,
+      "chassis_triangles": 316,
+      "tower_triangles": 366,
+      "positive_triangle_intersections": 1478,
+      "projected_overlap_area_mm2": 2892.354436114403,
+      "reverse_order_difference_mm2": 6.938893903907228e-12
+    },
+    {
+      "leg": 1,
+      "chassis_triangles": 316,
+      "tower_triangles": 366,
+      "positive_triangle_intersections": 1542,
+      "projected_overlap_area_mm2": 2891.389018898196,
+      "reverse_order_difference_mm2": 1.734723475976807e-12
+    }
+  ],
+  "limitations": "Overlap of STL triangles in projection on one plane at one pose, not proof of load-bearing contact, tolerances, normals under motion, or mechanical compliance."
+}

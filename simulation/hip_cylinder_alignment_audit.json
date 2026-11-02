@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "leg": 0,
+      "frame_hole_radius_mm": 20.0,
+      "pillar_radius_mm": 19.75,
+      "nominal_radial_clearance_mm": 0.25,
+      "cad_axis_xy_mm": [
+        41.99999999999988,
+        32.00000000000035
+      ],
+      "sim_axis_xy_mm": [
+        42.00000000000001,
+        32.00000000000001
+      ],
+      "axis_line_offset_mm": 3.6467171902951105e-13,
+      "axis_direction_abs_dot": 1.0
+    },
+    {
+      "leg": 1,
+      "frame_hole_radius_mm": 20.0,
+      "pillar_radius_mm": 19.75,
+      "nominal_radial_clearance_mm": 0.25,
+      "cad_axis_xy_mm": [
+        42.0,
+        -73.00000000000001
+      ],
+      "sim_axis_xy_mm": [
+        42.00000000000001,
+        -73.00000000000006
+      ],
+      "axis_line_offset_mm": 4.2207643840401624e-14,
+      "axis_direction_abs_dot": 1.0
+    }
+  ],
+  "limitations": "Nominal CAD geometry and model keyframe, not manufactured clearance or proof of all-axis motion. User confirmed pillar and gear are rigidly linked."
+}

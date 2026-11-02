@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_range_collision_trial.xml",
+      "contact_pairs": 27786,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 0.5466966999229044,
+      "steps_per_wall_second": 1829.1678002465003
+    },
+    {
+      "model": "diagnostic_nomerge_collision_trial.xml",
+      "contact_pairs": 83636,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 1.1678588999202475,
+      "steps_per_wall_second": 856.2678248787499
+    },
+    {
+      "model": "diagnostic_pruned_nomerge_trial.xml",
+      "contact_pairs": 9597,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 0.3528075999347493,
+      "steps_per_wall_second": 2834.406062071642
+    },
+    {
+      "model": "diagnostic_finer_collision_trial.xml",
+      "contact_pairs": 10055,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 0.5428343000821769,
+      "steps_per_wall_second": 1842.18277999127
+    },
+    {
+      "model": "diagnostic_chassis0_collision_trial.xml",
+      "contact_pairs": 11433,
+      "simulated_seconds": 0.25000000000000017,
+      "wall_seconds": 1.0037057000445202,
+      "steps_per_wall_second": 996.3079814687155
+    }
+  ],
+  "limitations": "Single local short run; results depend on machine load and are not GPU or training benchmarks."
+}

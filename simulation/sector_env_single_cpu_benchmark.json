@@ -1,0 +1,13 @@
+{
+  "control_steps": 50,
+  "simulated_seconds": 0.9999999999999176,
+  "setup_seconds": 0.32558699999935925,
+  "wall_seconds": 5.7483421000652015,
+  "control_steps_per_second": 8.698160118103074,
+  "simulation_realtime_factor": 0.17396320236204713,
+  "terminated": false,
+  "truncated": true,
+  "reason": null,
+  "physics_backend": "MuJoCo CPU",
+  "limitations": "One local single-process run, no renderer, no PPO or GPU physics. Host load and hardware affect timing; not parallel throughput."
+}

@@ -1,0 +1,14 @@
+{
+  "worlds": 32,
+  "timesteps": 32768,
+  "episode_seconds": 4.0,
+  "reset_tilt_deg": 1.0,
+  "leg_amplitude_us": 150.0,
+  "slew_us_per_frame": 2.0,
+  "phase_period_s": 1.6,
+  "load_weight": 1.0,
+  "risk_weight": 1.0,
+  "objective": "load_shift",
+  "resume_checkpoint": "C:\\Practice_project\\biped_sim\\training_runs\\gait_load_20261102_b\\final_policy.zip",
+  "scope": "hypothetical mechanics, phase-conditioned load shift or foot unloading; not walking or hardware"
+}

@@ -1,0 +1,24 @@
+{
+  "worlds": 4,
+  "policy_action_shape": [
+    4,
+    5
+  ],
+  "observation_shape": [
+    4,
+    16
+  ],
+  "finite": true,
+  "learn_called": false,
+  "saved_model": false,
+  "policy_device": "cpu",
+  "torch_cuda_available": false,
+  "physics_backend": "MuJoCo Warp cuda:0",
+  "done": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "limitations": "One untrained policy inference and one environment step; no PPO optimization, learning, reward validation, multi-episode robustness or hardware validation."
+}

@@ -6,8 +6,9 @@ import mujoco
 import numpy as np
 
 p=Path(__file__).parent
+smooth='--smooth-hip' in sys.argv
 phase25='--25-tooth' in sys.argv
-m=mujoco.MjModel.from_xml_path(str(p/('diagnostic_post_shaft_fix_gear_phase_25.xml' if phase25 else 'diagnostic_post_shaft_fix_gear_phase.xml')));d=mujoco.MjData(m)
+m=mujoco.MjModel.from_xml_path(str(p/('diagnostic_smooth_hip_trial.xml' if smooth else 'diagnostic_post_shaft_fix_gear_phase_25.xml' if phase25 else 'diagnostic_post_shaft_fix_gear_phase.xml')));d=mujoco.MjData(m)
 mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d)
 shaft=mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_JOINT,'hypothetical_servo_shaft')
 pinion=mujoco.mj_name2id(m,mujoco.mjtObj.mjOBJ_GEOM,'phase_pinion_visual')
@@ -38,6 +39,6 @@ out={'hip_increment_rad':.01,'shaft_increment_rad':.01,
      'pinion_to_shaft_relative_position_change_m':pinpos,'pinion_to_shaft_relative_rotation_matrix_change':pinrot,
      'note':'Kinematic parenting check only; does not prove physical mounting, collision or torque.'}
 if max(position,rotation,pinpos,pinrot)>1e-8:raise RuntimeError(out)
-(p/('gear_leg_rigidity_25_audit.json' if phase25 else 'gear_leg_rigidity_audit.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
+(p/('smooth_hip_gear_leg_rigidity_audit.json' if smooth else 'gear_leg_rigidity_25_audit.json' if phase25 else 'gear_leg_rigidity_audit.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
 print('All seven bodies per leg move rigidly with their mount under isolated hip perturbations; pinion visual follows shaft.')
 print('max relative position/rotation errors',position,rotation,'pinion',pinpos,pinrot)

@@ -1,0 +1,6 @@
+{
+  "model": "diagnostic_sector_gap_only.xml",
+  "added_inactive_geometry_count": 154,
+  "compiled_contact_pair_count": 11465,
+  "limitations": "Adds non-colliding geometry for distance measurements only. Existing collisions are unchanged. Sector seams and dynamic effects have not been tested; not for training or hardware."
+}

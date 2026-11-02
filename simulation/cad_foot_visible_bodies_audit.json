@@ -1,0 +1,65 @@
+{
+  "feet": [
+    {
+      "component": "SimpleBiped2a-1/2026-04-23-16-32-05-068-1/2026-04-23-16-19-39-145-1",
+      "source": "C:\\Practice_project\\fangzhen\\2026-04-23-16-19-39-145.SLDPRT",
+      "visible_bodies": [
+        {
+          "name": "输入2",
+          "bounds_local_mm": [
+            -20.5,
+            25.499999999999954,
+            -94.000000000001,
+            104.5,
+            74.50000000000007,
+            -68.99999999999999
+          ],
+          "volume_mm3": 85831.08655269336
+        },
+        {
+          "name": "输入1",
+          "bounds_local_mm": [
+            -20.5,
+            7.499999999999998,
+            -78.7500000000011,
+            104.50000000000006,
+            74.50000000000006,
+            -48.99999999999999
+          ],
+          "volume_mm3": 136327.75749271616
+        }
+      ]
+    },
+    {
+      "component": "SimpleBiped2a-1/2026-04-23-16-32-05-068_1-1/2026-04-23-16-19-39-145_1-1",
+      "source": "C:\\Practice_project\\fangzhen\\2026-04-23-16-19-39-145_1.SLDPRT",
+      "visible_bodies": [
+        {
+          "name": "foot[1]",
+          "bounds_local_mm": [
+            -20.5,
+            7.499999999999998,
+            48.999999999999986,
+            104.50000000000001,
+            74.50000000000001,
+            78.75
+          ],
+          "volume_mm3": 136327.6931396457
+        },
+        {
+          "name": "sole (2)[1]",
+          "bounds_local_mm": [
+            -20.5,
+            25.499999999999982,
+            68.99999999999999,
+            104.5,
+            74.50000000000001,
+            94.00000000000001
+          ],
+          "volume_mm3": 85831.05541673265
+        }
+      ]
+    }
+  ],
+  "limitations": "Reads current open CAD state without saving; compare with saved file separately if unsaved edits exist. Visible bodies only, not design or hardware certification."
+}

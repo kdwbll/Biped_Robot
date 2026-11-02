@@ -1,0 +1,2126 @@
+{
+  "source_stl_faces": 2692,
+  "source_stl_watertight": true,
+  "total": 141,
+  "cad_surface_gap_over_0_1mm": 58,
+  "large_gap_inside_stl": 0,
+  "large_gap_outside_stl": 58,
+  "results": [
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_096"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00010681059228745404,
+      "point_assembly_mm": [
+        21.65915510157499,
+        2.7209205263004734,
+        136.00010681059229
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00010681059228545564
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_097"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00010681059220418732,
+      "point_assembly_mm": [
+        21.129873271952086,
+        2.5625851308821725,
+        136.0001068105922
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00010681059220019051
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_043"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00010681059223194289,
+      "point_assembly_mm": [
+        21.129873272057623,
+        5.782668725987729,
+        136.00010681059223
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00010681059222861222
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_089"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00010681059214867616,
+      "point_assembly_mm": [
+        21.129873272846837,
+        29.86183916429555,
+        136.00010681059217
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0001068105921717688
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_201"
+      ],
+      "cad_nearest_surface_distance_mm": 7.078040931141061e-08,
+      "point_assembly_mm": [
+        83.26921848573205,
+        10.544049256717487,
+        135.9999999292196
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -7.078040198393867e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_139"
+      ],
+      "cad_nearest_surface_distance_mm": 7.078038155583499e-08,
+      "point_assembly_mm": [
+        87.74000197738954,
+        10.907043447718042,
+        135.99999992921963
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -7.078037356222924e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_143"
+      ],
+      "cad_nearest_surface_distance_mm": 7.078043706698622e-08,
+      "point_assembly_mm": [
+        83.26921841559717,
+        9.649641089651707,
+        135.99999992921957
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -7.07804304056481e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_142"
+      ],
+      "cad_nearest_surface_distance_mm": 7.078035380025938e-08,
+      "point_assembly_mm": [
+        85.98833461831856,
+        10.544049242229015,
+        135.99999992921965
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -7.078034514051978e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 7.078038155583499e-08,
+      "point_assembly_mm": [
+        83.05654130876067,
+        10.907043447718042,
+        135.99999992921963
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -7.078037356222924e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_089",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 2.7707752758843185e-08,
+      "point_assembly_mm": [
+        78.49596409404901,
+        21.996960245051817,
+        135.99999997229224
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -2.770775608951226e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_203"
+      ],
+      "cad_nearest_surface_distance_mm": 3.5281860766289697e-08,
+      "point_assembly_mm": [
+        83.26921845537626,
+        -0.8399250852605157,
+        136.00000003528186
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 3.5281857435620656e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_400",
+        "nomerge_L0_139"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1123019172387671e-08,
+      "point_assembly_mm": [
+        87.65489970509498,
+        18.89788820873947,
+        136.00000001112303
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 1.1123034937554621e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_145"
+      ],
+      "cad_nearest_surface_distance_mm": 3.528163872168477e-08,
+      "point_assembly_mm": [
+        83.2698059483006,
+        -0.8399774437751816,
+        136.00000003528166
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 3.528165848365483e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_144"
+      ],
+      "cad_nearest_surface_distance_mm": 6.100900340477722e-08,
+      "point_assembly_mm": [
+        87.0017699995176,
+        2.6325581121985473,
+        136.00000006100902
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 6.100901828176579e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_145"
+      ],
+      "cad_nearest_surface_distance_mm": 5.3366644436891875e-08,
+      "point_assembly_mm": [
+        89.26023858837316,
+        2.6325581256983086,
+        136.00000005336665
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 5.3366647989605567e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_142"
+      ],
+      "cad_nearest_surface_distance_mm": 5.3247073417139745e-08,
+      "point_assembly_mm": [
+        89.29556263285157,
+        6.952077147296635,
+        136.00000005324708
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 5.324707785803375e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_203"
+      ],
+      "cad_nearest_surface_distance_mm": 7.363964993345462e-08,
+      "point_assembly_mm": [
+        83.26921846310614,
+        -0.5361063964665089,
+        136.00000007363965
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 7.363965437434677e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_139"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175876890590075e-07,
+      "point_assembly_mm": [
+        87.68839715494347,
+        14.473423060029754,
+        136.00000011175877
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.117587657972763e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_201"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175879666147637e-07,
+      "point_assembly_mm": [
+        80.9109878418967,
+        8.589388522978405,
+        136.0000001117588
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175879421898668e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_139"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175882441705198e-07,
+      "point_assembly_mm": [
+        84.28309823287361,
+        14.65778112239423,
+        136.00000011175882
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175882264069516e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_139"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175882441705198e-07,
+      "point_assembly_mm": [
+        84.51980622202511,
+        15.799611066468072,
+        136.00000011175882
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175882264069514e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_139"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175876890590075e-07,
+      "point_assembly_mm": [
+        85.16215957542772,
+        18.898189598694447,
+        136.00000011175877
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175876579727718e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_204"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175876890590075e-07,
+      "point_assembly_mm": [
+        78.92274477657206,
+        4.104798686357285,
+        136.00000011175877
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175876579727642e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175879666147637e-07,
+      "point_assembly_mm": [
+        78.49596409662098,
+        21.1139372251928,
+        136.0000001117588
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175879421898571e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_146"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175879666147637e-07,
+      "point_assembly_mm": [
+        78.4956512569379,
+        6.240785149934677,
+        136.0000001117588
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175879421898571e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_202"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175879666147637e-07,
+      "point_assembly_mm": [
+        79.31533812936199,
+        7.266989706346063,
+        136.0000001117588
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175879421898577e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175882441705198e-07,
+      "point_assembly_mm": [
+        83.05645027011633,
+        12.8597558508498,
+        136.00000011175882
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175882264069516e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175876890590075e-07,
+      "point_assembly_mm": [
+        83.05484762787817,
+        15.56911268959513,
+        136.00000011175877
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.117587657972763e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175882441705198e-07,
+      "point_assembly_mm": [
+        83.05484760925178,
+        18.077919569518485,
+        136.00000011175882
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.117588226406952e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_202"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175874115032514e-07,
+      "point_assembly_mm": [
+        79.23883554490253,
+        7.06401681900027,
+        136.00000011175874
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175873737556784e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175871339474952e-07,
+      "point_assembly_mm": [
+        83.0564502701163,
+        20.86589682844925,
+        136.0000001117587
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175870895385742e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_147"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175874115032514e-07,
+      "point_assembly_mm": [
+        78.78195952333283,
+        5.185361873606909,
+        136.00000011175874
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.117587373755669e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_172",
+        "nomerge_L0_235"
+      ],
+      "cad_nearest_surface_distance_mm": 0.1428719230848784,
+      "point_assembly_mm": [
+        48.02808761877053,
+        0.2023568054113894,
+        136.00021361055175
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13360996058244076
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_172",
+        "nomerge_L0_234"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0043509215600005926,
+      "point_assembly_mm": [
+        49.2357406768286,
+        0.1796198220195579,
+        136.00021360468597
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0001269714059115589
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_201"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0002136453987056086,
+      "point_assembly_mm": [
+        83.05484771728517,
+        10.36636429420603,
+        136.0002136453987
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453987020559
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_419",
+        "nomerge_L0_201"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00021364539867785304,
+      "point_assembly_mm": [
+        81.04092034267379,
+        8.697085349820561,
+        136.00021364539867
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453986736342
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_203"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0002136453987333642,
+      "point_assembly_mm": [
+        82.08567404427242,
+        0.2966768400350288,
+        136.00021364539873
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453987304776
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_204"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00021364539878887534,
+      "point_assembly_mm": [
+        80.91098785400396,
+        -0.37541658372663467,
+        136.0002136453988
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00021364539878732103
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_483",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0001563853584130026,
+      "point_assembly_mm": [
+        80.91098785400392,
+        21.999843614641584,
+        136.00021364539862
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00015638535841588919
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_203"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00021364539867785304,
+      "point_assembly_mm": [
+        83.0548477172852,
+        0.5465482664294534,
+        136.00021364539867
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453986736342
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_485",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00021364539867785304,
+      "point_assembly_mm": [
+        80.91098785400393,
+        20.377552047371882,
+        136.00021364539867
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453986736342
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_487",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0002136453986223419,
+      "point_assembly_mm": [
+        80.91098785400389,
+        19.066646582912654,
+        136.00021364539865
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00021364539864521248
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_489",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00021364539865009746,
+      "point_assembly_mm": [
+        80.91098785400395,
+        17.4221401163377,
+        136.00021364539867
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453986736342
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_491",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0002136453985945863,
+      "point_assembly_mm": [
+        80.91098785400392,
+        16.111110714729882,
+        136.00021364539862
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00021364539861679077
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_493",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0002136453986223419,
+      "point_assembly_mm": [
+        80.9109878540039,
+        14.590203293599194,
+        136.00021364539865
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00021364539864521248
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_495",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00021364539867785304,
+      "point_assembly_mm": [
+        80.91098785400396,
+        12.405152318533519,
+        136.00021364539867
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453986736342
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_141"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00021364539867785304,
+      "point_assembly_mm": [
+        80.91098785400392,
+        10.88192559126765,
+        136.00021364539867
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0002136453986736342
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_204"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0002136453986223419,
+      "point_assembly_mm": [
+        80.91098785400393,
+        0.546548266429453,
+        136.00021364539865
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00021364539864521248
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L0_036"
+      ],
+      "cad_nearest_surface_distance_mm": 0.000778000801754386,
+      "point_assembly_mm": [
+        59.44948576018217,
+        0.020764220505999683,
+        136.00077800080177
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0007780008017732598
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_127",
+        "nomerge_L0_096"
+      ],
+      "cad_nearest_surface_distance_mm": 3.4458935704861915e-08,
+      "point_assembly_mm": [
+        16.74831053325973,
+        5.790109850466225,
+        135.99999996554106
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -3.445893526077289e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_268"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23689226562537163,
+      "point_assembly_mm": [
+        23.42086388840205,
+        38.73766492690273,
+        145.99999988824135
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.16551674474055486
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_039"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23685783351476933,
+      "point_assembly_mm": [
+        23.420674631539708,
+        38.7372440319165,
+        136.00935366162352
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.16547851555489135
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_017"
+      ],
+      "cad_nearest_surface_distance_mm": 0.28175256281768135,
+      "point_assembly_mm": [
+        34.14880584153585,
+        50.08778682647618,
+        136.00935364034353
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.21712259376949566
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_188"
+      ],
+      "cad_nearest_surface_distance_mm": 0.25769611646477586,
+      "point_assembly_mm": [
+        23.548680519533114,
+        39.021920824076076,
+        145.74181503398154
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.19133523112035558
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_065"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2576961679565199,
+      "point_assembly_mm": [
+        23.548680878107298,
+        39.0219216215218,
+        137.5527648830156
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.19133530355101305
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_014"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23052220076757418,
+      "point_assembly_mm": [
+        61.683578926641545,
+        30.15908362682691,
+        136.0093536218439
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15916066089548078
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_239"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23045768449137127,
+      "point_assembly_mm": [
+        61.68372110921238,
+        30.15991123599065,
+        137.55216985518388
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15908917664842961
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_243"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2564640824931385,
+      "point_assembly_mm": [
+        34.435398792424124,
+        50.236886222604596,
+        145.99999988824143
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.18563323941481907
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_038"
+      ],
+      "cad_nearest_surface_distance_mm": 0.22659723590027495,
+      "point_assembly_mm": [
+        26.71984097556547,
+        44.55006761174212,
+        137.55216979317754
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15523452180124053
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_064"
+      ],
+      "cad_nearest_surface_distance_mm": 0.22654384102961556,
+      "point_assembly_mm": [
+        26.7193211723527,
+        44.54951883687241,
+        137.55935744672675
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15517484758154643
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_255"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2520325737400954,
+      "point_assembly_mm": [
+        32.67063269257065,
+        14.59468118327933,
+        143.4613343305569
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.21535764488893555
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_289"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2520326135120846,
+      "point_assembly_mm": [
+        32.67063191869159,
+        14.594681643208755,
+        143.46191420581397
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2153576307818969
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_172",
+        "nomerge_L0_236"
+      ],
+      "cad_nearest_surface_distance_mm": 0.01118123322459096,
+      "point_assembly_mm": [
+        46.63585282759847,
+        0.22856898540231504,
+        136.00021361731413
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 5.494351400056563e-05
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_113"
+      ],
+      "cad_nearest_surface_distance_mm": 0.28852330742256005,
+      "point_assembly_mm": [
+        61.44812504080979,
+        28.788653584701432,
+        140.81302283082476
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2775458188654721
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_034"
+      ],
+      "cad_nearest_surface_distance_mm": 0.21879105306553226,
+      "point_assembly_mm": [
+        60.092510620592634,
+        39.997329982314305,
+        136.00935363160184
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.14742746819276845
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_103"
+      ],
+      "cad_nearest_surface_distance_mm": 0.21878488831558718,
+      "point_assembly_mm": [
+        60.092481022053725,
+        39.99741219153782,
+        137.5521537390885
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1474205771449194
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_014"
+      ],
+      "cad_nearest_surface_distance_mm": 0.22392209986166256,
+      "point_assembly_mm": [
+        60.11782118366747,
+        39.927030507635905,
+        136.00935365869614
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15332020166775023
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_064"
+      ],
+      "cad_nearest_surface_distance_mm": 0.26745416843946673,
+      "point_assembly_mm": [
+        24.428669592817055,
+        40.97895944507185,
+        145.99999988824132
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2089366742347649
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_243"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20861269261838097,
+      "point_assembly_mm": [
+        37.99265258631084,
+        51.3814390140873,
+        145.9999998882414
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13725900074510256
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_017"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20862097689981063,
+      "point_assembly_mm": [
+        37.99278168236856,
+        51.381457246317915,
+        137.55216977773975
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13726837553803092
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_185"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2759336962261552,
+      "point_assembly_mm": [
+        27.65535586588346,
+        45.53772418913987,
+        137.55216998943274
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.262633090572319
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_070",
+        "nomerge_L0_095"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1712852909795402e-10,
+      "point_assembly_mm": [
+        40.65889648408276,
+        5.474409558298124,
+        136.00000000011713
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 1.1712586456269491e-10
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_038"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20192583706086906,
+      "point_assembly_mm": [
+        24.79892913206787,
+        41.802392644534,
+        137.55216980446596
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1305938425089792
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_060"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2015149156381152,
+      "point_assembly_mm": [
+        50.770456381577695,
+        14.250095591960406,
+        137.55216902897715
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13010950409973351
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_060"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20136405423758783,
+      "point_assembly_mm": [
+        50.770522752686425,
+        14.249960113919599,
+        145.99999996381268
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1299586517325599
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_015"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2014965517327721,
+      "point_assembly_mm": [
+        50.77018863776173,
+        14.249942815609733,
+        136.00935360966497
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.130093625480512
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_002",
+        "nomerge_L0_285"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2675137905380562,
+      "point_assembly_mm": [
+        22.336387527913313,
+        33.64722692856893,
+        144.627769549252
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2661742248724572
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_197",
+        "nomerge_L0_046"
+      ],
+      "cad_nearest_surface_distance_mm": 3.4458935704861915e-08,
+      "point_assembly_mm": [
+        5.884578187018613,
+        5.790109448134926,
+        135.99999996554106
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -3.445893526077337e-08
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_181",
+        "nomerge_L0_042"
+      ],
+      "cad_nearest_surface_distance_mm": 0.004512527266326005,
+      "point_assembly_mm": [
+        32.99258423361118,
+        10.95503717474412,
+        136.00451252726634
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0045125272663426585
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_102"
+      ],
+      "cad_nearest_surface_distance_mm": 0.1810611293946292,
+      "point_assembly_mm": [
+        58.50763340891661,
+        42.967605809547166,
+        137.55217058602372
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.10963281150104662
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_037",
+        "nomerge_L0_219"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175879666147637e-07,
+      "point_assembly_mm": [
+        50.92873005231987,
+        60.74324797827607,
+        136.0000001117588
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175879421898571e-07
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_033"
+      ],
+      "cad_nearest_surface_distance_mm": 0.18104209608555613,
+      "point_assembly_mm": [
+        58.50778111305618,
+        42.967417887568544,
+        137.55216982085904
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.10961566873417405
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_238"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20249083702891332,
+      "point_assembly_mm": [
+        61.73936107305976,
+        30.483756785572496,
+        138.2751759493408
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13111365775161948
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_013"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23479905736716272,
+      "point_assembly_mm": [
+        57.90483920301399,
+        43.73453272307523,
+        136.00935361424962
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.17959402297481952
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_171"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2035737946448554,
+      "point_assembly_mm": [
+        61.106223944625334,
+        37.181765826617145,
+        145.99999988824143
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13253553885538916
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_014"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23616149817042636,
+      "point_assembly_mm": [
+        51.94614603237569,
+        14.921256151898685,
+        137.55216982565506
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.20010594874583362
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_022"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23607446970465368,
+      "point_assembly_mm": [
+        51.95465578875681,
+        14.92611407750331,
+        137.55216970390148
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.20061258984035046
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_022"
+      ],
+      "cad_nearest_surface_distance_mm": 0.23566151638839325,
+      "point_assembly_mm": [
+        51.954846673073384,
+        14.925747354265528,
+        145.9999999074693
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.20019919634325342
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_107",
+        "nomerge_L1_147"
+      ],
+      "cad_nearest_surface_distance_mm": 9.154675939537782e-05,
+      "point_assembly_mm": [
+        47.41412691272857,
+        -40.47412643587976,
+        136.0000915467594
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 9.154675939271328e-05
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_107",
+        "nomerge_L1_190"
+      ],
+      "cad_nearest_surface_distance_mm": 0.004115683865365798,
+      "point_assembly_mm": [
+        46.42601779227422,
+        -41.2905574090412,
+        136.00009154794523
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 9.154794523169585e-05
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_199"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00010681059220418732,
+      "point_assembly_mm": [
+        21.129873270339317,
+        -46.64380526289384,
+        136.0001068105922
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00010681059220019051
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_201"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00010681059225969847,
+      "point_assembly_mm": [
+        21.129873270468643,
+        -42.69799497877111,
+        136.00010681059226
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00010681059225703393
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_200"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00010681059223194289,
+      "point_assembly_mm": [
+        21.129873270423527,
+        -44.07461203753553,
+        136.00010681059223
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00010681059222861222
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_065"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00048821063672321863,
+      "point_assembly_mm": [
+        89.123138134641,
+        -45.63534166947699,
+        136.00048821063675
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882106367460892
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_069"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00048820453227294003,
+      "point_assembly_mm": [
+        83.05628946981238,
+        -56.42968372289335,
+        136.00048820453227
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00048820453227449434
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_064"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00048820890302669895,
+      "point_assembly_mm": [
+        83.42943168636745,
+        -56.42968372001438,
+        136.00048820890305
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882089030502357
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_025"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882363351110808,
+      "point_assembly_mm": [
+        83.05669365444828,
+        -41.99117554709787,
+        136.00048823633512
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882363351157437
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_065"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882433743969017,
+      "point_assembly_mm": [
+        89.37157636452852,
+        -45.63594056855311,
+        136.0004882433744
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00048824337440578347
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_063"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00048824215423404205,
+      "point_assembly_mm": [
+        87.3532993629653,
+        -59.051746317861,
+        136.00048824215423
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882421542333759
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_063"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882457450283706,
+      "point_assembly_mm": [
+        86.57471503647352,
+        -56.42968369574699,
+        136.00048824574503
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00048824574503214535
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_064"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00048824536810765373,
+      "point_assembly_mm": [
+        86.58707128932383,
+        -59.05174631675225,
+        136.0004882453681
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882453681034349
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_064"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882554520690974,
+      "point_assembly_mm": [
+        86.31842206601759,
+        -51.71048738783845,
+        136.00048825545207
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882554520690974
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_063"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882559889451965,
+      "point_assembly_mm": [
+        86.73035931538166,
+        -51.71048738523908,
+        136.00048825598896
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882559889551885
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_066"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882542880835228,
+      "point_assembly_mm": [
+        83.3534442405651,
+        -40.30476522743972,
+        136.0004882542881
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00048825428808640936
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_069"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882512012194251,
+      "point_assembly_mm": [
+        83.0566936793941,
+        -51.71048740842037,
+        136.00048825120123
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00048825120123296983
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_063"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00048824560175408926,
+      "point_assembly_mm": [
+        89.37284792747278,
+        -45.96404647097283,
+        136.00048824560176
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004882456017583081
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_069"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004882601762346006,
+      "point_assembly_mm": [
+        83.05669405561412,
+        -59.05174631164381,
+        136.00048826017624
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00048826017624037377
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_063"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004883089015084163,
+      "point_assembly_mm": [
+        87.35333205331631,
+        -59.05213156894288,
+        136.0004883089015
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004883089015095265
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_064"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0004883128666144376,
+      "point_assembly_mm": [
+        86.58707310479944,
+        -59.052131569614964,
+        136.00048831286662
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004883128666222092
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_069"
+      ],
+      "cad_nearest_surface_distance_mm": 0.00048833113519553,
+      "point_assembly_mm": [
+        83.05669372685679,
+        -59.052131572711424,
+        136.00048833113522
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0004883311352159581
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_162",
+        "nomerge_L1_144"
+      ],
+      "cad_nearest_surface_distance_mm": 0.07007941575549916,
+      "point_assembly_mm": [
+        58.36353158977098,
+        -61.6229806889124,
+        136.0007782821585
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.00023862282938864836
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_144"
+      ],
+      "cad_nearest_surface_distance_mm": 0.000778000801754386,
+      "point_assembly_mm": [
+        57.976097125560074,
+        -56.53479377552872,
+        136.00077800080177
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0007780008017732598
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_145"
+      ],
+      "cad_nearest_surface_distance_mm": 0.0007780008017821416,
+      "point_assembly_mm": [
+        58.41874168646146,
+        -42.13085046360068,
+        136.0007780008018
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 0.0007780008018016815
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_092"
+      ],
+      "cad_nearest_surface_distance_mm": 0.25316910167055817,
+      "point_assembly_mm": [
+        60.03699998233319,
+        -64.96234100222391,
+        145.99999988824146
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1813987728573586
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_083"
+      ],
+      "cad_nearest_surface_distance_mm": 0.3076197900610205,
+      "point_assembly_mm": [
+        60.540768827028025,
+        -66.36450984210643,
+        145.99999988824146
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.29990531021346184
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_012"
+      ],
+      "cad_nearest_surface_distance_mm": 0.24969581336465696,
+      "point_assembly_mm": [
+        60.02142075421375,
+        -64.91897843931724,
+        143.68063354333933
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1777339166469065
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_031"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2400319201413407,
+      "point_assembly_mm": [
+        59.98036887334382,
+        -64.80471637491893,
+        137.55215456545366
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.16807687591268028
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_007"
+      ],
+      "cad_nearest_surface_distance_mm": 1.1175882441705198e-07,
+      "point_assembly_mm": [
+        69.61683047047552,
+        -69.62741083148155,
+        136.00000011175882
+      ],
+      "stl_inside": true,
+      "stl_signed_distance_mm_positive_inside": 1.1175882264069514e-07
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_072"
+      ],
+      "cad_nearest_surface_distance_mm": 0.28867291977355664,
+      "point_assembly_mm": [
+        61.71103650925799,
+        -72.89297199260416,
+        136.00000011175874
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2788459078130846
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_029"
+      ],
+      "cad_nearest_surface_distance_mm": 0.22663423487234224,
+      "point_assembly_mm": [
+        61.70991531529012,
+        -74.58279245184407,
+        136.00035098068753
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15480941866725437
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_081"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2266729943913791,
+      "point_assembly_mm": [
+        61.70991563929047,
+        -74.58230413093821,
+        137.55215412184762
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1548505083568458
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_028"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2233319340339287,
+      "point_assembly_mm": [
+        50.98888443781615,
+        -90.61580416430056,
+        137.55215455943357
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15151003944972694
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_252"
+      ],
+      "cad_nearest_surface_distance_mm": 0.22342184560228903,
+      "point_assembly_mm": [
+        50.989847430531285,
+        -90.61521179755643,
+        145.99426653736523
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.15160543558138828
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_031"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2887665787597932,
+      "point_assembly_mm": [
+        61.71102555825834,
+        -72.90947691839528,
+        137.55215451797605
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2802565322851279
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_082"
+      ],
+      "cad_nearest_surface_distance_mm": 0.28861542878459057,
+      "point_assembly_mm": [
+        61.71104254120937,
+        -72.88388086728241,
+        137.55215292064955
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2780689177181605
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_371",
+        "nomerge_L1_201"
+      ],
+      "cad_nearest_surface_distance_mm": 0.002127619251858316,
+      "point_assembly_mm": [
+        31.91778757807783,
+        -43.61456588027535,
+        136.00040126441607
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -3.1523538482877045e-05
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_290"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2735196174140919,
+      "point_assembly_mm": [
+        52.92652315974517,
+        -89.42391914020826,
+        139.93654228865034
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.22589090933664546
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_205"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20817844678136763,
+      "point_assembly_mm": [
+        37.924317093202774,
+        -92.36762786811256,
+        145.9999998882413
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1363652882251666
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_030"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20822714219477068,
+      "point_assembly_mm": [
+        37.92502988109815,
+        -92.36772809043467,
+        137.55215456314332
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13641748547316856
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_272"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20533779433431198,
+      "point_assembly_mm": [
+        50.8306735287482,
+        -55.284248340387144,
+        137.6026002218453
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13349497322126386
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_272"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20519001243922685,
+      "point_assembly_mm": [
+        50.83074856174546,
+        -55.28412061785059,
+        137.55444303145688
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13334714632492628
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_032"
+      ],
+      "cad_nearest_surface_distance_mm": 0.20511849815620153,
+      "point_assembly_mm": [
+        50.8296472831819,
+        -55.28349180773377,
+        137.06954177585496
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1332814658354365
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_369",
+        "nomerge_L1_201"
+      ],
+      "cad_nearest_surface_distance_mm": 6.705536126361267e-08,
+      "point_assembly_mm": [
+        31.917787496000535,
+        -40.701034545898494,
+        136.00000006705537
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": 6.705536748086348e-08
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_013"
+      ],
+      "cad_nearest_surface_distance_mm": 0.21895847489438888,
+      "point_assembly_mm": [
+        51.070243485436094,
+        -55.42102713658,
+        137.60260020742024
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.14777287713348494
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_013"
+      ],
+      "cad_nearest_surface_distance_mm": 0.21882165712880922,
+      "point_assembly_mm": [
+        51.07031326833399,
+        -55.4209091860028,
+        137.55216887741048
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.1476361394868734
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_206"
+      ],
+      "cad_nearest_surface_distance_mm": 0.19620811028432092,
+      "point_assembly_mm": [
+        34.69868948199513,
+        -91.40872178970717,
+        145.99999988824138
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.12436050703893227
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_030"
+      ],
+      "cad_nearest_surface_distance_mm": 0.19624380683462675,
+      "point_assembly_mm": [
+        34.69830341504227,
+        -91.40853026016885,
+        137.55215456585785
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.12439427767771329
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_253"
+      ],
+      "cad_nearest_surface_distance_mm": 0.2043896704005788,
+      "point_assembly_mm": [
+        34.60739828995547,
+        -91.36343182191143,
+        145.9999998882414
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.13234606976417093
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_203"
+      ],
+      "cad_nearest_surface_distance_mm": 0.26322784832659996,
+      "point_assembly_mm": [
+        33.04679042928452,
+        -90.58920729737186,
+        137.55215456302287
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.2559967666748558
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_117",
+        "nomerge_L1_201"
+      ],
+      "cad_nearest_surface_distance_mm": 3.834213502251771e-08,
+      "point_assembly_mm": [
+        29.411867172633528,
+        -44.10816958628856,
+        135.99999996165786
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -3.83421365768306e-08
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_253"
+      ],
+      "cad_nearest_surface_distance_mm": 0.19803004034666202,
+      "point_assembly_mm": [
+        50.74076314015538,
+        -90.76842913739743,
+        137.55453451182436
+      ],
+      "stl_inside": false,
+      "stl_signed_distance_mm_positive_inside": -0.12693252704041127
+    }
+  ],
+  "limitations": "STL point containment is approximate, not exact CAD point-in-solid. CAD-to-STL correspondence, sampling, topology, and numerical tolerances remain. Inside is not an error: a convex proxy witness can lie inside the real solid. Does not evaluate dynamic collision or all excluded pairs."
+}

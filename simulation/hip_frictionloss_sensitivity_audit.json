@@ -1,0 +1,141 @@
+{
+  "results": [
+    {
+      "assumed_frictionloss_nm_per_hip": 0.0,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": -0.6434830978381265,
+      "shaft_target_error_deg": -0.7065169021618736,
+      "max_hip_change_deg": 0.2605472892363345,
+      "peak_motor_torque_nm": 0.5336254772730191,
+      "sampled_peak_self_contact_n": 3.586115576189216,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.74193659995217
+    },
+    {
+      "assumed_frictionloss_nm_per_hip": 0.0,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": 0.6537707608979737,
+      "shaft_target_error_deg": 0.6962292391020263,
+      "max_hip_change_deg": 0.2658740682784218,
+      "peak_motor_torque_nm": 0.5320282952328907,
+      "sampled_peak_self_contact_n": 3.6050851485786866,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.8839302000124
+    },
+    {
+      "assumed_frictionloss_nm_per_hip": 0.01,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": -0.6410648479076881,
+      "shaft_target_error_deg": -0.708935152092312,
+      "max_hip_change_deg": 0.25925902582032806,
+      "peak_motor_torque_nm": 0.5343161649233095,
+      "sampled_peak_self_contact_n": 3.5666801051258803,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.937875199946575
+    },
+    {
+      "assumed_frictionloss_nm_per_hip": 0.01,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": 0.6514840957334643,
+      "shaft_target_error_deg": 0.6985159042665355,
+      "max_hip_change_deg": 0.264651884303725,
+      "peak_motor_torque_nm": 0.5327164005926852,
+      "sampled_peak_self_contact_n": 3.5898763915594936,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.79698870005086
+    },
+    {
+      "assumed_frictionloss_nm_per_hip": 0.05,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": -0.6410648955877087,
+      "shaft_target_error_deg": -0.7089351044122915,
+      "max_hip_change_deg": 0.2592591336380995,
+      "peak_motor_torque_nm": 0.5343154328381963,
+      "sampled_peak_self_contact_n": 3.5666713479466954,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.825191500014625
+    },
+    {
+      "assumed_frictionloss_nm_per_hip": 0.05,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": 0.6514835083319863,
+      "shaft_target_error_deg": 0.6985164916680136,
+      "max_hip_change_deg": 0.26465146294586234,
+      "peak_motor_torque_nm": 0.5327175135913043,
+      "sampled_peak_self_contact_n": 3.5898863448934546,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.743991099996492
+    },
+    {
+      "assumed_frictionloss_nm_per_hip": 0.1,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": -0.6410648955877087,
+      "shaft_target_error_deg": -0.7089351044122915,
+      "max_hip_change_deg": 0.2592591336380995,
+      "peak_motor_torque_nm": 0.5343154328381963,
+      "sampled_peak_self_contact_n": 3.5666713479466954,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.8280020999955
+    },
+    {
+      "assumed_frictionloss_nm_per_hip": 0.1,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "invalid_reason": null,
+      "duration_s": 6.000000000001587,
+      "actual_shaft_change_deg": 0.6514835083319863,
+      "shaft_target_error_deg": 0.6985164916680136,
+      "max_hip_change_deg": 0.26465146294586234,
+      "peak_motor_torque_nm": 0.5327175135913043,
+      "sampled_peak_self_contact_n": 3.5898863448934546,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_s": 24.69536639994476
+    }
+  ],
+  "limitations": "Friction loss values are hypothetical, equal on both hips, load-independent, and not a measurement of surface friction or preload. Tests cover small motions only; collision exclusions remain. No training."
+}

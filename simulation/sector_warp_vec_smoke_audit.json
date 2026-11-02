@@ -1,0 +1,12 @@
+{
+  "worlds": 4,
+  "cpu_gpu_max_observation_difference": 0.0053874775767326355,
+  "neutral_steps_each": 4,
+  "wall_seconds_including_cpu": 0.8892040000064299,
+  "masked_timeout_reset_passed": true,
+  "injected_hip_violation_aborts_before_step": true,
+  "aborted_batch_rejects_steps_until_reset": true,
+  "nonfinite_action_rejected": true,
+  "no_external_virtual_support": true,
+  "limitations": "Short single-seed vector interface test, 4 worlds. Guard aborts entire batch and sampled contact checks can miss spikes; per-world friction randomization, extensive actions, learning, hardware and full parity remain unvalidated."
+}

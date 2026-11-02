@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_selective_collision_trial.xml",
+      "pulse_delta_us": -10,
+      "valid": true,
+      "actual_delta_deg": -0.6434830978381265,
+      "error_deg": -0.7065169021618736,
+      "sampled_peak_self_contact_n": 3.586115576189216,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "model": "diagnostic_selective_collision_trial.xml",
+      "pulse_delta_us": 10,
+      "valid": true,
+      "actual_delta_deg": 0.6537707608979737,
+      "error_deg": 0.6962292391020263,
+      "sampled_peak_self_contact_n": 3.6050851485786866,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "model": "diagnostic_range_collision_trial.xml",
+      "pulse_delta_us": -10,
+      "valid": true,
+      "actual_delta_deg": -0.6434830978381265,
+      "error_deg": -0.7065169021618736,
+      "sampled_peak_self_contact_n": 3.586115576189216,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "model": "diagnostic_range_collision_trial.xml",
+      "pulse_delta_us": 10,
+      "valid": true,
+      "actual_delta_deg": 0.6537707608979737,
+      "error_deg": 0.6962292391020263,
+      "sampled_peak_self_contact_n": 3.6050851485786866,
+      "peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    }
+  ],
+  "limitations": "Short limited motion; near/overlapping high-resolution pairs deliberately disabled, remaining geometric coverage not established."
+}

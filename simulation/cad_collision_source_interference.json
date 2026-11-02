@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "chassis_source_index": 0,
+      "leg": 0,
+      "leg_z_angle_deg": 0.0,
+      "intersects": false,
+      "volume_mm3": 0
+    },
+    {
+      "chassis_source_index": 0,
+      "leg": 1,
+      "leg_z_angle_deg": 0.0,
+      "intersects": false,
+      "volume_mm3": 0
+    },
+    {
+      "chassis_source_index": 0,
+      "leg": 1,
+      "leg_z_angle_deg": 0.26999999999999985,
+      "intersects": false,
+      "volume_mm3": 0
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 0,
+      "leg_z_angle_deg": 0.0,
+      "intersects": false,
+      "volume_mm3": 0
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 1,
+      "leg_z_angle_deg": 0.0,
+      "intersects": false,
+      "volume_mm3": 0
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 1,
+      "leg_z_angle_deg": 0.26999999999999985,
+      "intersects": false,
+      "volume_mm3": 0
+    }
+  ],
+  "note": "Exact CAD solid copies. Saved CAD pose and isolated leg1 phase; not moving-range or whole-assembly collision validation."
+}

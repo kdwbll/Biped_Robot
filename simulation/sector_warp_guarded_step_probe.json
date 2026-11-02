@@ -1,0 +1,21 @@
+{
+  "worlds": 4,
+  "injected_flags_before_any_step": [
+    0,
+    6,
+    4,
+    1
+  ],
+  "invalid_batch_physics_advanced": false,
+  "valid_steps": 80,
+  "valid_stop_reason": null,
+  "final_time_s": [
+    0.019999995827674866,
+    0.019999995827674866,
+    0.019999995827674866,
+    0.019999995827674866
+  ],
+  "wall_seconds": 0.07027110003400594,
+  "world_control_steps_per_second": 56.92240477328945,
+  "limitations": "Host synchronizes before each physics step and aborts entire batch; this proof does not implement contact-force guard, independent world resets, policy, reward or training. Thresholds are assumptions, not hardware limits. Timing is one short run."
+}

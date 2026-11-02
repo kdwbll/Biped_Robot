@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "action": -1.0,
+      "steps": 200,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "simulation_time": 3.999999999999143,
+      "max_hip_change_deg": 0.8242821281690159,
+      "env_sampled_peak_self_contact_n": 35.11054422189887,
+      "max_gear_residual_deg": 0.10550003479342669,
+      "sampled_peak_self_contact_n": 33.84693477142448,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "action": 1.0,
+      "steps": 200,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "simulation_time": 3.999999999999143,
+      "max_hip_change_deg": 1.2713685606749403,
+      "env_sampled_peak_self_contact_n": 30.361241197385247,
+      "max_gear_residual_deg": 0.09092609509370407,
+      "sampled_peak_self_contact_n": 23.90366678966573,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    }
+  ],
+  "limitations": "Two four-second sustained actions, sampled contacts once per control frame. Not training, full collision validation, or hardware safety."
+}

@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "ki": 6.0,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "actual_deg": -0.6434830978381265,
+      "error_deg": -0.7065169021618736,
+      "sampled_peak_self_contact_n": 3.586115576189216
+    },
+    {
+      "ki": 6.0,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "actual_deg": 0.6537707608979737,
+      "error_deg": 0.6962292391020263,
+      "sampled_peak_self_contact_n": 3.6050851485786866
+    },
+    {
+      "ki": 10.0,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "actual_deg": -0.979185134920222,
+      "error_deg": -0.3708148650797781,
+      "sampled_peak_self_contact_n": 5.492701092643609
+    },
+    {
+      "ki": 10.0,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "actual_deg": 1.069218138026615,
+      "error_deg": 0.28078186197338484,
+      "sampled_peak_self_contact_n": 59.773251894172546
+    },
+    {
+      "ki": 15.0,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "actual_deg": -1.3319549370850918,
+      "error_deg": -0.018045062914908188,
+      "sampled_peak_self_contact_n": 6.9789091230990214
+    },
+    {
+      "ki": 15.0,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "actual_deg": 1.1074583204679114,
+      "error_deg": 0.24254167953208858,
+      "sampled_peak_self_contact_n": 85.43701016766707
+    }
+  ],
+  "limitations": "Hypothetical simulation, no physical validation and collision coverage is incomplete."
+}

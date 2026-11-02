@@ -1,0 +1,16 @@
+{
+  "seed": 9901,
+  "worlds": 16,
+  "frames": 200,
+  "mean_return": 3.9951299227541313,
+  "air_fraction": [
+    0.000625,
+    0.0015625
+  ],
+  "phase_matched_swing_fraction": 0.000625,
+  "stance_air_fraction": 0.0015625,
+  "mean_load_alignment": -0.0005456250753817475,
+  "guard_terminations": 0,
+  "falls": 0,
+  "timeouts": 16
+}

@@ -1,0 +1,12 @@
+{
+  "neutral_1s_completed": true,
+  "neutral_reproducible": true,
+  "contact_and_gear_metrics_finite": true,
+  "invalid_action_rejected": true,
+  "post_terminal_step_rejected": true,
+  "hip_violation_stops_before_step": true,
+  "nonfinite_stops_before_step": true,
+  "random_actions_steps": 50,
+  "random_termination_reason": null,
+  "limitations": "Short deterministic smoke test; not training, not full collision validation or real-hardware safety. Guard exists only within this environment."
+}

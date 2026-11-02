@@ -1,0 +1,8 @@
+{
+  "near_pairs": 717,
+  "retained_chassis_tower_pairs": 628,
+  "excluded_near_pairs": 89,
+  "removed_old_pairs": 160,
+  "model_contact_pairs": 10055,
+  "limitations": "Only assumed rigid hip range was sampled. Near pairs remain excluded; no coverage outside range, under constraint drift or other movement. Experimental and not for training."
+}

@@ -1,0 +1,80 @@
+{
+  "model_pair": [
+    "dc_chassis_1_1",
+    "tower_L0_tower_8"
+  ],
+  "chassis_box_mm": [
+    77.2,
+    22.0,
+    136.0,
+    137.0,
+    32.0,
+    264.0
+  ],
+  "tower_box_mm": [
+    4.234169723781756,
+    -0.8892745324955609,
+    131.000000000004,
+    89.63810798349178,
+    67.00000000000036,
+    266.250000000004
+  ],
+  "results": [
+    {
+      "cad_leg_rotation_deg": -5.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": -4.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": -3.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": -2.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": -1.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": 0.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": 1.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": 2.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": 3.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": 4.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    },
+    {
+      "cad_leg_rotation_deg": 5.0,
+      "intersects": false,
+      "overlap_volume_mm3": 0
+    }
+  ],
+  "limitations": "Only these two nominal CAD solids at 11 hypothetical rotation poses. Zero intersection does not establish clearance or real bearing load. CAD and simulated leg phase may differ; other parts are unchecked."
+}

@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_implicit_damping_trial.xml",
+      "frictionloss_nm_per_hip": 0.1,
+      "pulse_delta_us": -20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": -4.146101095205691,
+      "shaft_error_deg": 1.4461010952056905,
+      "max_hip_deg": 2.026548734675961,
+      "max_shaft_speed_rad_s": 0.8820317634312635,
+      "max_gear_residual_deg": 0.214997664443938
+    },
+    {
+      "model": "diagnostic_sector_implicit_damping_trial.xml",
+      "frictionloss_nm_per_hip": 0.1,
+      "pulse_delta_us": 20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": 3.534465476296788,
+      "shaft_error_deg": -0.834465476296788,
+      "max_hip_deg": 1.7479894396306723,
+      "max_shaft_speed_rad_s": 0.830194834538451,
+      "max_gear_residual_deg": 0.19898956757654115
+    },
+    {
+      "model": "diagnostic_sector_implicit_stiff_trial.xml",
+      "frictionloss_nm_per_hip": 0.1,
+      "pulse_delta_us": -20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": -3.305614714119056,
+      "shaft_error_deg": 0.6056147141190559,
+      "max_hip_deg": 1.6159824059214527,
+      "max_shaft_speed_rad_s": 0.4076100740767961,
+      "max_gear_residual_deg": 0.06286685486337533
+    },
+    {
+      "model": "diagnostic_sector_implicit_stiff_trial.xml",
+      "frictionloss_nm_per_hip": 0.1,
+      "pulse_delta_us": 20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": 3.688262842735605,
+      "shaft_error_deg": -0.9882628427356052,
+      "max_hip_deg": 1.8437741458419974,
+      "max_shaft_speed_rad_s": 0.4090755397195255,
+      "max_gear_residual_deg": 0.06295579336996188
+    }
+  ],
+  "limitations": "Only two hypothesized friction magnitudes, four seconds, \u00b120 us. Joint friction is not measured and sampling does not establish realistic torque/clearance. Not training or hardware."
+}

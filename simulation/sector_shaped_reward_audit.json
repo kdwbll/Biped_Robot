@@ -1,0 +1,14 @@
+{
+  "synthetic_scores": {
+    "upright": 0.02,
+    "lean": 0.018000000000000002,
+    "crouch": 0.017499999999999995,
+    "rotation": 0.0195,
+    "action": 0.0194,
+    "terminated": -0.98
+  },
+  "short_cpu_gpu_max_abs_difference": 4.681565952957545e-08,
+  "frames": 10,
+  "worlds": 4,
+  "limitations": "Hypothetical reward and one short action sequence; no PPO learning, walking objective, model convergence or hardware validation."
+}

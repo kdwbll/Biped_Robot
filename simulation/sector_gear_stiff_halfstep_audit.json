@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_gear_stiff_trial.xml",
+      "pulse_delta_us": -20,
+      "duration_s": 5.999999999997354,
+      "stop_reason": null,
+      "shaft_displacement_deg": -2.7858366951400706,
+      "shaft_error_deg": 0.0858366951400704,
+      "max_hip_change_deg": 1.3479300416860505,
+      "max_gear_residual_deg": 0.04603854166510096,
+      "max_shaft_speed_rad_s": 2.5424790481798185,
+      "sampled_peak_self_contact_n": 36.164526462772386,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "sampled_sector_contact_points": 0,
+      "sampled_peak_sector_contact_n": 0.0
+    }
+  ],
+  "limitations": "Short controlled diagnostic with 20 us step, sampled forces, unmeasured gains and incomplete collisions. Range check only inside this script, not XML. Not training or real-hardware evidence."
+}

@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "model": "diagnostic_sector_implicit_stiff_trial.xml",
+      "steps": 80,
+      "sim_time_s": [
+        0.019999995827674866,
+        0.019999995827674866,
+        0.019999995827674866,
+        0.019999995827674866
+      ],
+      "stop_reason": null,
+      "flags": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "overflow": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sampled_peak_self_contact_n": 1.2070190906524658,
+      "sampled_peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ],
+      "wall_seconds": 0.07726310007274151
+    },
+    {
+      "model": "diagnostic_sector_collision_trial.xml",
+      "steps": 11481,
+      "sim_time_s": [
+        2.870502471923828,
+        2.870502471923828,
+        2.870502471923828,
+        2.870502471923828
+      ],
+      "stop_reason": "contact_guard",
+      "flags": [
+        8,
+        0,
+        0,
+        0
+      ],
+      "overflow": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sampled_peak_self_contact_n": 22.22034454345703,
+      "sampled_peak_pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ],
+      "wall_seconds": 9.325363699928857
+    }
+  ],
+  "heuristic_limit_n": 20.0,
+  "force_sample_interval_s": 0.0025,
+  "limitations": "Host-synchronized prototype aborts entire batch; no per-world reset, training, PPO or reward. Threshold is arbitrary and sampled forces can miss spikes; float32 vs CPU and long-run parity remain unverified. Not hardware safety."
+}

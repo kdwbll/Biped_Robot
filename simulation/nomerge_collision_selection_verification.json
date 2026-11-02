@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "total_pairs": 74304,
+  "active_pairs": 74209,
+  "excluded_pairs": 95,
+  "compiled_contact_pairs": 83636,
+  "sample_count": 201,
+  "limitations": "Only verifies model selection against the sampled proxy data; no continuous clearance or CAD proof."
+}

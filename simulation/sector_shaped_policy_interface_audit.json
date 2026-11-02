@@ -1,0 +1,28 @@
+{
+  "worlds": 4,
+  "action_shape": [
+    4,
+    5
+  ],
+  "reward_shape": [
+    4
+  ],
+  "finite": true,
+  "done": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "guard_flags": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "learn_called": false,
+  "saved_model": false,
+  "physics": "Warp CUDA",
+  "policy_device": "cpu",
+  "limitations": "One untrained policy inference and one step only; no policy optimization or evidence of walking."
+}

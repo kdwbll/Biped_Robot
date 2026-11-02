@@ -1,0 +1,158 @@
+{
+  "results": [
+    {
+      "axis": "roll",
+      "initial_tilt_deg": -2.0,
+      "ground_clearance_correction_m": 0.0017602077712526153,
+      "initial_gravity": [
+        0.0,
+        0.020947344601154327,
+        -0.9997807145118713
+      ],
+      "max_tilt_deg": 3.161430938863658,
+      "final_tilt_deg": 0.7994186894990496,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 5.539824485778809,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    },
+    {
+      "axis": "roll",
+      "initial_tilt_deg": -1.0,
+      "ground_clearance_correction_m": 0.00082280343595619,
+      "initial_gravity": [
+        0.0,
+        0.0034955742303282022,
+        -0.9999940991401672
+      ],
+      "max_tilt_deg": 1.9441046181001889,
+      "final_tilt_deg": 0.8270888520650371,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 3.6786949634552,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    },
+    {
+      "axis": "roll",
+      "initial_tilt_deg": 1.0,
+      "ground_clearance_correction_m": 0.0016423720576180783,
+      "initial_gravity": [
+        -0.0,
+        -0.031405843794345856,
+        -0.9995068311691284
+      ],
+      "max_tilt_deg": 1.7824596983341903,
+      "final_tilt_deg": 0.82281929218417,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 5.481042861938477,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    },
+    {
+      "axis": "roll",
+      "initial_tilt_deg": 2.0,
+      "ground_clearance_correction_m": 0.0032549154823791615,
+      "initial_gravity": [
+        -0.0,
+        -0.04884486645460129,
+        -0.9988065361976624
+      ],
+      "max_tilt_deg": 2.7897259274652364,
+      "final_tilt_deg": 0.81757066437973,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 3.5863940715789795,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    },
+    {
+      "axis": "pitch",
+      "initial_tilt_deg": -2.0,
+      "ground_clearance_correction_m": 0.0005214793659262511,
+      "initial_gravity": [
+        -0.034899502992630005,
+        -0.013948758132755756,
+        -0.9992936849594116
+      ],
+      "max_tilt_deg": 1.7104067701221783,
+      "final_tilt_deg": 0.8268522326327313,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 4.355076789855957,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    },
+    {
+      "axis": "pitch",
+      "initial_tilt_deg": -1.0,
+      "ground_clearance_correction_m": 0.00027544603940181205,
+      "initial_gravity": [
+        -0.017452409490942955,
+        -0.013955135829746723,
+        -0.9997504353523254
+      ],
+      "max_tilt_deg": 1.2104690205713837,
+      "final_tilt_deg": 0.826378790526477,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 3.4533939361572266,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    },
+    {
+      "axis": "pitch",
+      "initial_tilt_deg": 1.0,
+      "ground_clearance_correction_m": 0.0018823204233892783,
+      "initial_gravity": [
+        0.017452409490942955,
+        -0.013955135829746723,
+        -0.9997504353523254
+      ],
+      "max_tilt_deg": 1.1951763435957774,
+      "final_tilt_deg": 0.8266155454726094,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 4.750338077545166,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    },
+    {
+      "axis": "pitch",
+      "initial_tilt_deg": 2.0,
+      "ground_clearance_correction_m": 0.003738595417894586,
+      "initial_gravity": [
+        0.034899502992630005,
+        -0.013948758132755756,
+        -0.9992936849594116
+      ],
+      "max_tilt_deg": 1.7464125056940045,
+      "final_tilt_deg": 0.8268522326327313,
+      "first_terminal_s": null,
+      "guard_flags": 0,
+      "max_sampled_self_contact_n": 5.18162727355957,
+      "peak_pair": [
+        "dc_chassis_3_2",
+        "refined_L0_tower_15"
+      ]
+    }
+  ],
+  "wall_seconds": 18.794621099950746,
+  "limitations": "Eight small initial roll/pitch perturbations at zero commanded action, raised as needed to remove initial floor penetration; fixed assumed friction and heuristic sampled guards; no active learned balancing, training or hardware validation."
+}

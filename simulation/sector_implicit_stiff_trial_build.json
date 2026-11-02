@@ -1,0 +1,11 @@
+{
+  "model": "diagnostic_sector_implicit_stiff_trial.xml",
+  "modified_equalities": [
+    "opposite_world_rotation_assumption",
+    "candidate_pinion_25_gear_50"
+  ],
+  "contact_pairs": 12850,
+  "gear_solref_s": 0.0005,
+  "physics_timestep_s": 0.00025,
+  "limitations": "Unmeasured friction, damping and solver settings. Requires zero external servo hip damping to avoid double counting. Current at 2*timestep reference, not a stability proof. Collision coverage remains incomplete; no XML range guard."
+}

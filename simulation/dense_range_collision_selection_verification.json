@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "sample_count": 201,
+  "compiled_pairs": 27786,
+  "excluded_pairs": 73,
+  "restored_pair_count": 10,
+  "excluded_added_count": 4,
+  "note": "Verifies consistency with previously computed discrete proxy distances; does not prove clearance between samples or collision coverage."
+}

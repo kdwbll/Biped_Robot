@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "expected_pairs": 12851,
+  "safe_original_pairs_added": 56,
+  "noncontact_xml_unchanged": true,
+  "limitations": "Checks pair identities and attributes, not CAD fidelity or dynamic correctness."
+}

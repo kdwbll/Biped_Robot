@@ -1,0 +1,341 @@
+{
+  "model": "diagnostic_separate_sole_contact_trial.xml",
+  "hip_range_deg": [
+    -5,
+    5
+  ],
+  "sample_count": 2001,
+  "results": [
+    {
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_004"
+      ],
+      "radius_bound_m": 0.052138790888864354,
+      "sample_min_mm": 0.07566500935192301,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.002274983922368242,
+      "certified_proxy_gap_lower_bound_mm": 0.07339002542955475
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_064",
+        "nomerge_L0_006"
+      ],
+      "radius_bound_m": 0.05917744196398612,
+      "sample_min_mm": 0.05174036196807501,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.0025821030127436565,
+      "certified_proxy_gap_lower_bound_mm": 0.04915825895533135
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_014"
+      ],
+      "radius_bound_m": 0.030136746910074286,
+      "sample_min_mm": 0.054329702381100846,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.0013149636484482185,
+      "certified_proxy_gap_lower_bound_mm": 0.05301473873265263
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_015"
+      ],
+      "radius_bound_m": 0.02292539619138326,
+      "sample_min_mm": 0.05243460071135904,
+      "min_at_deg": 3.4250000000000007,
+      "interpolation_motion_bound_mm": 0.0010003091145801416,
+      "certified_proxy_gap_lower_bound_mm": 0.0514342915967789
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_103",
+        "nomerge_L0_015"
+      ],
+      "radius_bound_m": 0.02292539619138326,
+      "sample_min_mm": 0.09965446897156742,
+      "min_at_deg": -1.92,
+      "interpolation_motion_bound_mm": 0.0010003091145801416,
+      "certified_proxy_gap_lower_bound_mm": 0.09865415985698729
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_103",
+        "nomerge_L0_018"
+      ],
+      "radius_bound_m": 0.024276233535282576,
+      "sample_min_mm": 0.05639151797784065,
+      "min_at_deg": -0.0649999999999995,
+      "interpolation_motion_bound_mm": 0.0010592505128503094,
+      "certified_proxy_gap_lower_bound_mm": 0.05533226746499034
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_034"
+      ],
+      "radius_bound_m": 0.020912687917936254,
+      "sample_min_mm": 0.09813879565034861,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.0009124881489526584,
+      "certified_proxy_gap_lower_bound_mm": 0.09722630750139595
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_103",
+        "nomerge_L0_060"
+      ],
+      "radius_bound_m": 0.03993625280267462,
+      "sample_min_mm": 0.05635219849578465,
+      "min_at_deg": -0.07000000000000028,
+      "interpolation_motion_bound_mm": 0.0017425477556504445,
+      "certified_proxy_gap_lower_bound_mm": 0.0546096507401342
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_068",
+        "nomerge_L0_074"
+      ],
+      "radius_bound_m": 0.035045191956871856,
+      "sample_min_mm": 0.08106866023807381,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.0015291349664807862,
+      "certified_proxy_gap_lower_bound_mm": 0.07953952527159303
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_127",
+        "nomerge_L0_098"
+      ],
+      "radius_bound_m": 0.05010720468941592,
+      "sample_min_mm": 0.06629374339027042,
+      "min_at_deg": 0.03500000000000014,
+      "interpolation_motion_bound_mm": 0.002186339251829143,
+      "certified_proxy_gap_lower_bound_mm": 0.06410740413844128
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_103"
+      ],
+      "radius_bound_m": 0.053090112756350255,
+      "sample_min_mm": 0.0997568256237296,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.002316493169449574,
+      "certified_proxy_gap_lower_bound_mm": 0.09744033245428003
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_145"
+      ],
+      "radius_bound_m": 0.058351712275222185,
+      "sample_min_mm": 0.09548003828521211,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.0025460737582455187,
+      "certified_proxy_gap_lower_bound_mm": 0.09293396452696659
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_145"
+      ],
+      "radius_bound_m": 0.058351712275222185,
+      "sample_min_mm": 0.08087669684404157,
+      "min_at_deg": -0.29000000000000004,
+      "interpolation_motion_bound_mm": 0.0025460737582455187,
+      "certified_proxy_gap_lower_bound_mm": 0.07833062308579604
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_184"
+      ],
+      "radius_bound_m": 0.04422539188759003,
+      "sample_min_mm": 0.06530944139629605,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.0019296967534049706,
+      "certified_proxy_gap_lower_bound_mm": 0.06337974464289108
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_185"
+      ],
+      "radius_bound_m": 0.0465603117350835,
+      "sample_min_mm": 0.07396878973489084,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.0020315768511691987,
+      "certified_proxy_gap_lower_bound_mm": 0.07193721288372164
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_273"
+      ],
+      "radius_bound_m": 0.057760046193614786,
+      "sample_min_mm": 0.05300147446501044,
+      "min_at_deg": -2.795,
+      "interpolation_motion_bound_mm": 0.002520257455256511,
+      "certified_proxy_gap_lower_bound_mm": 0.05048121700975393
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_275"
+      ],
+      "radius_bound_m": 0.06429067578333061,
+      "sample_min_mm": 0.09723145313599586,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.002805209926655669,
+      "certified_proxy_gap_lower_bound_mm": 0.09442624320934019
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_024",
+        "nomerge_L1_010"
+      ],
+      "radius_bound_m": 0.05939994606908279,
+      "sample_min_mm": 0.05412682287778504,
+      "min_at_deg": -2.875,
+      "interpolation_motion_bound_mm": 0.002591811585825737,
+      "certified_proxy_gap_lower_bound_mm": 0.0515350112919593
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_064",
+        "nomerge_L1_013"
+      ],
+      "radius_bound_m": 0.042912861295020255,
+      "sample_min_mm": 0.07790769170040066,
+      "min_at_deg": -2.905,
+      "interpolation_motion_bound_mm": 0.0018724268024757778,
+      "certified_proxy_gap_lower_bound_mm": 0.07603526489792486
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_025"
+      ],
+      "radius_bound_m": 0.05332905084008923,
+      "sample_min_mm": 0.08177375686446005,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.0023269188101228745,
+      "certified_proxy_gap_lower_bound_mm": 0.07944683805433718
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_024",
+        "nomerge_L1_029"
+      ],
+      "radius_bound_m": 0.024411803974433138,
+      "sample_min_mm": 0.054799941238083225,
+      "min_at_deg": -2.87,
+      "interpolation_motion_bound_mm": 0.0010651658891787199,
+      "certified_proxy_gap_lower_bound_mm": 0.0537347753489045
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_032"
+      ],
+      "radius_bound_m": 0.03028319130011997,
+      "sample_min_mm": 0.05256001663497723,
+      "min_at_deg": 3.24,
+      "interpolation_motion_bound_mm": 0.0013213534903911417,
+      "certified_proxy_gap_lower_bound_mm": 0.05123866314458609
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_024",
+        "nomerge_L1_081"
+      ],
+      "radius_bound_m": 0.05840965238833312,
+      "sample_min_mm": 0.06498283090463311,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.0025486018726022276,
+      "certified_proxy_gap_lower_bound_mm": 0.06243422903203088
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_082"
+      ],
+      "radius_bound_m": 0.05816299237622031,
+      "sample_min_mm": 0.07676927859084222,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.0025378392992421376,
+      "certified_proxy_gap_lower_bound_mm": 0.07423143929160009
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_295",
+        "nomerge_L1_155"
+      ],
+      "radius_bound_m": 0.047353448054036566,
+      "sample_min_mm": 0.09994161232455931,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.00206618395162365,
+      "certified_proxy_gap_lower_bound_mm": 0.09787542837293567
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_030",
+        "nomerge_L1_158"
+      ],
+      "radius_bound_m": 0.026653971085045573,
+      "sample_min_mm": 0.08627325076538103,
+      "min_at_deg": 0.9900000000000002,
+      "interpolation_motion_bound_mm": 0.0011629988853212442,
+      "certified_proxy_gap_lower_bound_mm": 0.08511025188005979
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_205"
+      ],
+      "radius_bound_m": 0.028383501380310767,
+      "sample_min_mm": 0.0987463131520708,
+      "min_at_deg": -5.0,
+      "interpolation_motion_bound_mm": 0.0012384638807286746,
+      "certified_proxy_gap_lower_bound_mm": 0.09750784927134214
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_030",
+        "nomerge_L1_220"
+      ],
+      "radius_bound_m": 0.04757603419755972,
+      "sample_min_mm": 0.08623658339318833,
+      "min_at_deg": 0.9900000000000002,
+      "interpolation_motion_bound_mm": 0.002075896104307369,
+      "certified_proxy_gap_lower_bound_mm": 0.08416068728888097
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_273"
+      ],
+      "radius_bound_m": 0.05203196356847069,
+      "sample_min_mm": 0.0767141357809233,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.0022703227011887316,
+      "certified_proxy_gap_lower_bound_mm": 0.07444381307973456
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_273"
+      ],
+      "radius_bound_m": 0.05203196356847069,
+      "sample_min_mm": 0.07659541257888836,
+      "min_at_deg": 5.0,
+      "interpolation_motion_bound_mm": 0.0022703227011887316,
+      "certified_proxy_gap_lower_bound_mm": 0.07432508987769962
+    }
+  ],
+  "limitations": "Conservative rigid-proxy interpolation bound for ideal kinematics only; numerical tolerances, motion outside assumed +/-5 degrees, non-rigid model errors, CAD manufacturing and unmodelled collisions are not covered."
+}

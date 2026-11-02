@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "guard_limit_n": 20.0,
+      "action_sign": -1.0,
+      "steps": 153,
+      "terminated": true,
+      "truncated": false,
+      "reason": "contact_guard",
+      "simulation_time": 3.052749999999668,
+      "last_sampled_self_contact_n": 20.566768138995826,
+      "pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "guard_limit_n": 20.0,
+      "action_sign": 1.0,
+      "steps": 95,
+      "terminated": true,
+      "truncated": false,
+      "reason": "contact_guard",
+      "simulation_time": 1.887750000000214,
+      "last_sampled_self_contact_n": 27.445889526666807,
+      "pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    },
+    {
+      "guard_limit_n": 100.0,
+      "action_sign": -1.0,
+      "steps": 200,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "simulation_time": 3.999999999999143,
+      "last_sampled_self_contact_n": 20.484530055009788,
+      "pair": [
+        "dc_chassis_1_1",
+        "tower_L0_tower_8"
+      ]
+    }
+  ],
+  "limitations": "20 N and 100 N are arbitrary test thresholds, not physical safety limits. Forces sampled every 2.5 ms may miss peaks. No guarantee for other actions; only this Python environment enforces the optional guard."
+}

@@ -1,0 +1,628 @@
+{
+  "sample_count": 21,
+  "hip_range_deg": [
+    -5,
+    5
+  ],
+  "summary": [
+    {
+      "chassis_source_index": 0,
+      "leg": 0,
+      "min_surface_distance_mm": 0.0,
+      "max_surface_distance_mm": 0.0,
+      "intersecting_sample_count": 21
+    },
+    {
+      "chassis_source_index": 0,
+      "leg": 1,
+      "min_surface_distance_mm": 0.0,
+      "max_surface_distance_mm": 0.0,
+      "intersecting_sample_count": 21
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 0,
+      "min_surface_distance_mm": 0.17794901613204286,
+      "max_surface_distance_mm": 0.19257731554107782,
+      "intersecting_sample_count": 0
+    },
+    {
+      "chassis_source_index": 5,
+      "leg": 1,
+      "min_surface_distance_mm": 0.17799068022851183,
+      "max_surface_distance_mm": 0.19191425101865717,
+      "intersecting_sample_count": 0
+    }
+  ],
+  "samples": [
+    {
+      "hip_delta_deg": -5.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -5.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -5.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17999286081166552
+    },
+    {
+      "hip_delta_deg": -5.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.1791726758793641
+    },
+    {
+      "hip_delta_deg": -4.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -4.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -4.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17839317622545786
+    },
+    {
+      "hip_delta_deg": -4.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17816215649131223
+    },
+    {
+      "hip_delta_deg": -4.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -4.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -4.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17823560768913785
+    },
+    {
+      "hip_delta_deg": -4.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17859202882335248
+    },
+    {
+      "hip_delta_deg": -3.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -3.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -3.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17956540809239735
+    },
+    {
+      "hip_delta_deg": -3.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18052588929422314
+    },
+    {
+      "hip_delta_deg": -3.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -3.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -3.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.1823991224737963
+    },
+    {
+      "hip_delta_deg": -3.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18396359074063567
+    },
+    {
+      "hip_delta_deg": -2.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -2.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -2.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18673653508013793
+    },
+    {
+      "hip_delta_deg": -2.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18890487137138273
+    },
+    {
+      "hip_delta_deg": -2.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -2.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -2.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.19257731554107782
+    },
+    {
+      "hip_delta_deg": -2.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.19191425101865717
+    },
+    {
+      "hip_delta_deg": -1.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -1.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -1.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.1885229139337077
+    },
+    {
+      "hip_delta_deg": -1.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18644256103734866
+    },
+    {
+      "hip_delta_deg": -1.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -1.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -1.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18405684723502927
+    },
+    {
+      "hip_delta_deg": -1.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18237709273817754
+    },
+    {
+      "hip_delta_deg": -0.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -0.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": -0.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18078159307672037
+    },
+    {
+      "hip_delta_deg": -0.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17972778184672883
+    },
+    {
+      "hip_delta_deg": 0.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 0.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 0.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17861331046584247
+    },
+    {
+      "hip_delta_deg": 0.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.178163560236731
+    },
+    {
+      "hip_delta_deg": 0.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 0.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 0.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17794901613204286
+    },
+    {
+      "hip_delta_deg": 0.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17810336113267458
+    },
+    {
+      "hip_delta_deg": 1.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 1.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 1.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17873641617660344
+    },
+    {
+      "hip_delta_deg": 1.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.1795471891189347
+    },
+    {
+      "hip_delta_deg": 1.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 1.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 1.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18083131187798718
+    },
+    {
+      "hip_delta_deg": 1.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.1809671148822321
+    },
+    {
+      "hip_delta_deg": 2.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 2.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 2.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17944775300108137
+    },
+    {
+      "hip_delta_deg": 2.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17872690788855267
+    },
+    {
+      "hip_delta_deg": 2.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 2.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 2.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.1781072178896255
+    },
+    {
+      "hip_delta_deg": 2.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17799068022851183
+    },
+    {
+      "hip_delta_deg": 3.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 3.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 3.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17827070925312272
+    },
+    {
+      "hip_delta_deg": 3.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17875848795404378
+    },
+    {
+      "hip_delta_deg": 3.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 3.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 3.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17993821461216308
+    },
+    {
+      "hip_delta_deg": 3.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.1810302725551128
+    },
+    {
+      "hip_delta_deg": 4.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 4.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 4.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18310960692703104
+    },
+    {
+      "hip_delta_deg": 4.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18332378287491424
+    },
+    {
+      "hip_delta_deg": 4.5,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 4.5,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 4.5,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18123189171327617
+    },
+    {
+      "hip_delta_deg": 4.5,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.18013341135084968
+    },
+    {
+      "hip_delta_deg": 5.0,
+      "chassis_source_index": 0,
+      "leg": 0,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 5.0,
+      "chassis_source_index": 0,
+      "leg": 1,
+      "triangle_surface_intersection": true,
+      "surface_distance_mm": 0.0
+    },
+    {
+      "hip_delta_deg": 5.0,
+      "chassis_source_index": 5,
+      "leg": 0,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17894097516746843
+    },
+    {
+      "hip_delta_deg": 5.0,
+      "chassis_source_index": 5,
+      "leg": 1,
+      "triangle_surface_intersection": false,
+      "surface_distance_mm": 0.17844691028286633
+    }
+  ],
+  "limitations": "FCL triangle surface distance from STL, not exact SolidWorks solid distance; mesh tessellation and containment are not ruled out. Only sampled hip poses."
+}

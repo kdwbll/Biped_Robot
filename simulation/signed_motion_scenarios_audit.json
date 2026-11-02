@@ -1,0 +1,125 @@
+{
+  "results": [
+    {
+      "servo_index_zero_based": 4,
+      "pulse_delta_us": -10,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": -0.4358628389261661,
+      "target_error_deg": -0.9141371610738339,
+      "height_change_mm": -0.8872124356399946,
+      "max_sampled_tilt_deg": 1.204752576353819,
+      "max_commanded_torque_nm": 0.47592950972684966,
+      "max_sampled_self_contact_n": 2.8949302756929876
+    },
+    {
+      "servo_index_zero_based": 4,
+      "pulse_delta_us": 10,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": 0.44254734764365994,
+      "target_error_deg": 0.90745265235634,
+      "height_change_mm": -0.8864519424224837,
+      "max_sampled_tilt_deg": 1.204752576353819,
+      "max_commanded_torque_nm": 0.4752423457963296,
+      "max_sampled_self_contact_n": 3.0457565890355944
+    },
+    {
+      "servo_index_zero_based": 0,
+      "pulse_delta_us": -5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": -1.569059328761068,
+      "target_error_deg": 0.8940593287610679,
+      "height_change_mm": -1.088405970556372,
+      "max_sampled_tilt_deg": 1.204752576353819,
+      "max_commanded_torque_nm": 0.48171291164766633,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    },
+    {
+      "servo_index_zero_based": 0,
+      "pulse_delta_us": 5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": -0.11310198295555597,
+      "target_error_deg": 0.7881019829555561,
+      "height_change_mm": -0.6932942301127731,
+      "max_sampled_tilt_deg": 1.4089850849067689,
+      "max_commanded_torque_nm": 0.48171291164766633,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    },
+    {
+      "servo_index_zero_based": 1,
+      "pulse_delta_us": -5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": 0.09940206399772383,
+      "target_error_deg": -0.7744020639977232,
+      "height_change_mm": -0.716265934260385,
+      "max_sampled_tilt_deg": 1.3765876749797281,
+      "max_commanded_torque_nm": 0.5024354360711598,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    },
+    {
+      "servo_index_zero_based": 1,
+      "pulse_delta_us": 5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": 1.5625726344038084,
+      "target_error_deg": -0.8875726344038091,
+      "height_change_mm": -1.0651382377921403,
+      "max_sampled_tilt_deg": 1.204752576353819,
+      "max_commanded_torque_nm": 0.5024354360711598,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    },
+    {
+      "servo_index_zero_based": 2,
+      "pulse_delta_us": -5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": 0.09384925885181959,
+      "target_error_deg": -0.7688492588518198,
+      "height_change_mm": -0.6791475705202332,
+      "max_sampled_tilt_deg": 1.204752576353819,
+      "max_commanded_torque_nm": 0.45592162237883777,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    },
+    {
+      "servo_index_zero_based": 2,
+      "pulse_delta_us": 5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": 1.543974141193153,
+      "target_error_deg": -0.8689741411931527,
+      "height_change_mm": -1.102630777892022,
+      "max_sampled_tilt_deg": 1.4571743448103314,
+      "max_commanded_torque_nm": 0.45592162237883777,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    },
+    {
+      "servo_index_zero_based": 3,
+      "pulse_delta_us": -5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": -1.5606349979167522,
+      "target_error_deg": 0.8856349979167522,
+      "height_change_mm": -1.0789662481791584,
+      "max_sampled_tilt_deg": 1.4198596321643238,
+      "max_commanded_torque_nm": 0.4860032777088183,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    },
+    {
+      "servo_index_zero_based": 3,
+      "pulse_delta_us": 5,
+      "valid": true,
+      "simulated_seconds": 3.999999999999143,
+      "actual_delta_deg": -0.10327105418415612,
+      "target_error_deg": 0.7782710541841563,
+      "height_change_mm": -0.7023974381741849,
+      "max_sampled_tilt_deg": 1.204752576353819,
+      "max_commanded_torque_nm": 0.4860032777088183,
+      "max_sampled_self_contact_n": 0.5423268353248272
+    }
+  ],
+  "limitations": "Hypothetical simulation gains, unmeasured 270 degree servo mapping and incomplete collisions; force and tilt sampled every 20 steps; not a physical range test."
+}
