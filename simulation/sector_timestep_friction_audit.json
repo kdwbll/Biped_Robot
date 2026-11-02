@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "frictionloss_nm_per_hip": 0.0,
+      "timestep_s": 0.00025,
+      "simulation_s": 2.0000000000002514,
+      "stop_reason": null,
+      "shaft_delta_deg": -0.6905901355326425,
+      "shaft_error_deg": -2.0094098644673575,
+      "peak_shaft_speed_rad_s": 0.4075536892032259,
+      "wall_seconds": 12.601304599898867
+    },
+    {
+      "frictionloss_nm_per_hip": 0.0,
+      "timestep_s": 0.000125,
+      "simulation_s": 1.9999999999995715,
+      "stop_reason": null,
+      "shaft_delta_deg": -0.6514294067027454,
+      "shaft_error_deg": -2.0485705932972547,
+      "peak_shaft_speed_rad_s": 0.5094227851172041,
+      "wall_seconds": 25.51075919996947
+    },
+    {
+      "frictionloss_nm_per_hip": 0.05,
+      "timestep_s": 0.00025,
+      "simulation_s": 2.0000000000002514,
+      "stop_reason": null,
+      "shaft_delta_deg": -0.673337786016319,
+      "shaft_error_deg": -2.0266622139836814,
+      "peak_shaft_speed_rad_s": 0.4075930230803523,
+      "wall_seconds": 12.676246699993499
+    },
+    {
+      "frictionloss_nm_per_hip": 0.05,
+      "timestep_s": 0.000125,
+      "simulation_s": 1.9999999999995715,
+      "stop_reason": null,
+      "shaft_delta_deg": -0.682573851799461,
+      "shaft_error_deg": -2.0174261482005393,
+      "peak_shaft_speed_rad_s": 0.5094499522242711,
+      "wall_seconds": 25.237328000017442
+    }
+  ],
+  "limitations": "Two assumed friction values, two time steps and one small servo command; not a real friction measurement, numerical convergence proof or hardware validation."
+}
