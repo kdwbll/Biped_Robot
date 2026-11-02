@@ -387,3 +387,19 @@ python .\simulation\audit_opposite_lift_robustness.py .\simulation\训练记录\
 python .\simulation\audit_back_to_back_lifts.py
 python .\simulation\audit_repeated_lifts.py
 ```
+
+
+## 连续动作状态与采样限制（2026-11-03）
+
+**对以上抬脚统计的修正：** 先前脚底网格最低高度取控制周期结束时刻，另一只脚的接触力取同一 20 ms 周期内每 2.5 ms 采样得到的峰值，两者并不一定在同一时刻发生。因而此前“有支撑的抬脚”应理解为周期内的候选事件，不能严格证明同步单脚支撑。每个阶段只需出现一个符合条件的采样帧，并未验证起落全过程或持续承重，更不应直接计为迈步。
+
+`simulation/audit_lift_neutral_recovery.py` 在连续两轮候选动作之间插入 0、0.5、1、2 秒零偏移目标，每组 4 个相同的随机初始姿态。记录 `simulation/训练记录/opposite_lift_recovery_20261103_a.json` 显示各组均为 0/4 完成四个候选阶段，保护分别触发 3、3、4、4 次。零偏移目标不等于舵机断电；该有限搜索不排除其他过渡方式。
+
+`simulation/audit_lift_phase_states.py` 使用 8 个初始姿态连续运行另一侧、原侧、另一侧三段动作，在每段边界为未终止的环境记录机身位置、姿态、速度、舵机位置与目标、PWM、足底接触采样；数据位于 `simulation/训练记录/lift_phase_state_diagnostic_20261103.json`。其中 4 个环境运行到第 2 段结束，其机身 X 坐标相对起点约减少 58–61 mm，四个腿部舵机位置与起点相差约 8–16°；这是仿真坐标，不代表实物位移或完成走路。该状态差异支持进一步研究过渡控制，但尚不能确定重复失败的唯一原因。
+
+该次运行 4 个环境触发保护，终止记录包括时间、标志、采样接触峰值对应零件和有限的终止观测；保护触发后环境会自动重置，因此脚本不会把重置后的完整状态当成终止前状态，峰值接触对也不一定是所有保护类型的原因。下一步需要同步采样接触和净空，并评估过渡控制与独立随机姿态；所有结果仍限于假设模型。
+
+```powershell
+python .\simulation\audit_lift_neutral_recovery.py
+python .\simulation\audit_lift_phase_states.py
+```
