@@ -1,0 +1,28 @@
+{
+  "zero_action": {
+    "seed": 9026,
+    "worlds": 16,
+    "frames": 150,
+    "sim_seconds_per_world": 3.0,
+    "mean_return": 2.9964494961313903,
+    "guard_terminations": 0,
+    "falls": 0,
+    "timeouts": 16,
+    "minimum_upright": 0.9995489716529846,
+    "max_tilt_deg": 1.7209009481539483,
+    "max_sampled_self_contact_n": 5.831540107727051
+  },
+  "untrained_policy": {
+    "seed": 9026,
+    "worlds": 16,
+    "frames": 150,
+    "sim_seconds_per_world": 3.0,
+    "mean_return": 2.99643912515603,
+    "guard_terminations": 0,
+    "falls": 0,
+    "timeouts": 16,
+    "minimum_upright": 0.9995468258857727,
+    "max_tilt_deg": 1.724989992234174,
+    "max_sampled_self_contact_n": 6.45759391784668
+  }
+}

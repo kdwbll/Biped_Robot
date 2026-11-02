@@ -304,3 +304,20 @@ CPU 和 GPU 环境在 `info` 中提供 `sampled_sole_peak_normal_n`（左右脚�
 每 2.5 ms 对接触采样一次，单脚合计法向力达到假设的 0.5 N 阈值时才计入；每个 20 ms 控制周期取平均，在 `reward_mode="walking"` 中按 `0.02 × slip_weight × 左右脚速度之和` 扣分，默认 `slip_weight=0.1`，设为零可关闭惩罚。其他奖励模式不扣分。`info["sampled_contact_slip_mps"]` 为左右脚该周期采样的平均值，异常中止时 GPU 环境返回 `None`。
 
 `audit_sector_foot_slip_math.py` 与 MuJoCo 接触点雅可比对照，并验证纯滚动；`audit_sector_slip_penalty.py` 核查滑动扣分和无负载不扣分；`audit_sector_walking_reward.py` 做十帧 CPU/GPU 对照。阈值、权重、地面摩擦和采样间隔均需后续验证，短暂接触可能被漏掉，滑动惩罚不能保证产生交替步态；这些检查均未启动训练。
+
+
+## 首次 GPU 并行站姿训练（2026-11-02）
+
+本次运行 `train_guarded_standing.py`：16 个 MuJoCo Warp CUDA 物理环境，PPO 策略网络使用 CPU，训练 4096 个环境步、4 次采样迭代；每个回合最长 3 秒，初始横滚和俯仰各在 ±1° 内随机，使用 `shaped` 站姿奖励。训练种子 2026，舵机和摩擦仍是假设，保护阈值是仿真诊断值。**这是站姿训练，不包含行走奖励，也未验证实物。**
+
+训练期间记录 0 次倒地、0 次保护终止；评估种子 9026 的 16 个环境中，训练策略和零动作均完成 3 秒，最大倾角约 1.54° 与 1.72°，平均奖励约 2.99635 与 2.99645。种子 9040 下 8 个环境均完成；种子 9060 下训练策略的 8 个环境均完成，零动作有 1 个触发采样接触力保护。单次随机接触及有限样本不能证明训练策略优于零动作。完整配置、进度、基线和额外验证见 `simulation/训练记录/standing_20261102_first/`。
+
+`simulation/train_guarded_standing.py` 用于显式启动训练；输出目录必须不存在，例：
+
+```powershell
+python .\simulation\train_guarded_standing.py --output-dir C:\Practice_project\biped_sim\training_runs\new_standing_run --timesteps 4096
+```
+
+运行该命令会实际训练并在指定输出目录保存本地 SB3 ZIP 检查点、配置和评估记录；`latest_before_update.zip` 在每次采样后、参数更新前保存，`standing_final.zip` 才是末次更新后的最终模型。只运行评估可使用 `evaluate_guarded_standing.py --model <本地ZIP> --output <JSON路径>`。训练及评估需要安装对应的 MuJoCo Warp、Stable-Baselines3 和 NVIDIA CUDA 环境；策略网络当前使用 CPU，GPU 用于物理仿真。
+
+仓库按要求不存通用压缩包：最终检查点拆分保存于 `simulation/模型检查点/standing_20261102_first/`。可用 `tools/恢复模型检查点.py` 在本地重建 ZIP；已验证重建前后的模型对同一批输入给出完全相同的预测。该检查点是实验数据，不可直接控制实体机器人。
