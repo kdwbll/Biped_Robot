@@ -9,6 +9,7 @@ from theoretical_servo import ServoSpec
 from candidate_standing_servo import CandidateStandingServo
 
 p=Path(__file__).parent
+sector_trial='--sector-collision' in sys.argv
 restored_trial='--restored-near' in sys.argv
 sole_trial='--separate-sole' in sys.argv
 foot_trial='--foot-suppressed-plate' in sys.argv
@@ -22,7 +23,7 @@ chassis0_trial='--chassis0-trial' in sys.argv
 cases=[(.00025,'neutral'),(.000125,'neutral'),(.00025,'push_plus'),(.00025,'push_minus'),(.00025,'hip_command')]
 rows=[]
 for dt,case in cases:
- model_name='diagnostic_restored_near_pairs_trial.xml' if restored_trial else 'diagnostic_separate_sole_contact_trial.xml' if sole_trial else 'diagnostic_foot_suppressed_plate_trial.xml' if foot_trial else 'diagnostic_smooth_hip_trial.xml' if smooth_trial else 'diagnostic_chassis0_collision_trial.xml' if chassis0_trial else ('diagnostic_finer_collision_trial.xml' if finer_trial else ('diagnostic_pruned_nomerge_trial.xml' if pruned_trial else ('diagnostic_range_collision_trial.xml' if range_trial else ('diagnostic_post_shaft_fix_gear_phase_25.xml' if phase25 else 'diagnostic_post_shaft_fix_gear_phase.xml' if phase else 'diagnostic_refined_tower.xml'))))
+ model_name='diagnostic_sector_collision_trial.xml' if sector_trial else 'diagnostic_restored_near_pairs_trial.xml' if restored_trial else 'diagnostic_separate_sole_contact_trial.xml' if sole_trial else 'diagnostic_foot_suppressed_plate_trial.xml' if foot_trial else 'diagnostic_smooth_hip_trial.xml' if smooth_trial else 'diagnostic_chassis0_collision_trial.xml' if chassis0_trial else ('diagnostic_finer_collision_trial.xml' if finer_trial else ('diagnostic_pruned_nomerge_trial.xml' if pruned_trial else ('diagnostic_range_collision_trial.xml' if range_trial else ('diagnostic_post_shaft_fix_gear_phase_25.xml' if phase25 else 'diagnostic_post_shaft_fix_gear_phase.xml' if phase else 'diagnostic_refined_tower.xml'))))
  m=mujoco.MjModel.from_xml_path(str(p/model_name));m.opt.timestep=dt
  d=mujoco.MjData(m);mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d)
  servo=CandidateStandingServo(m,d,replace(ServoSpec(),kp_nm_per_rad=4.),ki=1.5)
@@ -35,8 +36,8 @@ for dt,case in cases:
   if case=='hip_command' and d.time>=2.:servo.set_pulse_us([1500,1500,1500,1500,1510])
   old_time=float(d.time);servo.step()
   if not np.isfinite(d.qpos).all() or not np.isfinite(d.qvel).all() or d.time<old_time+dt*.5:raise RuntimeError((case,dt,d.time,'nonfinite or automatic reset'))
-  if restored_trial and np.any(np.abs(np.rad2deg(d.qpos[hips]-hip0))>4.5):raise RuntimeError('Diagnostic hip range exceeded')
-  if restored_trial and any(d.warning[int(w)].number for w in (mujoco.mjtWarning.mjWARN_CONTACTFULL,mujoco.mjtWarning.mjWARN_CNSTRFULL)):raise RuntimeError('Contact or constraint capacity exceeded')
+  if (restored_trial or sector_trial) and np.any(np.abs(np.rad2deg(d.qpos[hips]-hip0))>4.5):raise RuntimeError('Diagnostic hip range exceeded')
+  if (restored_trial or sector_trial) and any(d.warning[int(w)].number for w in (mujoco.mjtWarning.mjWARN_CONTACTFULL,mujoco.mjtWarning.mjWARN_CNSTRFULL)):raise RuntimeError('Contact or constraint capacity exceeded')
   max_speed=np.maximum(max_speed,np.abs(d.actuator_velocity));max_torque=np.maximum(max_torque,np.abs(d.ctrl))
   max_tilt=max(max_tilt,float(np.degrees(np.arccos(np.clip(d.xmat[body].reshape(3,3)[2,2],-1,1)))))
   eq=(d.efc_type==int(mujoco.mjtConstraint.mjCNSTR_EQUALITY))&(d.efc_id<16)
@@ -58,4 +59,4 @@ for dt,case in cases:
  rows.append(row)
  print(case,'dt',dt,'sag mm',round(row['height_loss_mm'],3),'tilt',round(max_tilt,2),
        'max self contact N',round(peak_force,2),'pair',pair,'hip error deg',round(row['final_servo_error_deg'][4],3),flush=True)
-(p/('restored_near_pairs_scenarios_audit.json' if restored_trial else 'separate_sole_contact_scenarios_audit.json' if sole_trial else 'foot_suppressed_plate_scenarios_audit.json' if foot_trial else 'smooth_hip_scenarios_audit.json' if smooth_trial else 'chassis0_collision_scenarios_audit.json' if chassis0_trial else 'finer_collision_scenarios_audit.json' if finer_trial else 'pruned_nomerge_scenarios_audit.json' if pruned_trial else 'range_collision_scenarios_audit.json' if range_trial else 'gear_phase_25_scenarios_audit.json' if phase25 else 'gear_phase_scenarios_audit.json' if phase else 'refined_tower_scenarios_audit.json')).write_text(json.dumps(rows,indent=2),encoding='utf8')
+(p/('sector_collision_scenarios_audit.json' if sector_trial else 'restored_near_pairs_scenarios_audit.json' if restored_trial else 'separate_sole_contact_scenarios_audit.json' if sole_trial else 'foot_suppressed_plate_scenarios_audit.json' if foot_trial else 'smooth_hip_scenarios_audit.json' if smooth_trial else 'chassis0_collision_scenarios_audit.json' if chassis0_trial else 'finer_collision_scenarios_audit.json' if finer_trial else 'pruned_nomerge_scenarios_audit.json' if pruned_trial else 'range_collision_scenarios_audit.json' if range_trial else 'gear_phase_25_scenarios_audit.json' if phase25 else 'gear_phase_scenarios_audit.json' if phase else 'refined_tower_scenarios_audit.json')).write_text(json.dumps(rows,indent=2),encoding='utf8')

@@ -67,6 +67,32 @@
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
+### 髋部孔边凸代理分段候选
+
+对上轮 58 个距 CAD 面超过 0.1 mm 的机身代理见证点，用对应封闭 STL 做近似点内外检查：58 个都在 STL 外，其中 57 个靠近孔边。这支持这些代理有外扩的可能，但 STL 检查不能代替准确 CAD 实体布尔判断。SolidWorks 只读测量确认相应机身实体有两个半径 20 mm、轴向范围 136–146 mm 的孔。
+
+独立候选 `diagnostic_sector_collision_trial.xml` 将所涉及的 18 个凸代理按最大 3° 扇区裁剪，得到 154 个封闭凸块。相对于理想圆孔，分段裁剪多移除的最大径向范围数学上约 0.0069 mm；该界只对所用圆柱假设成立，不代表 CAD 全形状精度。154 个导出网格均通过圆孔半径与闭合检查。原模型和其他区域不变；154 块的接缝可能产生重复接触，必须继续核验。
+
+对先前抽查的 57 对碰撞，假设髋轴 ±5° 范围的 201 点采样及相邻采样间运动上界表明其中 56 对有正间距下界；候选只恢复这 56 对，另 1 对继续排除。原 120 对已启用的代理组合被映射到分段块，其他碰撞关系保留。五组 4 秒对照（中立、步长减半、双向短推及小幅指令）完成，站姿、倾角和采样内部接触力与原候选在记录精度下相同，未检出接触容量异常。该机身部件仍有约 734 对近距离原始代理组合未恢复，其他部件也有排除。XML 无行程保护，旧 `GuardedPrunedServo` 不支持该候选；仅下方情景脚本逐步检查假设 ±4.5° 边界。模型不用于正式训练或实物。
+
+复现（先按前文生成 CAD 分类结果，并安装仿真依赖和 `python -m pip install pywin32 rtree`）：打开 SolidWorks 2025 中已保存的原装配，在 `simulation/` 依次运行：
+
+```powershell
+python audit_cad_chassis0_holes.py
+python audit_chassis_witness_stl_containment.py
+python audit_tangent_clip_feasibility.py
+python audit_sector_clip_prototype.py
+python verify_sector_mesh_holes.py
+python build_sector_gap_only.py
+python audit_sector_gap_only_witness.py
+python audit_sector_gap_only_sweep.py
+python build_sector_collision_trial.py
+python verify_sector_collision_selection.py
+python audit_refined_tower_scenarios.py --sector-collision
+```
+
+命令覆盖相应的实验 STL、XML 和 JSON。`collision_sector_trial/chassis0/` 保存分段凸块；各 `*_audit.json` 记录 CAD 圆孔、STL 包含关系、裁剪几何及有限采样距离；`sector_collision_trial_build.json` 记录碰撞组合，`sector_collision_selection_verification.json` 校验组合与参数，`sector_collision_scenarios_audit.json` 保存站姿、轻推和小指令对照。采样不覆盖实际制造偏差、所有关节动作或全部接触。
+
 ### 剩余近距离代理的 CAD 面分类
 
 在机身部件仍被排除的 790 对代理中，选出初始姿态代理间距在 0.0001–0.1 mm、既有行程采样最小间距不超过 0.05 mm 的 141 对，与当前打开的 SolidWorks 2025 装配做最近面比对；其余 649 对不在本次样本内。64 对的两侧代理最近点距离各自最近 CAD 平面均小于 0.01 mm，且两面法向相反；在假设髋角 -5°、0°、+5° 的局部速度雅可比中，模型里这些对沿平面法向的相对运动分量为零（记录精度内）。这说明该方向已经由理想铰链约束，是继续排除重复代理接触的模型依据，不说明实物预紧、接触力、摩擦、全部角度或全部排除对正确。另有 58 对的机身代理最近点到最近 CAD 面超过 0.1 mm，提示局部代理近似与 CAD 可能存在偏差；这不是两实体的实际间隙或干涉量。

@@ -1,0 +1,579 @@
+{
+  "sample_count": 57,
+  "old_min_mm": 0.008826502631520754,
+  "new_min_mm": 0.03772681666852671,
+  "new_max_mm": 0.276579542778453,
+  "results": [
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_268"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.013175409928248073,
+      "sector_gap_mm": 0.2535181217900589,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_039"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.013683868376190336,
+      "sector_gap_mm": 0.25268253273702773,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_017"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.015823195832220565,
+      "sector_gap_mm": 0.2505385298826177,
+      "piece_count": 12
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_188"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.016235562714067363,
+      "sector_gap_mm": 0.2765776209539179,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_065"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.01623744908668647,
+      "sector_gap_mm": 0.276579542778453,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_014"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.019693846829774445,
+      "sector_gap_mm": 0.2510205970473227,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_239"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.01969485871420188,
+      "sector_gap_mm": 0.2541805717073709,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_243"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.02255510396162599,
+      "sector_gap_mm": 0.2502300081114339,
+      "piece_count": 12
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_038"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.023746944102076867,
+      "sector_gap_mm": 0.25148461239480124,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_064"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.023908541994978105,
+      "sector_gap_mm": 0.2546838412180571,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_255"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.024756640008873575,
+      "sector_gap_mm": 0.2544227336412102,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_289"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.024758314905197757,
+      "sector_gap_mm": 0.2739749531691521,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_113"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.03058646917159381,
+      "sector_gap_mm": 0.25017862512876643,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_034"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.03132905080483776,
+      "sector_gap_mm": 0.25335629072855503,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_103"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.032112251381128665,
+      "sector_gap_mm": 0.25412861883420684,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_014"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.032391122220371,
+      "sector_gap_mm": 0.2522080687027072,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_064"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.03886623863401405,
+      "sector_gap_mm": 0.25223892787788355,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_243"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.04173835249552886,
+      "sector_gap_mm": 0.2508152045801758,
+      "piece_count": 16
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_017"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.0419341592344919,
+      "sector_gap_mm": 0.25176631411227796,
+      "piece_count": 16
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_185"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.042719717707872924,
+      "sector_gap_mm": 0.25094280828244114,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_038"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.0492105151223813,
+      "sector_gap_mm": 0.2530927675419777,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_060"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.0492948227482244,
+      "sector_gap_mm": 0.2511760015346651,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_060"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.04944536084464088,
+      "sector_gap_mm": 0.2556202641360001,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_015"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.049470566561526604,
+      "sector_gap_mm": 0.2513351788993511,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_002",
+        "nomerge_L0_285"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.05276968335743077,
+      "sector_gap_mm": 0.2541151385149739,
+      "piece_count": 6
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_102"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.06910215622885854,
+      "sector_gap_mm": 0.2528090370002207,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_033"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.06939682820541684,
+      "sector_gap_mm": 0.2530791679799987,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_238"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.07339830106441113,
+      "sector_gap_mm": 0.2756894471175281,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_013"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.07349325650769234,
+      "sector_gap_mm": 0.2541648124638374,
+      "piece_count": 10
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_171"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.07385912122605953,
+      "sector_gap_mm": 0.25214305889259336,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_014"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.08238077656118713,
+      "sector_gap_mm": 0.2520243780133195,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_022"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.08262552575741135,
+      "sector_gap_mm": 0.25048306650049273,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_022"
+      ],
+      "leg": 0,
+      "old_gap_mm": 0.0830386203407086,
+      "sector_gap_mm": 0.2502096253684569,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_092"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.008826502631520754,
+      "sector_gap_mm": 0.25317480082999333,
+      "piece_count": 9
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_083"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.009692650698323929,
+      "sector_gap_mm": 0.25040923629773604,
+      "piece_count": 9
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_012"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.01017549840363686,
+      "sector_gap_mm": 0.253709033202288,
+      "piece_count": 9
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_031"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.012873460912112623,
+      "sector_gap_mm": 0.25030264643224837,
+      "piece_count": 9
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_072"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.01382775546542382,
+      "sector_gap_mm": 0.03772681666852671,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_029"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.023389822218260144,
+      "sector_gap_mm": 0.2529587175556422,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_081"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.023392517429293047,
+      "sector_gap_mm": 0.25300870127501895,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_028"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.026808645310046585,
+      "sector_gap_mm": 0.25064183637266024,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_252"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.02692146674879442,
+      "sector_gap_mm": 0.2530759588709519,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_031"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.032385537488064,
+      "sector_gap_mm": 0.25039968811777197,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_082"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.03252329814333503,
+      "sector_gap_mm": 0.25046629855277325,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_290"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.03863655494844421,
+      "sector_gap_mm": 0.250401785144662,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_205"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.041941559681220014,
+      "sector_gap_mm": 0.2513331116374811,
+      "piece_count": 11
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_030"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.04237381189222538,
+      "sector_gap_mm": 0.2518210783579407,
+      "piece_count": 11
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_272"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.045487818298422,
+      "sector_gap_mm": 0.2551932982296604,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_272"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.04563593881749204,
+      "sector_gap_mm": 0.25085173572384795,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_032"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.04647612608709218,
+      "sector_gap_mm": 0.2516230275080666,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_013"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.052593267125640907,
+      "sector_gap_mm": 0.2507722376877271,
+      "piece_count": 8
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_013"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.05273029816594013,
+      "sector_gap_mm": 0.2512305315949132,
+      "piece_count": 7
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_206"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.05404569272720094,
+      "sector_gap_mm": 0.25007246035929237,
+      "piece_count": 6
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_030"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.05456352797504357,
+      "sector_gap_mm": 0.2506245343542917,
+      "piece_count": 6
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_253"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.05471945781710549,
+      "sector_gap_mm": 0.2521466497716205,
+      "piece_count": 6
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_203"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.05785698831836233,
+      "sector_gap_mm": 0.25211490372280465,
+      "piece_count": 6
+    },
+    {
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_253"
+      ],
+      "leg": 1,
+      "old_gap_mm": 0.0752608149483226,
+      "sector_gap_mm": 0.2730072004578831,
+      "piece_count": 7
+    }
+  ],
+  "limitations": "Initial keyframe only; compares selected earlier positive-gap proxy pairs, not all 790 or a full sweep. Sector geometry is inactive and no contact dynamics or seams have been tested. Separation capped at 3 mm."
+}

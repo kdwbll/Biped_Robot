@@ -1,0 +1,777 @@
+{
+  "verified_piece_count": 154,
+  "minimum_hole_radius_mm": 19.99999658674913,
+  "results": [
+    {
+      "file": "chassis0_000_sector_00.stl",
+      "center_distance_min_mm": 23.686710520140224,
+      "volume_mm3": 96.02564222848741
+    },
+    {
+      "file": "chassis0_000_sector_01.stl",
+      "center_distance_min_mm": 20.000099954924888,
+      "volume_mm3": 191.40879519545706
+    },
+    {
+      "file": "chassis0_000_sector_02.stl",
+      "center_distance_min_mm": 19.999999998849997,
+      "volume_mm3": 206.53874316398287
+    },
+    {
+      "file": "chassis0_000_sector_03.stl",
+      "center_distance_min_mm": 20.000000749285057,
+      "volume_mm3": 211.80912225070642
+    },
+    {
+      "file": "chassis0_000_sector_04.stl",
+      "center_distance_min_mm": 20.000000436541004,
+      "volume_mm3": 158.70457308366895
+    },
+    {
+      "file": "chassis0_000_sector_05.stl",
+      "center_distance_min_mm": 20.000000119427757,
+      "volume_mm3": 98.01032539224252
+    },
+    {
+      "file": "chassis0_000_sector_06.stl",
+      "center_distance_min_mm": 20.00000149689212,
+      "volume_mm3": 57.45382552398951
+    },
+    {
+      "file": "chassis0_000_sector_07.stl",
+      "center_distance_min_mm": 20.000001595297725,
+      "volume_mm3": 29.025485334568657
+    },
+    {
+      "file": "chassis0_000_sector_08.stl",
+      "center_distance_min_mm": 20.000000526973807,
+      "volume_mm3": 8.339908987400122
+    },
+    {
+      "file": "chassis0_002_sector_00.stl",
+      "center_distance_min_mm": 20.0000000165144,
+      "volume_mm3": 33.788425638049375
+    },
+    {
+      "file": "chassis0_002_sector_01.stl",
+      "center_distance_min_mm": 20.000000036916234,
+      "volume_mm3": 158.72571910204897
+    },
+    {
+      "file": "chassis0_002_sector_02.stl",
+      "center_distance_min_mm": 20.00000067061329,
+      "volume_mm3": 207.101344270759
+    },
+    {
+      "file": "chassis0_002_sector_03.stl",
+      "center_distance_min_mm": 20.000000678745003,
+      "volume_mm3": 208.02071531659294
+    },
+    {
+      "file": "chassis0_002_sector_04.stl",
+      "center_distance_min_mm": 20.000000325977314,
+      "volume_mm3": 209.11661873104094
+    },
+    {
+      "file": "chassis0_002_sector_05.stl",
+      "center_distance_min_mm": 19.99999991872456,
+      "volume_mm3": 87.40547787380365
+    },
+    {
+      "file": "chassis0_003_sector_00.stl",
+      "center_distance_min_mm": 19.999998371259966,
+      "volume_mm3": 38.27054353430867
+    },
+    {
+      "file": "chassis0_003_sector_01.stl",
+      "center_distance_min_mm": 20.00000020607226,
+      "volume_mm3": 168.63220473285764
+    },
+    {
+      "file": "chassis0_003_sector_02.stl",
+      "center_distance_min_mm": 20.000000680787576,
+      "volume_mm3": 198.90026770648547
+    },
+    {
+      "file": "chassis0_003_sector_03.stl",
+      "center_distance_min_mm": 19.999999134020005,
+      "volume_mm3": 200.07287647633348
+    },
+    {
+      "file": "chassis0_003_sector_04.stl",
+      "center_distance_min_mm": 19.9999988984773,
+      "volume_mm3": 201.04155572073068
+    },
+    {
+      "file": "chassis0_003_sector_05.stl",
+      "center_distance_min_mm": 19.999999080675664,
+      "volume_mm3": 171.37434658157872
+    },
+    {
+      "file": "chassis0_003_sector_06.stl",
+      "center_distance_min_mm": 19.999999165320858,
+      "volume_mm3": 38.630656229070155
+    },
+    {
+      "file": "chassis0_009_sector_00.stl",
+      "center_distance_min_mm": 19.999999271007624,
+      "volume_mm3": 8.087653647526167
+    },
+    {
+      "file": "chassis0_009_sector_01.stl",
+      "center_distance_min_mm": 19.999997070402504,
+      "volume_mm3": 22.22203854995314
+    },
+    {
+      "file": "chassis0_009_sector_02.stl",
+      "center_distance_min_mm": 19.99999832892623,
+      "volume_mm3": 16.99451055319514
+    },
+    {
+      "file": "chassis0_009_sector_03.stl",
+      "center_distance_min_mm": 20.000000978954407,
+      "volume_mm3": 10.932835634012008
+    },
+    {
+      "file": "chassis0_009_sector_04.stl",
+      "center_distance_min_mm": 20.0000014317875,
+      "volume_mm3": 5.901046004873933
+    },
+    {
+      "file": "chassis0_009_sector_05.stl",
+      "center_distance_min_mm": 19.99999997257985,
+      "volume_mm3": 1.7593579745152965
+    },
+    {
+      "file": "chassis0_010_sector_00.stl",
+      "center_distance_min_mm": 21.67367069461908,
+      "volume_mm3": 14.585239849111531
+    },
+    {
+      "file": "chassis0_010_sector_01.stl",
+      "center_distance_min_mm": 21.14112300774369,
+      "volume_mm3": 48.04877895396203
+    },
+    {
+      "file": "chassis0_010_sector_02.stl",
+      "center_distance_min_mm": 20.683427241658027,
+      "volume_mm3": 90.92154053178092
+    },
+    {
+      "file": "chassis0_010_sector_03.stl",
+      "center_distance_min_mm": 20.293646804603547,
+      "volume_mm3": 149.32477994378132
+    },
+    {
+      "file": "chassis0_010_sector_04.stl",
+      "center_distance_min_mm": 20.00345991515433,
+      "volume_mm3": 199.94959214869596
+    },
+    {
+      "file": "chassis0_010_sector_05.stl",
+      "center_distance_min_mm": 20.00000194230534,
+      "volume_mm3": 202.5078960571409
+    },
+    {
+      "file": "chassis0_010_sector_06.stl",
+      "center_distance_min_mm": 20.00000106095411,
+      "volume_mm3": 203.33495927683543
+    },
+    {
+      "file": "chassis0_010_sector_07.stl",
+      "center_distance_min_mm": 20.00000027055644,
+      "volume_mm3": 202.34029592829756
+    },
+    {
+      "file": "chassis0_010_sector_08.stl",
+      "center_distance_min_mm": 20.000000474719716,
+      "volume_mm3": 202.47719011662412
+    },
+    {
+      "file": "chassis0_010_sector_09.stl",
+      "center_distance_min_mm": 19.99999934818375,
+      "volume_mm3": 203.33443035386153
+    },
+    {
+      "file": "chassis0_010_sector_10.stl",
+      "center_distance_min_mm": 19.99999658674913,
+      "volume_mm3": 198.59723310539266
+    },
+    {
+      "file": "chassis0_015_sector_00.stl",
+      "center_distance_min_mm": 29.689719903440754,
+      "volume_mm3": 48.16314152412815
+    },
+    {
+      "file": "chassis0_015_sector_01.stl",
+      "center_distance_min_mm": 25.860966539811074,
+      "volume_mm3": 117.3566463610041
+    },
+    {
+      "file": "chassis0_015_sector_02.stl",
+      "center_distance_min_mm": 22.961968965085948,
+      "volume_mm3": 159.6727225666109
+    },
+    {
+      "file": "chassis0_015_sector_03.stl",
+      "center_distance_min_mm": 20.697777588537793,
+      "volume_mm3": 143.604536682833
+    },
+    {
+      "file": "chassis0_015_sector_04.stl",
+      "center_distance_min_mm": 20.00000033794673,
+      "volume_mm3": 114.38784293430217
+    },
+    {
+      "file": "chassis0_015_sector_05.stl",
+      "center_distance_min_mm": 19.999998932722043,
+      "volume_mm3": 80.77526882188977
+    },
+    {
+      "file": "chassis0_015_sector_06.stl",
+      "center_distance_min_mm": 19.999999455626437,
+      "volume_mm3": 54.36684752923611
+    },
+    {
+      "file": "chassis0_015_sector_07.stl",
+      "center_distance_min_mm": 19.99999996264797,
+      "volume_mm3": 33.93701684464759
+    },
+    {
+      "file": "chassis0_015_sector_08.stl",
+      "center_distance_min_mm": 20.00000009611767,
+      "volume_mm3": 17.83862049189338
+    },
+    {
+      "file": "chassis0_015_sector_09.stl",
+      "center_distance_min_mm": 20.000000131155538,
+      "volume_mm3": 4.979314499723841
+    },
+    {
+      "file": "chassis0_016_sector_00.stl",
+      "center_distance_min_mm": 23.98418058025049,
+      "volume_mm3": 96.45421231689397
+    },
+    {
+      "file": "chassis0_016_sector_01.stl",
+      "center_distance_min_mm": 20.000489829050625,
+      "volume_mm3": 192.68965269293403
+    },
+    {
+      "file": "chassis0_016_sector_02.stl",
+      "center_distance_min_mm": 20.000001156933024,
+      "volume_mm3": 204.97190789530578
+    },
+    {
+      "file": "chassis0_016_sector_03.stl",
+      "center_distance_min_mm": 20.000001326573656,
+      "volume_mm3": 192.26653404279205
+    },
+    {
+      "file": "chassis0_016_sector_04.stl",
+      "center_distance_min_mm": 20.000000789404446,
+      "volume_mm3": 122.41129296526196
+    },
+    {
+      "file": "chassis0_016_sector_05.stl",
+      "center_distance_min_mm": 20.000000422946357,
+      "volume_mm3": 70.01265761304239
+    },
+    {
+      "file": "chassis0_016_sector_06.stl",
+      "center_distance_min_mm": 20.000000810852793,
+      "volume_mm3": 34.77161911432631
+    },
+    {
+      "file": "chassis0_016_sector_07.stl",
+      "center_distance_min_mm": 20.00000049248093,
+      "volume_mm3": 9.94903824866924
+    },
+    {
+      "file": "chassis0_018_sector_00.stl",
+      "center_distance_min_mm": 20.000000005330243,
+      "volume_mm3": 202.16816130538064
+    },
+    {
+      "file": "chassis0_018_sector_01.stl",
+      "center_distance_min_mm": 20.000000019503528,
+      "volume_mm3": 203.50303336817888
+    },
+    {
+      "file": "chassis0_018_sector_02.stl",
+      "center_distance_min_mm": 19.99999987189541,
+      "volume_mm3": 202.56767001468688
+    },
+    {
+      "file": "chassis0_018_sector_03.stl",
+      "center_distance_min_mm": 19.999999322293302,
+      "volume_mm3": 202.53887235201546
+    },
+    {
+      "file": "chassis0_018_sector_04.stl",
+      "center_distance_min_mm": 20.000000328377148,
+      "volume_mm3": 203.49527903083072
+    },
+    {
+      "file": "chassis0_018_sector_05.stl",
+      "center_distance_min_mm": 20.00000079708668,
+      "volume_mm3": 202.5777678735176
+    },
+    {
+      "file": "chassis0_018_sector_06.stl",
+      "center_distance_min_mm": 20.00520215530875,
+      "volume_mm3": 200.98849171714392
+    },
+    {
+      "file": "chassis0_018_sector_07.stl",
+      "center_distance_min_mm": 20.32591482461016,
+      "volume_mm3": 198.29792104377702
+    },
+    {
+      "file": "chassis0_018_sector_08.stl",
+      "center_distance_min_mm": 20.72122960786916,
+      "volume_mm3": 193.00672461213253
+    },
+    {
+      "file": "chassis0_018_sector_09.stl",
+      "center_distance_min_mm": 21.1850657323543,
+      "volume_mm3": 187.65704288303823
+    },
+    {
+      "file": "chassis0_018_sector_10.stl",
+      "center_distance_min_mm": 21.724494977229128,
+      "volume_mm3": 182.39698793709977
+    },
+    {
+      "file": "chassis0_018_sector_11.stl",
+      "center_distance_min_mm": 22.3481976112147,
+      "volume_mm3": 173.80420010980743
+    },
+    {
+      "file": "chassis0_018_sector_12.stl",
+      "center_distance_min_mm": 23.066853837111644,
+      "volume_mm3": 139.78572002073633
+    },
+    {
+      "file": "chassis0_018_sector_13.stl",
+      "center_distance_min_mm": 23.893646980318145,
+      "volume_mm3": 95.09200015505485
+    },
+    {
+      "file": "chassis0_018_sector_14.stl",
+      "center_distance_min_mm": 24.844936545269213,
+      "volume_mm3": 55.2957342947775
+    },
+    {
+      "file": "chassis0_018_sector_15.stl",
+      "center_distance_min_mm": 25.94119039275923,
+      "volume_mm3": 18.162192373274593
+    },
+    {
+      "file": "chassis0_019_sector_00.stl",
+      "center_distance_min_mm": 19.999999855193774,
+      "volume_mm3": 1.5368699212558568
+    },
+    {
+      "file": "chassis0_019_sector_01.stl",
+      "center_distance_min_mm": 19.999999266682085,
+      "volume_mm3": 5.115905019192724
+    },
+    {
+      "file": "chassis0_019_sector_02.stl",
+      "center_distance_min_mm": 19.99999872973407,
+      "volume_mm3": 9.414493709482485
+    },
+    {
+      "file": "chassis0_019_sector_03.stl",
+      "center_distance_min_mm": 19.999999797179463,
+      "volume_mm3": 14.536222340684617
+    },
+    {
+      "file": "chassis0_019_sector_04.stl",
+      "center_distance_min_mm": 20.000000562583434,
+      "volume_mm3": 20.613496256191866
+    },
+    {
+      "file": "chassis0_019_sector_05.stl",
+      "center_distance_min_mm": 20.000000322815243,
+      "volume_mm3": 27.814447834389284
+    },
+    {
+      "file": "chassis0_019_sector_06.stl",
+      "center_distance_min_mm": 19.99999939839418,
+      "volume_mm3": 36.35379811057646
+    },
+    {
+      "file": "chassis0_019_sector_07.stl",
+      "center_distance_min_mm": 20.000757348771486,
+      "volume_mm3": 44.75097895250656
+    },
+    {
+      "file": "chassis0_019_sector_08.stl",
+      "center_distance_min_mm": 20.53612933382198,
+      "volume_mm3": 48.92585450565093
+    },
+    {
+      "file": "chassis0_019_sector_09.stl",
+      "center_distance_min_mm": 21.42475079911416,
+      "volume_mm3": 53.485109341745556
+    },
+    {
+      "file": "chassis0_019_sector_10.stl",
+      "center_distance_min_mm": 22.449835544373293,
+      "volume_mm3": 44.47784651394613
+    },
+    {
+      "file": "chassis0_019_sector_11.stl",
+      "center_distance_min_mm": 23.637273472584607,
+      "volume_mm3": 15.030243482033256
+    },
+    {
+      "file": "chassis0_020_sector_00.stl",
+      "center_distance_min_mm": 20.00000049626976,
+      "volume_mm3": 3.2054013038577978
+    },
+    {
+      "file": "chassis0_020_sector_01.stl",
+      "center_distance_min_mm": 20.000000159176672,
+      "volume_mm3": 10.971389791448019
+    },
+    {
+      "file": "chassis0_020_sector_02.stl",
+      "center_distance_min_mm": 19.99999973067897,
+      "volume_mm3": 20.23305950413487
+    },
+    {
+      "file": "chassis0_020_sector_03.stl",
+      "center_distance_min_mm": 20.00000011552822,
+      "volume_mm3": 26.211729711249063
+    },
+    {
+      "file": "chassis0_020_sector_04.stl",
+      "center_distance_min_mm": 20.00000086047303,
+      "volume_mm3": 17.845226755998738
+    },
+    {
+      "file": "chassis0_020_sector_05.stl",
+      "center_distance_min_mm": 20.000000107163537,
+      "volume_mm3": 9.80286508678546
+    },
+    {
+      "file": "chassis0_020_sector_06.stl",
+      "center_distance_min_mm": 19.999999499335935,
+      "volume_mm3": 3.003028473140148
+    },
+    {
+      "file": "chassis0_021_sector_00.stl",
+      "center_distance_min_mm": 21.90096635224115,
+      "volume_mm3": 13.827040643773216
+    },
+    {
+      "file": "chassis0_021_sector_01.stl",
+      "center_distance_min_mm": 21.004900973924133,
+      "volume_mm3": 38.35075843020604
+    },
+    {
+      "file": "chassis0_021_sector_02.stl",
+      "center_distance_min_mm": 20.22982354110611,
+      "volume_mm3": 39.287626256700605
+    },
+    {
+      "file": "chassis0_021_sector_03.stl",
+      "center_distance_min_mm": 19.999999404190763,
+      "volume_mm3": 35.0435970001854
+    },
+    {
+      "file": "chassis0_021_sector_04.stl",
+      "center_distance_min_mm": 20.000000279629862,
+      "volume_mm3": 26.915709099848755
+    },
+    {
+      "file": "chassis0_021_sector_05.stl",
+      "center_distance_min_mm": 20.000000256568416,
+      "volume_mm3": 19.796100252242468
+    },
+    {
+      "file": "chassis0_021_sector_06.stl",
+      "center_distance_min_mm": 20.00000028851238,
+      "volume_mm3": 13.836371339857578
+    },
+    {
+      "file": "chassis0_021_sector_07.stl",
+      "center_distance_min_mm": 20.000000157640336,
+      "volume_mm3": 8.866238343034638
+    },
+    {
+      "file": "chassis0_021_sector_08.stl",
+      "center_distance_min_mm": 20.000000259440522,
+      "volume_mm3": 4.752608585185953
+    },
+    {
+      "file": "chassis0_021_sector_09.stl",
+      "center_distance_min_mm": 20.000000054841074,
+      "volume_mm3": 1.3933377395005664
+    },
+    {
+      "file": "chassis0_027_sector_00.stl",
+      "center_distance_min_mm": 19.999998357582292,
+      "volume_mm3": 1.961862599650009
+    },
+    {
+      "file": "chassis0_027_sector_01.stl",
+      "center_distance_min_mm": 20.00000013901126,
+      "volume_mm3": 6.418483377233746
+    },
+    {
+      "file": "chassis0_027_sector_02.stl",
+      "center_distance_min_mm": 20.000001677865313,
+      "volume_mm3": 11.701659072639435
+    },
+    {
+      "file": "chassis0_027_sector_03.stl",
+      "center_distance_min_mm": 20.000000596550617,
+      "volume_mm3": 17.948881609786593
+    },
+    {
+      "file": "chassis0_027_sector_04.stl",
+      "center_distance_min_mm": 20.00000099381629,
+      "volume_mm3": 25.158409602445317
+    },
+    {
+      "file": "chassis0_027_sector_05.stl",
+      "center_distance_min_mm": 20.000001006783876,
+      "volume_mm3": 18.836150200950215
+    },
+    {
+      "file": "chassis0_027_sector_06.stl",
+      "center_distance_min_mm": 20.000000988581036,
+      "volume_mm3": 5.639427923160838
+    },
+    {
+      "file": "chassis0_038_sector_00.stl",
+      "center_distance_min_mm": 20.000000689400434,
+      "volume_mm3": 15.575568854001176
+    },
+    {
+      "file": "chassis0_038_sector_01.stl",
+      "center_distance_min_mm": 20.00000093288094,
+      "volume_mm3": 59.262326376265264
+    },
+    {
+      "file": "chassis0_038_sector_02.stl",
+      "center_distance_min_mm": 20.000000752716193,
+      "volume_mm3": 130.6848966978214
+    },
+    {
+      "file": "chassis0_038_sector_03.stl",
+      "center_distance_min_mm": 20.000001348481298,
+      "volume_mm3": 153.35006706405693
+    },
+    {
+      "file": "chassis0_038_sector_04.stl",
+      "center_distance_min_mm": 20.000000829206158,
+      "volume_mm3": 149.79301122399193
+    },
+    {
+      "file": "chassis0_038_sector_05.stl",
+      "center_distance_min_mm": 19.99999957972543,
+      "volume_mm3": 147.46055049588904
+    },
+    {
+      "file": "chassis0_038_sector_06.stl",
+      "center_distance_min_mm": 19.999999523417216,
+      "volume_mm3": 146.1367060152572
+    },
+    {
+      "file": "chassis0_042_sector_00.stl",
+      "center_distance_min_mm": 20.000000674405698,
+      "volume_mm3": 1.1263881046080542
+    },
+    {
+      "file": "chassis0_042_sector_01.stl",
+      "center_distance_min_mm": 20.000000793272736,
+      "volume_mm3": 4.097556403781937
+    },
+    {
+      "file": "chassis0_042_sector_02.stl",
+      "center_distance_min_mm": 20.000000612092414,
+      "volume_mm3": 8.030788364948767
+    },
+    {
+      "file": "chassis0_042_sector_03.stl",
+      "center_distance_min_mm": 20.00000043162927,
+      "volume_mm3": 13.37591224173544
+    },
+    {
+      "file": "chassis0_042_sector_04.stl",
+      "center_distance_min_mm": 19.999999854381308,
+      "volume_mm3": 17.78704888858859
+    },
+    {
+      "file": "chassis0_042_sector_05.stl",
+      "center_distance_min_mm": 20.0008096132199,
+      "volume_mm3": 15.065860197621532
+    },
+    {
+      "file": "chassis0_042_sector_06.stl",
+      "center_distance_min_mm": 22.002040409109398,
+      "volume_mm3": 4.725991322244535
+    },
+    {
+      "file": "chassis0_067_sector_00.stl",
+      "center_distance_min_mm": 19.999998952254195,
+      "volume_mm3": 4.695109517559406
+    },
+    {
+      "file": "chassis0_067_sector_01.stl",
+      "center_distance_min_mm": 19.999998422510153,
+      "volume_mm3": 16.985492825316594
+    },
+    {
+      "file": "chassis0_067_sector_02.stl",
+      "center_distance_min_mm": 19.999998987820387,
+      "volume_mm3": 32.760522636380585
+    },
+    {
+      "file": "chassis0_067_sector_03.stl",
+      "center_distance_min_mm": 19.99999945878321,
+      "volume_mm3": 53.412786654968194
+    },
+    {
+      "file": "chassis0_067_sector_04.stl",
+      "center_distance_min_mm": 20.000000084047493,
+      "volume_mm3": 79.94771780054634
+    },
+    {
+      "file": "chassis0_067_sector_05.stl",
+      "center_distance_min_mm": 19.999999810182704,
+      "volume_mm3": 84.57382310307851
+    },
+    {
+      "file": "chassis0_067_sector_06.stl",
+      "center_distance_min_mm": 20.215348284713922,
+      "volume_mm3": 65.82682628481795
+    },
+    {
+      "file": "chassis0_067_sector_07.stl",
+      "center_distance_min_mm": 23.066510915858167,
+      "volume_mm3": 28.979418200132084
+    },
+    {
+      "file": "chassis0_099_sector_00.stl",
+      "center_distance_min_mm": 23.066901203071833,
+      "volume_mm3": 24.66604672165795
+    },
+    {
+      "file": "chassis0_099_sector_01.stl",
+      "center_distance_min_mm": 20.21583004107143,
+      "volume_mm3": 60.285729946543746
+    },
+    {
+      "file": "chassis0_099_sector_02.stl",
+      "center_distance_min_mm": 19.99999980947015,
+      "volume_mm3": 78.83104709069782
+    },
+    {
+      "file": "chassis0_099_sector_03.stl",
+      "center_distance_min_mm": 19.99999942652872,
+      "volume_mm3": 78.13361024715505
+    },
+    {
+      "file": "chassis0_099_sector_04.stl",
+      "center_distance_min_mm": 19.999999529462272,
+      "volume_mm3": 53.4178818851968
+    },
+    {
+      "file": "chassis0_099_sector_05.stl",
+      "center_distance_min_mm": 19.999999606040834,
+      "volume_mm3": 32.76626038442108
+    },
+    {
+      "file": "chassis0_099_sector_06.stl",
+      "center_distance_min_mm": 19.999999490691614,
+      "volume_mm3": 16.991581365296195
+    },
+    {
+      "file": "chassis0_099_sector_07.stl",
+      "center_distance_min_mm": 19.999999978165935,
+      "volume_mm3": 4.7010091155189
+    },
+    {
+      "file": "chassis0_113_sector_00.stl",
+      "center_distance_min_mm": 19.99999997880122,
+      "volume_mm3": 3.68429912020459
+    },
+    {
+      "file": "chassis0_113_sector_01.stl",
+      "center_distance_min_mm": 20.00000034667908,
+      "volume_mm3": 13.153980882616148
+    },
+    {
+      "file": "chassis0_113_sector_02.stl",
+      "center_distance_min_mm": 20.00000013047661,
+      "volume_mm3": 25.351250334940897
+    },
+    {
+      "file": "chassis0_113_sector_03.stl",
+      "center_distance_min_mm": 19.99999959860241,
+      "volume_mm3": 41.38952190616277
+    },
+    {
+      "file": "chassis0_113_sector_04.stl",
+      "center_distance_min_mm": 19.99999981690876,
+      "volume_mm3": 63.04243968489185
+    },
+    {
+      "file": "chassis0_113_sector_05.stl",
+      "center_distance_min_mm": 20.0000001015852,
+      "volume_mm3": 73.60867234030957
+    },
+    {
+      "file": "chassis0_113_sector_06.stl",
+      "center_distance_min_mm": 20.49228186107464,
+      "volume_mm3": 56.3800413754437
+    },
+    {
+      "file": "chassis0_113_sector_07.stl",
+      "center_distance_min_mm": 23.43897633868836,
+      "volume_mm3": 26.926441469104265
+    },
+    {
+      "file": "chassis0_168_sector_00.stl",
+      "center_distance_min_mm": 21.988445047037082,
+      "volume_mm3": 4.4081237059948135
+    },
+    {
+      "file": "chassis0_168_sector_01.stl",
+      "center_distance_min_mm": 20.000774939160113,
+      "volume_mm3": 13.89839751498846
+    },
+    {
+      "file": "chassis0_168_sector_02.stl",
+      "center_distance_min_mm": 20.000000057151272,
+      "volume_mm3": 16.672172818311612
+    },
+    {
+      "file": "chassis0_168_sector_03.stl",
+      "center_distance_min_mm": 19.999999544595678,
+      "volume_mm3": 13.351503098594094
+    },
+    {
+      "file": "chassis0_168_sector_04.stl",
+      "center_distance_min_mm": 19.99999970709688,
+      "volume_mm3": 8.017385121278002
+    },
+    {
+      "file": "chassis0_168_sector_05.stl",
+      "center_distance_min_mm": 19.999999642144477,
+      "volume_mm3": 4.091181003590312
+    },
+    {
+      "file": "chassis0_168_sector_06.stl",
+      "center_distance_min_mm": 20.00000003596985,
+      "volume_mm3": 1.1246873345952508
+    }
+  ],
+  "limitations": "Checks exported convex polygon distance to assumed CAD cylinder axis in local XY, not full CAD-body containment or overlap between sectors."
+}
