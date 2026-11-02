@@ -20,6 +20,8 @@
 
 所有文件的逐项说明见 [完整文件清单](文件清单.md)。仓库的后续更新要求见 [AGENTS.md](AGENTS.md)。
 
+**2026-11-02 脚部更新待核对：** 用户指出原装配已删除脚部一块浮空板。当前旧仿真脚部网格中一侧有独立薄条，另一侧没有；尚未确认这就是被删除的板。脚部视觉网格同时作为地面接触几何，历史站姿和舵机诊断均受此不确定性影响，需对照最新已保存的 SolidWorks 装配、更新网格并重新测试。查看器仍展示旧网格。
+
 ## 当前模型进度
 
 - 用户已将一侧上部舵机轴缩短约 1 mm；当前 CAD 复核的装配干涉从 7 处降至 6 处，剩余干涉出现在齿轮啮合处。
@@ -64,6 +66,12 @@
 在 `simulation/` 运行 `python audit_hip_frictionloss.py` 可重新计算髋部阻力的八组假设对照（约需数分钟）；`python audit_hip_frictionloss.py --smoke` 只运行一组并检查两个阻力约束。命令会覆盖相应 JSON，只在内存中修改参数，不启动训练。
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
+
+### 脚部网格和中央舵机响应复核
+
+运行 `python audit_foot_visual_components.py` 可以输出两侧脚部网格的连通分量及初始世界坐标包围盒，结果为 `foot_visual_components_audit.json`。旧模型一侧有一个 628 面、约 125 × 2 × 10 mm 的额外薄条，初始离地约 15 mm；网格连通性不能证明它就是用户删除的板，尚需与当前 CAD 核对。
+
+运行 `python audit_hip_ground_load.py` 可对 ±10 微秒阶跃比较落地和抬起无重力的 8 秒响应，覆盖 `hip_ground_load_diagnostic.json`。落地时正负指令末端误差分别约 -0.094° 和 -0.018°，说明较短测试的误差会随时间变化；两个无重力测试的末端误差约 ±0.285°，不能仅归因于地面负载，因为比较同时改变了重力和位置，且碰撞未完整。此诊断不启动训练，结果受旧脚部网格、假设舵机参数和接触影响。
 
 ### 柱面支承和理想润滑诊断
 
