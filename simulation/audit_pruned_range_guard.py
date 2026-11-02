@@ -7,9 +7,10 @@ import numpy as np
 from guarded_pruned_servo import GuardedPrunedServo, HipRangeExceeded
 
 p=Path(__file__).parent
+sole='--separate-sole' in sys.argv
 finer='--finer' in sys.argv
 chassis0='--chassis0' in sys.argv
-filename='diagnostic_chassis0_collision_trial.xml' if chassis0 else 'diagnostic_finer_collision_trial.xml' if finer else 'diagnostic_pruned_nomerge_trial.xml'
+filename='diagnostic_separate_sole_contact_trial.xml' if sole else 'diagnostic_chassis0_collision_trial.xml' if chassis0 else 'diagnostic_finer_collision_trial.xml' if finer else 'diagnostic_pruned_nomerge_trial.xml'
 m=mujoco.MjModel.from_xml_path(str(p/filename))
 d=mujoco.MjData(m);mujoco.mj_resetDataKeyframe(m,d,0);mujoco.mj_forward(m,d)
 servo=GuardedPrunedServo(m,d);initial=d.qpos.copy();rows=[]
@@ -45,5 +46,5 @@ for step in range(round(4/m.opt.timestep)):
 out={'model':filename,'boundary_cases':rows,'out_of_range_step_blocked_before_advancing':True,'nonfinite_state_rejected':True,'wrong_model_rejected':True,'non_keyframe_pose_rejected':True,'guarded_run_seconds':float(d.time),
  'guard_threshold_deg':4.5,'assumed_collision_pruning_range_deg':5.,
  'limitations':'Guard exists only when this Python class runs. Direct XML use, other controllers, within-step overshoot, excluded collision pairs and model uncertainty remain.'}
-(p/('chassis0_range_guard_audit.json' if chassis0 else 'finer_range_guard_audit.json' if finer else 'pruned_range_guard_audit.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
+(p/('separate_sole_range_guard_audit.json' if sole else 'chassis0_range_guard_audit.json' if chassis0 else 'finer_range_guard_audit.json' if finer else 'pruned_range_guard_audit.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
 print('guard boundaries checked:',len(rows),'guarded small-command run seconds:',d.time,flush=True)

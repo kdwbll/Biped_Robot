@@ -1,0 +1,186 @@
+{
+  "results": [
+    {
+      "axis": "x",
+      "deg": -15,
+      "leg": 0,
+      "old_combined_hull_mm": -12.052282631479304,
+      "new_sole_mm": -12.05228300649098,
+      "new_upper_mm": -0.09539751804906252,
+      "minimum_difference_mm": -3.750116750467214e-07
+    },
+    {
+      "axis": "x",
+      "deg": -15,
+      "leg": 1,
+      "old_combined_hull_mm": 24.4167213345812,
+      "new_sole_mm": 24.416720700641225,
+      "new_upper_mm": 36.31001849346877,
+      "minimum_difference_mm": -6.339399760690867e-07
+    },
+    {
+      "axis": "x",
+      "deg": -5,
+      "leg": 0,
+      "old_combined_hull_mm": -4.415157669525573,
+      "new_sole_mm": -4.415157232558736,
+      "new_upper_mm": 9.788614378517961,
+      "minimum_difference_mm": 4.369668378245706e-07
+    },
+    {
+      "axis": "x",
+      "deg": -5,
+      "leg": 1,
+      "old_combined_hull_mm": 7.858629418481891,
+      "new_sole_mm": 7.858628673268137,
+      "new_upper_mm": 22.043402158642326,
+      "minimum_difference_mm": -7.452137538166426e-07
+    },
+    {
+      "axis": "x",
+      "deg": 0,
+      "leg": 0,
+      "old_combined_hull_mm": 1.9903667856230323e-05,
+      "new_sole_mm": 2.0422525320168416e-05,
+      "new_upper_mm": 15.053354986576009,
+      "minimum_difference_mm": 5.188574639380938e-07
+    },
+    {
+      "axis": "x",
+      "deg": 0,
+      "leg": 1,
+      "old_combined_hull_mm": -0.003837146407826425,
+      "new_sole_mm": -0.0038364961849456786,
+      "new_upper_mm": 15.053105297214005,
+      "minimum_difference_mm": 6.502228807464538e-07
+    },
+    {
+      "axis": "x",
+      "deg": 5,
+      "leg": 0,
+      "old_combined_hull_mm": 4.24685574193634,
+      "new_sole_mm": 4.246855051980241,
+      "new_upper_mm": 18.073918422327758,
+      "minimum_difference_mm": -6.899560993645082e-07
+    },
+    {
+      "axis": "x",
+      "deg": 5,
+      "leg": 1,
+      "old_combined_hull_mm": -8.002919065517922,
+      "new_sole_mm": -8.002919459085476,
+      "new_upper_mm": 5.850295921164289,
+      "minimum_difference_mm": -3.9356755365815843e-07
+    },
+    {
+      "axis": "x",
+      "deg": 15,
+      "leg": 0,
+      "old_combined_hull_mm": 13.987803327902459,
+      "new_sole_mm": 13.987803786691604,
+      "new_upper_mm": 25.558885662992,
+      "minimum_difference_mm": 4.58789145341143e-07
+    },
+    {
+      "axis": "x",
+      "deg": 15,
+      "leg": 1,
+      "old_combined_hull_mm": -22.381629455269834,
+      "new_sole_mm": -22.381628997127844,
+      "new_upper_mm": -10.740073649588872,
+      "minimum_difference_mm": 4.5814199012284007e-07
+    },
+    {
+      "axis": "y",
+      "deg": -15,
+      "leg": 0,
+      "old_combined_hull_mm": -1.381587977539303,
+      "new_sole_mm": -1.3815873210132334,
+      "new_upper_mm": 13.129082596152648,
+      "minimum_difference_mm": 6.565260695090558e-07
+    },
+    {
+      "axis": "y",
+      "deg": -15,
+      "leg": 1,
+      "old_combined_hull_mm": -1.3692733582134144,
+      "new_sole_mm": -1.3692728991581624,
+      "new_upper_mm": 13.191357016461993,
+      "minimum_difference_mm": 4.5905525203338016e-07
+    },
+    {
+      "axis": "y",
+      "deg": -5,
+      "leg": 0,
+      "old_combined_hull_mm": -1.0971104623512251,
+      "new_sole_mm": -1.0971101036586217,
+      "new_upper_mm": 13.888929356985075,
+      "minimum_difference_mm": 3.5869260339715936e-07
+    },
+    {
+      "axis": "y",
+      "deg": -5,
+      "leg": 1,
+      "old_combined_hull_mm": -1.105422555562254,
+      "new_sole_mm": -1.1054219647273975,
+      "new_upper_mm": 13.89986104020784,
+      "minimum_difference_mm": 5.908348565952792e-07
+    },
+    {
+      "axis": "y",
+      "deg": 0,
+      "leg": 0,
+      "old_combined_hull_mm": 1.9903667856230323e-05,
+      "new_sole_mm": 2.0422525320168416e-05,
+      "new_upper_mm": 15.053354986576009,
+      "minimum_difference_mm": 5.188574639380938e-07
+    },
+    {
+      "axis": "y",
+      "deg": 0,
+      "leg": 1,
+      "old_combined_hull_mm": -0.003837146407826425,
+      "new_sole_mm": -0.0038364961849456786,
+      "new_upper_mm": 15.053105297214005,
+      "minimum_difference_mm": 6.502228807464538e-07
+    },
+    {
+      "axis": "y",
+      "deg": 5,
+      "leg": 0,
+      "old_combined_hull_mm": -9.145423192782935,
+      "new_sole_mm": -9.14542283060666,
+      "new_upper_mm": 5.860641762847021,
+      "minimum_difference_mm": 3.621762747485491e-07
+    },
+    {
+      "axis": "y",
+      "deg": 5,
+      "leg": 1,
+      "old_combined_hull_mm": -9.151509702813549,
+      "new_sole_mm": -9.151509651899023,
+      "new_upper_mm": 5.842498909781585,
+      "minimum_difference_mm": 5.091452592864698e-08
+    },
+    {
+      "axis": "y",
+      "deg": 15,
+      "leg": 0,
+      "old_combined_hull_mm": -25.252668664621655,
+      "new_sole_mm": -25.2526686228634,
+      "new_upper_mm": -10.682530684356502,
+      "minimum_difference_mm": 4.175825552010792e-08
+    },
+    {
+      "axis": "y",
+      "deg": 15,
+      "leg": 1,
+      "old_combined_hull_mm": -25.27943895141499,
+      "new_sole_mm": -25.279438788452882,
+      "new_upper_mm": -10.752289783654314,
+      "minimum_difference_mm": 1.6296210603172767e-07
+    }
+  ],
+  "max_abs_difference_mm": 7.452137538166426e-07,
+  "limitations": "Geometric free-base tilts of keyframe, not necessarily reachable or physically stable. Compare minimum plane distance only; not full contact manifold, friction or all poses."
+}

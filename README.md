@@ -67,6 +67,27 @@
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
+### 脚部拆分碰撞候选
+
+`diagnostic_separate_sole_contact_trial.xml` 基于左脚薄板压缩候选，把每只脚的脚底和脚体拆成独立地面碰撞几何：脚底和脚体分别可与地面接触，视觉、质量惯量、腿部自碰撞及控制不变。网格来自现有 STL 中的两个封闭连通体，各自仍采用凸包，其他部位的碰撞排除仍然存在，不用于正式训练或实机。
+
+`audit_foot_convex_surface.py` 在初始及绕世界 X/Y 单独倾斜 ±5°、±15° 的几何姿态取网格样本；离最低点 1 mm 内采样点没有发现超过 0.5 mm 的原始表面与整体凸包高度差，不能替代完整运动和实际接触验证。`audit_separate_sole_ground_distance.py` 在同样的单轴姿态比较新旧地面最小距离，最大差小于 0.000001 mm；最小距离不代表接触力、摩擦和完整接触区域相同。
+
+在 `simulation/` 安装仿真和诊断依赖后可运行：
+
+```powershell
+python audit_foot_convex_surface.py
+python build_separate_sole_contact_trial.py
+python audit_separate_sole_model_difference.py
+python audit_separate_sole_ground_distance.py
+python audit_pruned_range_guard.py --separate-sole
+python audit_refined_tower_scenarios.py --separate-sole
+```
+
+独立候选完成 4 秒中立、步长减半、双向 1 N 短时推力及小幅指令对照，结果与原脚部候选接近；这些只是有限场景。
+
+生成脚本覆盖相应 STL、XML 和 JSON。`meshes_foot_soles/` 中四个文件是拆出的左右脚底和脚体；`separate_sole_contact_build.json` 记录构建结果；`separate_sole_model_difference_audit.json` 核验预期 XML 差异；`separate_sole_ground_distance_audit.json` 记录平面距离；`separate_sole_range_guard_audit.json` 记录 Python 控制器限位验证；`separate_sole_contact_scenarios_audit.json` 保存站姿与短时侧推结果。范围保护仅在使用 `GuardedPrunedServo` 时生效，普通 XML、其他控制器、单步越界和真实设备不受保护。
+
 ### 脚部网格和中央舵机响应复核
 
 运行 `python audit_foot_visual_components.py` 可以输出两侧脚部网格的连通分量及初始世界坐标包围盒，结果为 `foot_visual_components_audit.json`。旧模型一侧有一个 628 面、约 125 × 2 × 10 mm 的额外薄条，初始离地约 15 mm；独立网格检查本身不能证明实体身份；已结合用户说明、当前 CAD 可见实体及旧质量清单比对。
