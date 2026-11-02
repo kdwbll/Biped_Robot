@@ -1,0 +1,6 @@
+{
+  "verified": true,
+  "restored_pair_count": 30,
+  "unchanged_other_xml": true,
+  "limitations": "Configuration equivalence and sampled bounds only; does not prove physical collision correctness."
+}

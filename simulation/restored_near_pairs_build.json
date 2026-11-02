@@ -1,0 +1,9 @@
+{
+  "source": "diagnostic_separate_sole_contact_trial.xml",
+  "model": "diagnostic_restored_near_pairs_trial.xml",
+  "restored_pair_count": 30,
+  "remaining_chassis0_near_pairs": 790,
+  "compiled_pair_count": 11465,
+  "minimum_bounded_proxy_gap_mm": 0.04915825895533135,
+  "limitations": "Bounds cover assumed +/-5 degree hip sweep only and ideal rigid proxy geometry, not physical tolerances or other excluded pairs. XML does not enforce hip range. Diagnostic only, not for training or hardware."
+}

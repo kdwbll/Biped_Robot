@@ -67,6 +67,23 @@
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
+### 机身与腿架近距离碰撞对恢复试验
+
+`diagnostic_restored_near_pairs_trial.xml` 在脚部拆分候选上恢复 30 对机身—腿架凸代理碰撞。它们原先因采样最小间距不超过 0.1 mm 被排除；对假设髋部 ±5° 做 2001 个离散采样，并按各刚体代理到转轴的最大半径计算相邻采样点之间可能的最大移动量后，这 30 对的估算最小间隙下界均高于 0.049 mm。这是理想刚体代理和数学采样下界，并非 CAD 实际间隙或生产公差保证；在此假设行程内这些对本来就不应接触，恢复它们不等于解决了真实接触或显著增加了有效碰撞覆盖。
+
+该机身部件仍有 790 对近距离代理未启用，其他部件还有额外排除；不适合正式训练或实机。XML 本身没有范围保护，不能直接使用旧 `GuardedPrunedServo`（它尚未适配此模型）；下列情景脚本为本候选逐步检查 ±4.5° 的假设边界及接触容量，检查只在该脚本运行时有效。
+
+在 `simulation/` 安装仿真和诊断依赖后运行：
+
+```powershell
+python audit_near_collision_gap_refinement.py
+python build_restored_near_pairs_trial.py
+python audit_restored_near_pairs_difference.py
+python audit_refined_tower_scenarios.py --restored-near
+```
+
+命令会覆盖对应 XML 和 JSON。`near_collision_gap_refinement_audit.json` 保存每对采样最小距离及运动界，`restored_near_pairs_build.json` 记录恢复数量，`restored_near_pairs_difference_audit.json` 验证其余配置未变，`restored_near_pairs_scenarios_audit.json` 记录站姿、轻推和小幅指令测试。中立、步长减半、双向 1 N 短推和小幅指令的 4 秒对照均完成，结果与原候选接近。`audit_remaining_collision_axis.py` 和 `remaining_collision_axis_classification.json` 给剩余 790 对记录采样最小间距时最近点的柱轴半径及轴向位置，供后续对照 CAD；最近点和半径不能证明表面身份，重叠时最近点尤其不可靠。该试验不解决被排除的真实近接触问题。
+
 ### 脚部拆分碰撞候选
 
 `diagnostic_separate_sole_contact_trial.xml` 基于左脚薄板压缩候选，把每只脚的脚底和脚体拆成独立地面碰撞几何：脚底和脚体分别可与地面接触，视觉、质量惯量、腿部自碰撞及控制不变。网格来自现有 STL 中的两个封闭连通体，各自仍采用凸包，其他部位的碰撞排除仍然存在，不用于正式训练或实机。
