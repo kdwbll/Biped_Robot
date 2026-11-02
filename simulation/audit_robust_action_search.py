@@ -1,0 +1,29 @@
+"""Screen open-loop candidate sequences across initial tilts; no learning."""
+from pathlib import Path
+import json
+import numpy as np
+from sector_warp_standing_vec_env import SectorWarpStandingVecEnv
+
+p=Path(__file__).parent;candidate=json.loads((p/'exploration_clearance_audit.json').read_text())['best'];base=np.asarray(candidate['action_history']);leg=candidate['leg'];nc=8;rep=4;n=nc*rep
+rng=np.random.default_rng(7311);candidates=np.clip(base[None,:,:]+rng.normal(0,.13,(nc,len(base),5)),-1,1);candidates[0]=base;schedules=np.repeat(candidates,rep,axis=0)
+env=SectorWarpStandingVecEnv(nworld=n,episode_seconds=2.,on_guard='terminate',reset_tilt_deg=1.,pwm_slew_us=3.,action_amplitude_us=[200]*4+[20.])
+try:
+ env.seed(7311);env.reset();mesh=int(env.m.geom_dataid[env.soles[leg]]);start=int(env.m.mesh_vertadr[mesh]);count=int(env.m.mesh_vertnum[mesh]);verts=env.m.mesh_vert[start:start+count].copy()
+ peak=np.zeros(n);counts=np.zeros(n,int);guards=np.zeros(n,int);falls=np.zeros(n,int);alive=np.ones(n,bool);last_upright=np.ones(n)
+ for step in range(90):
+  _,_,done,infos=env.step(schedules[:,min(step//30,len(base)-1),:])
+  for i,info in enumerate(infos):
+   if done[i] and info['guard_flags']:guards[i]+=1;alive[i]=False
+   elif done[i] and not info['TimeLimit.truncated']:falls[i]+=1;alive[i]=False
+   if alive[i]:last_upright[i]=info['upright']
+  pos=env.gd.geom_xpos.numpy()[:,env.soles[leg]];rot=env.gd.geom_xmat.numpy()[:,env.soles[leg]].reshape(n,3,3);low=(pos[:,2,None]+rot[:,2,:]@verts.T).min(axis=1)
+  support=np.array([x['upright']>np.cos(np.deg2rad(10)) and x['sampled_sole_peak_normal_n'][1-leg]>.5 for x in infos])&alive
+  peak=np.maximum(peak,np.where(support,low,0));counts+=support&(low>.001)
+ rows=[]
+ for k in range(nc):
+  sl=slice(k*rep,(k+1)*rep);ok=alive[sl]&(counts[sl]>0)&(last_upright[sl]>np.cos(np.deg2rad(10)))
+  rows.append({'candidate':k,'successes':int(ok.sum()),'worlds':rep,'guard_count':int(guards[sl].sum()),'falls':int(falls[sl].sum()),
+               'peak_clearance_m':peak[sl].tolist(),'supported_frames_over_1mm':counts[sl].tolist(),'final_upright':last_upright[sl].tolist(),'action_history':candidates[k].tolist()})
+ out={'results':rows,'limitations':'Eight open-loop candidates, four randomized initial poses each, 1.8 s. Success requires sampled supported >1 mm clearance, no guard or fall, and final tilt <10 degrees; not trained gait or hardware validation.'}
+ (p/'robust_action_search_audit.json').write_text(json.dumps(out,indent=2),encoding='utf8');print(json.dumps([{k:v for k,v in x.items() if k!='action_history'} for x in rows],indent=2),flush=True)
+finally:env.close()

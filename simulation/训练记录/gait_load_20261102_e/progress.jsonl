@@ -1,0 +1,16 @@
+{"timesteps": 18432, "elapsed_s": 13.749187499983236, "guard_terminations": 0, "falls": 0}
+{"timesteps": 20480, "elapsed_s": 27.359589600004256, "guard_terminations": 0, "falls": 0}
+{"timesteps": 22528, "elapsed_s": 41.082015500054695, "guard_terminations": 0, "falls": 0}
+{"timesteps": 24576, "elapsed_s": 55.975373600027524, "guard_terminations": 1, "falls": 0}
+{"timesteps": 26624, "elapsed_s": 69.91954789997544, "guard_terminations": 1, "falls": 0}
+{"timesteps": 28672, "elapsed_s": 83.78035390004516, "guard_terminations": 1, "falls": 0}
+{"timesteps": 30720, "elapsed_s": 98.00837529997807, "guard_terminations": 1, "falls": 0}
+{"timesteps": 32768, "elapsed_s": 111.93494489998557, "guard_terminations": 1, "falls": 0}
+{"timesteps": 34816, "elapsed_s": 125.9551172000356, "guard_terminations": 1, "falls": 0}
+{"timesteps": 36864, "elapsed_s": 140.52414929994848, "guard_terminations": 2, "falls": 0}
+{"timesteps": 38912, "elapsed_s": 154.22028590005357, "guard_terminations": 2, "falls": 0}
+{"timesteps": 40960, "elapsed_s": 167.8982503999723, "guard_terminations": 2, "falls": 0}
+{"timesteps": 43008, "elapsed_s": 181.88078110001516, "guard_terminations": 2, "falls": 0}
+{"timesteps": 45056, "elapsed_s": 195.62240280001424, "guard_terminations": 2, "falls": 0}
+{"timesteps": 47104, "elapsed_s": 209.3036808000179, "guard_terminations": 2, "falls": 0}
+{"timesteps": 49152, "elapsed_s": 223.24765789997764, "guard_terminations": 2, "falls": 0}

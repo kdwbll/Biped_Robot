@@ -342,3 +342,12 @@ python .\simulation\train_guarded_standing.py --output-dir C:\Practice_project\b
 
 
 `gait_load_20261102_d` 从较稳定的前一检查点继续训练 32768 环境步，使用 32 环境、150 μs 腿部动作幅度和接触风险权重 1；种子 9901、32 环境 4 秒复测累计触发 66 次保护，平均相位负载对齐约 -0.013，未优于零动作。训练参数和结果保存在同名训练记录，模型按文件拆分保存；该策略不应视为有效步态。`train_gait_curriculum.py` 的 `--leg-amplitude` 可设置假设的腿部动作幅度；它是仿真实验参数而非硬件允许范围。`evaluate_gait_generalization.py` 可对本地检查点做多随机种子零动作对照并采样足底网格最低点，具体假设与限制见脚本。
+
+
+## 足底间隙与单脚支撑搜索（2026-11-02）
+
+`gait_load_20261102_e` 用 100 μs 腿部动作幅度、风险权重 4 继续训练；32 环境同种子复测无保护终止，但负载转移很弱。3 个未训练种子、每种 8 环境的检查中，没有观测到脚底网格在 0.1 秒采样点超过 1 mm 的离地高度；结果在 `simulation/训练记录/gait_load_20261102_e/`，模型拆分存于同名检查点目录。
+
+`audit_exploration_clearance.py` 搜索随机开环动作并直接计算足底网格最低点；`audit_replay_clearance_candidate.py` 用单环境复现候选；`audit_candidate_robustness.py` 在独立随机姿态中检查保护和落地；`audit_candidate_scaling.py`、`audit_refine_openloop.py`、`audit_robust_action_search.py` 探索不同幅度及动作扰动。一个未筛选动作虽有约 50 mm 间隙，但机身倾角接近 35°，不能视为稳定抬脚。
+
+`optimize_supported_lift.py --output-dir <新目录> --iterations 4` 实际执行仿真动作搜索，并非 PPO 训练；在四个共享初始姿态下以脚底间隙、另一脚接触、保护和结束倾角为条件筛选。记录 `simulation/训练记录/lift_search_20261102_a/` 中最佳开环动作在筛选姿态中为 4/4；在未参与筛选的 16 个初始姿态中，16 个曾有单脚支撑下 >1 mm 离地，13 个同时满足 1.8 秒内无保护且结束倾角小于 10°，另 3 个触发保护。该动作只产生短暂单侧抬脚，不是策略、持续站稳或走路；碰撞阈值、舵机与动力学仍为假设，不能用于实体机器人。

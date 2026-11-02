@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "scale": 0.4,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 0,
+      "worlds_with_supported_clearance_and_no_guard": 0,
+      "guard_events": 4,
+      "fall_events": 0,
+      "peak_clearance_m": 1.06077641248703e-06
+    },
+    {
+      "scale": 0.5,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 0,
+      "worlds_with_supported_clearance_and_no_guard": 0,
+      "guard_events": 3,
+      "fall_events": 0,
+      "peak_clearance_m": 0.00035953614860773087
+    },
+    {
+      "scale": 0.6,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 4,
+      "worlds_with_supported_clearance_and_no_guard": 0,
+      "guard_events": 4,
+      "fall_events": 0,
+      "peak_clearance_m": 0.0032828571274876595
+    },
+    {
+      "scale": 0.7,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 3,
+      "worlds_with_supported_clearance_and_no_guard": 1,
+      "guard_events": 4,
+      "fall_events": 0,
+      "peak_clearance_m": 0.006897329352796078
+    },
+    {
+      "scale": 0.8,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 4,
+      "worlds_with_supported_clearance_and_no_guard": 2,
+      "guard_events": 2,
+      "fall_events": 0,
+      "peak_clearance_m": 0.00642465241253376
+    },
+    {
+      "scale": 0.9,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 4,
+      "worlds_with_supported_clearance_and_no_guard": 1,
+      "guard_events": 3,
+      "fall_events": 0,
+      "peak_clearance_m": 0.008681678213179111
+    },
+    {
+      "scale": 1.0,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 4,
+      "worlds_with_supported_clearance_and_no_guard": 2,
+      "guard_events": 1,
+      "fall_events": 1,
+      "peak_clearance_m": 0.01281029637902975
+    },
+    {
+      "scale": 1.1,
+      "worlds": 4,
+      "worlds_with_supported_clearance": 4,
+      "worlds_with_supported_clearance_and_no_guard": 1,
+      "guard_events": 3,
+      "fall_events": 0,
+      "peak_clearance_m": 0.0067900000140070915
+    }
+  ],
+  "limitations": "Four randomized initial poses per scale, one open-loop sequence, 1.8 seconds, 20 ms sampling; not learned gait, robustness certification or hardware."
+}
