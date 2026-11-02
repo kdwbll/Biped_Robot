@@ -1,0 +1,15 @@
+{
+  "synthetic_flags": [
+    0,
+    6,
+    4,
+    1
+  ],
+  "flags_sticky": true,
+  "flag_bits": {
+    "1": "nonfinite",
+    "2": "hip bound",
+    "4": "gear bound"
+  },
+  "limitations": "Synthetic GPU kernel test only. Does not stop/rollback physics, guard contact force, check overflow, synchronize per-step or integrate with training. Thresholds are assumptions, not hardware safety."
+}

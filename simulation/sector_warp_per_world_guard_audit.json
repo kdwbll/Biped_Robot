@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "test": "injected_hip",
+      "done": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "guard_flags": [
+        0,
+        0,
+        6,
+        0
+      ],
+      "world_times_s": [
+        0.019999995827674866,
+        0.019999995827674866,
+        0.0,
+        0.019999995827674866
+      ]
+    },
+    {
+      "test": "injected_nonfinite",
+      "done": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "guard_flags": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "world_times_s": [
+        0.04000003635883331,
+        0.04000003635883331,
+        0.019999995827674866,
+        0.0
+      ]
+    },
+    {
+      "test": "live_tiny_contact_threshold",
+      "done": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "guard_flags": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "world_times_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "limitations": "Three short tests with injected states or intentionally tiny contact threshold; termination freezes/resets selected worlds within a control frame, while overflow/time-reset still aborts the batch. Sampled force can miss spikes, no training or hardware."
+}

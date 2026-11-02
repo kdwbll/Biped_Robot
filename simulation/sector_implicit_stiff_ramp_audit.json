@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "timestep_s": 0.00025,
+      "frictionloss_nm_per_hip": 0.05,
+      "pulse_delta_us": -20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": -1.033850987856388,
+      "shaft_error_deg": -1.6661490121436124,
+      "max_hip_deg": 0.47395725944394906,
+      "max_shaft_speed_rad_s": 0.06456485956716866,
+      "max_gear_residual_deg": 0.04575666048323911
+    },
+    {
+      "timestep_s": 0.000125,
+      "frictionloss_nm_per_hip": 0.05,
+      "pulse_delta_us": -20,
+      "time_s": 4.000000000002015,
+      "stop_reason": null,
+      "shaft_delta_deg": -1.1682588087978725,
+      "shaft_error_deg": -1.5317411912021277,
+      "max_hip_deg": 0.5410226763458035,
+      "max_shaft_speed_rad_s": 0.05084777825959054,
+      "max_gear_residual_deg": 0.04354246002773487
+    }
+  ],
+  "gear_solref_s": 0.0005,
+  "limitations": "A 2 s ramp to -20 us at two time steps and one assumed friction value. Joint friction is not measured and sampling does not establish realistic torque/clearance. Not training or hardware."
+}

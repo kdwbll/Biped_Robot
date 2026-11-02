@@ -1,0 +1,20 @@
+{
+  "forward_steps": 20,
+  "slew_limit_us_per_control": 1.0,
+  "all_pulses_after_forward_us": [
+    1520.0,
+    1520.0,
+    1520.0,
+    1520.0,
+    1520.0
+  ],
+  "all_pulses_after_reverse_us": [
+    1519.0,
+    1519.0,
+    1519.0,
+    1519.0,
+    1519.0
+  ],
+  "reset_and_invalid_limit_checks_passed": true,
+  "limitations": "1 us per 20 ms is an arbitrary test limit, not a measured hardware parameter. Does not validate all actions or full training."
+}

@@ -1,0 +1,13 @@
+{
+  "synthetic_flags": [
+    0,
+    8,
+    0,
+    9
+  ],
+  "floor_excluded": true,
+  "at_threshold_not_triggered": true,
+  "state_flag_preserved": true,
+  "limit_n": 20.0,
+  "limitations": "Synthetic forces, one-time kernel. Does not validate live GPU contact-force extraction, per-world resets, training, physical limits, or sampling completeness."
+}

@@ -1,0 +1,115 @@
+{
+  "results": [
+    {
+      "action_axis": 0,
+      "action_sign": -1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.00233465970533243,
+      "max_hip_change_deg": 0.004980069707151591
+    },
+    {
+      "action_axis": 0,
+      "action_sign": 1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.025773139119873514,
+      "max_hip_change_deg": 0.13722846606645375
+    },
+    {
+      "action_axis": 1,
+      "action_sign": -1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.019421813399888504,
+      "max_hip_change_deg": 0.08714269417576707
+    },
+    {
+      "action_axis": 1,
+      "action_sign": 1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.007653948789839264,
+      "max_hip_change_deg": 0.01737198142056373
+    },
+    {
+      "action_axis": 2,
+      "action_sign": -1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.0033460024686382734,
+      "max_hip_change_deg": 0.008108958161506044
+    },
+    {
+      "action_axis": 2,
+      "action_sign": 1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.02939883179690193,
+      "max_hip_change_deg": 0.18585032794342002
+    },
+    {
+      "action_axis": 3,
+      "action_sign": -1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.029865968585778193,
+      "max_hip_change_deg": 0.1919564911268174
+    },
+    {
+      "action_axis": 3,
+      "action_sign": 1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.0019068837686922386,
+      "max_hip_change_deg": 0.005194640231047951
+    },
+    {
+      "action_axis": 4,
+      "action_sign": -1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.1472352648759919,
+      "max_hip_change_deg": 0.4827470647900515
+    },
+    {
+      "action_axis": 4,
+      "action_sign": 1.0,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "max_sampled_self_contact_n": 0.0,
+      "max_gear_residual_deg": 0.17849589960443832,
+      "max_hip_change_deg": 1.7444159306838767
+    }
+  ],
+  "limitations": "10 independent two-second single-axis actions, approximate and partial contacts, sampled forces, not training or hardware; combined and longer actions remain untested."
+}

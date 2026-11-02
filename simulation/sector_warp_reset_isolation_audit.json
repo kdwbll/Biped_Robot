@@ -1,0 +1,9 @@
+{
+  "repeat_qpos_max_difference": 1.2022472219541669e-05,
+  "repeat_qvel_max_difference": 0.0322289913892746,
+  "other_world_qpos_max_difference": 1.1518597602844238e-05,
+  "other_world_qvel_max_difference": 0.04049950838088989,
+  "guarded_world": 2,
+  "step_duration_s": 0.02,
+  "limitations": "Repeated and injected neutral control steps; float32 nondeterminism and contact ordering can affect differences. Not proof of isolation over long trajectories or training."
+}

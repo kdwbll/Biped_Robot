@@ -1,9 +1,10 @@
 """Run deterministic behavior checks for the sector standing environment, not training."""
 from pathlib import Path
 import json
+import sys
 import numpy as np
 from sector_standing_env import SectorStandingEnv
-p=Path(__file__).parent;env=SectorStandingEnv(episode_seconds=1.0);obs,info=env.reset(seed=7)
+p=Path(__file__).parent;variant='implicit_stiff' if '--implicit-stiff' in sys.argv else 'implicit' if '--implicit' in sys.argv else 'baseline';env=SectorStandingEnv(episode_seconds=1.0,model_variant=variant);obs,info=env.reset(seed=7)
 assert env.observation_space.contains(obs)
 try:env.step([0,0,np.nan,0,0]);raise AssertionError('NaN action accepted')
 except ValueError:pass
@@ -28,4 +29,4 @@ for step in range(50):
  obs,reward,term,trunc,info=env.step(rng.uniform(-1,1,5));assert env.observation_space.contains(obs) and np.isfinite(reward)
  if term or trunc:reason=info['reason'];break
 result={'neutral_1s_completed':len(neutral)==50,'neutral_reproducible':True,'contact_and_gear_metrics_finite':True,'invalid_action_rejected':True,'post_terminal_step_rejected':True,'hip_violation_stops_before_step':True,'nonfinite_stops_before_step':True,'random_actions_steps':step+1,'random_termination_reason':reason,'limitations':'Short deterministic smoke test; not training, not full collision validation or real-hardware safety. Guard exists only within this environment.'}
-(p/'sector_standing_env_smoke_audit.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(result,indent=2),flush=True)
+(p/('sector_implicit_stiff_env_smoke_audit.json' if variant=='implicit_stiff' else 'sector_implicit_env_smoke_audit.json' if variant=='implicit' else 'sector_standing_env_smoke_audit.json')).write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(result,indent=2),flush=True)

@@ -1,0 +1,23 @@
+{
+  "worlds": 4,
+  "reset_world": 1,
+  "detected_guard_flags_before_reset": [
+    0,
+    6,
+    0,
+    0
+  ],
+  "unselected_max_q_change": 0.0,
+  "unselected_max_v_change": 0.0,
+  "unselected_max_time_change": 0.0,
+  "reset_q_max_error": 2.618584415969849e-08,
+  "reset_v_max_abs": 0.0,
+  "reset_time_s": 0.0,
+  "flags_after": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "limitations": "One masked reset following an injected out-of-range joint state after 0.02 s, not a rollout or vector training environment. Does not yet validate changing per-world friction or reset immediately after actual overflow/nonfinite."
+}

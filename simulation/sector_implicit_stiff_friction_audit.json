@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "frictionloss_nm_per_hip": 0.05,
+      "pulse_delta_us": -20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": -3.9236784036191166,
+      "shaft_error_deg": 1.2236784036191168,
+      "max_hip_deg": 1.9288181747860937,
+      "max_shaft_speed_rad_s": 0.7413630947299598,
+      "max_gear_residual_deg": 0.09355534055882103
+    },
+    {
+      "frictionloss_nm_per_hip": 0.05,
+      "pulse_delta_us": 20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": 3.8494290197097714,
+      "shaft_error_deg": -1.1494290197097714,
+      "max_hip_deg": 1.946917771684289,
+      "max_shaft_speed_rad_s": 0.5153521008031664,
+      "max_gear_residual_deg": 0.06410088054544821
+    },
+    {
+      "frictionloss_nm_per_hip": 0.2,
+      "pulse_delta_us": -20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": -3.271987902956781,
+      "shaft_error_deg": 0.5719879029567807,
+      "max_hip_deg": 1.5987756924587369,
+      "max_shaft_speed_rad_s": 0.4076100740767961,
+      "max_gear_residual_deg": 0.06286685486337533
+    },
+    {
+      "frictionloss_nm_per_hip": 0.2,
+      "pulse_delta_us": 20,
+      "time_s": 3.999999999999143,
+      "stop_reason": null,
+      "shaft_delta_deg": 3.9310078701675675,
+      "shaft_error_deg": -1.2310078701675666,
+      "max_hip_deg": 1.9779634548354887,
+      "max_shaft_speed_rad_s": 0.4090755397195255,
+      "max_gear_residual_deg": 0.06295579336996188
+    }
+  ],
+  "gear_solref_s": 0.0005,
+  "limitations": "Only two hypothesized friction magnitudes, four seconds, \u00b120 us. Joint friction is not measured and sampling does not establish realistic torque/clearance. Not training or hardware."
+}

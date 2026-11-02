@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "frictionloss_nm_per_hip": 0.05,
+      "pulse_delta_us": -20,
+      "time_s": 4.000000000002015,
+      "stop_reason": null,
+      "shaft_delta_deg": -3.45143570849738,
+      "shaft_error_deg": 0.7514357084973796,
+      "max_hip_deg": 1.6893115169764983,
+      "max_shaft_speed_rad_s": 0.5094718498453,
+      "max_gear_residual_deg": 0.05670549828035186
+    }
+  ],
+  "gear_solref_s": 0.0005,
+  "limitations": "Only two hypothesized friction magnitudes, four seconds, \u00b120 us. Joint friction is not measured and sampling does not establish realistic torque/clearance. Not training or hardware."
+}

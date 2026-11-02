@@ -1,0 +1,35 @@
+{
+  "guard_n": 20.0,
+  "gear_guard_deg": 0.2,
+  "variant": "implicit",
+  "results": [
+    {
+      "seed": 11,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "sampled_peak_n": 0.0,
+      "max_gear_residual_deg": 0.0542055461994305
+    },
+    {
+      "seed": 22,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "sampled_peak_n": 0.0,
+      "max_gear_residual_deg": 0.05396100773064827
+    },
+    {
+      "seed": 33,
+      "steps": 100,
+      "terminated": false,
+      "truncated": true,
+      "reason": null,
+      "sampled_peak_n": 0.0,
+      "max_gear_residual_deg": 0.058894961365613424
+    }
+  ],
+  "limitations": "Only three short simulated trajectories, heuristic sampled-force guard, no training or hardware. Contact force threshold is not physically validated; actions are limited to +/-0.3."
+}

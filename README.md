@@ -237,3 +237,22 @@ python .\tools\恢复模型检查点.py .\simulation\模型检查点\continued_g
 输出只用于本地，不应提交到仓库；脚本不会覆盖已有输出，也不会启动训练。旧模型依赖当时的软件版本及环境，不代表可靠行走策略。
 
 不提交 `.venv`、`.pio`、下载的 GPU 依赖目录和缓存，也不提交 ZIP、7z、RAR、tar 等通用压缩包。`.3mf` 是打印工程格式，`.npz` 是 NumPy 数据，`.pth` 是模型数据，它们作为项目资料保留。后续添加或修改文件时运行 `python .\tools\生成文件索引.py` 并核对更新后的文档。
+
+
+## 实验：隐式阻尼与 GPU 并行站姿环境
+
+本节是仿真诊断原型，不是行走策略，也没有启动训练。`diagnostic_sector_implicit_damping_trial.xml` 与 `diagnostic_sector_implicit_stiff_trial.xml` 是从候选模型生成的实验版本：移除了一个轴向法向接触，并假设每侧髋轴摩擦 0.1 N·m、阻尼 0.301 N·m·s/rad；这些量尚未实测，不能视为真实舵机参数。原显式控制微分项产生约 14 rad/s 的启动速度峰值，改成被动物理阻尼后该测试约为 0.9 rad/s 以下，但控制误差和步长敏感性仍未解决。减小步长或限制 PWM 变化速率的实验并未证明结果收敛。
+
+`sector_standing_env.py` 支持实验模型、假设的摩擦范围、齿轮误差与采样接触力阈值、PWM 变化速率限制；这些阈值是诊断值，不是安全认证。`sector_warp_standing_vec_env.py` 使用 CUDA 上的 MuJoCo Warp 并行物理，当前 GPU 版本使用固定假设摩擦；`sector_warp_guard.py` 和 `sector_warp_servo_kernels.py` 分别负责状态与接触检查、实验舵机控制。默认异常时终止整个批次，`on_guard="terminate"` 可试验单环境重置，其隔离性目前只做了短时验证。接触力每 2.5 ms 采样一次，可能漏掉尖峰；溢出或异常需要中止。
+
+本机 16 个环境、4 秒混合小动作测试约 131 环境步/秒，数字包含该次测试的同步开销，不保证其他电脑相同。GPU 用于物理计算，本机当前 PyTorch 为 CPU 版；每个物理子步的主机同步会限制利用率。4 环境、8 秒的部分 CPU/GPU 轨迹对照和 1 秒重置隔离检查不等于完整一致性验证。SB3 只检查了创建、预测和单步接口，没有调用学习。旧训练准备检查不自动覆盖此 GPU 原型。
+
+使用前在 Python 环境中安装项目所需依赖和匹配版本的 Warp，例如 `python -m pip install warp-lang==1.18.0 mujoco-warp==3.17.0`，并确认 NVIDIA 驱动与 CUDA 设备可用；依赖缓存不纳入仓库。在 `simulation` 目录运行：
+
+```powershell
+python .\audit_sector_warp_vec_smoke.py
+python .\audit_sector_warp_per_world_guard.py
+python .\audit_sector_warp_vec_16_4s.py
+```
+
+这些脚本运行短时仿真并覆盖对应的 JSON 结果，不会训练；其他 `audit_sector_*`、`build_sector_*` 文件的用途及运行方式见文件清单。碰撞代理、齿轮约束的数值收敛、实际舵机与负载参数和行走奖励仍需核实，不能据此把仿真动作下发到实体机器人。

@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "variant": "baseline",
+      "injected_error_deg": 0.3,
+      "threshold_deg": 0.2,
+      "stopped_before_step": true,
+      "normal_step_accepted": true
+    },
+    {
+      "variant": "implicit",
+      "injected_error_deg": 0.3,
+      "threshold_deg": 0.2,
+      "stopped_before_step": true,
+      "normal_step_accepted": true
+    }
+  ],
+  "invalid_thresholds_rejected": true,
+  "limitations": "0.2 degrees is a test setting, not a validated real gear tolerance. Guard only covers one ideal relation, can overshoot within one physics step and exists only in this environment."
+}
