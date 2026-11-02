@@ -1,0 +1,1926 @@
+{
+  "sample_count": 192,
+  "results": [
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_096"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_096"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_096"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_097"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_097"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_097"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_043"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_043"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_043"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_089"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_089"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_089"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_201"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_201"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_201"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_142"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_142"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_142"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_089",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_089",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_089",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_400",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_400",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_400",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_145"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_145"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_145"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_142"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_142"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_142"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_139"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_146"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_146"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_146"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_201"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_201"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_201"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_204"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_204"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_204"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_203"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_485",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_485",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_485",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_487",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_487",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_487",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_489",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_489",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_489",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_491",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_491",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_491",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_493",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_493",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_493",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_495",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_495",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_495",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_141"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_204"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_204"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_204"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L0_036"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L0_036"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L0_036"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_127",
+        "nomerge_L0_096"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_127",
+        "nomerge_L0_096"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_127",
+        "nomerge_L0_096"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_070",
+        "nomerge_L0_095"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_070",
+        "nomerge_L0_095"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_070",
+        "nomerge_L0_095"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_181",
+        "nomerge_L0_042"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_181",
+        "nomerge_L0_042"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_181",
+        "nomerge_L0_042"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_199"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_199"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_199"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_200"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_200"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_200"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_065"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_065"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_065"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_025"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_025"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_025"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_065"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_065"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_065"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_063"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_064"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_069"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_144"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_144"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_144"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_145"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_145"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_145"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_007"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_007"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_007"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_369",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_369",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_369",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_117",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": -5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_117",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": 0.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_117",
+        "nomerge_L1_201"
+      ],
+      "hip_angle_deg": 5.0,
+      "relative_normal_jacobian_max_abs": 0.0,
+      "relative_normal_jacobian_l2": 0.0
+    }
+  ],
+  "limitations": "Local velocity Jacobian at three sampled hip angles for selected initially near-coplanar witnesses. Not force, bearing preload, real contact friction, or finite-motion proof; mapping and mesh approximations remain."
+}

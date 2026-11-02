@@ -1,0 +1,4659 @@
+{
+  "selection": "All remaining proxy pairs with initial clearance in (0.0001, 0.1) mm and sampled minimum <=0.05 mm",
+  "results": [
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_096"
+      ],
+      "proxy_separation_mm": 0.0001066889632673186,
+      "proxy_min_sampled_mm": 0.00010668896322638619,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00010681059228745404,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 1.2162498785883713e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_097"
+      ],
+      "proxy_separation_mm": 0.0001067410735177158,
+      "proxy_min_sampled_mm": 0.00010673402295639968,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00010681059220418732,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 6.951472730776231e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_043"
+      ],
+      "proxy_separation_mm": 0.00010676805125559831,
+      "proxy_min_sampled_mm": 0.00010674256482747882,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00010681059223194289,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 4.2536973943185785e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L0_089"
+      ],
+      "proxy_separation_mm": 0.0001067947612541197,
+      "proxy_min_sampled_mm": 0.00010676582831044496,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00010681059214867616,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 1.5827006372148844e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_201"
+      ],
+      "proxy_separation_mm": 0.00012197354314922321,
+      "proxy_min_sampled_mm": 0.00012197354311986754,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 7.078040931141061e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012204432750517746,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_139"
+      ],
+      "proxy_separation_mm": 0.0001220121000735698,
+      "proxy_min_sampled_mm": 0.00012197625639678783,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 7.078038155583499e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012208288444059967,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_143"
+      ],
+      "proxy_separation_mm": 0.00012198173503633679,
+      "proxy_min_sampled_mm": 0.0001219817349666696,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 7.078043706698622e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.007109880329612275,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_142"
+      ],
+      "proxy_separation_mm": 0.00012199391101658558,
+      "proxy_min_sampled_mm": 0.0001219939109722824,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 7.078035380025938e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206469540698706,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_229",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.00012200072595238386,
+      "proxy_min_sampled_mm": 0.00012200046212033672,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 7.078038155583499e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207151026122354,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_089",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.00012203683288678502,
+      "proxy_min_sampled_mm": 0.00012202901126819674,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 2.7707752758843185e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206454458318916,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_203"
+      ],
+      "proxy_separation_mm": 0.00012208117871711827,
+      "proxy_min_sampled_mm": 0.00012207600452296017,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 3.5281860766289697e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012204590088549239,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_400",
+        "nomerge_L0_139"
+      ],
+      "proxy_separation_mm": 0.00012208378567419903,
+      "proxy_min_sampled_mm": 0.00012207738371902138,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1123019172387671e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207266661401484,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_407",
+        "nomerge_L0_145"
+      ],
+      "proxy_separation_mm": 0.0001221047228404897,
+      "proxy_min_sampled_mm": 0.0001220396402267235,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 3.528163872168477e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206944519088658,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_144"
+      ],
+      "proxy_separation_mm": 0.00012210505377164275,
+      "proxy_min_sampled_mm": 0.00012209697197824277,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 6.100900340477722e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.001277362668344611,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_145"
+      ],
+      "proxy_separation_mm": 0.00012211032084897815,
+      "proxy_min_sampled_mm": 0.00012210226815932996,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 5.3366644436891875e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 0,
+        "gap_mm": 5.241624778361625e-06,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 247.50000000000173,
+        "normal": [
+          0.9999662287093015,
+          -0.00821835998827812,
+          2.2204460492503099e-16
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_142"
+      ],
+      "proxy_separation_mm": 0.00012211869427953873,
+      "proxy_min_sampled_mm": 0.00012211568150416295,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 5.3247073417139745e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206545121906665,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_084",
+        "nomerge_L0_203"
+      ],
+      "proxy_separation_mm": 0.00012212376026790093,
+      "proxy_min_sampled_mm": 0.00012211038247435932,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 7.363964993345462e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012205012464572285,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_139"
+      ],
+      "proxy_separation_mm": 0.00012218996424541453,
+      "proxy_min_sampled_mm": 0.00012215879555365662,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175876890590075e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.000122078209485732,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_201"
+      ],
+      "proxy_separation_mm": 0.00012216093449226586,
+      "proxy_min_sampled_mm": 0.0001221573340946705,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175879666147637e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.23419024273675082,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_139"
+      ],
+      "proxy_separation_mm": 0.0001221610822868296,
+      "proxy_min_sampled_mm": 0.00012215892546319816,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175882441705198e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012204932750559117,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_139"
+      ],
+      "proxy_separation_mm": 0.00012216171701657776,
+      "proxy_min_sampled_mm": 0.00012215965223675763,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175882441705198e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012204996219233877,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_139"
+      ],
+      "proxy_separation_mm": 0.00012216343933810168,
+      "proxy_min_sampled_mm": 0.00012216135034036587,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175876890590075e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012205168459233917,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_204"
+      ],
+      "proxy_separation_mm": 0.00012216637272872806,
+      "proxy_min_sampled_mm": 0.00012216637268532352,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175876890590075e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.01125965919214149,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0001221768289608831,
+      "proxy_min_sampled_mm": 0.00012217493898740922,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175879666147637e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206507421508306,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_146"
+      ],
+      "proxy_separation_mm": 0.00012217961852585994,
+      "proxy_min_sampled_mm": 0.00012217961846322135,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175879666147637e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206786370594358,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_090",
+        "nomerge_L0_202"
+      ],
+      "proxy_separation_mm": 0.00012217988908623826,
+      "proxy_min_sampled_mm": 0.0001221798890338631,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175879666147637e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.006591693094646877,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_136",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.00012218209403174518,
+      "proxy_min_sampled_mm": 0.00012218138979532228,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175882441705198e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207033922573274,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_228",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.00012218293034215098,
+      "proxy_min_sampled_mm": 0.00012218082119321965,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175876890590075e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207117558449276,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_315",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.00012218371322973235,
+      "proxy_min_sampled_mm": 0.00012217957974251255,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175882441705198e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207195840274743,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_202"
+      ],
+      "proxy_separation_mm": 0.0001221833180102492,
+      "proxy_min_sampled_mm": 0.00012217988902237878,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175874115032514e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.022504281031405518,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_226",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0001221845923223597,
+      "proxy_min_sampled_mm": 0.00012217852369084164,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175871339474952e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207283758836063,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_057",
+        "nomerge_L0_147"
+      ],
+      "proxy_separation_mm": 0.0001221843978683454,
+      "proxy_min_sampled_mm": 0.00012218439778911857,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175874115032514e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.0006739203816600856,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_172",
+        "nomerge_L0_235"
+      ],
+      "proxy_separation_mm": 0.00021354234611169778,
+      "proxy_min_sampled_mm": 0.00021353910850983735,
+      "chassis_cad_face": {
+        "face_index": 24,
+        "gap_mm": 0.1428719230848784,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 6.820163878096253e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_172",
+        "nomerge_L0_234"
+      ],
+      "proxy_separation_mm": 0.00021357754617747033,
+      "proxy_min_sampled_mm": 0.00021355679612376793,
+      "chassis_cad_face": {
+        "face_index": 24,
+        "gap_mm": 0.0043509215600005926,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 2.7135710345405073e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_201"
+      ],
+      "proxy_separation_mm": 0.0003356901632770836,
+      "proxy_min_sampled_mm": 0.00033568972218025306,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0002136453987056086,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012204476862454072,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_419",
+        "nomerge_L0_201"
+      ],
+      "proxy_separation_mm": 0.00033569430702238667,
+      "proxy_min_sampled_mm": 0.0003356897221404804,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00021364539867785304,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 13,
+        "gap_mm": 0.22138170666707416,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_203"
+      ],
+      "proxy_separation_mm": 0.00033570847233662884,
+      "proxy_min_sampled_mm": 0.0003356912954984208,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0002136453987333642,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206307753448442,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_423",
+        "nomerge_L0_204"
+      ],
+      "proxy_separation_mm": 0.0003357066891289623,
+      "proxy_min_sampled_mm": 0.0003357058199353868,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00021364539878887534,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206129434977342,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_483",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0003357101043549994,
+      "proxy_min_sampled_mm": 0.00033570912839093575,
+      "chassis_cad_face": {
+        "face_index": 30,
+        "gap_mm": 0.0001563853584130026,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 287.68495679792744,
+        "normal": [
+          -0.0,
+          1.0,
+          -0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206470972886407,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_203"
+      ],
+      "proxy_separation_mm": 0.0003357108199564858,
+      "proxy_min_sampled_mm": 0.0003357020565315444,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00021364539867785304,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206542529535902,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_485",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0003357110772843528,
+      "proxy_min_sampled_mm": 0.000335709824503491,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00021364539867785304,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206568258954498,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_487",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.00033571186336832777,
+      "proxy_min_sampled_mm": 0.00033571043363463403,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0002136453986223419,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206646873846871,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_489",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0003357128496233508,
+      "proxy_min_sampled_mm": 0.0003357112240270415,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00021364539865009746,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206745497733706,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_491",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0003357136358377415,
+      "proxy_min_sampled_mm": 0.00033571187357128403,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0002136453985945863,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206824126503868,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_493",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0003357145479985812,
+      "proxy_min_sampled_mm": 0.00033571264993200015,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0002136453986223419,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012206915342427571,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_495",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.00033571585840387044,
+      "proxy_min_sampled_mm": 0.00033571388803135544,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00021364539867785304,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207046370948937,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_497",
+        "nomerge_L0_141"
+      ],
+      "proxy_separation_mm": 0.0003357167719023388,
+      "proxy_min_sampled_mm": 0.00033571480672417393,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00021364539867785304,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207137728426076,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_421",
+        "nomerge_L0_204"
+      ],
+      "proxy_separation_mm": 0.00033572350406191077,
+      "proxy_min_sampled_mm": 0.0003357041412374765,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0002136453986223419,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.00012207810945463748,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L0_036"
+      ],
+      "proxy_separation_mm": 0.0008291975178689344,
+      "proxy_min_sampled_mm": -0.0001523373115005916,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.000778000801754386,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 5.1196576034140406e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_127",
+        "nomerge_L0_096"
+      ],
+      "proxy_separation_mm": 0.007441268526045427,
+      "proxy_min_sampled_mm": -1.2509037732468102e-07,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 3.4458935704861915e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 3.4561936645971514e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_268"
+      ],
+      "proxy_separation_mm": 0.013175409928248073,
+      "proxy_min_sampled_mm": -0.041928702323827866,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23689226562537163,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 3.0938780769481505e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_039"
+      ],
+      "proxy_separation_mm": 0.013683868376190336,
+      "proxy_min_sampled_mm": -0.041456276866701586,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23685783351476933,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0005035226205521789,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_017"
+      ],
+      "proxy_separation_mm": 0.015823195832220565,
+      "proxy_min_sampled_mm": -0.07641597634614239,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.28175256281768135,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0475367607715642,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_188"
+      ],
+      "proxy_separation_mm": 0.016235562714067363,
+      "proxy_min_sampled_mm": -0.018055910509783533,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.25769611646477586,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.023903477678989846,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_065"
+      ],
+      "proxy_separation_mm": 0.01623744908668647,
+      "proxy_min_sampled_mm": -0.018053975602730272,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2576961679565199,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.023905412306302633,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_014"
+      ],
+      "proxy_separation_mm": 0.019693846829774445,
+      "proxy_min_sampled_mm": -0.03878182740701795,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23052220076757418,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.00015779540809986387,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_239"
+      ],
+      "proxy_separation_mm": 0.01969485871420188,
+      "proxy_min_sampled_mm": -0.03884524209039099,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23045768449137127,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 9.422386517075615e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_019",
+        "nomerge_L0_243"
+      ],
+      "proxy_separation_mm": 0.02255510396162599,
+      "proxy_min_sampled_mm": -0.07671857605736507,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2564640824931385,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.028934726821027712,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_038"
+      ],
+      "proxy_separation_mm": 0.023746944102076867,
+      "proxy_min_sampled_mm": -0.02568171288983414,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.22659723590027495,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.00028481848283458465,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_064"
+      ],
+      "proxy_separation_mm": 0.023908541994978105,
+      "proxy_min_sampled_mm": -0.025573903816561373,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.22654384102961556,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.00039255258431975367,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_255"
+      ],
+      "proxy_separation_mm": 0.024756640008873575,
+      "proxy_min_sampled_mm": 0.005451306404859866,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2520325737400954,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.026765011209086503,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_113",
+        "nomerge_L0_289"
+      ],
+      "proxy_separation_mm": 0.024758314905197757,
+      "proxy_min_sampled_mm": 0.005453019695219168,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2520326135120846,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.026766724287809893,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_172",
+        "nomerge_L0_236"
+      ],
+      "proxy_separation_mm": 0.025475436732242198,
+      "proxy_min_sampled_mm": 0.0002135671554354124,
+      "chassis_cad_face": {
+        "face_index": 24,
+        "gap_mm": 0.01118123322459096,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 5.051320473015153e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_113"
+      ],
+      "proxy_separation_mm": 0.03058646917159381,
+      "proxy_min_sampled_mm": -0.03865098662727959,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.28852330742256005,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0691091290622159,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_034"
+      ],
+      "proxy_separation_mm": 0.03132905080483776,
+      "proxy_min_sampled_mm": -0.018042844695061892,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.21879105306553226,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 4.19098629801843e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_103"
+      ],
+      "proxy_separation_mm": 0.032112251381128665,
+      "proxy_min_sampled_mm": -0.01726777097884819,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.21878488831558718,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0008169777298595717,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_014"
+      ],
+      "proxy_separation_mm": 0.032391122220371,
+      "proxy_min_sampled_mm": -0.01594108985618285,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.22392209986166256,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.006240769769291989,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_064"
+      ],
+      "proxy_separation_mm": 0.03886623863401405,
+      "proxy_min_sampled_mm": -0.04145160600572241,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.26745416843946673,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.05627204250598267,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_243"
+      ],
+      "proxy_separation_mm": 0.04173835249552886,
+      "proxy_min_sampled_mm": 0.0016559659894515469,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.20861269261838097,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0002665149449426967,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_018",
+        "nomerge_L0_017"
+      ],
+      "proxy_separation_mm": 0.0419341592344919,
+      "proxy_min_sampled_mm": 0.0018596755430052494,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.20862097689981063,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.00047022612297221034,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_020",
+        "nomerge_L0_185"
+      ],
+      "proxy_separation_mm": 0.042719717707872924,
+      "proxy_min_sampled_mm": -0.02469929932583928,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2759336962261552,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.068653342531084,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_070",
+        "nomerge_L0_095"
+      ],
+      "proxy_separation_mm": 0.04762991091411183,
+      "proxy_min_sampled_mm": -9.035227573249475e-08,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1712852909795402e-10,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 5.896949595296519e-10,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_021",
+        "nomerge_L0_038"
+      ],
+      "proxy_separation_mm": 0.0492105151223813,
+      "proxy_min_sampled_mm": -0.040355872547044425,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.20192583706086906,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0009120031846136164,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_060"
+      ],
+      "proxy_separation_mm": 0.0492948227482244,
+      "proxy_min_sampled_mm": 0.013824019963505747,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2015149156381152,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0007214205915706847,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_060"
+      ],
+      "proxy_separation_mm": 0.04944536084464088,
+      "proxy_min_sampled_mm": 0.014202946843957343,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.20136405423758783,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0007213962855778404,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_015"
+      ],
+      "proxy_separation_mm": 0.049470566561526604,
+      "proxy_min_sampled_mm": 0.013980894557804187,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2014965517327721,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.0008784387755872739,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_002",
+        "nomerge_L0_285"
+      ],
+      "proxy_separation_mm": 0.05276968335743077,
+      "proxy_min_sampled_mm": -0.010118226600088756,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2675137905380562,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.07025343176716957,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_197",
+        "nomerge_L0_046"
+      ],
+      "proxy_separation_mm": 0.06001007655631726,
+      "proxy_min_sampled_mm": -1.3584929987243236e-07,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 3.4458935704861915e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 21,
+        "gap_mm": 0.017651769336705852,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_181",
+        "nomerge_L0_042"
+      ],
+      "proxy_separation_mm": 0.06553258110754635,
+      "proxy_min_sampled_mm": -0.009246910849608568,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.004512527266326005,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 23,
+        "gap_mm": 0.004512527229938446,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.234378784755,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_102"
+      ],
+      "proxy_separation_mm": 0.06910215622885854,
+      "proxy_min_sampled_mm": 0.005956820707746311,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.1810611293946292,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 5.688333836189437e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_037",
+        "nomerge_L0_219"
+      ],
+      "proxy_separation_mm": 0.06919470905925129,
+      "proxy_min_sampled_mm": -9.560210745263181e-09,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175879666147637e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 15,
+        "gap_mm": 0.003070725732903146,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_033"
+      ],
+      "proxy_separation_mm": 0.06939682820541684,
+      "proxy_min_sampled_mm": 0.00623137425873075,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.18104209608555613,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.000217746503824926,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_038",
+        "nomerge_L0_238"
+      ],
+      "proxy_separation_mm": 0.07339830106441113,
+      "proxy_min_sampled_mm": -0.012947174173726695,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.20249083702891332,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.025567442118292042,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_015",
+        "nomerge_L0_013"
+      ],
+      "proxy_separation_mm": 0.07349325650769234,
+      "proxy_min_sampled_mm": 0.005788928749846717,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23479905736716272,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.05825802208322333,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_016",
+        "nomerge_L0_171"
+      ],
+      "proxy_separation_mm": 0.07385912122605953,
+      "proxy_min_sampled_mm": -0.016038711933293225,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.2035737946448554,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.027191329944014655,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_014"
+      ],
+      "proxy_separation_mm": 0.08238077656118713,
+      "proxy_min_sampled_mm": 0.019746537990678853,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23616149817042636,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.06853919144658219,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_168",
+        "nomerge_L0_022"
+      ],
+      "proxy_separation_mm": 0.08262552575741135,
+      "proxy_min_sampled_mm": 0.018183163876701318,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23607446970465368,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.06869653763136492,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 0,
+      "geoms": [
+        "nomerge_chassis0_099",
+        "nomerge_L0_022"
+      ],
+      "proxy_separation_mm": 0.0830386203407086,
+      "proxy_min_sampled_mm": 0.01864750432918715,
+      "chassis_cad_face": {
+        "face_index": 2,
+        "gap_mm": 0.23566151638839325,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 4,
+        "gap_mm": 0.06869651418286482,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_107",
+        "nomerge_L1_147"
+      ],
+      "proxy_separation_mm": 0.0001678263608252929,
+      "proxy_min_sampled_mm": 0.00016782395860122796,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 9.154675939537782e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 32,
+        "gap_mm": 0.02587356412023234,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 425.00000000000034,
+        "normal": [
+          -1.22464679914735e-16,
+          1.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_107",
+        "nomerge_L1_190"
+      ],
+      "proxy_separation_mm": 0.00016783584693859442,
+      "proxy_min_sampled_mm": 0.00016783422356622774,
+      "chassis_cad_face": {
+        "face_index": 26,
+        "gap_mm": 0.004115683865365798,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628790171798627e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_199"
+      ],
+      "proxy_separation_mm": 0.0001678405958181401,
+      "proxy_min_sampled_mm": 0.00016783942329175422,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00010681059220418732,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 6.103000355084376e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_201"
+      ],
+      "proxy_separation_mm": 0.00018309498736967454,
+      "proxy_min_sampled_mm": 0.00018309345828787605,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00010681059225969847,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628439513407415e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_080",
+        "nomerge_L1_200"
+      ],
+      "proxy_separation_mm": 0.0001831045940421775,
+      "proxy_min_sampled_mm": 0.00018310388346547273,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00010681059223194289,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.629400178288392e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_065"
+      ],
+      "proxy_separation_mm": 0.0005644914409414349,
+      "proxy_min_sampled_mm": 0.0005644912561457762,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00048821063672321863,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628080425647887e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_069"
+      ],
+      "proxy_separation_mm": 0.0005645046335772088,
+      "proxy_min_sampled_mm": 0.0005645004164913703,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00048820453227294003,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.630010126491449e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_064"
+      ],
+      "proxy_separation_mm": 0.0005645081933112726,
+      "proxy_min_sampled_mm": 0.0005644975102716924,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00048820890302669895,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.629929021923942e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_025"
+      ],
+      "proxy_separation_mm": 0.0005645184316700217,
+      "proxy_min_sampled_mm": 0.0005644835635181972,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882363351110808,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628209661159069e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_065"
+      ],
+      "proxy_separation_mm": 0.0005645244723071084,
+      "proxy_min_sampled_mm": 0.0005645170432513564,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882433743969017,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628109785495774e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_063"
+      ],
+      "proxy_separation_mm": 0.0005645280506134856,
+      "proxy_min_sampled_mm": 0.0005645238294428837,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00048824215423404205,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628589640540362e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_240",
+        "nomerge_L1_063"
+      ],
+      "proxy_separation_mm": 0.0005645327121596268,
+      "proxy_min_sampled_mm": 0.0005645179074530519,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882457450283706,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628696715999972e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_064"
+      ],
+      "proxy_separation_mm": 0.0005645337444985379,
+      "proxy_min_sampled_mm": 0.0005645266654858229,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00048824536810765373,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628837639384045e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_064"
+      ],
+      "proxy_separation_mm": 0.0005645409834577597,
+      "proxy_min_sampled_mm": 0.0005645388894394591,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882554520690974,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628553133631755e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_063"
+      ],
+      "proxy_separation_mm": 0.0005645422493253099,
+      "proxy_min_sampled_mm": 0.0005645402818643368,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882559889451965,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628626036426667e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_148",
+        "nomerge_L1_066"
+      ],
+      "proxy_separation_mm": 0.0005645442957447121,
+      "proxy_min_sampled_mm": 0.0005645111352638953,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882542880835228,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 32,
+        "gap_mm": 0.19523477256606914,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 425.00000000000034,
+        "normal": [
+          -1.22464679914735e-16,
+          1.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_150",
+        "nomerge_L1_069"
+      ],
+      "proxy_separation_mm": 0.000564551688946118,
+      "proxy_min_sampled_mm": 0.0005645501474418812,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882512012194251,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.630048770579378e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_149",
+        "nomerge_L1_063"
+      ],
+      "proxy_separation_mm": 0.0005645533919637166,
+      "proxy_min_sampled_mm": 0.0005645523000501248,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00048824560175408926,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.630779022549383e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_151",
+        "nomerge_L1_069"
+      ],
+      "proxy_separation_mm": 0.0005645607459781639,
+      "proxy_min_sampled_mm": 0.0005645542946808509,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004882601762346006,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.630056972351973e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_063"
+      ],
+      "proxy_separation_mm": 0.0005645947978861028,
+      "proxy_min_sampled_mm": 0.0005645895441897497,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004883089015084163,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.62858964331592e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_064"
+      ],
+      "proxy_separation_mm": 0.0005646012431355713,
+      "proxy_min_sampled_mm": 0.0005645928195300961,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0004883128666144376,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628837650486275e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_152",
+        "nomerge_L1_069"
+      ],
+      "proxy_separation_mm": 0.0005646317050375076,
+      "proxy_min_sampled_mm": 0.0005646239132286274,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.00048833113519553,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.630056980678646e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_162",
+        "nomerge_L1_144"
+      ],
+      "proxy_separation_mm": 0.0005838883583347278,
+      "proxy_min_sampled_mm": 0.0005838356463967662,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.07007941575549916,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 0.00019439380030683573,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_144"
+      ],
+      "proxy_separation_mm": 0.0006430871666679896,
+      "proxy_min_sampled_mm": 0.0006421197722056178,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.000778000801754386,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 0.00013491363523576716,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_249",
+        "nomerge_L1_145"
+      ],
+      "proxy_separation_mm": 0.0008542911470983293,
+      "proxy_min_sampled_mm": 0.0008542891956943505,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 0.0007780008017821416,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.62903452911079e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_092"
+      ],
+      "proxy_separation_mm": 0.008826502631520754,
+      "proxy_min_sampled_mm": -0.05760519114340762,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.25316910167055817,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.011971247573598071,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_083"
+      ],
+      "proxy_separation_mm": 0.009692650698323929,
+      "proxy_min_sampled_mm": -0.05722867275176128,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.3076197900610205,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.06731243267007198,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_012"
+      ],
+      "proxy_separation_mm": 0.01017549840363686,
+      "proxy_min_sampled_mm": -0.05706660309563112,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.24969581336465696,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.00984144583987912,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_031"
+      ],
+      "proxy_separation_mm": 0.012873460912112623,
+      "proxy_min_sampled_mm": -0.057334954706454784,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.2400319201413407,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0028613096781658215,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_000",
+        "nomerge_L1_007"
+      ],
+      "proxy_separation_mm": 0.013132673948010097,
+      "proxy_min_sampled_mm": 7.639264178429427e-05,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 1.1175882441705198e-07,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.628088313782477e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_072"
+      ],
+      "proxy_separation_mm": 0.01382775546542382,
+      "proxy_min_sampled_mm": -0.00019825622103556407,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.28867291977355664,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.05250036220328775,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_029"
+      ],
+      "proxy_separation_mm": 0.023389822218260144,
+      "proxy_min_sampled_mm": -0.03908846716592988,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.22663423487234224,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 4.984831306181125e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_081"
+      ],
+      "proxy_separation_mm": 0.023392517429293047,
+      "proxy_min_sampled_mm": -0.03904704241157931,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.2266729943913791,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 8.356346274544675e-06,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_028"
+      ],
+      "proxy_separation_mm": 0.026808645310046585,
+      "proxy_min_sampled_mm": -0.035946542474871515,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.2233319340339287,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 5.5509082171985504e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_252"
+      ],
+      "proxy_separation_mm": 0.02692146674879442,
+      "proxy_min_sampled_mm": -0.03584675064360221,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.22342184560228903,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0002580057604572874,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_031"
+      ],
+      "proxy_separation_mm": 0.032385537488064,
+      "proxy_min_sampled_mm": -0.03901934241854993,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.2887665787597932,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.07115166818281723,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_003",
+        "nomerge_L1_082"
+      ],
+      "proxy_separation_mm": 0.03252329814333503,
+      "proxy_min_sampled_mm": -0.03895998393598261,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.28861542878459057,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0711380271513333,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_371",
+        "nomerge_L1_201"
+      ],
+      "proxy_separation_mm": 0.03521014179368456,
+      "proxy_min_sampled_mm": 7.631837307935357e-05,
+      "chassis_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.002127619251858316,
+        "planar": false,
+        "cylindrical": false,
+        "area_mm2": 72.19684774507346,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.630256004809155e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_290"
+      ],
+      "proxy_separation_mm": 0.03863655494844421,
+      "proxy_min_sampled_mm": -0.03586149734638679,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.2735196174140919,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.06213167404561928,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_205"
+      ],
+      "proxy_separation_mm": 0.041941559681220014,
+      "proxy_min_sampled_mm": -0.003521306658073396,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.20817844678136763,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 2.3663843064255204e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_010",
+        "nomerge_L1_030"
+      ],
+      "proxy_separation_mm": 0.04237381189222538,
+      "proxy_min_sampled_mm": -0.0030410980609648975,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.20822714219477068,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0005037206659471332,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_272"
+      ],
+      "proxy_separation_mm": 0.045487818298422,
+      "proxy_min_sampled_mm": 0.013991242191306003,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.20533779433431198,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0007532328473729114,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_272"
+      ],
+      "proxy_separation_mm": 0.04563593881749204,
+      "proxy_min_sampled_mm": 0.01409435507328722,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.20519001243922685,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0007532329627053798,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_032"
+      ],
+      "proxy_separation_mm": 0.04647612608709218,
+      "proxy_min_sampled_mm": 0.014861277046890026,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.20511849815620153,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0015203959137364083,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_369",
+        "nomerge_L1_201"
+      ],
+      "proxy_separation_mm": 0.04893621942365607,
+      "proxy_min_sampled_mm": 7.635598535769249e-05,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 6.705536126361267e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.629111664630983e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_067",
+        "nomerge_L1_013"
+      ],
+      "proxy_separation_mm": 0.052593267125640907,
+      "proxy_min_sampled_mm": 0.020138264539210183,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.21895847489438888,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.02150427891533416,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_042",
+        "nomerge_L1_013"
+      ],
+      "proxy_separation_mm": 0.05273029816594013,
+      "proxy_min_sampled_mm": 0.0202208707239337,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.21882165712880922,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.02150427890128532,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_206"
+      ],
+      "proxy_separation_mm": 0.05404569272720094,
+      "proxy_min_sampled_mm": -0.014208416706232107,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.19620811028432092,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 6.753267486725284e-05,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_030"
+      ],
+      "proxy_separation_mm": 0.05456352797504357,
+      "proxy_min_sampled_mm": -0.013656672482288594,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.19624380683462675,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0006193730960636978,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_253"
+      ],
+      "proxy_separation_mm": 0.05471945781710549,
+      "proxy_min_sampled_mm": -0.013983614373811057,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.2043896704005788,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.008943129271134423,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_009",
+        "nomerge_L1_203"
+      ],
+      "proxy_separation_mm": 0.05785698831836233,
+      "proxy_min_sampled_mm": -0.01401447363833258,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.26322784832659996,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.0710817532336827,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_117",
+        "nomerge_L1_201"
+      ],
+      "proxy_separation_mm": 0.07258698700910682,
+      "proxy_min_sampled_mm": 7.623043212265101e-05,
+      "chassis_cad_face": {
+        "face_index": 7,
+        "gap_mm": 3.834213502251771e-08,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 13530.707872834892,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 14,
+        "gap_mm": 7.630086204524211e-05,
+        "planar": true,
+        "cylindrical": false,
+        "area_mm2": 3531.2343787847467,
+        "normal": [
+          -0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "leg": 1,
+      "geoms": [
+        "nomerge_chassis0_027",
+        "nomerge_L1_253"
+      ],
+      "proxy_separation_mm": 0.0752608149483226,
+      "proxy_min_sampled_mm": -0.012509295465239993,
+      "chassis_cad_face": {
+        "face_index": 0,
+        "gap_mm": 0.19803004034666202,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 1256.6370614359137,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tower_cad_face": {
+        "face_index": 6,
+        "gap_mm": 0.022955225639279528,
+        "planar": false,
+        "cylindrical": true,
+        "area_mm2": 16163.101503637783,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "limitations": "Only the initial keyframe and selected non-overlapping proxy pairs. Witness to nearest CAD face is not the CAD body-to-body clearance or proof of collision. CAD-frame correspondence relies on previous approximate mapping; angles and CAD configuration may differ. Pairs not selected are not assessed."
+}

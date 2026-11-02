@@ -67,6 +67,20 @@
 
 `audit_cad_contact_body_map.py` 和 `audit_cad_collision_sources.py` 仅限 Windows、已打开相应装配的 SolidWorks 2025 与安装了 `pywin32` 的 Python，且目前写死了 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；它们读取已打开装配、在临时实体副本上计算，不保存或关闭装配。`verify_cad_gear_phase.py --attach --25-tooth --hypothetical-range` 可在同一条件下复查假设齿轮行程。`refine_collision_highres.py` 额外需要 CoACD；仓库已保存本次生成的代理，不必为查看结果重新生成。
 
+### 剩余近距离代理的 CAD 面分类
+
+在机身部件仍被排除的 790 对代理中，选出初始姿态代理间距在 0.0001–0.1 mm、既有行程采样最小间距不超过 0.05 mm 的 141 对，与当前打开的 SolidWorks 2025 装配做最近面比对；其余 649 对不在本次样本内。64 对的两侧代理最近点距离各自最近 CAD 平面均小于 0.01 mm，且两面法向相反；在假设髋角 -5°、0°、+5° 的局部速度雅可比中，模型里这些对沿平面法向的相对运动分量为零（记录精度内）。这说明该方向已经由理想铰链约束，是继续排除重复代理接触的模型依据，不说明实物预紧、接触力、摩擦、全部角度或全部排除对正确。另有 58 对的机身代理最近点到最近 CAD 面超过 0.1 mm，提示局部代理近似与 CAD 可能存在偏差；这不是两实体的实际间隙或干涉量。
+
+在 Windows 启动 SolidWorks 2025 并打开 `C:\Practice_project\fangzhen\SimpleBiped2a_new.SLDASM`；在装有 MuJoCo、NumPy 和 `pywin32` 的 Python 环境进入 `simulation/`，依次运行：
+
+```powershell
+python -m pip install pywin32
+python audit_remaining_collision_cad_witness.py
+python audit_coplanar_witness_hinge_jacobian.py
+```
+
+两脚本只读已打开装配和临时实体副本，不保存或关闭装配，覆盖对应 JSON。`remaining_collision_cad_witness_audit.json` 记录所选代理及最近 CAD 面；`coplanar_witness_hinge_jacobian_audit.json` 记录 64 对在三个角度的法向雅可比。CAD 与仿真坐标对应仍是近似；距离是代理见证点到单个 CAD 面，并非实体间准确间距。碰撞仍不完整，候选不能用于正式训练或实机。
+
 ### 机身与腿架近距离碰撞对恢复试验
 
 `diagnostic_restored_near_pairs_trial.xml` 在脚部拆分候选上恢复 30 对机身—腿架凸代理碰撞。它们原先因采样最小间距不超过 0.1 mm 被排除；对假设髋部 ±5° 做 2001 个离散采样，并按各刚体代理到转轴的最大半径计算相邻采样点之间可能的最大移动量后，这 30 对的估算最小间隙下界均高于 0.049 mm。这是理想刚体代理和数学采样下界，并非 CAD 实际间隙或生产公差保证；在此假设行程内这些对本来就不应接触，恢复它们不等于解决了真实接触或显著增加了有效碰撞覆盖。
