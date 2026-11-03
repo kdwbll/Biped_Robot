@@ -141,6 +141,8 @@ class SectorWarpStandingVecEnv(VecEnv):
        w=int(world[idx]);normal=float(f[idx,0])
        if normal>peak[w]:
         peak[w]=normal;peak_pair[w]=[mujoco.mj_id2name(self.m,mujoco.mjtObj.mjOBJ_GEOM,int(g)) for g in geom[idx]]
+      observer=getattr(self,'diagnostic_sample_observer',None)
+      if observer is not None:observer(self,geom,world,f,guard_done.copy())
    check_flags(80)
    end=self.gd.time.numpy();active=~guard_done
    if np.any(end[active]<previous_time[active]+.5*self.m.opt.timestep):self.aborted=True;raise RuntimeError('GPU time reset; discard rollout')

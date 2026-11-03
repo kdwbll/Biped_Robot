@@ -403,3 +403,14 @@ python .\simulation\audit_repeated_lifts.py
 python .\simulation\audit_lift_neutral_recovery.py
 python .\simulation\audit_lift_phase_states.py
 ```
+
+
+## 脚底净空与接触同步诊断（2026-11-03）
+
+`simulation/audit_synchronized_lift_contact.py` 为 MuJoCo Warp 环境安装仅供诊断的采样回调，在同一个物理接触采样步骤读取脚底网格位置和另一只脚的单点法向接触力；采样周期 2.5 ms。`sector_warp_standing_vec_env.py` 的回调默认为未设置，不改变默认奖励或保护逻辑。
+
+在两条腿的已有开环候选动作上各使用 8 个相同的随机初始姿态：针对另一侧和原侧分别有 6/8 和 7/8 同时满足至少一个采样点的脚底净空 >1 mm、另一脚单点法向力 >0.5 N、当时倾角 <10°，并在 1.8 秒检查期间无保护终止且结束倾角 <10°。完整数据在 `simulation/训练记录/synchronized_lift_contact_20261103.json`。单个同步采样点不证明持续支撑、抬脚落地或走路；脚底接触代理、0.5 N 与 20 N 阈值、模型和舵机参数仍是假设，不能用于实物控制。
+
+```powershell
+python .\simulation\audit_synchronized_lift_contact.py
+```
