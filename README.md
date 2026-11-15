@@ -222,7 +222,7 @@ py -3.14 -m venv .venv
 
 ## ESP32 和硬件
 
-用 VS Code 打开 `firmware/`，它包含 `platformio.ini`，配置 `esp32dev`、Arduino 和项目依赖。硬件实际型号、舵机零位、负载响应、电源和连接均需先核实。主程序此前通过编译，但尚未在实物上完整验证；单项测试顺序见 [`到货后调试说明.md`](firmware/到货后调试说明.md)。不要把仿真假设直接用于实物动作。
+用 VS Code 打开 `firmware/`，它包含 `platformio.ini`，配置 `esp32dev`、Arduino 和项目依赖。Windows 安装、编译、串口及烧录步骤见 [VS Code 烧录操作说明](firmware/VSCode烧录操作说明.md)。硬件实际型号、舵机零位、负载响应、电源和连接均需先核实。主程序此前通过编译，但尚未在实物上完整验证；单项测试顺序见 [`到货后调试说明.md`](firmware/到货后调试说明.md)。不要把仿真假设直接用于实物动作。
 
 ## 历史检查点：不上传压缩包
 
