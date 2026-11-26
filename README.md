@@ -414,3 +414,23 @@ python .\simulation\audit_lift_phase_states.py
 ```powershell
 python .\simulation\audit_synchronized_lift_contact.py
 ```
+
+
+## 完整闭链 3D 步态强化学习进展（2026-11-26，Round 8 里程碑）
+
+在完整闭链模型 [`diagnostic_post_shaft_fix_gear_phase_25.xml`](simulation/diagnostic_post_shaft_fix_gear_phase_25.xml) 上基于 MuJoCo Warp（256 并行世界）完成了 8 轮步态强化学习迭代与严格真碰撞网格（`L0_visual6 / L1_visual6` 最低顶点）验收，完整交接报告、观测/动作协议、实验复盘及自包含代码位于 [`simulation/gait_rl_v8/`](simulation/gait_rl_v8/README.md)，已按仓库规范解包的检查点保存在 [`simulation/模型检查点/biped_walk_round8_20261126/`](simulation/模型检查点/biped_walk_round8_20261126/)（以及热启动源 [`biped_walk_round4_20261125/`](simulation/模型检查点/biped_walk_round4_20261125/)，无 `.zip` 压缩包）。
+
+- **本机无头验收结果（Round 8，19 维含 `yaw` 观测 → 5 维舵机动作，50 Hz）**：
+  - 8 秒训练窗内实现双脚交替真离地（`>= 2.0 mm` 且对侧承重 `> 5 N` 连续保持 `>= 60 ms`）：有效抬脚 `[4, 3]` 次（左右交替 6 步，同脚连抬仅 1 次），真碰撞网格净空峰值 `[22.22, 13.04] mm`。
+  - 30 秒连续无头耐久测试：存活 `30.00 s`（0 摔倒），净前进 `+1782.6 mm`（均速 `59.4 mm/s`），最终偏航 `+7.93°`，机身倾角均值 `11.53°` / 95% 分位 `19.92°` / 最大 `23.99°`，最大前后劈叉 `63.7 mm`，拖地滑动占比 `31.0%`（腾空前移 `[1395.7, 1034.7] mm`）。
+- **局限与安全边界**：
+  - 30 秒测试中前 9 秒左右交替均匀（`[5, 3]`），9 秒后随着偏航累至 `+3.5°~+7.9°`，右脚净空略低于 `2.0 mm` 验收线（30 秒总计 `[19, 3]`）；后续需拉长单局时长并补充初始姿态/摩擦/延迟域随机化。
+  - **本策略仍基于假设舵机增益、理想齿轮耦合和固定摩擦参数训练，未经实物硬件标定与完整碰撞核验，严禁直接下发到实体机器人运行。**
+
+复现回放与严格无头验收（不启动训练，不向仓库写入临时压缩包）：
+
+```powershell
+python .\simulation\gait_rl_v8\replay_gait_v8.py --headless
+python .\simulation\gait_rl_v8\replay_gait_v8.py
+```
+

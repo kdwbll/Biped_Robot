@@ -1,0 +1,1582 @@
+{
+  "date": "2026-11-26",
+  "model_xml": "diagnostic_post_shaft_fix_gear_phase_25.xml",
+  "ground_colliding_foot_meshes": [
+    "L0_visual6",
+    "L1_visual6"
+  ],
+  "acceptance_rule": "摆动脚真碰撞网格最低点 >= 2.0 mm, 摆动脚受力 < 0.5 N, 支撑脚受力 > 5.0 N, 倾角 < 25 deg, 连续 >= 60 ms (3帧)",
+  "openloop_lift_tests": [
+    {
+      "name": "1_直接缩左腿_不换重(120us)",
+      "amp_us": [
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        20.0
+      ],
+      "slew_us": 120.0,
+      "duration_s": 2.2,
+      "fell": true,
+      "max_tilt_deg": 88.54,
+      "end_tilt_deg": 88.32,
+      "end_force_n": [
+        0.0,
+        0.0
+      ],
+      "peak_supported_clearance_mm": [
+        0.0,
+        0.02
+      ],
+      "max_consec_valid_frames": [
+        0,
+        0
+      ],
+      "max_consec_valid_ms": [
+        0,
+        0
+      ],
+      "passed_60ms_2mm": [
+        false,
+        false
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.01
+          ],
+          "force_n": [
+            10.6,
+            14.5
+          ],
+          "tilt_deg": 8.08
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            1.03
+          ],
+          "force_n": [
+            33.1,
+            0.0
+          ],
+          "tilt_deg": 27.72
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            -0.0,
+            41.94
+          ],
+          "force_n": [
+            28.6,
+            0.0
+          ],
+          "tilt_deg": 41.22
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            -0.0,
+            100.3
+          ],
+          "force_n": [
+            8.7,
+            0.0
+          ],
+          "tilt_deg": 63.21
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            2.41,
+            124.41
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.24
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            1.72,
+            124.59
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.2
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            1.72,
+            124.56
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.2
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            1.72,
+            124.54
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.2
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            1.72,
+            124.52
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.2
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            2.46,
+            124.86
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.34
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            1.75,
+            125.17
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.32
+        }
+      ]
+    },
+    {
+      "name": "2_手写换重抬左脚(135us限幅)",
+      "amp_us": [
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        20.0
+      ],
+      "slew_us": 5.5,
+      "duration_s": 2.2,
+      "fell": true,
+      "max_tilt_deg": 88.36,
+      "end_tilt_deg": 88.31,
+      "end_force_n": [
+        0.0,
+        0.0
+      ],
+      "peak_supported_clearance_mm": [
+        0.0,
+        0.46
+      ],
+      "max_consec_valid_frames": [
+        0,
+        0
+      ],
+      "max_consec_valid_ms": [
+        0,
+        0
+      ],
+      "passed_60ms_2mm": [
+        false,
+        false
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            12.0,
+            17.4
+          ],
+          "tilt_deg": 4.79
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            9.7,
+            26.1
+          ],
+          "tilt_deg": 12.73
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            0.0,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            25.7
+          ],
+          "tilt_deg": 13.59
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            0.0,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            29.9
+          ],
+          "tilt_deg": 3.65
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            -0.0,
+            0.02
+          ],
+          "force_n": [
+            27.0,
+            0.0
+          ],
+          "tilt_deg": 18.19
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            -0.0,
+            27.76
+          ],
+          "force_n": [
+            32.9,
+            0.0
+          ],
+          "tilt_deg": 38.4
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            -0.0,
+            98.72
+          ],
+          "force_n": [
+            12.1,
+            0.0
+          ],
+          "tilt_deg": 57.66
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            2.37,
+            125.09
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.34
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            1.75,
+            125.19
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.31
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            1.75,
+            125.17
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.31
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            1.75,
+            125.15
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.31
+        }
+      ]
+    },
+    {
+      "name": "3_手写换重抬左脚(200us)",
+      "amp_us": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        20.0
+      ],
+      "slew_us": 5.5,
+      "duration_s": 2.2,
+      "fell": true,
+      "max_tilt_deg": 89.19,
+      "end_tilt_deg": 88.3,
+      "end_force_n": [
+        0.0,
+        0.0
+      ],
+      "peak_supported_clearance_mm": [
+        18.95,
+        3.9
+      ],
+      "max_consec_valid_frames": [
+        20,
+        1
+      ],
+      "max_consec_valid_ms": [
+        400,
+        20
+      ],
+      "passed_60ms_2mm": [
+        true,
+        false
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            13.9,
+            11.5
+          ],
+          "tilt_deg": 5.35
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            0.0,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            28.4
+          ],
+          "tilt_deg": 17.52
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            3.3,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            30.9
+          ],
+          "tilt_deg": 21.73
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            18.12,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            26.1
+          ],
+          "tilt_deg": 13.93
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            11.8,
+            14.6
+          ],
+          "tilt_deg": 5.18
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            -0.0,
+            22.82
+          ],
+          "force_n": [
+            34.2,
+            0.0
+          ],
+          "tilt_deg": 39.55
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            0.0,
+            112.65
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 77.06
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            2.15,
+            124.78
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.29
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            1.75,
+            124.94
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.28
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            1.75,
+            124.97
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.29
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            1.75,
+            125.03
+          ],
+          "force_n": [
+            0.0,
+            0.0
+          ],
+          "tilt_deg": 88.3
+        }
+      ]
+    },
+    {
+      "name": "4_已知右脚三段序列(200us,slew=3)",
+      "amp_us": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        20.0
+      ],
+      "slew_us": 3.0,
+      "duration_s": 2.2,
+      "fell": false,
+      "max_tilt_deg": 22.02,
+      "end_tilt_deg": 0.6,
+      "end_force_n": [
+        17.6,
+        0.0
+      ],
+      "peak_supported_clearance_mm": [
+        0.15,
+        15.52
+      ],
+      "max_consec_valid_frames": [
+        0,
+        18
+      ],
+      "max_consec_valid_ms": [
+        0,
+        360
+      ],
+      "passed_60ms_2mm": [
+        false,
+        true
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            12.1,
+            16.2
+          ],
+          "tilt_deg": 0.51
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            12.6,
+            18.0
+          ],
+          "tilt_deg": 6.16
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            23.3,
+            0.0
+          ],
+          "tilt_deg": 15.69
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            -0.0,
+            2.54
+          ],
+          "force_n": [
+            32.6,
+            0.0
+          ],
+          "tilt_deg": 22.02
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            -0.0,
+            15.52
+          ],
+          "force_n": [
+            25.9,
+            0.0
+          ],
+          "tilt_deg": 16.67
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            19.0,
+            0.0
+          ],
+          "tilt_deg": 2.64
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            0.04,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            31.2
+          ],
+          "tilt_deg": 10.42
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            9.2,
+            15.0
+          ],
+          "tilt_deg": 5.06
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            7.4,
+            9.5
+          ],
+          "tilt_deg": 1.4
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            6.4,
+            24.2
+          ],
+          "tilt_deg": 5.43
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            17.6,
+            0.0
+          ],
+          "tilt_deg": 0.6
+        }
+      ]
+    },
+    {
+      "name": "5_已知左脚三段序列(200us,slew=3)",
+      "amp_us": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        20.0
+      ],
+      "slew_us": 3.0,
+      "duration_s": 2.2,
+      "fell": false,
+      "max_tilt_deg": 26.68,
+      "end_tilt_deg": 1.96,
+      "end_force_n": [
+        0.8,
+        21.6
+      ],
+      "peak_supported_clearance_mm": [
+        34.43,
+        0.58
+      ],
+      "max_consec_valid_frames": [
+        33,
+        0
+      ],
+      "max_consec_valid_ms": [
+        660,
+        0
+      ],
+      "passed_60ms_2mm": [
+        true,
+        false
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            24.2,
+            14.2
+          ],
+          "tilt_deg": 2.58
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            11.3,
+            13.3
+          ],
+          "tilt_deg": 10.35
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            21.2,
+            30.2
+          ],
+          "tilt_deg": 21.75
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            10.23,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            31.6
+          ],
+          "tilt_deg": 26.54
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            31.64,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            26.6
+          ],
+          "tilt_deg": 24.22
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            33.59,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            30.0
+          ],
+          "tilt_deg": 22.23
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            27.34,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            28.2
+          ],
+          "tilt_deg": 17.44
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            0.0,
+            -0.01
+          ],
+          "force_n": [
+            0.0,
+            15.8
+          ],
+          "tilt_deg": 4.4
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            30.5,
+            0.0
+          ],
+          "tilt_deg": 11.63
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            15.8,
+            0.0
+          ],
+          "tilt_deg": 10.47
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            0.8,
+            21.6
+          ],
+          "tilt_deg": 1.96
+        }
+      ]
+    },
+    {
+      "name": "6_已知右脚三段序列_降到135us限幅",
+      "amp_us": [
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        20.0
+      ],
+      "slew_us": 3.0,
+      "duration_s": 2.2,
+      "fell": false,
+      "max_tilt_deg": 20.11,
+      "end_tilt_deg": 1.76,
+      "end_force_n": [
+        17.7,
+        19.1
+      ],
+      "peak_supported_clearance_mm": [
+        0.0,
+        6.87
+      ],
+      "max_consec_valid_frames": [
+        0,
+        11
+      ],
+      "max_consec_valid_ms": [
+        0,
+        220
+      ],
+      "passed_60ms_2mm": [
+        false,
+        true
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            12.1,
+            18.8
+          ],
+          "tilt_deg": 0.59
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            17.2,
+            10.7
+          ],
+          "tilt_deg": 6.35
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            11.9,
+            0.0
+          ],
+          "tilt_deg": 15.7
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            -0.0,
+            1.63
+          ],
+          "force_n": [
+            31.9,
+            0.0
+          ],
+          "tilt_deg": 19.83
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            -0.0,
+            4.94
+          ],
+          "force_n": [
+            25.2,
+            0.0
+          ],
+          "tilt_deg": 10.63
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            0.0,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            11.4
+          ],
+          "tilt_deg": 6.07
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            0.0,
+            -0.01
+          ],
+          "force_n": [
+            0.0,
+            29.3
+          ],
+          "tilt_deg": 9.66
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            20.6,
+            8.3
+          ],
+          "tilt_deg": 1.51
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            21.4,
+            11.7
+          ],
+          "tilt_deg": 2.56
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            5.6,
+            27.8
+          ],
+          "tilt_deg": 7.3
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            17.7,
+            19.1
+          ],
+          "tilt_deg": 1.76
+        }
+      ]
+    },
+    {
+      "name": "7_已知左脚三段序列_降到135us限幅",
+      "amp_us": [
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        20.0
+      ],
+      "slew_us": 3.0,
+      "duration_s": 2.2,
+      "fell": false,
+      "max_tilt_deg": 23.64,
+      "end_tilt_deg": 4.74,
+      "end_force_n": [
+        21.6,
+        8.0
+      ],
+      "peak_supported_clearance_mm": [
+        15.65,
+        0.0
+      ],
+      "max_consec_valid_frames": [
+        17,
+        0
+      ],
+      "max_consec_valid_ms": [
+        340,
+        0
+      ],
+      "passed_60ms_2mm": [
+        true,
+        false
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            17.8,
+            12.6
+          ],
+          "tilt_deg": 2.67
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            9.2,
+            29.3
+          ],
+          "tilt_deg": 10.6
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            0.0,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            28.8
+          ],
+          "tilt_deg": 20.98
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            6.99,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            30.7
+          ],
+          "tilt_deg": 22.43
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            12.67,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            26.4
+          ],
+          "tilt_deg": 14.42
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            21.6,
+            6.5
+          ],
+          "tilt_deg": 1.64
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            28.4,
+            6.4
+          ],
+          "tilt_deg": 8.82
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            10.1,
+            18.1
+          ],
+          "tilt_deg": 0.28
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            5.3,
+            22.9
+          ],
+          "tilt_deg": 3.44
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            20.3,
+            7.6
+          ],
+          "tilt_deg": 4.04
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            21.6,
+            8.0
+          ],
+          "tilt_deg": 4.74
+        }
+      ]
+    },
+    {
+      "name": "8_已知右脚三段序列_降到100us测下限",
+      "amp_us": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        20.0
+      ],
+      "slew_us": 3.0,
+      "duration_s": 2.2,
+      "fell": false,
+      "max_tilt_deg": 15.88,
+      "end_tilt_deg": 2.85,
+      "end_force_n": [
+        15.8,
+        15.6
+      ],
+      "peak_supported_clearance_mm": [
+        0.0,
+        0.0
+      ],
+      "max_consec_valid_frames": [
+        0,
+        0
+      ],
+      "max_consec_valid_ms": [
+        0,
+        0
+      ],
+      "passed_60ms_2mm": [
+        false,
+        false
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            12.1,
+            16.2
+          ],
+          "tilt_deg": 0.63
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            19.4,
+            9.5
+          ],
+          "tilt_deg": 6.43
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            26.6,
+            11.6
+          ],
+          "tilt_deg": 14.26
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            -0.01,
+            0.0
+          ],
+          "force_n": [
+            34.5,
+            0.0
+          ],
+          "tilt_deg": 14.15
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            14.5,
+            0.0
+          ],
+          "tilt_deg": 1.98
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            0.0,
+            -0.01
+          ],
+          "force_n": [
+            0.0,
+            34.2
+          ],
+          "tilt_deg": 8.36
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            -0.0,
+            -0.01
+          ],
+          "force_n": [
+            8.8,
+            29.0
+          ],
+          "tilt_deg": 5.41
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            21.2,
+            8.4
+          ],
+          "tilt_deg": 0.45
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            15.3,
+            13.3
+          ],
+          "tilt_deg": 4.66
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            6.3,
+            23.7
+          ],
+          "tilt_deg": 8.25
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            15.8,
+            15.6
+          ],
+          "tilt_deg": 2.85
+        }
+      ]
+    },
+    {
+      "name": "9_已知左脚三段序列_降到100us测下限",
+      "amp_us": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        20.0
+      ],
+      "slew_us": 3.0,
+      "duration_s": 2.2,
+      "fell": false,
+      "max_tilt_deg": 21.03,
+      "end_tilt_deg": 0.73,
+      "end_force_n": [
+        15.1,
+        16.2
+      ],
+      "peak_supported_clearance_mm": [
+        5.41,
+        0.0
+      ],
+      "max_consec_valid_frames": [
+        9,
+        0
+      ],
+      "max_consec_valid_ms": [
+        180,
+        0
+      ],
+      "passed_60ms_2mm": [
+        true,
+        false
+      ],
+      "trace_every_200ms": [
+        {
+          "t": 0.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            19.8,
+            8.9
+          ],
+          "tilt_deg": 2.72
+        },
+        {
+          "t": 0.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            9.3,
+            14.4
+          ],
+          "tilt_deg": 10.56
+        },
+        {
+          "t": 0.6,
+          "clear_mm": [
+            0.0,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            27.9
+          ],
+          "tilt_deg": 19.33
+        },
+        {
+          "t": 0.8,
+          "clear_mm": [
+            2.69,
+            -0.0
+          ],
+          "force_n": [
+            0.0,
+            30.6
+          ],
+          "tilt_deg": 19.39
+        },
+        {
+          "t": 1.0,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            11.7,
+            34.0
+          ],
+          "tilt_deg": 7.47
+        },
+        {
+          "t": 1.2,
+          "clear_mm": [
+            -0.0,
+            0.0
+          ],
+          "force_n": [
+            26.6,
+            0.0
+          ],
+          "tilt_deg": 6.28
+        },
+        {
+          "t": 1.4,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            12.6,
+            8.7
+          ],
+          "tilt_deg": 4.25
+        },
+        {
+          "t": 1.6,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            9.0,
+            23.4
+          ],
+          "tilt_deg": 3.37
+        },
+        {
+          "t": 1.8,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            12.9,
+            15.8
+          ],
+          "tilt_deg": 0.19
+        },
+        {
+          "t": 2.0,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            22.7,
+            7.0
+          ],
+          "tilt_deg": 4.94
+        },
+        {
+          "t": 2.2,
+          "clear_mm": [
+            -0.0,
+            -0.0
+          ],
+          "force_n": [
+            15.1,
+            16.2
+          ],
+          "tilt_deg": 0.73
+        }
+      ]
+    }
+  ],
+  "saved_policy_true_clearance_audits": [
+    {
+      "label": "Round4_大步竞走版(200us,1.6s)",
+      "model": "biped_walk_round4_129cm.zip",
+      "seconds": 12.0,
+      "fell": false,
+      "net_forward_mm": 1292.7,
+      "avg_speed_mms": 107.7,
+      "mean_tilt_deg": 13.44,
+      "max_tilt_deg": 24.71,
+      "end_yaw_deg": 12.1,
+      "peak_supported_mesh_clearance_mm": [
+        4.06,
+        22.54
+      ],
+      "max_consec_valid_ms": [
+        180,
+        400
+      ],
+      "valid_lift_events_60ms_2mm": [
+        1,
+        7
+      ],
+      "slide_ratio_pct": 30.3
+    },
+    {
+      "label": "Round5_低摇摆慢走版(135us,1.4s)",
+      "model": "biped_walk_round5_35mms_lowsway.zip",
+      "seconds": 12.0,
+      "fell": false,
+      "net_forward_mm": 425.5,
+      "avg_speed_mms": 35.5,
+      "mean_tilt_deg": 6.41,
+      "max_tilt_deg": 16.16,
+      "end_yaw_deg": 23.3,
+      "peak_supported_mesh_clearance_mm": [
+        0.0,
+        8.38
+      ],
+      "max_consec_valid_ms": [
+        0,
+        200
+      ],
+      "valid_lift_events_60ms_2mm": [
+        0,
+        1
+      ],
+      "slide_ratio_pct": 65.4
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-11-26 13:01:57",
+  "elapsed_s": 44.77,
+  "warmstart": {
+    "max_deterministic_action_diff": 1.7881393432617188e-07,
+    "exact_match": true,
+    "warmstart_std": [
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ]
+  },
+  "cpu_gpu_parity": {
+    "max_obs_diff": 0.001165,
+    "max_rew_diff": 0.000116,
+    "cpu_total": 0.1478,
+    "gpu_total": 0.147,
+    "rel_diff_pct": 0.505
+  },
+  "short_clean_lift_tests_2p2s": [
+    {
+      "name": "S0. 原地静止站立 (2.2s基准)",
+      "duration_s": 2.2,
+      "terminated": false,
+      "total_reward": 0.406,
+      "min_alive_step_reward": -0.00418,
+      "net_forward_mm": -0.6,
+      "yaw_deg": -0.0,
+      "tilt_max_deg": 1.2,
+      "clean_drag_gate_mean": 0.998,
+      "peak_clear_mm": [
+        0.0,
+        0.0
+      ],
+      "valid_lift_events": [
+        0,
+        0
+      ],
+      "alt_steps_ok": 0,
+      "same_leg_lifts": 0,
+      "slide_ratio_pct": -100.0
+    },
+    {
+      "name": "S1. 实验02左脚干净抬起135us (2.2s)",
+      "duration_s": 2.2,
+      "terminated": false,
+      "total_reward": 0.923,
+      "min_alive_step_reward": -0.02293,
+      "net_forward_mm": -24.4,
+      "yaw_deg": -1.6,
+      "tilt_max_deg": 23.45,
+      "clean_drag_gate_mean": 0.869,
+      "peak_clear_mm": [
+        14.88,
+        0.0
+      ],
+      "valid_lift_events": [
+        1,
+        0
+      ],
+      "alt_steps_ok": 1,
+      "same_leg_lifts": 0,
+      "slide_ratio_pct": -43.6
+    },
+    {
+      "name": "S2. 实验02右脚干净抬起135us (2.2s)",
+      "duration_s": 2.2,
+      "terminated": false,
+      "total_reward": 1.099,
+      "min_alive_step_reward": -0.02051,
+      "net_forward_mm": -14.8,
+      "yaw_deg": 1.1,
+      "tilt_max_deg": 19.49,
+      "clean_drag_gate_mean": 0.794,
+      "peak_clear_mm": [
+        0.0,
+        3.51
+      ],
+      "valid_lift_events": [
+        0,
+        1
+      ],
+      "alt_steps_ok": 1,
+      "same_leg_lifts": 0,
+      "slide_ratio_pct": -43.7
+    }
+  ],
+  "long_behavior_tests_8s": [
+    {
+      "name": "A. 主动倾倒自杀",
+      "duration_s": 0.68,
+      "terminated": true,
+      "total_reward": -1.916,
+      "min_alive_step_reward": -0.00714,
+      "net_forward_mm": 0.8,
+      "yaw_deg": -0.0,
+      "tilt_max_deg": 2.4,
+      "clean_drag_gate_mean": 0.985,
+      "peak_clear_mm": [
+        0.0,
+        0.0
+      ],
+      "valid_lift_events": [
+        0,
+        0
+      ],
+      "alt_steps_ok": 0,
+      "same_leg_lifts": 0,
+      "slide_ratio_pct": -100.0
+    },
+    {
+      "name": "B. 第7轮原地微晃漏洞回归(0mm净空)",
+      "duration_s": 8.0,
+      "terminated": false,
+      "total_reward": 1.448,
+      "min_alive_step_reward": -0.00943,
+      "net_forward_mm": 12.1,
+      "yaw_deg": -0.2,
+      "tilt_max_deg": 15.41,
+      "clean_drag_gate_mean": 0.669,
+      "peak_clear_mm": [
+        0.0,
+        0.0
+      ],
+      "valid_lift_events": [
+        0,
+        0
+      ],
+      "alt_steps_ok": 0,
+      "same_leg_lifts": 0,
+      "slide_ratio_pct": -98.1
+    },
+    {
+      "name": "C. 原地静止站立",
+      "duration_s": 8.0,
+      "terminated": false,
+      "total_reward": 1.555,
+      "min_alive_step_reward": -0.00418,
+      "net_forward_mm": -0.8,
+      "yaw_deg": -0.0,
+      "tilt_max_deg": 1.2,
+      "clean_drag_gate_mean": 0.999,
+      "peak_clear_mm": [
+        0.0,
+        0.0
+      ],
+      "valid_lift_events": [
+        0,
+        0
+      ],
+      "alt_steps_ok": 0,
+      "same_leg_lifts": 0,
+      "slide_ratio_pct": -100.0
+    },
+    {
+      "name": "D. Round5 贴地滑行+单侧偶抬",
+      "duration_s": 8.0,
+      "terminated": false,
+      "total_reward": 10.363,
+      "min_alive_step_reward": -0.00326,
+      "net_forward_mm": 276.6,
+      "yaw_deg": 1.9,
+      "tilt_max_deg": 16.31,
+      "clean_drag_gate_mean": 0.66,
+      "peak_clear_mm": [
+        0.0,
+        6.92
+      ],
+      "valid_lift_events": [
+        0,
+        6
+      ],
+      "alt_steps_ok": 1,
+      "same_leg_lifts": 5,
+      "slide_ratio_pct": 51.9
+    },
+    {
+      "name": "E. 第8轮热启动起点(19维Round4)",
+      "duration_s": 8.0,
+      "terminated": false,
+      "total_reward": 10.551,
+      "min_alive_step_reward": -0.00495,
+      "net_forward_mm": 474.5,
+      "yaw_deg": 3.4,
+      "tilt_max_deg": 22.18,
+      "clean_drag_gate_mean": 0.722,
+      "peak_clear_mm": [
+        8.03,
+        0.0
+      ],
+      "valid_lift_events": [
+        4,
+        0
+      ],
+      "alt_steps_ok": 1,
+      "same_leg_lifts": 3,
+      "slide_ratio_pct": 36.2
+    }
+  ],
+  "ideal_bilateral_8s": 42.9,
+  "checks": {
+    "warmstart_exact": true,
+    "cpu_gpu_aligned": true,
+    "clean_l0_beats_standing": true,
+    "clean_l1_beats_standing": true,
+    "r7_wiggle_loophole_closed": true,
+    "suicide_far_below_standing": true,
+    "strict_ordering": true
+  }
+}
